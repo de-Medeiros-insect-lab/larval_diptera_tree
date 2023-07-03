@@ -1,0 +1,60 @@
+updated_genus	family	updated_genus_ncbi_id	updated_genus_ott_id
+
+#done
+Anastrepha	Tephritidae	28585	227754
+Aphanotrigonum	Chloropidae	540849	4414645
+Apiocera	Apioceridae	160270	496666
+Callomyia	Platypezidae	712098	487006
+Copromyza	Sphaeroceridae	1217530	825466
+Corynoneura	Chironomidae	611344	717471
+Cryptonevra	Chloropidae	1616778	4414618
+Elgiva	Sciomyzidae	320938	111368
+Hippobosca	Hippoboscidae	452745	289866
+Leucopis	Chamaemyiidae	1728826	4416066
+Mallota	Syrphidae	535942	4358979
+Metriocnemus	Chironomidae	137497	792851
+Microchrysa	Stratiomyidae	931517	97979
+Neorhynchocephalus	Nemestrinidae	259248	77572
+Noeeta	Tephritidae	381362	188417
+Nycteribia	Nycteribiidae	633884	805931
+Pantophthalmus	Pantophthalmidae	124295	932514
+Periscelis	Periscelididae	716628	415192
+Phlebotomus	Psychodidae	13203	744763
+Phytobia	Agromyzidae	414304	195830
+Pipunculus	Pipunculidae	240898	712787
+Polietes	Muscidae	559702	558838
+Ptychoptera	Ptychopteridae	209691	1096888
+Simulium	Simuliidae	7191	20678
+Stratiomys	Stratiomyidae	219520	494189
+Sycorax	Psychodidae	114592	752761
+Trichocera	Trichoceridae	52759	373195
+Urophora	Tephritidae	28620	1007129
+
+#no NCBI ID from TaxReformer but found on NCBI under 219493 so added to dataset
+Xylophagus	Xylophagaidae	NA	745824
+
+#no seq found for any gene (but all families already in dataset)
+Lyciella	Lauxaniidae	1262308	415861
+Neotelmatoscopus	Psychodidae	1160144	479480
+Sphaeromias	Ceratopogonidae	1874311	4466569
+Spiniphora	Phoridae	92547	184130
+
+#no NCBI ID - not searched (but all families already in dataset)
+Blepharocera	Blephariceridae	NA	NA
+Clythia	Platypezidae	NA	NA
+Dioptopsis	Blephariceridae	NA	4480088
+Musidora	Lonchopteridae	NA	NA
+Retinodiplosis	Cecidomyiidae	NA	NA
+
+#duplicates - not searched
+Callomyia	Platypezidae	NA	487006
+Leucopis	Chamaemyiidae	NA	4416066
+Noeeta	Tephritidae	NA	188417
+Phytobia	Agromyzidae	NA	195830
+Pipunculus	Pipunculidae	NA	712787
+Ptychoptera	Ptychopteridae	NA	1096888
+Ptychoptera	Ptychopteridae	NA	NA
+Simulium	Simuliidae	NA	20678
+Stratiomys	Stratiomyidae	NA	494189
+Trichocera	Trichoceridae	NA	373195
+Trichocera	Trichoceridae	NA	NA
