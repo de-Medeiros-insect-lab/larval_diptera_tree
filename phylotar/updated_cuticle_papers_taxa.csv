@@ -1,0 +1,717 @@
+family,genus,Habitat,habitat_cat1,habitat_cat2,source,species notes,updated_genus,Open Tree Taxonomy Family,Family matches,Open Tree Taxonomy ID,NCBI ID
+Acroceridae,Acletoxenus,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Acletoxenus,Drosophilidae,FALSE,302184,462271
+Acroceridae,Acrocera,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Acrocera,Acroceridae,TRUE,862185,210245
+Acroceridae,Astomella,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Astomella,Acroceridae,TRUE,287591,210239
+Acroceridae,Eulonchus,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Eulonchus,Acroceridae,TRUE,287594,210230
+Acroceridae,Exetasis,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Exetasis,Acroceridae,TRUE,4331144,1932988
+Acroceridae,Exetasis,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Exetasis,Acroceridae,TRUE,4331144,1932988
+Acroceridae,Ocnaea,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Ocnaea,Acroceridae,TRUE,386850,210271
+Acroceridae,Ogcodes,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Ogcodes,Acroceridae,TRUE,171537,188257
+Agromyzidae,Agromyza,miner,miner,plant,singhAgromyzidaeIndia1973,,Agromyza,Agromyzidae,TRUE,542775,414290
+Agromyzidae,Calcycomyza,miner,miner,plant,spencerRevisionaryStudyLeafMining1980,,Calycomyza,Agromyzidae,TRUE,542774,414293
+Agromyzidae,Calycomyza,miner,miner,plant,singhAgromyzidaeIndia1973,,Calycomyza,Agromyzidae,TRUE,542774,414293
+Agromyzidae,Cerodontha,miner,miner,plant,singhAgromyzidaeIndia1973,,Cerodontha,Agromyzidae,TRUE,587947,127401
+Agromyzidae,Japanagromyza,miner,miner,plant,singhAgromyzidaeIndia1973,,Japanagromyza,Agromyzidae,TRUE,1074345,414298
+Agromyzidae,Liriomyza,miner,miner,plant,singhAgromyzidaeIndia1973,,Liriomyza,Agromyzidae,TRUE,587945,127403
+Agromyzidae,Melanagromyza,miner,miner,plant,singhAgromyzidaeIndia1973,,Melanagromyza,Agromyzidae,TRUE,230912,286470
+Agromyzidae,Napomyza,miner,miner,plant,singhAgromyzidaeIndia1973,,Napomyza,Agromyzidae,TRUE,195838,414300
+Agromyzidae,Ophiomyia,miner,miner,plant,spencerRevisionaryStudyLeafMining1980,,Ophiomyia,Agromyzidae,TRUE,62156,341050
+Agromyzidae,Phytagromyza,miner,miner,plant,singhAgromyzidaeIndia1973,,Phytagromyza,Agromyzidae,TRUE,73080,414246
+Agromyzidae,Phytobia,cambium,,plant,spencerRevisionaryStudyLeafMining1980,,Phytobia,Agromyzidae,TRUE,195830,414304
+Agromyzidae,Phytomyza,miner,miner,plant,singhAgromyzidaeIndia1973,,Phytomyza,Agromyzidae,TRUE,129653,132616
+Anisopodidae,Olbiogaster,wooddecomp,wood,decomp,hancockAnisopodidaeWoodGnats2009,,Olbiogaster,Anisopodidae,TRUE,1037372,560768
+Anisopodidae,Sylvicola,"decomp, secondary decomposor",,decomp,hancockAnisopodidaeWoodGnats2009,,Sylvicola,Anisopodidae,TRUE,48220,52753
+Anthomyiidae,Acklandia,veg,veg,plant,ferrar,,Acklandia,Anthomyiidae,TRUE,4361610,
+Anthomyiidae,Acridomyia,endopar,endo,internal,ferrar,"sacharovi and canadensis are endopar of grasshopper larvae. egg is deposited into grasshopper, break out of host in last instar",Acridomyia,Anthomyiidae,TRUE,4362056,
+Anthomyiidae,Acrostilpna,vegbore,,plant,ferrar,,Lasiomma,Anthomyiidae,TRUE,557406,95464
+Anthomyiidae,Acyglossa,endopar,endo,internal,ferrar,pollinosa is Orthoptera parasite,Acyglossa,Anthomyiidae,TRUE,4362052,
+Anthomyiidae,Anthomyia,"dung, vegdecomp, birds nests, fungi, web, carrion, orthoptera eggs, flowers",,multi,ferrar,"fasciata: dung. illocata: vegdecomp. pluvaialis: vegdecomp, birds nests, fungi, carrion, orthoptera eggs, flowers. procellaris: birds nests, fungi, carrion",Anthomyia,Anthomyiidae,TRUE,388244,259845
+Anthomyiidae,Calythea,dung,dung,decomp,ferrar,,Calythea,Anthomyiidae,TRUE,4361945,
+Anthomyiidae,Chiastochae,flowers,flower,plant,ferrar,,Chiastocheta,Anthomyiidae,TRUE,15700,129251
+Anthomyiidae,Chirosia,miner,miner,plant,ferrar,,Chirosia,Anthomyiidae,TRUE,468188,392044
+Anthomyiidae,Chortophila,"veg, dung, fungi, carrion",,multi,smithStudyHylemyjtaChortophila1927,another word for Hylemya?,Phorbia,Anthomyiidae,TRUE,4361619,1993534
+Anthomyiidae,Craspedochoeta,"veg, dung, nests, fungi, carrion",,multi,ferrar,"cannabina: birds nests. pullula: carrion. punctipennis: fungi, vegdecomp, dung",Anthomyia,Anthomyiidae,TRUE,388244,259845
+Anthomyiidae,Delia,"veg, miner, dung, fungi, eggs, webs, cocoons, carrion",,multi,ferrar,"antiqua: vegbore. brunnescens: miner, vegbore. coarctata: vegbore. echinata: vegbore. floralis: vegbore. platura: vegdecomp, veg. radicum: veg",Delia,Anthomyiidae,TRUE,116717,30063
+Anthomyiidae,Egle,flowers,flower,plant,ferrar,,Egle,Anthomyiidae,TRUE,675509,411076
+Anthomyiidae,Fucellia,algae on beach,algae,plant,ferrar,,Fucellia,Anthomyiidae,TRUE,106489,205683
+Anthomyiidae,Hylemya,"veg, dung, fungi, carrion",,multi,ferrar,"alcathoe: dung. vagans: dung, carrion. variata: dung. latifrons: fungi",Hylemya,Anthomyiidae,TRUE,461977,253328
+Anthomyiidae,Lasiomma,"veg, dung, nests, webs, cocoons, carrion",,multi,ferrar,"anthomyinum: bird and caterpillar nests, owl pellets. iwasi: dung. meadei: dung, birds nests. nitidicauda: birds nests. octoguttatum: birds nests, skua pellets, carrion, dung",Lasiomma,Anthomyiidae,TRUE,557406,95464
+Anthomyiidae,Limnophora,"dung, vegdecomp, carrion, moss, aquatic/subaquatic",,multi,,actually in muscidae,Limnophora,Muscidae,FALSE,364542,307207
+Anthomyiidae,Melanochelia,aquatic,,aquatic,mallochSynopsisNorthAmerican1921,may also b classified under muscidae,,,FALSE,,
+Anthomyiidae,Paraprosalpia,"carrion, vegdecomp",,decomp,ferrar,billbergi: vegdecomp. dytisci: carrion,Alliopsis,Anthomyiidae,TRUE,4361667,1692454
+Anthomyiidae,Paregle,"veg, dung",,decomp,ferrar,"audacula: dung, veg. cinerella: dung",Paregle,Anthomyiidae,TRUE,264528,559693
+Anthomyiidae,Pegohylemyia,"veg, miner, dung, fungus",,multi,ferrar,"references in ferrar, some are exclusively fungi",Pegohylemyia,Anthomyiidae,TRUE,6264222,1887308
+Anthomyiidae,Pegomya,"miner, veg, fungi, misc",,multi,ferrar,"some are fungi, some are flowering plants. see reference in ferrar",Pegomya,Anthomyiidae,TRUE,264522,559697
+Anthomyiidae,Phorbia,"vegbore, miners",,plant,ferrar,haberlandti and securis: miners.,Phorbia,Anthomyiidae,TRUE,4361619,1993534
+Anthomyzidae,Paranthomyza,miner,miner,plant,ferrar,,Paranthomyza,Anthomyzidae,TRUE,932482,500298
+Anthomyzidae,Quametopia,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Quametopia,Anthomyzidae,TRUE,5835795,1603285
+Anthomyzidae,Stiphrosoma,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Stiphrosoma,Anthomyzidae,TRUE,932481,500293
+Asilidae,Asiluscrabroniformis,decomp,,decomp,dennisReviewAnalysisInformation2013,,,,FALSE,,
+Asilidae,Bathypogon,decomp,,decomp,dennisReviewAnalysisInformation2013,,Bathypogon,Asilidae,TRUE,4443045,1718388
+Asilidae,Dioctria,"soil, wooddecomp",,decomp,dennisReviewAnalysisInformation2013,,Dioctria,Asilidae,TRUE,466913,468720
+Asilidae,Erax,decomp,,decomp,dennisReviewAnalysisInformation2013,,Erax,Asilidae,TRUE,4444680,
+Asilidae,Laphria,wooddecomp,wood,decomp,dennisReviewAnalysisInformation2013,,Laphria,Asilidae,TRUE,217442,50683
+Asilidae,Lasiopogon,soil,soil,decomp,dennisReviewAnalysisInformation2013,,Lasiopogon,Asilidae,TRUE,1070413,219536
+Asilidae,Machimus,decomp,,decomp,dennisReviewAnalysisInformation2013,,Machimus,Asilidae,TRUE,464504,247604
+Asilidae,Mallophora,decomp,,decomp,dennisReviewAnalysisInformation2013,,Mallophora,Asilidae,TRUE,837962,270862
+Asilidae,Pamponerus,decomp,,decomp,dennisReviewAnalysisInformation2013,,Pamponerus,Asilidae,TRUE,4442374,1717601
+Asilidae,Philonicus,decomp,,decomp,dennisReviewAnalysisInformation2013,,Philonicus,Asilidae,TRUE,153052,247567
+Asilidae,Promachus,decomp,,decomp,dennisReviewAnalysisInformation2013,,Promachus,Asilidae,TRUE,623803,247552
+Athericidae,Atherix,"aquatic, streams",,aquatic,bulankovaHabitatPreferencesConservation2009,confirmed for ibis,Atherix,Athericidae,TRUE,932517,124299
+Aulacigastridae,Aulacigaster,sap,sap,sap,ferrar,,Aulacigaster,Aulacigastridae,TRUE,465644,716608
+Axymyiidae,Axymyia,"aquatic, wood",,multi,wihlmDistributionLifeHistory2011,confirmed for furcata,Axymyia,Axymyiidae,TRUE,892211,560715
+Bibionidae,Amasia,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Penthetria,Pleciidae,FALSE,460631,560770
+Bibionidae,Bibio,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Bibio,Bibionidae,TRUE,121915,189978
+Bibionidae,Dinobibio,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,,,FALSE,,
+Bibionidae,Hesperinus,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Hesperinus,Hesperinidae,FALSE,615835,1086788
+Bibionidae,Penthetria,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Penthetria,Pleciidae,FALSE,460631,560770
+Bibionidae,Philia,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Dilophus,Bibionidae,TRUE,423695,52733
+Bibionidae,Plecia,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Plecia,Bibionidae,TRUE,108322,1260898
+Bibionidae,Rhaeboza,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Coboldia,Scatopsidae,FALSE,874411,170624
+Blephariceridae,Apistomyia,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Apistomyia,Blephariceridae,TRUE,988262,547802
+Blephariceridae,Bibiocephala,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Bibiocephala,Blephariceridae,TRUE,988258,547807
+Blephariceridae,Blepharicera,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Blepharicera,Blephariceridae,TRUE,988255,547808
+Blephariceridae,Cardiocrepis,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,,,FALSE,,
+Blephariceridae,Eupauliana,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,,,FALSE,,
+Blephariceridae,Hapalothrix,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Hapalothrix,Blephariceridae,TRUE,4480058,
+Blephariceridae,Horaria,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,,,FALSE,,
+Blephariceridae,Liponeura,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Liponeura,Blephariceridae,TRUE,816753,446516
+Blephariceridae,Paulianina,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Paulianina,Blephariceridae,TRUE,1038677,547827
+Blephariceridae,Philorus,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Philorus,Blephariceridae,TRUE,1038680,547829
+Bolitophilidae,Bolitophila,,,,,,Bolitophila,Mycetophilidae,FALSE,148805,52718
+Bombyliidae,Anastoechus,"locust eggs, ectopar",ecto,animal,hullBeeFliesWorld1973,,Anastoechus,Bombyliidae,TRUE,4432698,
+Bombyliidae,Anthrax,endopar,endo,internal,hullBeeFliesWorld1973,,Anthrax,Bombyliidae,TRUE,284713,117078
+Bombyliidae,Bombylius,"pollen, endopar",,multi,hullBeeFliesWorld1973,,Bombylius,Bombyliidae,TRUE,376338,219362
+Bombyliidae,Heterostylum,"ectopar, soil in later instar",,multi,hullBeeFliesWorld1973,,Heterostylum,Bombyliidae,TRUE,4435270,
+Bombyliidae,Hyperalonia,endopar,endo,internal,hullBeeFliesWorld1973,aka ligyra,Hyperalonia,Bombyliidae,TRUE,4433594,
+Bombyliidae,Lepidanthrax,endopar,endo,internal,fergusonSilentUndergroundWarfare2020,,Lepidanthrax,Bombyliidae,TRUE,4432342,
+Bombyliidae,Ligyra,endopar,endo,internal,hullBeeFliesWorld1973,,Ligyra,Bombyliidae,TRUE,387604,117088
+Bombyliidae,Systoechus,"locust eggs, ectopar, hard soils in late instar after eating eggs",,multi,hullBeeFliesWorld1973,,Systoechus,Bombyliidae,TRUE,4435056,1690390
+Braulidae,Braula,honey,,misc,ferrar,,Braula,Braulidae,TRUE,26329,305561
+Calliphoridae,Amenia,endopar,endo,internal,ferrar,female gives birth to large larva which is then a parasite,Amenia,Calliphoridae,TRUE,4390257,2086281
+Calliphoridae,Auchmeromyia,bloodsucking,ecto,animal,ferrar,,Auchmeromyia,Calliphoridae,TRUE,753419,226129
+Calliphoridae,Booponus,endopar,endo,internal,ferrar,,Booponus,Calliphoridae,TRUE,4389847,
+Calliphoridae,Calliphora,"carrion, endopar, secondaryendopar",,multi,ferrar,"croceipalpis: carrion. peruviana: carrion. australica, dispar, sternalis, tibialis: endopar",Calliphora,Calliphoridae,TRUE,1011001,7372
+Calliphoridae,Chrysomya,endopar,endo,internal,ferrar,,Chrysomya,Calliphoridae,TRUE,706870,45449
+Calliphoridae,Cochilomyia,endopar,endo,internal,ferrar,,,,FALSE,,
+Calliphoridae,Compsomyiops,carrion,carrion,decomp,ferrar,,Compsomyiops,Calliphoridae,TRUE,332734,142897
+Calliphoridae,Cordylobia,endopar,endo,internal,ferrar,,Cordylobia,Calliphoridae,TRUE,335146,226131
+Calliphoridae,Eggisos,endopar,endo,internal,ferrar,,,,FALSE,,
+Calliphoridae,Epiplastocerus,termite nests,nest,nest,ferrar,,Epiplastocerus,Calliphoridae,TRUE,4389606,
+Calliphoridae,Episthetosoma,termite nests,nest,nest,ferrar,,Episthetosoma,Calliphoridae,TRUE,4389878,
+Calliphoridae,Hemigymnochaeta,"fungi, soil",,multi,ferrar,"varia: fungi and soil, rest soil",Hemigymnochaeta,Calliphoridae,TRUE,696528,1240433
+Calliphoridae,Hemilucilia,carrion,carrion,decomp,ferrar,,Hemilucilia,Calliphoridae,TRUE,367137,416848
+Calliphoridae,Idiella,endopar,endo,internal,ferrar,,Idiella,Rhiniidae,FALSE,4523368,1902146
+Calliphoridae,Melinda,endopar,endo,internal,ferrar,"cognata: endopar. ""2 of four are known to be parasitoids of snails",Melinda,Calliphoridae,TRUE,522402,170907
+Calliphoridae,Nepenthomyia,pitcher plants,pitcher,plant,ferrar,,Nepenthomyia,Calliphoridae,TRUE,4390369,
+Calliphoridae,Onesiomima,marmot colonies,,misc,ferrar,,Onesiomima,Calliphoridae,TRUE,4390171,2173510
+Calliphoridae,Paralucilia,carrion,carrion,decomp,ferrar,,Paralucilia,Calliphoridae,TRUE,442894,1042205
+Calliphoridae,Phaenicia,"endopar, carrion, dung",,multi,ferrar,"aka lucilia. sericata: endopar and carrion, dung, algaedecomp. bufonivora: endopar. silvarum: endopar and carrion",Lucilia,Calliphoridae,TRUE,1011017,7374
+Calliphoridae,Plastocerontus,termite nests,nest,nest,ferrar,,Plastocerontus,Calliphoridae,TRUE,4390189,
+Calliphoridae,Pollenia,endopar,endo,internal,ferrar,,Pollenia,Calliphoridae,TRUE,898041,229639
+Calliphoridae,Prosthetosoma,termite nests,nest,nest,ferrar,,Prosthetosoma,Calliphoridae,TRUE,4390161,
+Calliphoridae,Protocalliphora,bloodsucking,ecto,animal,ferrar,,Protocalliphora,Calliphoridae,TRUE,177603,142901
+Calliphoridae,Rhyncomya,"termite nests, soil, dung,",,multi,ferrar,,Rhyncomya,Rhiniidae,FALSE,259131,670621
+Calliphoridae,Sarconesia,carrion,carrion,decomp,ferrar,,Sarconesia,Calliphoridae,TRUE,782301,670650
+Calliphoridae,Termitocalliphora,soil,soil,decomp,ferrar,,Termitocalliphora,Calliphoridae,TRUE,4390040,
+Calliphoridae,Tetraplastocerus,termite nests,nest,nest,,,Tetraplastocerus,Calliphoridae,TRUE,4389649,
+Calliphoridae,Trypocalliphora,endopar,endo,internal,ferrar,,Trypocalliphora,Calliphoridae,TRUE,442891,1042207
+Calliphoridae,Villeneuviella,associated w termites/ants,nest,nest,ferrar,,Villeneuviella,Rhiniidae,FALSE,4523231,
+Calliphoridae,Wihelmina,pitcher plants,pitcher,plant,ferrar,,,,FALSE,,
+Canaceidae,Canace,algae,algae,plant,ferrar,,Canace,Canacidae,FALSE,6262970,
+Canaceidae,Canacea,"algae, aquatic",,multi,ferrar,,Canacea,Canacidae,FALSE,4411669,
+Canaceidae,Canaceoides,"algae, aquatic",,multi,ferrar,,Canaceoides,Canacidae,FALSE,6262972,
+Canaceidae,Procanace,"algae, aquatic",,multi,ferrar,,Procanace,Canacidae,FALSE,21737,1262322
+Cecidomyiidae,Aphidoletes,aphidophagous,carn,animal,mamaevLarvaeGallMidges1993,,Aphidoletes,Cecidomyiidae,TRUE,234108,95971
+Cecidomyiidae,Aprionus,"wooddecomp, coniferous litter, phorphorescent wood",wood,decomp,mamaevLarvaeGallMidges1993,dentifer in coniferous litter. flavidus in corroded wood. smirnovi in phorphorescent wood. corniculatus and dispar in wooddecomp,Aprionus,Cecidomyiidae,TRUE,4488506,1819779
+Cecidomyiidae,Asphondylia,gall former,gall,plant,mamaevLarvaeGallMidges1993,,Asphondylia,Cecidomyiidae,TRUE,305612,153012
+Cecidomyiidae,Brittenia,wood,wood,decomp,mamaevLarvaeGallMidges1993,fraxinicola wood,Brittenia,Cecidomyiidae,TRUE,4486120,
+Cecidomyiidae,Cecidomyia,plant lice colonies,nest,nest,mamaevLarvaeGallMidges1993,aphidimiyza: plant lice colonies,Cecidomyia,Cecidomyiidae,TRUE,7283762,1543682
+Cecidomyiidae,Contarinia,"gall former, live in flowers but don't make galls",gall,plant,mamaevLarvaeGallMidges1993,"don't make galls: artemisiae, avenae, dipsacearum",Contarinia,Cecidomyiidae,TRUE,856271,153220
+Cecidomyiidae,Dasineura,"gall former, phytophage not making galls",gall,plant,mamaevLarvaeGallMidges1993,aka dasyneura. details of galls vs not galls in book,Dasineura,Cecidomyiidae,TRUE,266060,240745
+Cecidomyiidae,Itonida,sap,sap,sap,mamaevLarvaeGallMidges1993,pini: sap,Cecidomyia,Cecidomyiidae,TRUE,7283762,1543682
+Cecidomyiidae,Lasioptera,"gall former, secondary gall inhabitant",gall,plant,mamaevLarvaeGallMidges1993,tiliarum: secondary gall inhabitant,Lasioptera,Cecidomyiidae,TRUE,234144,201413
+Cecidomyiidae,Mycophila,fungi,fungi,decomp,mamaevLarvaeGallMidges1993,"fungi: fungicola, speyeri, barnesi",Mycophila,Cecidomyiidae,TRUE,4484927,
+Cecidomyiidae,Parepidosis,leaf litter,,decomp,mamaevLarvaeGallMidges1993,leaf litter: venusta and arcuta,Parepidosis,Cecidomyiidae,TRUE,4486631,
+Cecidomyiidae,Peromyia,"moss, wood",,multi,mamaevLarvaeGallMidges1993,moss: muscorum and palustris. monilis: corroded wood and mould,Peromyia,Cecidomyiidae,TRUE,4483961,1914937
+Cecidomyiidae,Piceacecis,gall former,gall,plant,gagnePiceacecisDipteraCecidomyiidae2014a,,Piceacecis,Cecidomyiidae,TRUE,7285287,2597495
+Cecidomyiidae,Rhizomyia,"in roots and leaf sheaths of sedges, leaf litter",,plant,mamaevLarvaeGallMidges1993,perplexa and circumspinosa: roots and leaf sheaths of sedges,Rhizomyia,Cecidomyiidae,TRUE,4484262,
+Cecidomyiidae,Sitodiplosis,flowers,flower,plant,mamaevLarvaeGallMidges1993,,Sitodiplosis,Cecidomyiidae,TRUE,927316,263139
+Cecidomyiidae,Trichopteromyia,"phorphorescent wood, sedges",,plant,mamaevLarvaeGallMidges1993,sedges: caricis,Trichopteromyia,Cecidomyiidae,TRUE,4488178,
+Cecidomyiidae,Winnertzia,"litter, early stages wooddecomp, phorphorescent wood, fruiting fungi, cones, secondary gall inhabitants",,multi,,tamariciphila: litter. rubricola wooddecomp. lugibris: fruiting fungi. cones: conorum. deserticola: secondary gall inhabitant,Winnertzia,Cecidomyiidae,TRUE,4488407,2338641
+Celyphidae,Celyphus,veg,veg,plant,ferrar,,Celyphus,Celyphidae,TRUE,4415794,1979294
+Celyphidae,Spaniocelyphus,"veg, vegdecomp",,multi,ferrar,,Spaniocelyphus,Celyphidae,TRUE,140671,1262326
+Ceratopogonidae,Atrichopogon,"algae, logs, stones, on water plants, soil",,multi,mullenBiologyFeedingBehavior1988,,Atrichopogon,Ceratopogonidae,TRUE,705680,209702
+Ceratopogonidae,Austroconops,"wet soil, detritus",soil,decomp,mullenChapter13Biting2019,,Austroconops,Ceratopogonidae,TRUE,1096889,209696
+Ceratopogonidae,Culicoides,"semiaquatic (mud, shallow pools, etc)",,multi,mullenBiologyFeedingBehavior1988,variable by species,Culicoides,Ceratopogonidae,TRUE,722888,41820
+Ceratopogonidae,Dasyhelea,"moss, vegdecomp, wooddecomp, sap, lentic, soil, plants",,multi,mullenBiologyFeedingBehavior1988,,Dasyhelea,Ceratopogonidae,TRUE,722891,41822
+Ceratopogonidae,Forcipomyia,"moss, algae, wood, wooddecomp, rocks, moist enironments, dung",,multi,mullenBiologyFeedingBehavior1988,,Forcipomyia,Ceratopogonidae,TRUE,705678,209700
+Ceratopogonidae,Palpomyia,"algae, mud",,multi,mullenBiologyFeedingBehavior1988,,Palpomyia,Ceratopogonidae,TRUE,4465900,1525500
+Ceratopogonidae,Serromyia,"damp moss, bog",,plant,mullenBiologyFeedingBehavior1988,,Serromyia,Ceratopogonidae,TRUE,777259,209716
+Ceratopogonidae,Sphaeromias,"lentic, lotic, mud, algae",,multi,mullenBiologyFeedingBehavior1988,,Sphaeromias,Ceratopogonidae,TRUE,4466569,1874311
+Chamaemyiidae,Chamaemyia,grass,,plant,footeAcalyptrateDipteraFen2002,,Chamaemyia,Chamaemyiidae,TRUE,267777,305621
+Chamaemyiidae,Leucopis,aphidophagous,carn,animal,gaimariMethodsRearingAphidophagous1996,,Leucopis,Chamaemyiidae,TRUE,4416066,1728826
+Chamaemyiidae,Parochthiphila,grass,,plant,teodorescuDiversityEntomofaunaHymenoptera2014,,Parochthiphila,Chamaemyiidae,TRUE,793414,1262282
+Chaoboridae,Chaoborus,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Chaoborus,Chaoboridae,TRUE,800080,41812
+Chaoboridae,Eucorethra,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Eucorethra,Chaoboridae,TRUE,933822,33404
+Chaoboridae,Mochlonyx,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Mochlonyx,Chaoboridae,TRUE,4479470,1577622
+Chironomidae,Ablabesmyia,"lentic, lotic",,aquatic,hudsonChironomidaeSoutheasternUnited1990,"monilis only lentic, simpsoni only lotic, rest both",Ablabesmyia,Chironomidae,TRUE,144497,46216
+Chironomidae,Ainuyusurika,"aquatic, lotic",,aquatic,kawaiChironomidaeCollectedSeashore2011,,Ainuyusurika,Chironomidae,TRUE,606050,1165747
+Chironomidae,Aphroteniella,lotic,lotic,aquatic,laurindodasilvaChapter16Family2018,,Aphroteniella,Chironomidae,TRUE,1020439,646259
+Chironomidae,Chironomus,aquatic,,aquatic,oliverInsectsArachnidsCanada1983,,Chironomus,Chironomidae,TRUE,269685,7150
+Chironomidae,Clunio,aquatic,,aquatic,hudsonChironomidaeSoutheasternUnited1990,,Clunio,Chironomidae,TRUE,158195,315556
+Chironomidae,Comptochironomus,,,,,,Camptochironomus,Chironomidae,TRUE,773460,41809
+Chironomidae,Eukiefferiella,"aquatic, flowing",,aquatic,oliverInsectsArachnidsCanada1983,,Eukiefferiella,Chironomidae,TRUE,5320,288843
+Chironomidae,Gymnometriocnemus,terrestrial,,misc,oliverInsectsArachnidsCanada1983,,Gymnometriocnemus,Chironomidae,TRUE,194080,611353
+Chironomidae,Lauterborniella,"aquatic, still and slow flowing",,aquatic,oliverInsectsArachnidsCanada1983,,Lauterborniella,Chironomidae,TRUE,526748,288850
+Chironomidae,Monodiamesa,aquatic,,aquatic,laurindodasilvaChapter16Family2018,,Monodiamesa,Chironomidae,TRUE,704854,891905
+Chironomidae,Paraborniella,lentic,lentic,aquatic,https://pdfs.semanticscholar.org/b5b1/af8d95cdcaf4d1734900f925ced819b0f47b.pdf,,Paraborniella,Chironomidae,TRUE,662263,903459
+Chironomidae,Parochlus,lotic,lotic,aquatic,laurindodasilvaChapter16Family2018,,Parochlus,Chironomidae,TRUE,783655,315560
+Chironomidae,Paucispingera,lotic,lotic,aquatic,https://www.waikatoregion.govt.nz/assets/WRC/WRC-2019/tr05-02.pdf,,Paucispinigera,Chironomidae,TRUE,190547,903463
+Chironomidae,Pentaneura,"aquatic, still and moving",,aquatic,oliverInsectsArachnidsCanada1983,,Pentaneura,Chironomidae,TRUE,432242,891922
+Chironomidae,Psectrotanypus,"aquatic, still",,aquatic,oliverInsectsArachnidsCanada1983,,Psectrotanypus,Chironomidae,TRUE,190541,903467
+Chironomidae,Pseudosmittia,"varies by species. terrestrial, semiaquatic, wetland, still water",,multi,oliverInsectsArachnidsCanada1983,,Pseudosmittia,Chironomidae,TRUE,612599,611382
+Chironomidae,Smittia,soil,soil,decomp,oliverInsectsArachnidsCanada1983,,Smittia,Chironomidae,TRUE,158192,315559
+Chironomidae,Symbiocladius,parasitic,ecto,animal,oliverInsectsArachnidsCanada1983,,Symbiocladius,Chironomidae,TRUE,4475352,
+Chironomidae,Syndiamesa,lotic,lotic,aquatic,https://link.springer.com/content/pdf/10.1007/s10750-005-1813-x.pdf,,Syndiamesa,Chironomidae,TRUE,4474597,
+Chironomidae,Tvetenia,lotic,lotic,aquatic,hudsonChironomidaeSoutheasternUnited1990,,Tvetenia,Chironomidae,TRUE,91596,611398
+Chloropidae,Batrachomyia,endopar,endo,internal,ferrar,,Batrachomyia,Chloropidae,TRUE,4413181,
+Chloropidae,Calamoncosis,"vegbore, veg",,plant,ferrar,,Calamoncosis,Chloropidae,TRUE,4414330,540852
+Chloropidae,Cetema,veg,veg,plant,ferrar,,Cetema,Chloropidae,TRUE,4414234,540891
+Chloropidae,Chlorops,veg,veg,plant,ferrar,,Chlorops,Chloropidae,TRUE,808440,540892
+Chloropidae,Cryptonevra,veg,veg,plant,ferrar,,Cryptonevra,Chloropidae,TRUE,4414618,1616778
+Chloropidae,Elachiptera,"veg, vegdecomp, scavengers, wood",,multi,ferrar,info on page 111,Elachiptera,Chloropidae,TRUE,909287,540858
+Chloropidae,Epichlorops,vegbore,,plant,https://www.jstor.org/stable/pdf/25009932.pdf?refreqid=excelsior%3A558a8ea7dd52a85106dd73f68757ebf9&ab_segments=&origin=&acceptTC=1,,Epichlorops,Chloropidae,TRUE,4415528,540897
+Chloropidae,Eutropha,carrion,carrion,decomp,https://link.springer.com/content/pdf/10.1134/S001387381404006X.pdf,,Eutropha,Chloropidae,TRUE,4412815,
+Chloropidae,Gaurax,"vegdecomp, veg, fungi, wood",,multi,ferrar,more info on page 112,Gaurax,Chloropidae,TRUE,4414442,540862
+Chloropidae,Hippelates,"soil, miner, vegdecomp",,multi,ferrar,collusor: soil. nobilis: miner. proboscideus: miner. ,Hippelates,Chloropidae,TRUE,4412733,540866
+Chloropidae,Incertella,vegbore,,plant,https://link.springer.com/content/pdf/10.1134/S001387381404006X.pdf,,Incertella,Chloropidae,TRUE,284795,540867
+Chloropidae,Lioscinella,"vegdecomp, veg, insect eggs",,multi,ferrar,more info page 113,Lioscinella,Chloropidae,TRUE,4415709,
+Chloropidae,Lipara,miners,,plant,ferrar,,Lipara,Chloropidae,TRUE,4413820,540870
+Chloropidae,Oscinella,"veg, vegdecomp",,multi,ferrar,,Oscinella,Chloropidae,TRUE,1008044,29033
+Chloropidae,Pachylophus,veg,veg,plant,ferrar,,Pachylophus,Chloropidae,TRUE,4412853,1990794
+Chloropidae,Platycephala,veg,veg,plant,ferrar,,Platycephala,Chloropidae,TRUE,4412705,
+Chloropidae,Polydaspis,"endopar, mantis egg, veg, vegdecomp",,multi,ferrar,more info page 114,,,FALSE,,
+Chloropidae,Thaumatomyia,veg,veg,plant,ferrar,,Thaumatomyia,Chloropidae,TRUE,970919,333800
+Chloropidae,Tricimba,"fungi, vegdecomp, spider eggs",,multi,ferrar,steatodae: eggs. lineella: vegdecomp. cincta and lineella: fungi,Tricimba,Chloropidae,TRUE,4412459,540889
+Clusiidae,Clusiodes,wooddecomp,wood,decomp,ferrar,,Clusiodes,Clusiidae,TRUE,133900,500306
+Clusiidae,Paraclusia,wooddecomp,wood,decomp,ferrar,,Clusia,Clusiidae,TRUE,923500,574057
+Clusiidae,Sobarocephala,wooddecomp,wood,decomp,ferrar,,Sobarocephala,Clusiidae,TRUE,923499,574054
+Coccidae,Cryptochaetum,veg,veg,plant,quezadaBioecologicalPopulationStudies1973,,Cryptochetum,Cryptochetidae,FALSE,372190,1262333
+Coelopidae,Apetaenus,algae,algae,plant,ferar,,Apetaenus,Canacidae,FALSE,4411612,
+Coelopidae,Coelopa,algae,algae,plant,ferar,,Coelopa,Coelopidae,TRUE,181156,169466
+Coelopidae,Listriomastax,algae,algae,plant,ferar,,,,FALSE,,
+Conopidae,Physocephala,endopar,endo,internal,ferar,,Physocephala,Conopidae,TRUE,253203,198643
+Conopidae,Sicus,endopar,endo,internal,ferar,,Sicus,Conopidae,TRUE,181857,1219203
+Conopidae,Thecophora,endopar,endo,internal,ferar,,Thecophora,Conopidae,TRUE,77692,305546
+Conopidae,Zodion,endopar,endo,internal,ferar,,Zodion,Conopidae,TRUE,252012,768804
+Cryptochetidae,Cryptochetum,endopar,endo,internal,ferar,,Cryptochetum,Cryptochetidae,TRUE,372190,1262333
+Culcidae,Aedes,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Aedes,Culicidae,FALSE,269669,7158
+Culcidae,Anopheles,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Anopheles,Culicidae,FALSE,793190,7164
+Culcidae,Chaoborus,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Chaoborus,Chaoboridae,FALSE,800080,41812
+Culcidae,Culex,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Culex,Culicidae,FALSE,218720,7174
+Culcidae,Culicoides,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Culicoides,Ceratopogonidae,FALSE,722888,41820
+Culcidae,Culiseta,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Culiseta,Culicidae,FALSE,844248,174825
+Curtonotidae,Curtonotum,locust egg,ecto,animal,ferrar,,Curtonotum,Curtonotidae,TRUE,507315,1262296
+Cuterbridae,Cuterebra,endopar,endo,internal,ferrar,,Cuterebra,Oestridae,FALSE,825505,170896
+Cuterbridae,Dermatobia,endopar,endo,internal,ferrar,,Dermatobia,Oestridae,FALSE,358237,115426
+Cuterebribdae,Hypoderma,endopar,endo,internal,ferrar,,Hypoderma,Oestridae,FALSE,334370,7388
+Cuterebridae,Alouattamyia,endopar,endo,internal,ferrar,,,,FALSE,,
+Cylindrotomidae,Cylindrotoma,"soil, veg",,multi,imadaMossMimesisPar2021,,Cylindrotoma,Cylindrotomidae,TRUE,802098,700834
+Cylindrotomidae,Diogma,moss,moss,plant,imadaMossMimesisPar2021,,Diogma,Cylindrotomidae,TRUE,4497473,
+Cylindrotomidae,Liogma,moss,moss,plant,imadaMossMimesisPar2021,,Liogma,Cylindrotomidae,TRUE,561301,560731
+Cylindrotomidae,Phalacrocera,lentic,lentic,aquatic,imadaMossMimesisPar2021,,Phalacrocera,Cylindrotomidae,TRUE,4497456,2203737
+Cylindrotomidae,Triogma,moss,moss,plant,imadaMossMimesisPar2021,,Triogma,Cylindrotomidae,TRUE,4497451,
+Cypselosomatidae,Cypselosoma,dung,dung,decomp,ferrar,,Cypselosoma,Cypselosomatidae,TRUE,4409840,
+Cyrtidae,Ogcodes,endopar,endo,internal,easonNotesSpiderParasites1967,,Ogcodes,Acroceridae,FALSE,171537,188257
+Cyrtidae,Pterodontia,endopar,endo,internal,easonNotesSpiderParasites1967,,Pterodontia,Acroceridae,FALSE,912251,210267
+Deuterophlebiidae,Deuterophlebia,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Deuterophlebia,Deuterophlebiidae,TRUE,510923,560719
+Diadocidiidae,Diadocidia,wooddecomp,wood,decomp,lopesfalaschiFamilyDiadocidiidae2016,,Diadocidia,Diadocidiidae,TRUE,40344,560721
+Diopsidae,Diasemopsis,vegdecomp,veg_decomp,decomp,wiegmannEpisodicRadiationsFly2011,,Diasemopsis,Diopsidae,TRUE,484713,139652
+Diopsidae,Diopsis,"stembore, vegdecomp",,multi,ferrar,"macrophthalma moves to another stem after stem decomp; collaris, curva, ichneumonea, servillei only use one stem and continue feeding on stem after decomp. apicalis and fumipennis on already decomposing tissue and predate other larval decomposing",Diopsis,Diopsidae,TRUE,1061200,139667
+Diopsidae,Sphyracephala,vegdecomp,veg_decomp,decomp,wiegmannEpisodicRadiationsFly2011,,Sphyracephala,Diopsidae,TRUE,693434,139674
+Ditomyiidae,Centrocnemis,wood primary decomp,wood,decomp,madwarBiologyMorphologyImmature1937,,Australosymmerus,Ditomyiidae,TRUE,4525150,
+Ditomyiidae,Ditomyia,fungi,fungi,decomp,keilinStructureLarvaeSystematic1919,,Ditomyia,Ditomyiidae,TRUE,4525128,1520322
+Dixidae,Dixa,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Dixa,Dixidae,TRUE,951307,79309
+Dixidae,Nothodixa,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Nothodixa,Dixidae,TRUE,4479752,
+Dolichopodidae,Dolichopus,aquatic,,aquatic,https://www.researchgate.net/profile/Kristaps-Vilks/publication/275409199_Correspondence_Between_Larval_Development_and_Adult_Residence_Habitats_of_Dolichopodid_Flies_Diptera_Empidoidea_Dolichopodidae_in_a_Heterogeneous_Mosaic_of_Seacoast_Grassland_Habitats/links/553be6420cf29b5ee4b87e5b/Correspondence-Between-Larval-Development-and-Adult-Residence-Habitats-of-Dolichopodid-Flies-Diptera-Empidoidea-Dolichopodidae-in-a-Heterogeneous-Mosaic-of-Seacoast-Grassland-Habitats.pdf,"not all species are aquatic, though each of these genera has some aquatic species",Dolichopus,Dolichopodidae,TRUE,1091455,192427
+Dolichopodidae,Medetera,aquatic,,aquatic,https://www.researchgate.net/profile/Kristaps-Vilks/publication/275409199_Correspondence_Between_Larval_Development_and_Adult_Residence_Habitats_of_Dolichopodid_Flies_Diptera_Empidoidea_Dolichopodidae_in_a_Heterogeneous_Mosaic_of_Seacoast_Grassland_Habitats/links/553be6420cf29b5ee4b87e5b/Correspondence-Between-Larval-Development-and-Adult-Residence-Habitats-of-Dolichopodid-Flies-Diptera-Empidoidea-Dolichopodidae-in-a-Heterogeneous-Mosaic-of-Seacoast-Grassland-Habitats.pdf,"not all species are aquatic, though each of these genera has some aquatic species",Medetera,Dolichopodidae,TRUE,915821,377527
+Dolichopodidae,Rhaphium,aquatic,,aquatic,https://www.researchgate.net/profile/Kristaps-Vilks/publication/275409199_Correspondence_Between_Larval_Development_and_Adult_Residence_Habitats_of_Dolichopodid_Flies_Diptera_Empidoidea_Dolichopodidae_in_a_Heterogeneous_Mosaic_of_Seacoast_Grassland_Habitats/links/553be6420cf29b5ee4b87e5b/Correspondence-Between-Larval-Development-and-Adult-Residence-Habitats-of-Dolichopodid-Flies-Diptera-Empidoidea-Dolichopodidae-in-a-Heterogeneous-Mosaic-of-Seacoast-Grassland-Habitats.pdf,"not all species are aquatic, though each of these genera has some aquatic species",Rhaphium,Dolichopodidae,TRUE,1096639,377528
+Drosophilidae,Cacoxenus,"fungi, nest predacious,",,multi,ferrar,"indagator and apidoxenus live in bee nests commensally, they eat pollen paste and nectar. perspicax and frontalis are predacious on homoptera. guttaus eat fungus on pine.",Cacoxenus,Drosophilidae,TRUE,302197,462273
+Drosophilidae,Chymomyza,sap,sap,sap,ferrar,,Chymomyza,Drosophilidae,TRUE,930769,7292
+Drosophilidae,Cladochaeta,spittle,,misc,ferrar,,Cladochaeta,Drosophilidae,TRUE,4422345,2035586
+Drosophilidae,Drosophila,"flowers, fungi, sap, fruitdecomp, stembore, commensal on crabs, larvaepred and aquatic, eggpred",,multi,ferrar,"Antopocerus miners of decaying leaves, Dichaetophora fungi, Dorsilopha vegdecomp and miner, quinaria tripunctata vegdecomp, brachynephros, immigrans, neokadai, nigromaculata, okadai, tenuicauda, testacea, unispina vegdecomp. waddingtoni miner. slime: robusta, silvarentis, heedi, ezoana, lacertosa, moriwakii, neokadai, okadai, pseudosoridula, sordidula, testacea. Fungi: phalerata, transversa, cardinoides, rubriforns, pruinosa, rubida, bracynephros, funebris, histrio, immigrans, makinoi, multispina, nigromaculata, testacea, unispina. Slime: repleta. flowers: flavopilosa. stembore: dimminuens, sadleria. commensal on crabs: carcinophila, endobranchia. predacious on larvae and aquatic: cogani, gibbinsi, simulivora. Predacious on odanta eggs: libellulosa lives in egg. fungi: confusa, kaindiana. denticeps miners. sexvittata leafdecomp fungi. alboralis confusa slime. collinella and mommai leafdecomp. fenestrarum fruit vegdecomp. Phloridosa: flowers. coracina throckmortoni slime flux. framire lambi fruit. leafdecomp notha. megagenys gall fronds of bracken. sigmoides flower. azteca aphrophora spittle. xiphiphora, dyaramankana, suma, latipaenula, serripaenula flower.",Drosophila,Drosophilidae,TRUE,34907,7215
+Drosophilidae,Leucophenga,"fungi, sap, spittle",,multi,ferrar,decaryi and proxima live on spittle from cercopidae nymphs. scutellata and maculata fungi,Leucophenga,Drosophilidae,TRUE,586407,7329
+Drosophilidae,Pseudiastata,predacious on coccoidea,carn,animal,ferrar,,Pseudiastata,Drosophilidae,TRUE,4422866,
+Drosophilidae,Scaptodrosophila,"vegdecomp, sap, fungi, flowers, stembore",,multi,ferrar,,Scaptodrosophila,Drosophilidae,TRUE,960043,7354
+Drosophilidae,Scaptomyza,"vegdecomp, fungi, miner, ",,multi,ferrar,australis miner. cyrtandrae live among leaf hairs. Exalloscaptomyza flowers. okadai leaf decomp. paravittata vegdecomp. pallida vegdecomp fungi. flava miner. consimilis vegdecomp fungi. graminum vegdecomp fungi. tantalia scavengers.,Scaptomyza,Drosophilidae,TRUE,930777,7298
+Drosophilidae,Stegana,"wood, sap, fungi",,decomp,ferrar,,Stegana,Drosophilidae,TRUE,451827,188292
+Drosophilidae,Zaprionus,"fruit, flowers",,plant,ferrar,badyi ornatus flowers,Zaprionus,Drosophilidae,TRUE,930774,7296
+Drosophilidae,Zygothrica,"fungi, flowers, eggpred, fruit",,multi,ferrar,,Zygothrica,Drosophilidae,TRUE,320413,504731
+Dryomyzidae,Dryomyza,"fungi, carrion",,multi,ferrar,anilis: fungi carrion. flaveola: dung.,Dryomyza,Dryomyzidae,TRUE,130144,169444
+Dryomyzidae,Helcomyza,vegdecomp,veg_decomp,decomp,egglishaw1958FaunaWrackBeds,,Helcomyza,Helcomyzidae,FALSE,923944,169476
+Dryomyzidae,Oedoparena,barnaclepred,carn,animal,ferrar,,Oedoparena,Dryomyzidae,TRUE,1053088,1262316
+Eginiidae,Eginia,endopar,endo,internal,ferrar,,Eginia,Muscidae,FALSE,4368902,1511678
+Empididae,Chelifera,lotic,lotic,aquatic,https://www.sciencedirect.com/science/article/pii/S0075951111000429,,Chelifera,Empididae,TRUE,97123,369889
+Empididae,Clinocera,lotic,lotic,aquatic,https://reader.elsevier.com/reader/sd/pii/S0075951111000429?token=7A4D4081E96F3A86439AF6CDFB31A09E5706091AC5D90E5EE1B768C66C7ED3795E07C7F25E7788B1FC4FBB22DC33ABD6&originRegion=us-east-1&originCreation=20220727193621,,Clinocera,Empididae,TRUE,548555,192484
+Empididae,Hemerodromia,lotic,lotic,aquatic,https://reader.elsevier.com/reader/sd/pii/S0075951111000429?token=7A4D4081E96F3A86439AF6CDFB31A09E5706091AC5D90E5EE1B768C66C7ED3795E07C7F25E7788B1FC4FBB22DC33ABD6&originRegion=us-east-1&originCreation=20220727193621,,Hemerodromia,Empididae,TRUE,776439,626769
+Empididae,Metachela,lotic,lotic,aquatic,https://www.mapress.com/zt/article/view/zootaxa.2069.1.4/28027,,Metachela,Empididae,TRUE,573894,369884
+Empididae,Neoplasta,lotic,lotic,aquatic,https://www.mapress.com/zt/article/view/zootaxa.2069.1.4/28027,,Neoplasta,Empididae,TRUE,899306,192640
+Empididae,Phyllodromia,wet wood,wood,decomp,https://link.springer.com/content/pdf/10.1023/A:1008851511301.pdf,,Phyllodromia,Empididae,TRUE,4345156,1209097
+Empididae,Rhamphomyia,"wooddecomp, leaf litter",,decomp,collinBritishFlies1961,,Rhamphomyia,Empididae,TRUE,224221,192612
+Empididae,Wiedemannia,lotic,lotic,aquatic,https://reader.elsevier.com/reader/sd/pii/S0075951111000429?token=7A4D4081E96F3A86439AF6CDFB31A09E5706091AC5D90E5EE1B768C66C7ED3795E07C7F25E7788B1FC4FBB22DC33ABD6&originRegion=us-east-1&originCreation=20220727193621,,Wiedemannia,Empididae,TRUE,820893,240904
+endopar,Australofannia,dung,dung,decomp,ferrar,,Australofannia,Fanniidae,FALSE,672491,27472
+Ephydridae,Allotrichoma,vegdecomp,veg_decomp,decomp,ferrar,,Allotrichoma,Ephydridae,TRUE,4425132,1492368
+Ephydridae,Amalopteryx,"aquatic, decomp, algae on shore",,multi,ferrar,,Amalopteryx,Ephydridae,TRUE,4424257,
+Ephydridae,Brachydeutera,"pools, vegdecomp",,multi,ferrar,,Brachydeutera,Ephydridae,TRUE,4424321,1990785
+Ephydridae,Dimecoenia,salt marsh mud,soil,decomp,ferrar,,Dimecoenia,Ephydridae,TRUE,4424058,
+Ephydridae,Discocerina,moist substrates,,decomp,"Scheiring, Joseph F., and Benjamin A. Foote. ""Habitat distribution of the shore flies of northeastern Ohio (Diptera: Ephydridae)."" (1973).",,Discocerina,Ephydridae,TRUE,543103,745181
+Ephydridae,Discomyza,animaldecomp,carrion,decomp,ferrar,,Discomyza,Ephydridae,TRUE,4424385,1720780
+Ephydridae,Ephydra,"aquatic algal mats, hot springs",,multi,ferrar,"brusei goedeni packardi hot springs, thermophila, tibetensis. still water: cinerea, hians, millbrae, packardi",Ephydra,Ephydridae,TRUE,936922,504564
+Ephydridae,Hecamede,"molluscdecomp, moist seaweed, carrion, damp sand",,decomp,ferrar,"albicans: molluscdecomp, seaweed, carrion. persimilis: momist seaweed, damp sand",Hecamede,Ephydridae,TRUE,4424732,
+Ephydridae,Hydrellia,"aquatic miners, terrestrial miners",miner,plant,ferrar,,Hydrellia,Ephydridae,TRUE,73660,92591
+Ephydridae,Leptopsilopa,grass,,plant,ferrar,,Leptopsilopa,Ephydridae,TRUE,4424299,1887046
+Ephydridae,Nostima,algae at edge of marsh,algae,plant,ferrar,,Nostima,Ephydridae,TRUE,4423925,1473719
+Ephydridae,Notiphila,"mud on edge of freshwater, wet decaying plants",,decomp,ferrar,cuaudata: plants,Notiphila,Ephydridae,TRUE,1075980,1118049
+Ephydridae,Ochthera,aquaticlarvaepred,,aquatic,ferrar,,Ochthera,Ephydridae,TRUE,4424952,1744809
+Ephydridae,Paracoenia,"hot spring algal mats, shoreline mud of lakes",,multi,ferrar,,Paracoenia,Ephydridae,TRUE,4424266,1690382
+Ephydridae,Pelina,algae on moist soil,algae,plant,ferrar,,Pelina,Ephydridae,TRUE,42876,1086796
+Ephydridae,Placopsidella,carrion,carrion,decomp,brownManualCentralAmerican2009,,Placopsidella,Ephydridae,TRUE,4424035,
+Ephydridae,Scatella,"mud, pools, dung, hot springs",,multi,ferrar,"vittithorax: hot springs. fusca: pools, dung. iowana: mud. unicornis: wet stone and flowerpots",Scatella,Ephydridae,TRUE,130266,305595
+Ephydridae,Scatophila,wet places,,decomp,ferrar,,Scatophila,Ephydridae,TRUE,4424412,1763968
+Fannidae,Fannia,"vegdecomp, seaweed decomp, dung, wooddecomp, fungi, hymenoptera nests, bird nests, mammals nests, molluscdecomp, insectdecomp, vertebrate carrion",,multi,ferrar,"extensive info. page 151-152 of ferrar pdf, 178-179 of book",Fannia,Fanniidae,FALSE,557410,95468
+Fanniidae,Euryomma,"vegdecomp, hymenoptera nests, vertebrate carrion",,multi,ferrar,"pregrinum vertebrate carrion vegdecomp, panamensis rettenmeyeri hymenoptera nests,",Euryomma,Fanniidae,TRUE,4369311,1650677
+Fergusoninidae,Fergusonina,galls,gall,plant,ferrar,,Fergusonina,Fergusoninidae,TRUE,201385,156411
+Gasterophilidae,Cobboldia,endopar,endo,internal,ferrar,,Cobboldia,Oestridae,FALSE,4374092,2583773
+Gasterophilidae,Gasterophilus,endopar,endo,internal,ferrar,,Gasterophilus,Oestridae,FALSE,88110,84524
+Gasterophilidae,Gyrostigma,endopar,endo,internal,ferrar,,Gyrostigma,Oestridae,FALSE,4374100,2555504
+Gasterophilidae,Neocuterebra,endopar,endo,internal,ferrar,,Neocuterebra,Oestridae,FALSE,4374074,
+Gasterophilidae,Ruttenia,endopar,endo,internal,ferrar,,Ruttenia,Oestridae,FALSE,4374030,
+Glossinidae,Glossina,macrolarviparous,vivip,internal,ferrar,,Glossina,Glossinidae,TRUE,753708,7393
+Helcomyzidae,Helcomyza,vegdecomp,veg_decomp,decomp,ferrar,,Helcomyza,Helcomyzidae,TRUE,923944,169476
+Helcomyzidae,Heterocheila,vegdecomp,veg_decomp,decomp,ferrar,,Heterocheila,Heterocheilidae,FALSE,26530,169481
+Helcomyzidae,Scoliocentra,vegdecomp,veg_decomp,decomp,ferrar,,Scoliocentra,Heleomyzidae,FALSE,4400721,1823605
+Helcomyzidae,Tapeigaster,vegdecomp,veg_decomp,decomp,ferrar,,Tapeigaster,Heleomyzidae,FALSE,4400292,1572573
+Heleidae,Athrichopogon,lotic,lotic,aquatic,staglianoCumulativeBiologicalAssessment2010,,Atrichopogon,Ceratopogonidae,FALSE,705680,209702
+Heleomyzidae,Neossos,nest,nest,nest,ferrar,,Neossos,Heleomyzidae,TRUE,4400887,2268121
+Heleomyzidae,Suilia,fungi,fungi,decomp,ferrar,,,,FALSE,,
+Helosciomyzidae,Helosciomyza,nests,nest,nest,ferrar,,Helosciomyza,Helosciomyzidae,TRUE,4396660,
+Helosciomyzidae,Polytocus,carrion,carrion,decomp,ferrar,,Polytocus,Helosciomyzidae,TRUE,4396640,
+Hippoboscidae,Crataerina,macrolarviparous,vivip,internal,ferrar,,Crataerina,Hippoboscidae,TRUE,289868,452743
+Hippoboscidae,Icosta,macrolarviparous,vivip,internal,ferrar,,Icosta,Hippoboscidae,TRUE,637691,402409
+Hippoboscidae,Lipoptena,macrolarviparous,vivip,internal,ferrar,,Lipoptena,Hippoboscidae,TRUE,522399,170902
+Hippoboscidae,Melophagus,macrolarviparous,vivip,internal,ferrar,,Melophagus,Hippoboscidae,TRUE,289881,452748
+Hippoboscidae,Olfersia,macrolarviparous,vivip,internal,ferrar,,Olfersia,Hippoboscidae,TRUE,4391305,1333310
+Hippoboscidae,Ornithophila,macrolarviparous,vivip,internal,ferrar,,Ornithophila,Hippoboscidae,TRUE,4391139,1497392
+Keroplatidae,Macrocera,"build webs, wooddecomp, cave walls, fungi, soil, grass, wood",,multi,jakovlevFungusGnatsDiptera2011,"three species described, insignificant variation imo",Macrocera,Keroplatidae,TRUE,206343,608727
+Keroplatidae,Neoceroplatus,"river buffer zone, web, wood, wooddecomp, fungi, move while covered in their mucus",,multi,falaschiNeoceroplatusBetaryiensisNov2019,confirmed for betaryiensis,Neoceroplatus,Keroplatidae,TRUE,4481073,
+Keroplatidae,Zelmira,build webs on stream banks and damp crevices,,misc,vivianiTwoBioluminescentDiptera2001,"this genus was broken up, mainly placed in Orfelia (http://pbs.bishopmuseum.org/pdf/BE13-kero-catr.pdf)",Orfelia,Keroplatidae,TRUE,161123,270890
+Lauxaniidae,Aulogastromyia,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Aulogastromyia,Lauxaniidae,TRUE,4418546,1824990
+Lauxaniidae,Homoneura,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Homoneura,Lauxaniidae,TRUE,4417150,1692452
+Lauxaniidae,Meiosimyza,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Meiosimyza,Lauxaniidae,TRUE,7837725,1824999
+Lauxaniidae,Tricholauxania,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Tricholauxania,Lauxaniidae,TRUE,468406,192459
+Limoniidae,Dactylolabis,mud,soil,decomp,jeffrodsMatingDifferencesMadicolous2002,,Dactylolabis,Limoniidae,TRUE,883191,560717
+Limoniidae,Elephantomyia,"wooddecomp, sap, fungi",,multi,podenasNewSpeciesElephantomyia2020,,Elephantomyia,Limoniidae,TRUE,802101,700838
+Limoniidae,Gnophomyia,"wood, wooddecomp",wood,decomp,hancockLarvalHabitatPreferences2008,,Gnophomyia,Limoniidae,TRUE,278542,700845
+Limoniidae,Helius,"lentic, veg",,multi,przhiboroNewRecordsCraneflies2003,,Helius,Limoniidae,TRUE,328555,700865
+Limoniidae,Lipsothrix,"wooddecomp, lotic",,multi,dudleyBiologyLifeCycles1987,,Lipsothrix,Limoniidae,TRUE,278553,700849
+Limoniidae,Metalimnobia,fungi,fungi,decomp,krivosheinaNewDataMorphology2010,,Metalimnobia,Limoniidae,TRUE,853155,700851
+Limoniidae,Rhypholophus,"moss, roots, lotic",,multi,bulankovaMicrohabitatDistributionDiptera2007,,Rhypholophus,Limoniidae,TRUE,4504840,
+Lonchaeidae,Dasiops,"fruitbore, miner",,plant,ferar,latifrons is only miner,Dasiops,Lonchaeidae,TRUE,281227,286456
+Lonchaeidae,Earomyia,cones. bore though cone scales to tunnel through seeds. one larvae usually goes through two-three seeds,,plant,ferrar,,Earomyia,Lonchaeidae,TRUE,4406392,
+Lonchaeidae,Lamprolonchaea,"veg, wooddecomp, veegdecomp, insectdecomp",,multi,ferrar,"conchapinna: rotting bark. brouniana: vegdecomp, veg, insectdecomp",Lamprolonchaea,Lonchaeidae,TRUE,24839,907706
+Lonchaeidae,Lonchaea,"wood, veg, vegdecomp, dung, fungi",,decomp,ferrar,"wood: corticis, scutellaris, zetterstedti, polita. friut: polita. flavidipennis: infested veg, fruit. cristula: veg. striatifrons: vegdecomp. chorea: dung, vegdecomp, slime mould. fumosa: fungi. tarsata: bark, veg. avida: veg. continentalis: vegdecomp. drypetes: veg",Lonchaea,Lonchaeidae,TRUE,407477,198649
+Lonchaeidae,Silba,veg secondary invaders,veg,plant,ferrar,,Silba,Lonchaeidae,TRUE,253197,198646
+Lonchopteridae,Lonchoptera,"veg, vegdecomp, wooddecomp, decaying leaf litter",,multi,ferrar,,Lonchoptera,Lonchopteridae,TRUE,73597,92595
+Mesembrinellidae,Albuquerquea,macrolarviparous (first instar),vivip,internal,ferrar,,Albuquerquea,Calliphoridae,FALSE,4390371,
+Mesembrinellidae,Eumesembrinella,macrolarviparous (first instar),vivip,internal,ferrar,,Eumesembrinella,Calliphoridae,FALSE,288971,672472
+Mesembrinellidae,Huascaromusca,macrolarviparous (first instar),vivip,internal,ferrar,,Huascaromusca,Calliphoridae,FALSE,4390048,1609532
+Mesembrinellidae,Laneella,"macrolarviparous (first instar), later instars carrion",,multi,ferrar,,Laneella,Calliphoridae,FALSE,4389951,1658054
+Mesembrinellidae,Mesembrinella,macrolarviparous (first instar),vivip,internal,ferrar,,Mesembrinella,Calliphoridae,FALSE,786283,460529
+Mesembrinellidae,Souzalopesiella,macrolarviparous (first instar),vivip,internal,ferrar,,Souzalopesiella,Calliphoridae,FALSE,4522444,
+Micropezidae,Calobata,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Calobata,Micropezidae,TRUE,4410400,1820059
+Micropezidae,Calobatina,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Calobatina,Micropezidae,TRUE,4410669,
+Micropezidae,Calycopteryx,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Calycopteryx,Micropezidae,TRUE,4410376,
+Micropezidae,Compsobata,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Compsobata,Micropezidae,TRUE,281223,286452
+Micropezidae,Micropeza,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Micropeza,Micropezidae,TRUE,4410232,1572561
+Micropezidae,Mimegralla,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Mimegralla,Micropezidae,TRUE,973637,115300
+Milichiidae,Desmometopa,"carrion, vegdecomp, dung",,decomp,ferrar,inaurata and singaporensis are carrion,Desmometopa,Milichiidae,TRUE,1074090,305587
+Milichiidae,Leptometopa,dung,dung,decomp,ferrar,,Leptometopa,Milichiidae,TRUE,4411143,1720790
+Milichiidae,Milichiella,"carrion, vegdecomp, dung, wooddecomp, nests, dry debris",,multi,ferrar,info on page 224 ferrar,Milichiella,Milichiidae,TRUE,4411036,1890919
+Milichiidae,Pholeomyia,"dung, nests",,multi,ferrar,"comans nests, dampfi dung",Pholeomyia,Milichiidae,TRUE,4411164,1720804
+Mormotomyiidae,Mormotomyia,dung,dung,decomp,ferrar,,Mormotomyia,Mormotomyiidae,TRUE,54704,1155704
+Muscidae,Atherigona,"decomp, veg",,multi,ferrar,,Atherigona,Muscidae,TRUE,755025,305597
+Muscidae,Dendrophaonia,"bird nest, decomp, wood, fungi",,multi,https://www.natur-in-nrw.de/IMG/Sonstiges/pdf/Drees-2008-Muscidae.pdf,aka potamia and phaonia,,,FALSE,,
+Muscidae,Graphomya,"vegdecomp, garbage, sap, wooddecomp, humus soil, aquatic/subaquatic",,multi,ferrar,,Graphomya,Muscidae,TRUE,523569,1072499
+Muscidae,Haematobosca,dung,dung,decomp,ferrar,,Haematobosca,Muscidae,TRUE,788053,559680
+Muscidae,Hebecnema,"dung, vegdecomp",,decomp,ferrar,,Hebecnema,Muscidae,TRUE,788056,559682
+Muscidae,Limnophora,"dung, vegdecomp, carrion, moss, aquatic/subaquatic",,multi,ferrar,,Limnophora,Muscidae,TRUE,364542,307207
+Muscidae,Lispoides,aquatic/subaquatic,,aquatic,ferrar,,Lispoides,Muscidae,TRUE,4368291,
+Muscidae,Mesembrina,dung,dung,decomp,ferrar,,Mesembrina,Muscidae,TRUE,412689,116147
+Muscidae,Morellia,dung,dung,decomp,ferrar,,Morellia,Muscidae,TRUE,377283,253340
+Muscidae,Musca,"dung, vegdecomp, garbage, carrion",,decomp,ferrar,,Musca,Muscidae,TRUE,484748,7369
+Muscidae,Muscina,"dung, vegdecomp, fungi, garbage, carrion, endopar, birds nests, hymenoptera nests,",,multi,ferrar,,Muscina,Muscidae,TRUE,573702,57892
+Muscidae,Mydaea,"dung, fungi, sap, wooddecomp",,decomp,ferrar,,Mydaea,Muscidae,TRUE,788057,559689
+Muscidae,Myospila,"dung, vegdecomp",,decomp,ferrar,,Myospila,Muscidae,TRUE,28906,520040
+Muscidae,Neomyia,dung,dung,decomp,ferrar,,Neomyia,Muscidae,TRUE,1011255,305607
+Muscidae,Passeromyia,birds nests,nest,nest,ferrar,,Passeromyia,Muscidae,TRUE,4368178,1511687
+Muscidae,Phaonia,"vegdecomp, sap, wooddecomp, flowers, humus soil, moss",,multi,ferrar,,Phaonia,Muscidae,TRUE,268220,253431
+Muscidae,Phaonina,veg,veg,plant,ferrar,,Phaonina,Muscidae,TRUE,4368243,
+Muscidae,Philornis,nests,nest,nest,ferrar,,Philornis,Muscidae,TRUE,842738,253427
+Muscidae,Potamia,"dung, fungi, nests, sap, wooddecomp",,multi,ferrar,,Potamia,Muscidae,TRUE,558828,559704
+Mycetophilidae,Bolitophila,fungi,fungi,decomp,madwarBiologyMorphologyImmature1937,,Bolitophila,Mycetophilidae,TRUE,148805,52718
+Mycetophilidae,Brachypeza,fungi,fungi,decomp,madwarBiologyMorphologyImmature1937,,Brachypeza,Mycetophilidae,TRUE,4496037,2326774
+Mycetophilidae,Centrocnemis,"wooddecomp, hard logs",,decomp,madwarBiologyMorphologyImmature1937,,Australosymmerus,Ditomyiidae,FALSE,4525150,
+Mycetophilidae,Ceroplatus,fungi,fungi,decomp,madwarBiologyMorphologyImmature1937,,Ceroplatus,Keroplatidae,FALSE,7848217,
+Mycetophilidae,Delopsis,,,,,aka mycetophila,Epicypta,Mycetophilidae,TRUE,1033943,397117
+Mycetophilidae,Diadocidia,damp wood,wood,decomp,madwarBiologyMorphologyImmature1937,,Diadocidia,Diadocidiidae,FALSE,40344,560721
+Mycetophilidae,Ditomyia,fungi,fungi,decomp,madwarBiologyMorphologyImmature1937,,Ditomyia,Ditomyiidae,FALSE,4525128,1520322
+Mycetophilidae,Exechia,fungi,fungi,decomp,jakovlevFungusGnatsDiptera2008,also wood: dorsalis and parva,Exechia,Mycetophilidae,TRUE,983555,397139
+Mycetophilidae,Leptomorphus,muccus tube,,misc,madwarBiologyMorphologyImmature1937,,Leptomorphus,Mycetophilidae,TRUE,936210,560729
+Mycetophilidae,Mycetophila,"wooddecomp, fungi, soil",,decomp,jakovlevFungusGnatsDiptera2008,species details page 12 of reference,Mycetophila,Mycetophilidae,TRUE,610241,397146
+Mycetophilidae,Mycomya,"soil, wooddecomp, fungi",,decomp,jakovlevFungusGnatsDiptera2008,aka mycomyia. species details on pdf page 9 of reference,Mycomya,Mycetophilidae,TRUE,155023,608706
+Mycetophilidae,Noempheria,,,,,,Neoempheria,Mycetophilidae,TRUE,1027685,608686
+Mycetophilidae,Phronia,"wooddecomp, fungi",,decomp,jakovlevFungusGnatsDiptera2008,"tiefii and forcipata fungi, strenua fungi and wooddecomp",Phronia,Mycetophilidae,TRUE,1033945,397119
+Mycetophilidae,Sciophila,fungi,fungi,decomp,jakovlevFungusGnatsDiptera2008,species details page 10 of reference,Sciophila,Mycetophilidae,TRUE,482088,1085959
+Mycetophilidae,Symmerus,fungi,fungi,decomp,madwarBiologyMorphologyImmature1937,,Symmerus,Mycetophilidae,TRUE,885123,560780
+Mycetophilidae,Trichonta,"wooddecomp, fungi",,decomp,jakovlevFungusGnatsDiptera2008,species details page 13 reference,Trichonta,Mycetophilidae,TRUE,457609,397122
+Mydidae,Mydas,wooddecomp,wood,decomp,genungBiologicalEcologicalObservations1959,,Mydas,Mydidae,TRUE,356516,186100
+Mystacinobiidae,Mystacinobia,nest,nest,nest,ferrar,,Mystacinobia,Mystacinobiidae,TRUE,606363,81694
+Nemestrinidae,Hirmoneura,predacious,carn,animal,bernardiGeneraFamilyNemestrinidae1973,,Hirmoneura,Nemestrinidae,TRUE,69448,388531
+Nemestrinidae,Symmictus,endopar,endo,internal,https://link.springer.com/chapter/10.1007/978-981-10-8687-8_23,,,,FALSE,,
+Nemestrinidae,Trichopsidea,acridiophagous,carn,animal,bernardiGeneraFamilyNemestrinidae1973,,Trichopsidea,Nemestrinidae,TRUE,4331618,
+Neottiophilidae,Neottiophilum,ectopar,ecto,animal,krivosheinaDipteraNestsFieldfare2018,,Neottiophilum,Piophilidae,FALSE,4409783,
+Neriidae,Odontoloxozus,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Odontoloxozus,Neriidae,TRUE,350366,588320
+Neriidae,Telostylinus,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Telostylinus,Neriidae,TRUE,958415,1262347
+Neurochaetidae,Neurochaeta,"araceae, aquatic",,multi,ferrar,,Neurochaeta,Neurochaetidae,TRUE,300556,716624
+Nycteribiidae,Basilia,macrolarviparous,vivip,internal,ferrar,,Basilia,Nycteribiidae,TRUE,702087,170889
+Nycteribiidae,Penicillidia,macrolarviparous,vivip,internal,ferrar,,Penicillidia,Nycteribiidae,TRUE,166505,81721
+Nymphalidae,Phryne,macrolarviparous,vivip,internal,ferrar,,Sylvicola,Anisopodidae,FALSE,48220,52753
+Nymphomyiidae,Nymphomyia,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Nymphomyia,Nymphomyiidae,TRUE,1037378,560766
+Nymphomyiidae,Palaeodipteron,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Palaeodipteron,Nymphomyiidae,TRUE,4479777,
+Odiniidae,Neoalticomerus,"wood, wooddecomp, secondary inhabitants of tunnels by coleoptera and lepidoptera",wood,decomp,ferrar,,Neoalticomerus,Odiniidae,TRUE,300551,716622
+Odiniidae,Odinia,"wood, wooddecomp, secondary inhabitants of tunnels by coleoptera and lepidoptera",wood,decomp,ferrar,,Odinia,Odiniidae,TRUE,195843,414302
+Oesteridae,Cehpalopina,endopar,endo,internal,ferrar,,,,FALSE,,
+Oesteridae,Cephenemyia,endopar,endo,internal,ferrar,,Cephenemyia,Oestridae,FALSE,825503,170894
+Oesteridae,Crivellia,endopar,endo,internal,ferrar,,Przhevalskiana,Oestridae,FALSE,163751,123746
+Oesteridae,Gasterophilus,endopar,endo,internal,ferrar,,Gasterophilus,Oestridae,FALSE,88110,84524
+Oesteridae,Oestrus,endopar,endo,internal,ferrar,,Oestrus,Oestridae,FALSE,582017,123736
+Oesteridae,Pallasiomyia,endopar,endo,internal,ferrar,,Pallasiomyia,Oestridae,FALSE,4374078,
+Oestridae,Cephalopina,endopar,endo,internal,ferrar,,Cephalopina,Oestridae,TRUE,4374088,
+Oestridae,Dermatobia,endopar,endo,internal,ferrar,,Dermatobia,Oestridae,TRUE,358237,115426
+Oestridae,Gedoelstia,endopar,endo,internal,ferrar,,Gedoelstia,Oestridae,TRUE,4374066,
+Oestridae,Gyrostigma,endopar,endo,internal,ferrar,,Gyrostigma,Oestridae,TRUE,4374100,2555504
+Oestridae,Hypoderma,endopar,endo,internal,ferrar,,Hypoderma,Oestridae,TRUE,334370,7388
+Oestridae,Kirkioestrus,endopar,endo,internal,ferrar,,Kirkioestrus,Oestridae,TRUE,4374063,
+Oestridae,Neocutereba,endopar,endo,internal,ferrar,,Neocuterebra,Oestridae,TRUE,4374074,
+Oestridae,Ochotonia,endopar,endo,internal,ferrar,,Ochotonia,Oestridae,TRUE,4374053,
+Oestridae,Ochtonia,endopar,endo,internal,ferrar,,,,FALSE,,
+Oestridae,Oedemagena,endopar,endo,internal,ferrar,,,,FALSE,,
+Oestridae,Oestroderma,endopar,endo,internal,ferrar,,Oestroderma,Oestridae,TRUE,4374082,
+Oestridae,Oestromyia,endopar,endo,internal,ferrar,,Oestromyia,Oestridae,TRUE,648,170913
+Oestridae,Pavlovskiata,endopar,endo,internal,ferrar,,Pavlovskiata,Oestridae,TRUE,4374076,
+Oestridae,Pharyngobolus,endopar,endo,internal,ferrar,,Pharyngobolus,Oestridae,TRUE,4374049,
+Oestridae,Portschinskia,endopar,endo,internal,ferrar,,Portschinskia,Oestridae,TRUE,4374111,
+Oestridae,Portschinskia,endopar,endo,internal,ferrar,,Portschinskia,Oestridae,TRUE,4374111,
+Oestridae,Przhevalskiana,endopar,endo,internal,ferrar,,Przhevalskiana,Oestridae,TRUE,163751,123746
+Oestridae,Rhinoestrus,endopar,endo,internal,ferrar,,Rhinoestrus,Oestridae,TRUE,188205,204922
+Oestridae,Strobiloestrus,endopar,endo,internal,ferrar,,Strobiloestrus,Oestridae,TRUE,4374035,
+Oestridae,Tracheomyia,endopar,endo,internal,ferrar,,Tracheomyia,Oestridae,TRUE,4374051,
+Omphralidae,Omphrale,nest crawl,nest,nest,woodroffeEcologicalStudyInsects2009,aka Scenopinus,Scenopinus,Scenopinidae,FALSE,942052,247599
+Opomyzidae,Geomyza,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Geomyza,Opomyzidae,TRUE,434538,305619
+Opomyzidae,Opomyza,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Opomyza,Opomyzidae,TRUE,365223,716643
+Oreoleptidae,Oreoleptis,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Oreoleptis,Oreoleptidae,TRUE,769462,1262318
+Otitidae,Delphinia,"vegdecomp, refuse",,decomp,ferrar,,Delphinia,Ulidiidae,FALSE,404245,43369
+Otitidae,Eumetopiella,"veg, grass inflorescences",veg,plant,ferrar,,Eumetopiella,Ulidiidae,FALSE,4409391,
+Otitidae,Euxesta,"vegdecomp, veg, dung, wood",,multi,ferrar,,Euxesta,Ulidiidae,FALSE,804871,286468
+Otitidae,Tetanops,"veg, vegdecomp",,multi,ferrar,"luridipennis vegdecomp, myopaefornis living roots, myopinus living plant material",Tetanops,Ulidiidae,FALSE,129040,454640
+Pachyneuridae,Cramptonomyia,wood mesic,wood,decomp,dudleySurveyInvertebratesAssociated1982a,,Cramptonomyia,Pachyneuridae,TRUE,519529,209688
+Pachyneuridae,Pachyneura,"wooddecomp dry, wood",wood,decomp,paramonovPachyneuridaeDipteraNew2016,,Pachyneura,Pachyneuridae,TRUE,4497402,1588165
+Pallopteridae,Palloptera,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Palloptera,Pallopteridae,TRUE,179843,286498
+Pantophthalmidae,Pantothalmus,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,,,FALSE,,
+Pediciidae,Dicranota,aquatic,,aquatic,kolcsarPediciidaeLarvaeInsecta2010,,Dicranota,Pediciidae,TRUE,802093,700836
+Pediciidae,Pedicia,aquatic,,aquatic,kolcsarPediciidaeLarvaeInsecta2010,,Pedicia,Pediciidae,TRUE,477633,472374
+Pediciidae,Tricyphona,aquatic,,aquatic,kolcsarPediciidaeLarvaeInsecta2010,,Tricyphona,Pediciidae,TRUE,328566,700863
+Pelecorhynchidae,Glutops,"woodbore, aquatic",,multi,dudleySurveyInvertebratesAssociated1982,,Glutops,Pelecorhynchidae,TRUE,1039054,124309
+Periscelididae,Periscelis,sap,sap,sap,ferrar,,Periscelis,Periscelididae,TRUE,415192,716628
+Periscelididae,Stenomicra,sap,sap,sap,ferrar,,Stenomicra,Aulacigastridae,FALSE,940833,716630
+Phaeomyiidae,Pelidnoptera,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Pelidnoptera,Sciomyzidae,FALSE,751820,1096074
+Phoridae,Anevrina,carrion,carrion,decomp,krivokhatskyAssemblagesDipteransDiptera2007,,Anevrina,Phoridae,TRUE,335974,92526
+Phoridae,Apocephalus,endopar,endo,internal,ferrar,,Apocephalus,Phoridae,TRUE,293294,117252
+Phoridae,Borophaga,endopar,endo,internal,darcy-burtBibionidsDipteraBibionidae1991,,Borophaga,Phoridae,TRUE,486865,712093
+Phoridae,Chonocephalus,"vegdecomp, wooddecomp",,decomp,ferrar,,Chonocephalus,Phoridae,TRUE,335968,92528
+Phoridae,Clitelloxenia,"termite nests, fungi",,multi,dupontReviewTermitophilousOther2009,,Clitelloxenia,Phoridae,TRUE,860668,92530
+Phoridae,Diplonerva,"dead insects, fungi, sewage, scavenging in wasm nests",,multi,ferrar,"armipes: dead insects. pilosella: injured earthworm. cocinna"" fungus. pilosella nitidula: sewage. concinna funebris: scavenging in wasp nests",Diplonevra,Phoridae,TRUE,860664,92534
+Phoridae,Dorniphora,sewage,,decomp,disneyLarvae1994,,,,FALSE,,
+Phoridae,Gymnoptera,"decaying shellfish, hymenoptera nests",,multi,ferrar,molluscovora: decaying shellfish,Gymnoptera,Phoridae,TRUE,4349684,
+Phoridae,Hypocera,fungi,fungi,decomp,disneyLarvae1994,,Hypocera,Phoridae,TRUE,669155,940227
+Phoridae,Javanoxenia,"fungi, termite nests",,multi,https://web-p-ebscohost-com.proxy.uchicago.edu/ehost/pdfviewer/pdfviewer?vid=3&sid=e15b1a44-3ffb-4402-91de-6174beb365e5%40redis,,Javanoxenia,Phoridae,TRUE,4350027,
+Phoridae,Megaselia,"fungi, endopar, vegdecomp, dung, animaldecomp",,multi,ferrar,More info in Robinson 1971 cited in ferrar,Megaselia,Phoridae,TRUE,436666,36165
+Phoridae,Misotermes,endopar,endo,internal,ferrar,,Misotermes,Phoridae,TRUE,4349569,
+Phoridae,Nothomicrodon,endopar,endo,internal,perez-lachaudRediscoveryReclassificationDipteran2017,sometimes placed in syrphidae,Nothomicrodon,Syrphidae,FALSE,4359056,1857748
+Phoridae,Pseudacteon,endopar,endo,internal,ferrar,,Pseudacteon,Phoridae,TRUE,199239,378799
+Phoridae,Pseudohypocera,dead bees,carrion,decomp,ferrar,,Pseudohypocera,Phoridae,TRUE,4348879,
+Phoridae,Termitostroma,fungi,fungi,decomp,disneyLarvae1994,,Termitostroma,Phoridae,TRUE,4349688,
+Phoridae,Triphleba,"scavenge in wasp nests, fungi, carrion, sewage, dung",,multi,ferrar,"lugubris: scavenge in wasp nests. minuta and trinervis: fungi. nudipalpis: carrion, sewage. aangricola: dung.",Triphleba,Phoridae,TRUE,707871,92553
+Piophilidae,Centrophlebomyia,carrion,carrion,decomp,ferrar,,Centrophlebomyia,Piophilidae,TRUE,4409802,1603419
+Piophilidae,Lasiopiophila,carrion,carrion,decomp,vegaImmatureStagesNecrophagous2014,,Lasiopiophila,Piophilidae,TRUE,4409730,1790233
+Piophilidae,Liopiophila,"carrion, vegdecomp",,decomp,ferrar,,Liopiophila,Piophilidae,TRUE,4409792,1603421
+Piophilidae,Neottiophilum,birds nests,nest,nest,tetriphid book,,Neottiophilum,Piophilidae,TRUE,4409783,
+Piophilidae,Piophila,"decomp, endopar",,multi,tetriphid book,,Piophila,Piophilidae,TRUE,713613,53709
+Pipunculidae,Chalarus,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Chalarus,Pipunculidae,TRUE,739536,115250
+Pipunculidae,Nephrocerus,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Nephrocerus,Pipunculidae,TRUE,214324,115303
+Pipunculidae,Pipunculus,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Pipunculus,Pipunculidae,TRUE,712787,240898
+Pipunculidae,Verrallia,endopar,endo,internal,wiegmannEpisodicRadiationsFly2011,,Verrallia,Pipunculidae,TRUE,4627,115333
+Platypezidae,Agathomyia,fungi,fungi,decomp,ferrar,,Agathomyia,Platypezidae,TRUE,1011662,226141
+Platypezidae,Bertamyia,fungi,fungi,decomp,ferrar,,Bertamyia,Platypezidae,TRUE,4350490,1445832
+Platypezidae,Callomyia,fungi,fungi,decomp,ferrar,,Callomyia,Platypezidae,TRUE,487006,712098
+Platypezidae,Kesselimyia,fungi,fungi,decomp,ferrar,,Kesselimyia,Platypezidae,TRUE,4350545,1445844
+Platypezidae,Orthovena,fungi,fungi,decomp,ferrar,,,,FALSE,,
+Platypezidae,Paraplatypeza,fungi,fungi,decomp,ferrar,,Paraplatypeza,Platypezidae,TRUE,652770,192442
+Platypezidae,Platypeza,fungi,fungi,decomp,ferrar,,Platypeza,Platypezidae,TRUE,344293,289241
+Platypezidae,Polyporivora,fungi,fungi,decomp,ferrar,,Polyporivora,Platypezidae,TRUE,4350474,1445854
+Platystomatidae,Platystoma,"decomp, carrion",,decomp,Aluja2000FruitFliesTephritidae,,Platystoma,Platystomatidae,TRUE,977784,286504
+Platystomatidae,Rivellia,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Rivellia,Platystomatidae,TRUE,430301,28633
+Platystomatidae,Schotlastes,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Scholastes,Platystomatidae,TRUE,4407260,1902237
+Psilidae,Chyliza,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Chyliza,Psilidae,TRUE,940823,716634
+Psilidae,Loxocera,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Loxocera,Psilidae,TRUE,816775,34684
+Psilidae,Psila,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Psila,Psilidae,TRUE,4426167,305548
+Psychodidae,Clogmia,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Clogmia,Psychodidae,TRUE,784658,85119
+Psychodidae,Lutzomyia,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Lutzomyia,Psychodidae,TRUE,369394,7199
+Psychodidae,Maruina,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Maruina,Psychodidae,TRUE,776582,1144738
+Psychodidae,Pericoma,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Pericoma,Psychodidae,TRUE,464046,1148481
+Psychodidae,Pericoma,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Pericoma,Psychodidae,TRUE,464046,1148481
+Psychodidae,Psychoda,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Psychoda,Psychodidae,TRUE,555809,7201
+Psychodidae,Psychodes,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Psychoda,Psychodidae,TRUE,555809,7201
+Psychodidae,Trichomyia,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Trichomyia,Psychodidae,TRUE,4517592,560271
+Ptychopteridae,Bittacomorpha,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Bittacomorpha,Ptychopteridae,TRUE,951315,79307
+Ptychopteridae,Ptychoptera,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Ptychoptera,Ptychopteridae,TRUE,1096888,209691
+Pyrgotidae,Lochmostylia,larviparity,vivip,internal,meierOvoviviparityViviparityDiptera1999,,Lochmostylia,Ctenostylidae,FALSE,4408473,
+Rhagionidae,Chrysopilus,wooddecomp,wood,decomp,https://www.natureincambridgeshire.org.uk/volumes/nature-in-cambs-vol-48-2006.pdf#page=56,,Chrysopilus,Rhagionidae,TRUE,536480,124301
+Rhagionidae,Litoleptis,miner,miner,plant,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0165808#pone.0165808.ref022,,Litoleptis,Rhagionidae,TRUE,4449538,1842030
+Rhagionidae,Ptiolina,soil,soil,decomp,https://academic.oup.com/jme/article-abstract/19/1/104/2219936,,Ptiolina,Rhagionidae,TRUE,588070,124325
+Rhagionidae,Rhagio,moist leaf litter,,decomp,https://zslpublications.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-7998.1969.tb08453.x,,Rhagio,Rhagionidae,TRUE,588066,124327
+Rhagionidae,Spania,miner,miner,plant,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0165808#pone.0165808.ref022,,Spania,Rhagionidae,TRUE,4449483,1559498
+Rhagionidae,Vermileo,sand,soil,decomp,Leonard1930RevisionDipterousFamily,,Vermileo,Vermileonidae,FALSE,15488,124333
+Rhinoophoridae,Paykullia,endopar,endo,internal,ferrar,,Paykullia,Rhinophoridae,FALSE,264525,559695
+Rhinophoridae,Melanophora,endopar,endo,internal,ferrar,,Melanophora,Rhinophoridae,TRUE,4369535,1606787
+Rhinophoridae,Phyto,endopar,endo,internal,ferrar,,Phyto,Rhinophoridae,TRUE,21720,1262320
+Rhinophoridae,Rhinophora,endopar,endo,internal,ferrar,,Rhinophora,Rhinophoridae,TRUE,259125,670625
+Rhinophoridae,Stevenia,endopar,endo,internal,ferrar,,Stevenia,Rhinophoridae,TRUE,259121,670627
+Rhinophoridae,Tricogena,endopar,endo,internal,ferrar,,Tricogena,Rhinophoridae,TRUE,4369511,1606792
+Rhinotoridae,Cairnsimyia,endopar,endo,internal,ferrar,,Cairnsimyia,Heleomyzidae,FALSE,4400618,
+Ropalomeridae,Romalomera,endopar,endo,internal,ferrar,,Ropalomera,Sepsidae,FALSE,4522003,
+Sarcophagidae,Blaesoxipha,endopar,endo,internal,ferrar,,Blaesoxipha,Sarcophagidae,TRUE,890840,128953
+Sarcophagidae,Boettcherisca,carrion,carrion,decomp,https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2311.1989.tb00964.x,,Boettcherisca,Sarcophagidae,TRUE,334375,7382
+Sarcophagidae,Cistudinomyia,wound myiasis,ecto,animal,ferrar,,Cistudinomyia,Sarcophagidae,TRUE,4373898,2173397
+Sarcophagidae,Craticulina,wasp nests,nest,nest,https://journals.co.za/doi/epdf/10.10520/AJA00128789_2384,,Craticulina,Sarcophagidae,TRUE,4372904,2021509
+Sarcophagidae,Cuculomyia,carrion,carrion,decomp,https://www.scielo.br/j/rbent/a/PmzVF7pFbTbsqcyGZ8mr5zL/?lang=en,aka titanogrypa,,,FALSE,,
+Sarcophagidae,Heteronychia,snail pred,carn,animal,https://www.researchgate.net/profile/Daniel-Whitmore/publication/344451949_First_records_of_Sarcophaga_Heteronychia_bulgarica_Enderlein_Diptera_Sarcophagidae_from_Great_Britain/links/5f771300a6fdcc0086506a3d/First-records-of-Sarcophaga-Heteronychia-bulgarica-Enderlein-Diptera-Sarcophagidae-from-Great-Britain.pdf,,Heteronychia,Sarcophagidae,TRUE,7227047,561784
+Sarcophagidae,Parasarcophaga,"dung, endopar",,multi,ferrar,serica: dung. harpax: endopar,Parasarcophaga,Sarcophagidae,TRUE,493338,236854
+Sarcophagidae,Pessoamyia,endopar,endo,internal,https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2311.2003.00562.x,aka Emblemasoma,,,FALSE,,
+Sarcophagidae,Sarcophaga,"carrion, pred, endopar",,multi,ferrar,,Sarcophaga,Sarcophagidae,TRUE,334388,7384
+Sarcophagidae,Senotainia,endopar,endo,internal,ferrar,,Senotainia,Tachinidae,FALSE,991463,179787
+Sarcophagidae,Sphecapatoclea,unknown,,,szpilaFirstDescriptionFirst2017,,Sphecapatoclea,Sarcophagidae,TRUE,4372479,2021595
+Sarcophagidae,Sphecapatodes,unknown,,,szpilaFirstDescriptionFirst2017,,Sphecapatodes,Sarcophagidae,TRUE,4373381,2021536
+Sarcophagidae,Wohlfahrtia,"endopar, saprophagous",,multi,ferrar,"magnifica: myiasis of orifaces. vigil: endopar. nuba: endopar, carrion",Wohlfahrtia,Sarcophagidae,TRUE,316407,128961
+Scathophagidae,Cleigastra,galls made by other insects,gall,plant,ferrar,,Cleigastra,Scathophagidae,TRUE,1081089,113167
+Scathophagidae,Cordilura,vegbore,,plant,ferrar,,Cordilura,Scathophagidae,TRUE,606779,113132
+Scathophagidae,Hydromyza,"vegbore, aquatic",,multi,ferrar,,Hydromyza,Scathophagidae,TRUE,504442,113174
+Scathophagidae,Norellia,miner,miner,plant,ferrar,,Norellia,Scathophagidae,TRUE,554661,113119
+Scathophagidae,Orthacheta,vegdecomp,veg_decomp,decomp,ferrar,,Orthacheta,Scathophagidae,TRUE,238757,113181
+Scathophagidae,Parallelomma,miner,miner,plant,ferrar,,Parallelomma,Scathophagidae,TRUE,7841120,
+Scathophagidae,Scathophaga,"dung, moist seaweed",,multi,ferrar,"dung: furcata, scybalaria, stercoraria, suilla. seaweed: calida, litorea",Scathophaga,Scathophagidae,TRUE,557403,95462
+Scatopsidae,Scatopse,dung,dung,decomp,laurenceLarvalInhabitantsCow1954,,Scatopse,Scatopsidae,TRUE,4458439,1520324
+Scatopside,Rhexoza,wood,wood,decomp,krivosheinaTaxonomicCompositionDendrobiontic2006,,Rhexoza,Scatopsidae,FALSE,4458154,
+Scenopinidae,Scenopinus,fungi,fungi,decomp,krivosheinaMacromyceteFruitBodies2008,,Scenopinus,Scenopinidae,TRUE,942052,247599
+Sciadoceridae,Sciadocera,carrion,carrion,decomp,appletonHabitatSeasonalEffects1993,,Sciadocera,Sciadoceridae,TRUE,468442,192453
+Sciaridae,Bradysia,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Bradysia,Sciaridae,TRUE,42519,35571
+Sciaridae,Corynoptera,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Corynoptera,Sciaridae,TRUE,175518,1260849
+Sciaridae,Phorodonta,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Phorodonta,Sciaridae,TRUE,4491718,
+Sciaridae,Pnyxia,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Pnyxia,Sciaridae,TRUE,4491915,1781626
+Sciaridae,Sciara,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Sciara,Sciaridae,TRUE,90832,82677
+Sciomyzidae,Antichaeta,mollusc eggs,carn,animal,ferrar,,Anticheta,Sciomyzidae,TRUE,312888,1096047
+Sciomyzidae,Coremacera,"terrestrial, possibly endopar",,,ferrar,,Coremacera,Sciomyzidae,TRUE,1098577,1226614
+Sciomyzidae,Eulimnia,aquatic,,aquatic,ferrar,,Eulimnia,Sciomyzidae,TRUE,4397282,
+Sciomyzidae,Hedria,aquatic,,aquatic,ferrar,,Hedria,Sciomyzidae,TRUE,20076,320941
+Sciomyzidae,Ilione,"veg, aquatic",,multi,gormallyNotesLarvalHabitat1987,,Ilione,Sciomyzidae,TRUE,757165,1096072
+Sciomyzidae,Knutsonia,aquatic,,aquatic,ferrar,,Ilione,Sciomyzidae,TRUE,757165,1096072
+Sciomyzidae,Neolimnia,"aquatic, terrestrial, possibly endopar",,multi,ferrar,,Neolimnia,Sciomyzidae,TRUE,1053076,1262312
+Sciomyzidae,Psacadina,aquatic,,aquatic,ferrar,,Psacadina,Sciomyzidae,TRUE,467914,1096078
+Sciomyzidae,Pteromicra,aquatic,,aquatic,speightParagusConstrictusPteromicra1995,,Pteromicra,Sciomyzidae,TRUE,572032,1226622
+Sciomyzidae,Sciomyza,endopar,endo,internal,ferrar,,Sciomyza,Sciomyzidae,TRUE,111366,320936
+Sciomyzidae,Sepedon,"endopar, aquatic",,multi,ferrar,"parasitoids in first two instars, then become active predators",Sepedon,Sciomyzidae,TRUE,162441,320954
+Sciomyzidae,Shannonia,"terrestrial, attacks one snail and then eats decaying tissue",carn,animal,ferrar,,Shannonia,Sciomyzidae,TRUE,4397251,
+Sciomyzidae,Tetanocera,"aquatic, terrestrial, endopar in first and second instar ",,multi,ferrar,,Tetanocera,Sciomyzidae,TRUE,162465,320959
+Sepsidae,Sepsis,dung,dung,decomp,ferrar,,Sepsis,Sepsidae,TRUE,199055,137507
+Sepsidae,Themira,dung,dung,decomp,ferrar,,Themira,Sepsidae,TRUE,717872,292396
+Simuliidae,Simulium,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Simulium,Simuliidae,TRUE,20678,7191
+Sphaeroceridae,Anatalanta,decomp,,decomp,ferrar,,Anatalanta,Sphaeroceridae,TRUE,1081184,333748
+Sphaeroceridae,Archicollinella,decomp,,decomp,ferrar,,Archicollinella,Sphaeroceridae,TRUE,4399180,
+Sphaeroceridae,Copromyza,decomp,,decomp,ferrar,,Copromyza,Sphaeroceridae,TRUE,825466,1217530
+Sphaeroceridae,Leptocera,decomp,,decomp,ferrar,,Leptocera,Sphaeroceridae,TRUE,4398843,1614654
+Sphaeroceridae,Leptocera,decomp,,decomp,ferrar,,Leptocera,Sphaeroceridae,TRUE,4398843,1614654
+Sphaeroceridae,Thoracocheata,decomp,,decomp,ferrar,,,,FALSE,,
+Stratiomyidae,Berkshiria,wooddecomp,wood,decomp,https://www.researchgate.net/profile/Linley-Sherin-2/publication/348418706_Soldier_flies_of_the_subfamily_Pachygastrinae_of_Canada_Diptera_Stratiomyidae/links/5ffe0230299bf140888f8411/Soldier-flies-of-the-subfamily-Pachygastrinae-of-Canada-Diptera-Stratiomyidae.pdf,,Berkshiria,Stratiomyidae,TRUE,4448548,2061012
+Stratiomyidae,Chloromyia,vegdecomp,veg_decomp,decomp,https://nora.nerc.ac.uk/id/eprint/7447/1/LargerBrachycera.pdf,,Chloromyia,Stratiomyidae,TRUE,340291,343649
+Stratiomyidae,Eulalia,lotic,lotic,aquatic,https://essig.berkeley.edu/documents/cis/cis06_5.pdf,,Odontomyia,Stratiomyidae,TRUE,864925,343652
+Stratiomyidae,Eupachygaster,wooddecomp,wood,decomp,https://repository.si.edu/bitstream/handle/10088/16941/1/USNMP-121_3569_1967.pdf,,Eupachygaster,Stratiomyidae,TRUE,4448218,
+Stratiomyidae,Geosargus,dung,dung,decomp,https://www.jstor.org/stable/1943223#metadata_info_tab_contents,,Sargus,Stratiomyidae,TRUE,340298,343647
+Stratiomyidae,Hermetia,"detritus, dung, endopar, vegdecomp, carrion",,decomp,https://essig.berkeley.edu/documents/cis/cis06_5.pdf,,Hermetia,Stratiomyidae,TRUE,419091,343581
+Stratiomyidae,Hirtea,plant litter,,decomp,https://www.sciencedirect.com/science/article/pii/S105579031200440X,aka Sciara,Hirtea,Bibionidae,FALSE,5806729,
+Stratiomyidae,Hoplodonta,aquatic,,aquatic,https://digitallibrary.amnh.org/bitstream/handle/2246/2239/N1088.pdf?sequence=1,aka/closely related to Odontomyia,Oplodontha,Stratiomyidae,TRUE,241919,446504
+Stratiomyidae,Lucilia,carrion,carrion,decomp,https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2915.1997.tb00287.x,Actually calliphoridae,Lucilia,Calliphoridae,FALSE,1011017,7374
+Stratiomyidae,Nemotelus,"aquatic, lentic and lotic",,aquatic,https://essig.berkeley.edu/documents/cis/cis06_5.pdf,,Nemotelus,Stratiomyidae,TRUE,419090,343582
+Stratiomyidae,Neopachygaster,wooddecomp,wood,decomp,https://www.researchgate.net/profile/Linley-Sherin-2/publication/348418706_Soldier_flies_of_the_subfamily_Pachygastrinae_of_Canada_Diptera_Stratiomyidae/links/5ffe0230299bf140888f8411/Soldier-flies-of-the-subfamily-Pachygastrinae-of-Canada-Diptera-Stratiomyidae.pdf,,Neopachygaster,Stratiomyidae,TRUE,4448708,1692469
+Stratiomyidae,Odontomyia,aquatic,,aquatic,https://essig.berkeley.edu/documents/cis/cis06_5.pdf,subgenus/synonomys w eulalia,Odontomyia,Stratiomyidae,TRUE,864925,343652
+Stratiomyidae,Oxycera,decomp,,decomp,,,Oxycera,Stratiomyidae,TRUE,1077817,860348
+Stratiomyidae,Pachygaster,wooddecomp,wood,decomp,https://www.researchgate.net/profile/Linley-Sherin-2/publication/348418706_Soldier_flies_of_the_subfamily_Pachygastrinae_of_Canada_Diptera_Stratiomyidae/links/5ffe0230299bf140888f8411/Soldier-flies-of-the-subfamily-Pachygastrinae-of-Canada-Diptera-Stratiomyidae.pdf,,Pachygaster,Stratiomyidae,TRUE,588075,124321
+Stratiomyidae,Praomyia,"wooddecomp, vegbore",,decomp,https://nora.nerc.ac.uk/id/eprint/7447/1/LargerBrachycera.pdf,,Pachygaster,Stratiomyidae,TRUE,588075,124321
+Stratiomyidae,Ptecticus,"vegdecomp, garbage, fungi",,decomp,https://repository.si.edu/bitstream/handle/10088/16941/1/USNMP-121_3569_1967.pdf,,Ptecticus,Stratiomyidae,TRUE,340290,343648
+Stratiomyidae,Stratiomyia,aquatic,,aquatic,https://essig.berkeley.edu/documents/cis/cis06_5.pdf,subgenus of stratiomys,Stratiomys,Stratiomyidae,TRUE,494189,219520
+Stratiomyidae,Stratiomys,aquatic,,aquatic,https://essig.berkeley.edu/documents/cis/cis06_5.pdf,,Stratiomys,Stratiomyidae,TRUE,494189,219520
+Stratiomyidae,Zabrachia,wooddecomp,wood,decomp,https://www.researchgate.net/profile/Linley-Sherin-2/publication/348418706_Soldier_flies_of_the_subfamily_Pachygastrinae_of_Canada_Diptera_Stratiomyidae/links/5ffe0230299bf140888f8411/Soldier-flies-of-the-subfamily-Pachygastrinae-of-Canada-Diptera-Stratiomyidae.pdf,,Zabrachia,Stratiomyidae,TRUE,4447787,1891525
+Synneuridae,Synneuron,wooddecomp,wood,decomp,desouzaamorimCretaceousEoceneFossils,,,,FALSE,,
+Syrphidae,Blera,"sap, wooddecomp",,multi,ferrar,,Blera,Syrphidae,TRUE,1011661,226146
+Syrphidae,Brachyopa,"wooddecomp, sap",,multi,ferrar,,Brachyopa,Syrphidae,TRUE,4359871,1637464
+Syrphidae,Callicera,"sap, wooddecomp",,multi,ferrar,,Callicera,Syrphidae,TRUE,918825,228567
+Syrphidae,Chelilosia,"vegbore, sap, wooddecomp, fungi",,multi,ferrar,,Cheilosia,Syrphidae,TRUE,76731,173981
+Syrphidae,Chrysogaster,pond margins,,aquatic,ferrar,,Chrysogaster,Syrphidae,TRUE,385244,224248
+Syrphidae,Copestylum,"pitcherplants, vegdecomp",,multi,ferrar,,Copestylum,Syrphidae,TRUE,757880,511142
+Syrphidae,Epistrophe,predacious on homoptera,carn,animal,ferrar,,Epistrophe,Syrphidae,TRUE,1067349,414810
+Syrphidae,Eriozona,predacious on homoptera,carn,animal,ferrar,,Eriozona,Syrphidae,TRUE,289909,414724
+Syrphidae,Eristalis,"endopar, dung, sewage, pond margins, wooddecomp",,multi,ferrar,,Eristalis,Syrphidae,TRUE,621266,198633
+Syrphidae,Eumerus,veg,veg,plant,ferrar,,Eumerus,Syrphidae,TRUE,335964,224220
+Syrphidae,Hammerschmidtia,wooddecomp,wood,decomp,ferrar,,Hammerschmidtia,Syrphidae,TRUE,434832,226171
+Syrphidae,Mallota,wooddecomp,wood,decomp,ferrar,,Mallota,Syrphidae,TRUE,4358979,535942
+Syrphidae,Melangyna,predacious on homoptera,carn,animal,ferrar,,Melangyna,Syrphidae,TRUE,541060,414825
+Syrphidae,Merocarcus,wooddecomp,wood,decomp,ferrar,,,,FALSE,,
+Syrphidae,Merodon,veg,veg,plant,ferrar,,Merodon,Syrphidae,TRUE,914018,224226
+Syrphidae,Metasyrphus,veg,veg,plant,scottEffectHungerAllocation1990,aka Eupeodes,Metasyrphus,Syrphidae,TRUE,379801,415931
+Syrphidae,Microdon,ant nests,nest,nest,ferrar,,Microdon,Syrphidae,TRUE,520158,115291
+Syrphidae,Myathropa,wooddecomp,wood,decomp,ferrar,,,,FALSE,,
+Syrphidae,Myolepta,wooddecomp,wood,decomp,ferrar,,Myolepta,Syrphidae,TRUE,4359170,1473716
+Syrphidae,Neoascia,dung,dung,decomp,ferrar,,Neoascia,Syrphidae,TRUE,335962,224222
+Syrphidae,Nothomicrodon,placed in other family,,,,,Nothomicrodon,Syrphidae,TRUE,4359056,1857748
+Syrphidae,Ocyptamus,predacious on homoptera,carn,animal,ferrar,,Ocyptamus,Syrphidae,TRUE,911867,369855
+Syrphidae,Ornidia,"carrion, secondary detritivore",,decomp,martinsBreedingOrnidiaObesa2010,confirmed for obesa,Ornidia,Syrphidae,TRUE,4358571,994473
+Syrphidae,Pandasyopthalmus,veg,veg,plant,mizunoFoodUtilizationAphidophagous1997,subgenus of Paragus,Pandasyopthalmus,Syrphidae,TRUE,822296,115310
+Syrphidae,Paragus,predacious on homoptera,carn,animal,ferrar,,Paragus,Syrphidae,TRUE,973598,115308
+Syrphidae,Pipiza,predacious on homoptera,carn,animal,ferrar,,Pipiza,Syrphidae,TRUE,440729,221788
+Syrphidae,Scaeva,veg,veg,plant,reemerScaevaDignotaReared2007,,Scaeva,Syrphidae,TRUE,1070427,219538
+Syrphidae,Sphaerophoria,veg,veg,plant,callanLarvaeSphaerophoriaPredators1955,,Sphaerophoria,Syrphidae,TRUE,419870,226179
+Syrphidae,Syritta,"dung, vegdecomp, wooddecomp",,decomp,ferrar,,Syritta,Syrphidae,TRUE,816783,34681
+Syrphidae,Syrphus,predacious on homoptera,carn,animal,ferrar,,Syrphus,Syrphidae,TRUE,910488,224255
+Syrphidae,Temnostoma,wood,wood,decomp,ferrar,,Temnostoma,Syrphidae,TRUE,960634,226164
+Syrphidae,Toxomerus,"veg, predacious on homoptera",,multi,ferrar,"politus is veg, others are predacious on homoptera",Toxomerus,Syrphidae,TRUE,577315,115327
+Syrphidae,Volucella,"hymenoptera nests, locust eggs, vegdecomp",,multi,ferrar,,Volucella,Syrphidae,TRUE,1011656,226148
+Syrphidae,Xanthogramma,ant nests,nest,nest,ferrar,,Xanthogramma,Syrphidae,TRUE,1016982,414873
+Tabanidae,Apatolestes,damp soil,soil,decomp,burger,comastes soil,Apatolestes,Tabanidae,TRUE,4454590,428062
+Tabanidae,Atylotus,"lentic, veg",,multi,burger,incisuralis is lentic veg,Atylotus,Tabanidae,TRUE,4452651,1310336
+Tabanidae,Bolbodimyia,"aquatic, veg, lotic",,multi,burger,atrata lotic,Bolbodimyia,Tabanidae,TRUE,4454285,1547386
+Tabanidae,Catachlorops,"lotic, sand, on roots",,multi,ferreiraMorphologyBionomyImmature2019,confirmed for rufescens,Catachlorops,Tabanidae,TRUE,4454329,1547373
+Tabanidae,Chrysops,"lentic, soil",,multi,burger,pachycerus var hungerfordi and virgulatus and facialis are lentic,Chrysops,Tabanidae,TRUE,724021,27458
+Tabanidae,Esenbeckia,damp soil,soil,decomp,burger,delta damp soil,Esenbeckia,Tabanidae,TRUE,932511,124297
+Tabanidae,Fidena,"lentic, veg",,multi,zillikensAquaticLarvaePupae2005,,Fidena,Tabanidae,TRUE,4453534,1334907
+Tabanidae,Goniops,on soil covered by leaves,soil,decomp,schwardtBiologicalNotesGoniops1934,,Goniops,Tabanidae,TRUE,4453474,428065
+Tabanidae,Haematopota,moist soil,soil,decomp,andreevaNewContributionInformation2009,confirmed for pallens bozdagensis,Haematopota,Tabanidae,TRUE,152993,124311
+Tabanidae,Heptatoma,"aquatic, soil",,multi,andreevaMorphologicalAdaptationsHorse1989,,,,,,
+Tabanidae,Hybomitra,lentic,lentic,aquatic,burger,sonomensis var phaenops and opaca and fulvilateralis lentic,Hybomitra,Tabanidae,TRUE,438366,124690
+Tabanidae,Leucotabanus,wooddecomp,wood,decomp,burger,ambiguus wooddecomp,Leucotabanus,Tabanidae,TRUE,4453229,1969939
+Tabanidae,Silvius,"lotic, moist places",,aquatic,burger,quadrivittatus lotic,Silvius,Tabanidae,TRUE,780928,415257
+Tabanidae,Stenotabanus,,,,,aka aegialomyia,Stenotabanus,Tabanidae,TRUE,4454397,1547430
+Tabanidae,Tabanus,"aquatic, lentic, lotic, soil",,multi,burger,"punctifer, subsimilis, pruinosus, subsimilis, similis, and mogollon are lentic. dietrichi is lentic veg. caenosus is lentic soil. boharti abditus lotic. dorsifer and punctifer lotic. gilanus mogollon lotic. gilanus soil",Tabanus,Tabanidae,TRUE,555816,7206
+Tachinidae,Acemyia,endopar,endo,internal,ferrar,,Acemya,Tachinidae,TRUE,4380813,1677647
+Tachinidae,Anthomyiopsis,endopar,endo,internal,ferrar,,Anthomyiopsis,Tachinidae,TRUE,4386731,1918198
+Tachinidae,Anthontuiosus,endopar,endo,internal,ferrar,,,,FALSE,,
+Tachinidae,Archytas,endopar,endo,internal,ferrar,,Archytas,Tachinidae,TRUE,621269,198637
+Tachinidae,Aulacephala,endopar,endo,internal,ferrar,,Aulacephala,Tachinidae,TRUE,4383279,
+Tachinidae,Billaea,endopar,endo,internal,ferrar,,Billaea,Tachinidae,TRUE,479622,701468
+Tachinidae,Blepharomyia,endopar,endo,internal,ferrar,,Blepharomyia,Tachinidae,TRUE,1089723,179434
+Tachinidae,Blondelia,endopar,endo,internal,ferrar,,Blondelia,Tachinidae,TRUE,517726,179437
+Tachinidae,Carinosillus,endopar,endo,internal,ferrar,,Ateloglossa,Tachinidae,TRUE,4380579,1890907
+Tachinidae,Clausicella,endopar,endo,internal,ferrar,,Clausicella,Tachinidae,TRUE,4382615,1718822
+Tachinidae,Cleonice,endopar,endo,internal,ferrar,,Cleonice,Tachinidae,TRUE,4381311,1918224
+Tachinidae,Cyrtophleba,endopar,endo,internal,ferrar,,Cyrtophleba,Tachinidae,TRUE,552983,991141
+Tachinidae,Dexia,endopar,endo,internal,ferrar,,Dexia,Tachinidae,TRUE,1007244,569033
+Tachinidae,Dichaetoneura,endopar,endo,internal,ferrar,,Neaera,Tachinidae,TRUE,315309,695903
+Tachinidae,Dinera,endopar,endo,internal,ferrar,,Dinera,Tachinidae,TRUE,1007223,569035
+Tachinidae,Drino,endopar,endo,internal,ferrar,,Drino,Tachinidae,TRUE,1039328,179459
+Tachinidae,Ectophasia,endopar,endo,internal,ferrar,,Ectophasia,Tachinidae,TRUE,1007228,569037
+Tachinidae,Elomyia,endopar,endo,internal,ferrar,,Elomyia,Tachinidae,TRUE,4387145,1562792
+Tachinidae,Ernestia,endopar,endo,internal,ferrar,,,,,,
+Tachinidae,Estheria,endopar,endo,internal,ferrar,,Estheria,Tachinidae,TRUE,4384223,1918238
+Tachinidae,Eutheresia,endopar,endo,internal,ferrar,,Billaea,Tachinidae,TRUE,479622,701468
+Tachinidae,Exorista,endopar,endo,internal,ferrar,,Exorista,Tachinidae,TRUE,637588,113238
+Tachinidae,Glaurocara,endopar,endo,internal,ferrar,,Glaurocara,Tachinidae,TRUE,4387474,2027854
+Tachinidae,Istochaeta,endopar,endo,internal,ferrar,,,,FALSE,,
+Tachinidae,Leschenaultia,endopar,endo,internal,ferrar,,Leschenaultia,Tachinidae,TRUE,362151,179486
+Tachinidae,Lydella,endopar,endo,internal,ferrar,,Lydella,Tachinidae,TRUE,426221,283929
+Tachinidae,Macquartia,endopar,endo,internal,ferrar,,Macquartia,Tachinidae,TRUE,4385939,1918266
+Tachinidae,Metacemyia,endopar,endo,internal,ferrar,,Metacemyia,Tachinidae,TRUE,4386574,
+Tachinidae,Milada,endopar,endo,internal,ferrar,,Milada,Tachinidae,TRUE,4384310,
+Tachinidae,Mintho,endopar,endo,internal,ferrar,,Mintho,Tachinidae,TRUE,4386609,1918277
+Tachinidae,Nemoraea,endopar,endo,internal,ferrar,,Nemoraea,Tachinidae,TRUE,644,170911
+Tachinidae,Parasetigena,endopar,endo,internal,ferrar,,Parasetigena,Tachinidae,TRUE,1062506,380521
+Tachinidae,Phryxe,endopar,endo,internal,ferrar,,Phryxe,Tachinidae,TRUE,251144,569079
+Tachinidae,Phytomyptera,endopar,endo,internal,ferrar,,Phytomyptera,Tachinidae,TRUE,991468,179785
+Tachinidae,Prosena,endopar,endo,internal,ferrar,,Prosena,Tachinidae,TRUE,4381548,1918293
+Tachinidae,Pseudoperichaeta,endopar,endo,internal,ferrar,,Pseudoperichaeta,Tachinidae,TRUE,951856,283931
+Tachinidae,Spathimeigenia,endopar,endo,internal,ferrar,,Vibrissina,Tachinidae,TRUE,880986,179525
+Tachinidae,Sturmia,endopar,endo,internal,ferrar,,Sturmia,Tachinidae,TRUE,671828,569089
+Tachinidae,Therobia,endopar,endo,internal,ferrar,,Therobia,Tachinidae,TRUE,4382000,1918313
+Tachinidae,Zaira,endopar,endo,internal,ferrar,,Zaira,Tachinidae,TRUE,991480,179789
+Tanyderidae,Araucoderus,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Araucoderus,Tanyderidae,TRUE,4512934,1549737
+Tanyderidae,Mischoderus,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Mischoderus,Tanyderidae,TRUE,4513164,560267
+Tanyderidae,Protoplasa,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Protoplasa,Tanyderidae,TRUE,460640,560776
+Tanypezidae,Tanypeza,,,,,,Tanypeza,Tanypezidae,TRUE,4425637,1692486
+Tendipedidae,Tendipes,lentic,lentic,aquatic,kajakEffectExperimentallyInduced1963,,Chironomus,Chironomidae,FALSE,269685,7150
+Tephritidae,Bactrocera,fruit,fruit,plant,Aluja2000FruitFliesTephritidae,,Bactrocera,Tephritidae,TRUE,150620,27456
+Tephritidae,Cerajocera,vegbore,,plant,,subgenus of terellia,Cerajocera,Tephritidae,TRUE,592277,474860
+Tephritidae,Ceratitis,fruitbore,fruit,plant,Aluja2000FruitFliesTephritidae,,Ceratitis,Tephritidae,TRUE,34901,7212
+Tephritidae,Euleia,miner,miner,plant,Aluja2000FruitFliesTephritidae,,Euleia,Tephritidae,TRUE,801867,28591
+Tephritidae,Eurosta,gall former,gall,plant,https://onlinelibrary.wiley.com/doi/full/10.1034/j.1600-0706.2003.11738.x,,Eurosta,Tephritidae,TRUE,801869,28593
+Tephritidae,Gymnocarena,flower heads,flower,plant,https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C1DF5A3EC7310463602C97B66DEB7187/S0008347X12000259a.pdf/new-species-of-gymnocarena-diptera-tephritidae-from-eastern-north-america-and-guatemala-and-the-redescription-of-g-mississippiensis.pdf,,Gymnocarena,Tephritidae,TRUE,801873,28597
+Tephritidae,Icterica,flower heads,flower,plant,https://academic.oup.com/aesa/article-abstract/60/6/1295/95413,,Icterica,Tephritidae,TRUE,801865,28599
+Tephritidae,Jamesomyia,in flower heads,flower,plant,Aluja2000FruitFliesTephritidae,,Jamesomyia,Tephritidae,TRUE,1057210,28601
+Tephritidae,Oplocheta,in flower heads,flower,plant,Aluja2000FruitFliesTephritidae,aka noeeta,Noeeta,Tephritidae,TRUE,188417,381362
+Tephritidae,Oxyna,gall former,gall,plant,Aluja2000FruitFliesTephritidae,,Oxyna,Tephritidae,TRUE,21093,381365
+Tephritidae,Paracantha,in thistle flowers,flower,plant,Aluja2000FruitFliesTephritidae,,Paracantha,Tephritidae,TRUE,786485,164885
+Tephritidae,Procecidochards,"gall former, veg",,plant,Aluja2000FruitFliesTephritidae,minuta: gall former,Procecidochares,Tephritidae,TRUE,1057216,28607
+Tephritidae,Rhabdochaeta,flower heads,flower,plant,Aluja2000FruitFliesTephritidae,,Rhabdochaeta,Tephritidae,TRUE,4405129,
+Tephritidae,Rhagoletis,fruitbore,fruit,plant,Aluja2000FruitFliesTephritidae,sauvis: walnuts,Rhagoletis,Tephritidae,TRUE,1057208,28609
+Tephritidae,Tephritis,in flower heads,flower,plant,Aluja2000FruitFliesTephritidae,,Tephritis,Tephritidae,TRUE,660192,43386
+Tephritidae,Terellia,flower heads,flower,plant,Aluja2000FruitFliesTephritidae,,Terellia,Tephritidae,TRUE,700738,28615
+Tephritidae,Trupanea,flower heads,flower,plant,Aluja2000FruitFliesTephritidae,,Trupanea,Tephritidae,TRUE,116714,30060
+Tephritidae,Urophora,gall former,gall,plant,Aluja2000FruitFliesTephritidae,,Urophora,Tephritidae,TRUE,1007129,28620
+Tephritidae,Xyphosia,burrows in flower heads,flower,plant,https://www.jstor.org/stable/pdf/3838390.pdf?refreqid=excelsior%3A3c806424d76e54799226885523c31bf3&ab_segments=&origin=,,Xyphosia,Tephritidae,TRUE,762579,381372
+Tephritidae,Zonosemata,fruitbore,fruit,plant,Aluja2000FruitFliesTephritidae,,Zonosemata,Tephritidae,TRUE,543922,28622
+Teratomyzidae,Auster,veg crawl,,multi,ferrar,,Auster,Teratomyzidae,TRUE,4395499,
+Tetanoceridae,Dictya,aquatic,,aquatic,chapmanParallelEvolutionLarval2006,,Dictya,Sciomyzidae,FALSE,360701,1096051
+Tetanoceridae,Sepedon,aquatic,,aquatic,chapmanParallelEvolutionLarval2006,,Sepedon,Sciomyzidae,FALSE,162441,320954
+Thaumaleidae,Afrothaumalea,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Afrothaumalea,Thaumaleidae,TRUE,4467619,
+Thaumaleidae,Androprosopa,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Androprosopa,Thaumaleidae,TRUE,800106,41815
+Thaumaleidae,Austrothaumalea,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Austrothaumalea,Thaumaleidae,TRUE,148796,1085085
+Thaumaleidae,Neothaumalea,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,,,FALSE,,
+Thaumaleidae,Niphta,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Niphta,Thaumaleidae,TRUE,4467615,
+Thaumaleidae,Thaumalea,aquatic,,aquatic,wiegmannEpisodicRadiationsFly2011,,Thaumalea,Thaumaleidae,TRUE,235942,61068
+Therevidae,Thereva,dry leaf litter,,decomp,jedlickaChecklistDipteraCzech2009,,Thereva,Therevidae,TRUE,350963,95078
+Tipulidae,Antocha,lotic,lotic,aquatic,https://www.mapress.com/zootaxa/2014/f/z03900p126f.pdf,,Antocha,Limoniidae,FALSE,331983,454619
+Tipulidae,Ctenophora,wooddecomp,wood,decomp,https://www.jstor.org/stable/3018#metadata_info_tab_contents,,Ctenophora,Tipulidae,TRUE,1043126,516519
+Tipulidae,Dictenidia,wooddecomp,wood,decomp,https://www.jstor.org/stable/3018#metadata_info_tab_contents,,Dictenidia,Tipulidae,TRUE,4511923,2108369
+Tipulidae,Limonia,"algae, roots, aquatic",,multi,https://www.jstor.org/stable/3492715#metadata_info_tab_contents,,Limonia,Limoniidae,FALSE,949335,52743
+Tipulidae,Liogma,"moss, veg, crawl",,plant,https://watermark.silverchair.com/zlaa177.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAtUwggLRBgkqhkiG9w0BBwagggLCMIICvgIBADCCArcGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMsavWwxKbqPvFIncCAgEQgIICiK09ZpbaHE3XbRG1ThNMUk5vBqu2zRHZ8Q6tkH4tBxylKyRf8qU7yIWOLLA6ldeOzurBm5viUuOFyBWEQeROn_D31-HxCCPVAzPkPeu91ndyFjyyT0sVNSDALwLDyveRmYl77Jz94Bx23pTrVkazSi7CyJb0Oic8ZXkTDZEik9M0794-_51wANnVSS2xnkPyfnVHUYfEJAIxsRDnsroE65rdYUbhDOqoYb_rmdGCwUWrfK5uXnoN96Q4jdArQfbpUk01TTkLmeJLGqJIIcK68Uy-kDCrqq_-sszslmk8dcRtlDziS-mbTM5CvK0c4Ixcsmz78GM5xzVnSIVHQdqyKOpUmqfgwV2UNBorz_tkKOcwqs5ax996ri_3ahGVpdryIiXNMOD9h2yAyafyeTAJ9lrttsaOphRdUGIkWVjEJd1uxJz5GSRFCqBoZtQ55rO05VVyluSdSbndcajd3we39Kpp6iGaXeuIAdkWZzfR0tz7AwDjjloGIg8-BSiFi3BDfMBPTf3mrmUkVVyZIDMS5c0pwktVOOQ6TieCVnFFR032rsb_uYjIz7iRdeekA76wmwejqx29I24D10zZcWzWlmhfKvwuqaJ90fiakXkvPElLf0mARR6Fj8Cu3ngoXOgxgixneTOmRNnj8S6vty9BNqo1zES5TvMj_GRzjjgzA-Gr5Brcj1FD9PkGoUxp0T-tzS1P_yIAgRkM8RO9-Rx0BO5echvo3zF7C8IRLJzVGomI8BeMqx0jrsDSnLhQ9EQAtOqucxg4mg48BPnq11ujWbimvK08pgSiCsNF5jdz2VuVobWyxMUwSrvjVGsTsqEgQ7zd_qPamU9jrOY59kHl-EA0YGXFqLIuVQ,,Liogma,Cylindrotomidae,FALSE,561301,560731
+Tipulidae,Lipsothrix,"wooddecomp, lotic, wood",,multi,https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2427.1987.tb01065.x?casa_token=zBCh997w2oUAAAAA:uHi5LVcKHGUfPoiksJkS1dnlQZIY6Aj9mP-KTfsHI9ApCXeTEzqIQs89OA4Dv3PxGmW7-h-pA2OzPA,,Lipsothrix,Limoniidae,FALSE,278553,700849
+Tipulidae,Nephrotoma,wet soil,soil,decomp,https://www.jstor.org/stable/pdf/3018.pdf?refreqid=excelsior%3A79f1624d898b6f58b5096ca5f5dd9ae5&ab_segments=&origin=,,Nephrotoma,Tipulidae,TRUE,144495,46210
+Tipulidae,Oropeza,moss,moss,plant,https://deepblue.lib.umich.edu/bitstream/handle/2027.42/56959/OP521.pdf?sequence=1,,,,FALSE,,
+Tipulidae,Pedicia,lotic,lotic,aquatic,http://www.egejfas.org/en/download/article-file/1208947,,Pedicia,Pediciidae,FALSE,477633,472374
+Tipulidae,Prionocera,"wood, wooddecomp",wood,decomp,http://www.entomologi.no/journals/nje/2016-2/pdf/nje-vol63-no2-131-139-hofsvang.pdf,,Prionocera,Tipulidae,TRUE,4512617,1690388
+Tipulidae,Tanyptera,wooddecomp,wood,decomp,http://www.entomologi.no/journals/nje/2016-2/pdf/nje-vol63-no2-131-139-hofsvang.pdf,,Tanyptera,Tipulidae,TRUE,275279,2108371
+Tipulidae,Tipula,"wet soil, lotic",,multi,,,Tipula,Tipulidae,TRUE,990415,41043
+Trichoceridae,Trichocera,sewage,,decomp,potockaTrichoceraMaculipennisDiptera2018,,Trichocera,Trichoceridae,TRUE,373195,52759
+Ulidiidae,Chaetopsis,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,"general family notes: decomp, sometimes veg from tephritidae book",Chaetopsis,Ulidiidae,TRUE,660723,240871
+Ulidiidae,Euxesta,veg,veg,plant,wiegmannEpisodicRadiationsFly2011,,Euxesta,Ulidiidae,TRUE,804871,286468
+Vermileonidae,Vermileo,,,,,,Vermileo,Vermileonidae,TRUE,15488,124333
+Xylophagidae,Coenomyia,,,,,,Coenomyia,Xylophagaidae,FALSE,536484,124305
+Xylophagidae,Exeretonevra,,,,,,Exeretonevra,Xylophagaidae,FALSE,243452,560723
+Xylophagidae,Xylophagus,,,,,,Xylophagus,Xylophagaidae,FALSE,745824,219493

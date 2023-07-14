@@ -1,0 +1,337 @@
+---
+title: "Obtaining a phylogenetic dataset for phylogeny of larval Diptera"
+output: html_notebook
+---
+
+We started by creating a data set of larval traits for Diptera from the literature, with records by genus. 
+
+Next, we used [TaxReformer](https://github.com/brunoasm/TaxReformer) to update these genus names based on Open Tree Taxonomy and search them on NCBI.
+
+We then used [phylotaR](https://docs.ropensci.org/phylotaR/) to download othologous loci for phylogenetic inference. Finally, we will process phylotaR output to retrieve an alignment.
+```{r}
+library(phylotaR)
+library(tidyverse)
+```
+# Downloading data
+
+Now let's load the dataframe updated by TaxReformer and pull taxonomic IDs.
+```{r}
+ncbi_ids = read_csv('updated_cuticle_papers_taxa.csv') %>%
+  pull(`NCBI ID`) %>%
+  na.exclude() %>%
+  as.numeric()
+
+head(ncbi_ids)
+```
+
+Now let's setup phylotaR. Commented out parts have been done using an Rscript in a batch job since they fail in Rstudio.
+```{r}
+workdir = './phylotar/'
+
+dir.create(workdir, showWarnings = F)
+blast_path ='/opt/homebrew/Cellar/blast/2.13.0/bin'
+#setup(wd = workdir,
+#      txid = ncbi_ids,
+#      ncbi_dr = blast_path,
+#      v = F,
+#      ncps = 4
+#      )
+```
+
+And let's run
+```{r}
+#run(workdir)
+#restart(workdir)
+```
+
+# Extracting data from phylotaR
+
+Now that the pipeline is completed, we can load the phylotar object to inspect the results. Commented out parts have been done using an Rscript in a batch job since they fail in Rstudio. First, let's keep the 3 longest sequences for each genus.
+
+```{r}
+#phylo = read_phylota(workdir)
+#phylo_genus = drop_by_rank(phylo,rnk = 'genus', keep_higher = FALSE, n = 3, choose_by = c('nncltds','pambgs','age'), greatest = c(T,F,F))
+```
+
+Now let's find which clusters had more than 20 genera
+```{r}
+#clusters_over_20 = names(which(get_ntaxa(phylo_genus,cid = phylo_genus@cids, rnk='genus',keep_higher=FALSE) > 20))
+#clusters_over_20 
+```
+This was the output:
+```
+> clusters_over_20 
+ [1] "0"    "9"    "10"   "12"   "13"   "16"   "63"   "129"  "137"  "138" 
+[11] "141"  "176"  "177"  "203"  "204"  "409"  "504"  "1065" "3194" "3432"
+```
+
+Now let's retain only these clusters and save the phylotaR object. It was still impossible to read this object in Rstudio, so we will keep commenting out.
+
+```{r}
+#phylo_genus_20 = drop_clstrs(phylo_genus,clusters_over_20)
+#save(phylo_genus_20, file='phylo_genus.RData')
+#load('phylo_genus.RData')
+```
+
+
+Now let's see which are the terms associated with each cluster:
+```{r}
+#calc_wrdfrq(phylo_genus_20, cid = phylo_genus_20@cids,min_frq=0.01) %>% purrr::map_dfr(.id='CID', .f = ~broom::tidy(.x)) %>% write_csv(file = 'tables/cluster_terms.csv')
+
+read_csv('tables/cluster_terms.csv')
+
+```
+
+These seem to be the gene identities:
+
+```{r}
+gene_identities = tibble(CID = c(0,9,10,12,13,16,63,129,137,138,141,176,177,203,204,409,504,1065,3194,3432),
+                         gene = c("COI",
+"28S",
+"COI",
+"12S+16S",
+"COI",
+"COI",
+"NADH",
+"COI",
+"COI",
+"EF1a",
+"18S",
+"CAD",
+"CAD",
+"28S",
+"28S",
+"AATS",
+"TPI",
+"PGD",
+"MAC",
+"MCS"))
+gene_identities
+```
+
+So this means that some clusters correspond to the same gene: maybe they are just different regions. Let's extract sequence information for all clusters and align the same genes together, and we can filter them out later based on the overlap with the rest of the dataset.
+
+Let's now extract all sequences from the phylotaR object into a table so we can write fasta files.
+
+Let's start by listing sequence accessions and taxonomic IDs for each cluster
+```{r}
+#cluster_seqs = phylo_genus_20@clstrs@clstrs %>% purrr::map_dfr(.id = 'CID', .f = ~tibble(ncbi_accession = .x@sids))
+#write_csv(cluster_seqs,file='tables/cluster_seqs.csv')
+```
+
+Now let's make another table with sequences and their associated information
+```{r}
+#seq_info = phylo_genus_20@sqs@sqs %>% purrr::map_df(.f = ~tibble(ncbi_accession = .x@id, ncbi_taxid = .x@txid, ncbi_organism = .x@orgnsm, seq_name = .x@dfln, seq = rawToChar(.x@sq)))
+#write_csv(seq_info,file='tables/seq_info.csv')
+```
+
+Finally, let's make a table with taxonomic information
+
+```{r}
+# tax_info = seq_info %>% 
+#   select(ncbi_taxid) %>% 
+#   distinct() %>% 
+#   mutate(ncbi_tax_name = get_tx_slot(phylo_genus_20, 
+#                                        txid = ncbi_taxid, 
+#                                        slt_nm = 'scnm'),
+#          ncbi_genus_id = get_txids(phylo_genus_20, 
+#                                    txids = ncbi_taxid, 
+#                                    rnk = 'genus'),
+#          ncbi_genus_name = get_tx_slot(phylo_genus_20, 
+#                                        txid = ncbi_genus_id, 
+#                                        slt_nm = 'scnm'),
+#          ncbi_family_id = get_txids(phylo_genus_20, 
+#                                    txids = ncbi_taxid, 
+#                                    rnk = 'family'),
+#          ncbi_family_name = get_tx_slot(phylo_genus_20, 
+#                                        txid = ncbi_family_id, 
+#                                        slt_nm = 'scnm'),
+#          )
+# write_csv(tax_info,file='tables/tax_info.csv')
+```
+
+# Checking dataset
+
+Now we have everything out of phylotaR. We can load tables and work in Rstudio.
+
+```{r}
+cluster_seqs = read_csv(file='tables/cluster_seqs.csv')
+cluster_seqs
+```
+
+```{r}
+seq_info = read_csv(file='tables/seq_info.csv')
+seq_info 
+```
+
+```{r}
+tax_info = read_csv(file='tables/tax_info.csv')
+tax_info 
+```
+
+Now let's pull our table with samples for which we have phenotypes, so we can combine everything:
+
+```{r}
+phenotype_table = read_csv('updated_cuticle_papers_taxa.csv')
+phenotype_table
+```
+
+## How many genera are represented by at least one sequence for each gene?
+
+First, let's create the table that I need for this. We will first summarize the data that we got with phylotaR and then add the genera missing from phylotaR:
+```{r}
+occ_matrix = cluster_seqs %>% 
+  left_join(gene_identities) %>% 
+  left_join(tax_info) %>%
+  select(ncbi_genus_id,ncbi_genus_name,ncbi_family_name,gene) %>%
+  distinct() %>%
+  mutate(ncbi_genus_name = factor(ncbi_genus_name, ordered = T),
+         gene = fct_infreq(gene, ordered = T),
+         sequenced = T
+         ) 
+
+occ_matrix = expand(occ_matrix, ncbi_genus_name, gene) %>%
+  left_join(select(occ_matrix,ncbi_genus_name, gene, sequenced))
+
+missing_genera = phenotype_table %>%
+  select(ncbi_genus_name = updated_genus) %>%
+  filter(!(ncbi_genus_name %in% occ_matrix$ncbi_genus_name)) %>%
+  na.exclude() %>%
+  pull(ncbi_genus_name) %>%
+  unique()
+  
+occ_matrix = expand.grid(ncbi_genus_name = missing_genera, 
+                         gene = unique(occ_matrix$gene)) %>%
+  mutate(sequenced = F) %>%
+  bind_rows(mutate(occ_matrix, ncbi_genus_name = as.character(ncbi_genus_name))) %>%
+   mutate(sequenced = replace_na(sequenced, FALSE),
+         ncbi_genus_name = fct_reorder(ncbi_genus_name,sequenced,.fun = sum,.desc = F)) 
+
+occ_matrix
+
+```
+
+
+
+Now let's plot
+```{r}
+p1 = ggplot(occ_matrix) +
+  geom_tile(aes(x=gene,y=ncbi_genus_name,fill=sequenced)) +
+  scale_fill_brewer(type = 'qual',palette = 'Spectral') +
+  theme(axis.text.y = element_text(size = 3),
+        axis.text.x = element_text(hjust = 1,angle = 30))
+p1
+```
+```{r}
+p2 = occ_matrix %>%
+  group_by(ncbi_genus_name) %>%
+  summarize(sequenced = mean(sequenced)) %>%
+  ggplot() +
+  geom_col(aes(x=sequenced,y=ncbi_genus_name)) +
+  scale_x_continuous(labels =  scales::percent, limits = c(0,1)) +
+  ggthemes::theme_tufte() +
+  theme(axis.text.y = element_blank(),
+        axis.title.y = element_blank(),
+        axis.line.y = element_blank(),
+        axis.ticks.y = element_blank()) 
+p2
+```
+
+```{r}
+p3 = occ_matrix %>%
+  group_by(gene) %>%
+  summarize(sequenced = mean(sequenced)) %>%
+  ggplot() +
+  geom_col(aes(x=gene,y=sequenced)) +
+  scale_y_continuous(labels =  scales::percent, limits = c(0,1)) +
+  ggthemes::theme_tufte() +
+  theme(axis.text.x = element_blank(),
+        axis.title.x = element_blank(),
+        axis.line.x = element_blank(),
+        axis.ticks.x = element_blank())
+p3
+```
+
+Now let's put everything together.
+```{r}
+p = cowplot::insert_xaxis_grob(p1,p3)
+p = cowplot::insert_yaxis_grob(p,p2)
+p = cowplot::ggdraw(p)
+ggsave(plot = p,filename = 'gene_occupancy.pdf',device = 'pdf',path = 'plots',height = 25)
+```
+
+What proportion of genera have at least one sequence for the 7 genes with better coverage?
+```{r}
+best_genes = occ_matrix %>%
+  group_by(gene) %>%
+  summarize(N=sum(sequenced))
+
+best_genes 
+
+genes_to_keep = best_genes$gene[1:7]
+
+occ_matrix %>%
+  filter(gene %in% genes_to_keep) %>%
+  group_by(ncbi_genus_name) %>%
+  summarize(any_sequenced = any(sequenced)) %>%
+  group_by(any_sequenced) %>%
+  summarize(N = n())
+```
+
+List genera without data.
+```{r}
+occ_matrix %>%
+  filter(gene %in% genes_to_keep) %>%
+  group_by(ncbi_genus_name) %>%
+  summarize(any_sequenced = any(sequenced)) %>%
+  filter(!any_sequenced) %>%
+  pull(ncbi_genus_name)
+```
+
+
+## Export sequences for alignment
+
+First, let's create lists with sequence information. For some reason, the taxonomic information in table cluster_seqs is incorrect, so let's remove it.
+
+```{r}
+gene_lists = select(cluster_seqs,-ncbi_taxid) %>%
+  left_join(gene_identities) %>%
+  filter(gene %in% genes_to_keep) %>%
+  left_join(seq_info) %>%
+  left_join(tax_info) %>%
+  mutate(export_seqname = str_c(str_c(ncbi_genus_name,'_',ncbi_genus_id),
+                         str_c(str_c('accession:',ncbi_accession),
+                               str_c('ncbi_family_name:',ncbi_family_name),
+                               str_c('ncbi_family_id:',ncbi_family_id),
+                               str_c('phylotaR_cluster:',CID),
+                               str_c('ncbi_seqname:',seq_name),
+                               sep=';'),
+                         sep = '|')
+         ) %>%
+  select(gene,seq,export_seqname) %>%
+  filter(!is.na(seq)) %>%
+  mutate(seqrecord=str_c(str_c('>',export_seqname),
+                         seq,sep='\n'))
+
+gene_lists = split(gene_lists, gene_lists$gene)
+
+gene_lists
+```
+
+Now let's create fasta files
+```{r}
+dir.create('exported_fasta')
+purrr::walk(gene_lists, .f = ~str_c(.x$seqrecord,collapse='\n') %>% write(file=file.path('exported_fasta',str_c(unique(.x$gene),'.fasta'))))
+```
+
+
+
+
+
+
+
+
+
+
+
+

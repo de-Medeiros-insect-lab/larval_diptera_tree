@@ -1,6 +1,30 @@
 # larval_diptera_tree
 Code and data used to create a tree to study larval Diptera evolution
 
+# Step 1 - phylotar
+
+folder phylotar
+
+# Step 2 - manually choose one per genus
+
+used phylotaR alingments, removed weird stuff
+
+folder sequences/clean_sequences
+
+# Step 3 - manually add additional taxa
+
+folder sequences/seq_added
+
+# Step 4 - alignments
+
+folder alignments
+
+MACSE for protein-coding
+UPP for ribosomal
+
+
+
+
 # Phylogeny tip name parsing
 The ultimate goal is to use these trees as family-level constraints. For that, the first step is to translate the tip names into family names. We did this using chatGPT version 4. Here is an example of the prompt used:
 
