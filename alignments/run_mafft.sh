@@ -8,6 +8,6 @@ for file in to_align/*.fasta
 do
   name=$(basename "$file")
   echo $name
-  mafft --genafpair --maxiterate 1000 --thread -1 "$file" > "aligned/${name%.*}_aligned.fasta" 
+  mafft --adjustdirection --genafpair --maxiterate 10000 --thread -1 "$file" > "aligned/${name%.*}_aligned.fasta" 
 done
 

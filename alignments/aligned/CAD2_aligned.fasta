@@ -95,7 +95,7 @@ tgcacaaagtttaagttcag----------------------------------------
 ------------------------------------------------------------
 -----------------------------------------
 >Acrocera_210245
------------------------agaatcaatgtcagatcgttcttatcgttcgcaaata
+a-----------------------gaatcaatgtcagatcgttcttatcgttcgcaaata
 cttgtcttaacttatccattaattggcaattatggaataccgtccacaacagaaaaagat
 aaatatggacttcctaaacacttggaatggtttaccgg---tatatcaatatcagcactt
 gttgtcggtgaagtatgtgagaaaccatcacattggagtcagaaaaaaacactttctaaa
@@ -398,7 +398,7 @@ aaagctggcac---taaaccaatttttggcatttgtttgggtcatcaattgctgtccaca
 gccattggctgtaaaacttttaaaatgaaatacggcaacagaggtcataatttaccctgc
 attcatcatggtacgg-gacgttgttttatgacgtcacaaaatcatggttttgcagttga
 taccgacacattacccattgattgggagcccttgtttacaaatgtcaatgacagcacaaa
-tgaaggt------------------------------------nnnnnnnnnnnnnnnnn
+tgaagg------------------------------------tnnnnnnnnnnnnnnnnn
 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnaggtattatacacaa
 acagaagccctatttctcagtacaattccatccagagcatacagctggtcctgaagattt
 ggagctgctatttgatgtgtttttaagtgaggtgaaaaatcaagaatcgcatggcgcttc
@@ -590,7 +590,7 @@ aaatcgggcat---gaaacctatctttggtatttgtttgggtcatcagttgctgtctact
 gccattggttgcaaaacatacaaaatgaaatacgggaacagaggtcacaatttaccttgt
 atacatcatggtactg-gacgttgttttatgacttcacaaaatcatggatttgctgtgga
 tactgaaacattaccatatgagtgggagcctttgttcactaatgccaatgatagtacaaa
-cgaaggt------------------------------------nnnnnnnnnnnnnnnnn
+cgaagg------------------------------------tnnnnnnnnnnnnnnnnn
 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnaggaataattcataa
 acaaaaaccctatttttcggttcaatttcacccggaacatacagctggtcctgaagatct
 tgaactcttattcgacgttttcttgaatgcagtgaaaactcaaaaactacatggagcatc
@@ -927,7 +927,7 @@ gcattggctaccctgttatggctagagcagccttttctttgggcggtttgggttctggat
 ttgctgacaatgaagatgagttggaaactttggccaagcatgccttagctcattccagtc
 aa---------------------------------------
 >Fergusonina_156411
--------ggatggttggctatccggaatcaatgacggatcgctcgtatcgttcgcaatta
+g-------gatggttggctatccggaatcaatgacggatcgctcgtatcgttcgcaatta
 ctcgttttgacatatccgttgattggcaattacggtgtaccaaatccattggagctggat
 gaatatggcatgccaaaatattttgaatggttcaacggtgacattgcagtgagtgcttta
 atagttggggaagtttgtgaacagccctctcattggggttcacactcgaccctttccgaa
@@ -1198,7 +1198,7 @@ aaatctggcaa---gaagccagtgtttggtatttgtttgggtcatcagttgttgtccacc
 gctattggttgcaaaacctacaaaatgaaatacggtaacagaggtcacaacttgccctgt
 atacatcatggtactg-gacgttgttatatgacttcacaaaatcacggttttgctgttga
 taccgaaactttgcctttggaatgggaccctttgttcaccaatgccaacgataataccaa
-tgaaggt-----------------------------------------------------
+tgaagg---------------------------------------t--------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1294,7 +1294,7 @@ aaatcgggcaa---gaaacctgtgtttggcatctgtttgggtcaccaattgttgtcctcg
 gctattggttgtcagacttataaaatgaaatacggcaatagaggtcataatttgccctgt
 atacatcatggcactg-ggcgttgttatatgacctcacaaaatcatggttttgctgtaga
 caccgccacgttgcctttggagtgggaacctttgtttaccaatgccaacgatagcaccaa
-tgaaggn------------------------------------nnnnnnnnnnnnnnnnn
+tgaagg------------------------------------nnnnnnnnnnnnnnnnnn
 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnntataatccacaa
 acagaaaccctatttctccgtacaattccatccagaacataccgcaggtcccgaagatct
 tgaactcttattcgatgtctttttgcaagcagtaaaaagtcaaaaagcccaaggagcctc

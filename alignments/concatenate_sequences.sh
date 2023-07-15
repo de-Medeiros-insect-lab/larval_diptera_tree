@@ -23,8 +23,9 @@ do
     # Loop over each file
     for file in $files
     do
-        # Remove everything in the sequence names starting with "|" and append to the temporary file
-        sed 's/|.*//' "$file" >> "$tmp_file"
+        # Use awk to ensure newline at the end of the file and to remove everything in the sequence names starting with "|"
+        # Also remove spaces from sequence names
+        awk 'END{print ""} {gsub(/\|.*$/, ""); gsub(/ /, ""); print}' "$file" >> "$tmp_file"
     done
 
     # Rename the temporary file
