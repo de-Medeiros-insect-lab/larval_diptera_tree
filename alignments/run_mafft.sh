@@ -1,13 +1,12 @@
 conda activate mafft
 
-mkdir -p aligned
-chmod 755 aligned
+mkdir -p aligned_mafft
+chmod 755 aligned_mafft
 
-
-for file in to_align/*.fasta
+for file in to_align/12S_16S.fasta  to_align/18S.fasta  to_align/28S.fasta 
 do
   name=$(basename "$file")
   echo $name
-  mafft --adjustdirection --genafpair --maxiterate 10000 --thread -1 "$file" > "aligned/${name%.*}_aligned.fasta" 
+  mafft  --genafpair --maxiterate 10000 --thread -1 "$file" > "aligned_mafft/${name%.*}_aligned.fasta" 
 done
 
