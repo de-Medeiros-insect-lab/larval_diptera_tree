@@ -14,14 +14,19 @@ do
 		    sed -i 's/!/-/g' "aligned/$base_name"
 	    done
 
-cp aligned_mafft/*.fasta aligned/
+for file in aligned_mafft/*.fasta; do 
+    if [[ $(basename "$file") != *_refs_* ]]; then
+        cp "$file" aligned/
+    fi
+done
 
-for rRNA_align in 12S_16S_aligned.fasta  18S_aligned.fasta  28S_aligned.fasta
+
+for rRNA_align in 18S_aligned.fasta  28S_aligned.fasta
 do
 	python trim_alignments.py -a aligned/$rRNA_align --coverage 0.2 --min-data 100 --min-seqs 4	
 done	
 
-for CDS_align in  AATS_aligned.fasta  CAD1_aligned.fasta  CAD2_aligned.fasta  COI_aligned.fasta  EF1a_aligned.fasta
+for CDS_align in 12S_16S_aligned.fasta AATS_aligned.fasta  CAD1_aligned.fasta  CAD2_aligned.fasta  COI_aligned.fasta  EF1a_aligned.fasta
 do
 	python trim_alignments.py -a aligned/$CDS_align --coverage 0.2 --min-data 100 --min-seqs 1
 done

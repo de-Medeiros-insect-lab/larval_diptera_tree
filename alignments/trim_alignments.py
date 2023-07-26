@@ -83,6 +83,7 @@ if __name__ == "__main__":
     parser.add_argument('-c','--coverage', help = 'minimum coverage on the edge of alignments', default = 0.2)
     parser.add_argument('-m','--min-data', help = 'minimum number of non-missing nucleotides to keep a sample', default = 100)
     parser.add_argument('-s','--min-seqs', help  = 'minimum number of non-gap sequences to keep a position in the middle of the alignment', default = 10)
+    parser.add_argument('-k','--keep-names', help = 'keep names as is. otherwise, we will remove _R_ added by mafft.', action = 'store_true')
 
     args = parser.parse_args()
 
@@ -111,6 +112,12 @@ if __name__ == "__main__":
         print('The following taxa were removed due to excess missing data:')
         print('\n'.join([taxon.label for taxon in taxa_to_drop]))
         new_alignment.remove_sequences(taxa_to_drop)
+
+    if args.keep_names is not True:
+        for taxon in new_alignment.taxon_namespace:
+            if taxon.label.startswith('_R_'):
+                taxon.label = taxon.label[3:]
+
         
     outpath = f'./{dirname(args.alignment)}/{basename(args.alignment).split(".")[0]}_trimmed.fasta'
     with open(outpath, 'w') as outfile:
