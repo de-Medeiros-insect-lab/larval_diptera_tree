@@ -20,10 +20,15 @@ folder sequences/seq_added
 folder alignments
 
 MACSE for protein-coding
-MAFFT for ribosomal. 
+MAFFT for ribosomal and mitocondrial. 
 
-Note: for rDNA, we noticed that alignments were very poor, apparently because unrelated regions were aligned. To mitigate this, we manually downloaded a reference sequence from Aedes spp. genomes and mitogenomes encompassing all of the alignment region. We first BLASTED genomes in NCBI, downloaded the BLAST regions and also flanking regions. We then used Geneious to map all of the sequences in our alignment to this extract, refining the region of interest to the are that haf any sequences mapping. We finally went back to the genome in NCBI and used BLAST with the original the exact region as query to extract a fasta file containing only the region of interest.
+Note: for rDNA, we noticed that alignments were very poor, apparently because unrelated regions were aligned. To mitigate this, we manually downloaded references sequences from genomes and mitogenomes encompassing all of the alignment region. We first BLASTED genomes in NCBI, downloaded the BLAST regions and also flanking regions. We then used Geneious to map all of the sequences in our alignment to this extract, refining the region of interest to the are that haf any sequences mapping. We finally went back to the genome in NCBI and used BLAST with the original the exact region as query to extract a fasta file containing only the region of interest.
 
+Because we had these full-length references, we used a two-step approach for these aligments: we first aligned the reference sequences, and then we added the other sequences ussing --addfragments option in mafft.
+
+# Step 5 - trimming and manual curation
+
+After alignments, we lightly trimmed alignments removing flanking regions with few data points. For 18S and 28S, we also trimmed regions with fewer than 4 sequences in the middle of alignments. For the other genes, we manually trimmed the middle in multiples of 3 to avoid frame shifts.
 
 
 # Phylogeny tip name parsing
