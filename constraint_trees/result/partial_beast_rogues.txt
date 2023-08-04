@@ -274,7 +274,6 @@
         <taxon idref="Rhyncomya_670621"/>
         <taxon idref="Piceacecis_2597495"/>
         <taxon idref="Stevenia_670627"/>
-        <taxon idref="Clitelloxenia_92530"/>
         <taxon idref="Hylemya_253328"/>
         <taxon idref="Allotrichoma_1492368"/>
         <taxon idref="Contarinia_153220"/>
@@ -297,7 +296,6 @@
         <taxon idref="Nephrocerus_115303"/>
         <taxon idref="Stegana_188292"/>
         <taxon idref="Volucella_226148"/>
-        <taxon idref="Australofannia_27472"/>
         <taxon idref="Eumerus_224220"/>
         <taxon idref="Gyrostigma_2555504"/>
         <taxon idref="Sylvicola_52753"/>
