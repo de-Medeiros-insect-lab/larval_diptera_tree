@@ -30,6 +30,10 @@ Because we had these full-length references, we used a two-step approach for the
 
 After alignments, we lightly trimmed alignments removing flanking regions with few data points. For 18S and 28S, we also trimmed regions with fewer than 4 sequences in the middle of alignments. For the other genes, we manually trimmed the middle in multiples of 3 to avoid frame shifts.
 
+# Step 6 - concatenate alignments
+
+Used phyutility to concatenate alignments
+Manually modified the partitions file to the write format
 
 # Phylogenetic constraints
 The ultimate goal is to use these trees as family-level and genus-level constraints. 
