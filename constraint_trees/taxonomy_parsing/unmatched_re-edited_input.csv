@@ -1,0 +1,44 @@
+name,tip_name,superfamily,family,subfamily,tribe,genus,species,additional_identifiers,notes
+Achaetorisa,Archaetorsa_sp_1_I6792_933_268,,,,,Archaetorsa,,I6792_933_268,name was mispelled
+Cyrtosiinae,Cyrtosiini_gen_sp_Bombyliidae_B,,Bombyliidae,Cyrtosiini,,,,,updated to subfamily
+Therevidae,Coloforia_grandiosa_Therevidae_A,,Therevidae,,,Coloforia,grandiosa,,updated to family
+Therevidae,Calophytus_nubilosa_Therevidae_A,,Therevidae,,,Calophytus,nubilosa,,updated to family
+Therevidae,Calophytus_matilei_Therevidae_A,,Therevidae,,,Calophytus,matilei,,updated to family
+Therevidae,Calophytus_chazeaui_Therevidae_A,,Therevidae,,,Calophytus,chazeaui,,updated to family
+Therevidae,Calophytus_webbi_Therevidae_A,,Therevidae,,,Calophytus,webbi,,updated to family
+Therevidae,Calophytus_sp_Therevidae_A,,Therevidae,,,Calophytus,,,updated to family
+Therevidae,Pyrromannia_superbus_Therevidae_A,,Therevidae,,,Pyrromannia,superbus,,updated to family
+Therevidae,Pyrromannia_actensis_Therevidae_A,,Therevidae,,,Pyrromannia,actensis,,updated to family
+Therevidae,Pyrromannia_carnarvoni_Therevidae_A,,Therevidae,,,Pyrromannia,carnarvoni,,updated to family
+Ectinorhynchus,Ectinorhynchus_phyciformis_Therevidae_A,,Therevidae,,,Ectinorhynchus,phyciformis,,updated to genus
+Therevidae,Tianarinha_cracentis_Therevidae_A,,Therevidae,,,Tianarinha,cracentis,,updated to family
+Therevidae,Leptothereva_sp_Therevidae_A,,Therevidae,,,Leptothereva,,,updated to family
+Ruppellia,Ruppellia_multisetosis_Therevidae_A,,Therevidae,,,Ruppellia,multisetosis,,updated to family
+Propebrevitrichia patersonensis,Propebrevitrichia_patersonensi_Scenopinidae_As,,Scenopinidae,,,Propebrevitrichia,patersonensi,s,species was mispelled
+Phycus,Phycus_kroeberi,,,,,Phycus,kroeberi,,updated to genus
+Cyamops,Cyamops_nebulosa,,,,,Cyamops,nebulosa,,updated to genus
+Cyrtodiopsis,Cyrtodiopsis_dalmanni,,,,,Cyrtodiopsis,dalmanni,,updated to genus
+Rhinomorinia capensis,RHINO_Rhinomorinia_capensis,,Rhinophoridae,,Rhinomorinia,capensis,,,species and genera were in incorrect columns
+Tricogena rubicosa,RHINO_Tricogena_rubicosa,,Rhinophoridae,,Tricogena,rubicosa,,,species and genera were in incorrect columns
+Rhinophora lepida,RHINO_Rhinophora_lepida,,Rhinophoridae,,Rhinophora,lepida,,,species and genera were in incorrect columns
+Tromodesia angustifrons,RHINO_Tromodesia_angustifrons,,Rhinophoridae,,Tromodesia,angustifrons,,,species and genera were in incorrect columns
+Sumatria,RHINI_Cos_Sumatria_rufithorax,,,,,Sumatria,rufithorax,,updated to genus
+Sumatria,RHINI_Cos_Sumatria_vittigera,,,,,Sumatria,vittigera,,updated to genus
+Villeneuviella,RHINI_Cos_Villeneuviella_seguyi,,,,,Villeneuviella,seguyi,,updated to genus
+Therevidae,Coloforia_grandiosa_Therevidae,,Therevidae,,,Coloforia,grandiosa,,updated to family
+Agapophytinae,Calophytus_nubilosa_Therevidae,,Therevidae,,,Calophytus,nubilosa,,updated to subfamily
+Agapophytinae,Calophytus_matilei_Therevidae,,Therevidae,,,Calophytus,matilei,,updated to subfamily
+Agapophytinae,Calophytus_chazeaui_Therevidae,,Therevidae,,,Calophytus,chazeaui,,updated to subfamily
+Agapophytinae,Calophytus_webbi_Therevidae,,Therevidae,,,Calophytus,webbi,,updated to subfamily
+Agapophytinae,Calophytus_sp_Therevidae,,Therevidae,,,Calophytus,,,updated to subfamily
+Therevidae,Pyrromannia_superbus_Therevidae,,Therevidae,,,Pyrromannia,superbus,,updated to family
+Therevidae,Pyrromannia_actensis_Therevidae,,Therevidae,,,Pyrromannia,actensis,,updated to family
+Therevidae,Pyrromannia_carnarvoni_Therevidae,,Therevidae,,,Pyrromannia,carnarvoni,,updated to family
+Ectinorhynchus,Ectinorhynchus_phyciformis_Therevidae,,Therevidae,,,Ectinorhynchus,phyciformis,,updated to genus
+Therevidae,Tianarinha_cracentis_Therevidae,,Therevidae,,,Tianarinha,cracentis,,updated to family
+Therevidae,Leptothereva_sp_Therevidae,,Therevidae,,,Leptothereva,,,updated to family
+Ruppellia,Ruppellia_multisetosis_Therevidae,,Therevidae,,,Ruppellia,multisetosis,,updated to genus
+Scenopinidae,Propebrevitrichia_patersonensi_Scenopinidaes,,Scenopinidae,,,Propebrevitrichia,patersonensi,,updated to family
+Cerdistus,CerdistusLRC_Asilidae,,Asilidae,,,CerdistusLRC,,,genus was mispelled
+Empidinae,Hilarini,,,,Hilarini,,,,updated to subfamily
+Syringogaster,Syringogaster_plesioterga,,,,,Syringogaster,plesioterga,,updated to genus
