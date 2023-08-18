@@ -46,3 +46,10 @@ With that information and manually rooted trees obtained from the primary source
 
 # Step 8 - Maximum likelihood tree
 We copied the concatenated alignment, phylogenetic constraints and made an IQTREE partition file in the folder analyses/IQTREE. It also constains the bash script that calls IQTREE with all options.
+
+# Step 9 - unconstrained maximum likelihood tree
+We got an error of negative branch length when running Step 8. Therefore, we ran an unconstrained ML tree to find taxa that may be mislabelled/misplaced (such as NUMT copies).
+
+We manually noted samples that seemed misplaced based on superfamily clusters. From these, we decided to exclude samples that (1) had sequence information from only 1 gene AND (2) had bootstrap values >50. These samples were excluded from the constraint tree and concatenated sequence files.
+
+# Step 10 - rerun maximum likelihood tree
