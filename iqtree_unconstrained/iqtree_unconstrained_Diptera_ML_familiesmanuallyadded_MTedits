@@ -1,0 +1,640 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=538;
+	taxlabels
+	Ablabesmyia_46216_Chironomidae
+	Acemya_1677647_Tachinidae
+	Acletoxenus_462271_Drosophilidae
+	Acrocera_210245_Acroceridae
+	Aedes_7158_Culicidae
+	Agathomyia_226141_Platypezidae
+	Agromyza_414290_Agromyzidae
+	Ainuyusurika_1165747_Chironomidae
+	Alliopsis_1692454_Anthomyiidae
+	Allotrichoma_1492368_Ephydridae
+	Amenia_2086281_Calliphoridae
+	Anastrepha_28585_Tephritidae
+	Androprosopa_41815_Thaumaleidae
+	Anevrina_92526_Phoridae
+	Anopheles_7164_Culicidae
+	Anthomyia_259845_Anthomyiidae
+	Anthomyiopsis_1918198_Tachinidae
+	Anthrax_117078_Bombyliidae
+	Anticheta_1096047_Sciomyzidae
+	Antocha_454619_Limoniidae
+	Apatolestes_428062_Tabanidae
+	Aphanotrigonum_540849_Chloropidae
+	Aphidoletes_95971_Cecidomyiidae
+	Aphroteniella_646259_Chironomidae
+	Apiocera_160270_Apioceridae
+	Apocephalus_117252_Phoridae
+	Aprionus_1819779_Cecidomyiidae
+	Araucoderus_1549737_Tanyderidae
+	Archytas_198637_Tachinidae
+	Asphondylia_153012_Cecidomyiidae
+	Astomella_210239_Acroceridae
+	Ateloglossa_1890907_Tachinidae
+	Atherigona_305597_Muscidae
+	Atherix_124299_Athericidae
+	Atrichopogon_209702_Ceratopogonidae
+	Atylotus_1310336_Tabanidae
+	Auchmeromyia_226129_Calliphoridae
+	Aulacigaster_716608_Aulacigastridae
+	Aulogastromyia_1824990_Lauxaniidae
+	Austroconops_209696_Ceratopogonidae
+	Austrothaumalea_1085085_Thaumaleidae
+	Axymyia_560715_Axymyiidae
+	Bactrocera_27456_Tephritidae
+	Basilia_170889_Nycteribiidae
+	Bathypogon_1718388_Asilidae
+	Berkshiria_2061012_Stratiomyidae
+	Bertamyia_1445832_Platypezidae
+	Bibio_189978_Bibionidae
+	Billaea_701468_Tachinidae
+	Bittacomorpha_79307_Ptychopteridae
+	Blaesoxipha_128953_Sarcophagidae
+	Blepharicera_547808_Blephariceridae
+	Blepharomyia_179434_Tachinidae
+	Blera_226146_Syrphidae
+	Blondelia_179437_Tachinidae
+	Bolbodimyia_1547386_Tabanidae
+	Bolitophila_52718_Mycetophilidae
+	Bombylius_219362_Bombyliidae
+	Borophaga_712093_Phoridae
+	Brachydeutera_1990785_Ephydridae
+	Brachyopa_1637464_Syrphidae
+	Brachypeza_2326774_Mycetophilidae
+	Bradysia_35571_Sciaridae
+	Braula_305561_Braulidae
+	Cacoxenus_462273_Drosophilidae
+	Calamoncosis_540852_Chloropidae
+	Callicera_228567_Syrphidae
+	Calliphora_7372_Calliphoridae
+	Callomyia_712098_Platypezidae
+	Calobata_1820059_Micropezidae
+	Calycomyza_414293_Agromyzidae
+	Catachlorops_1547373_Tabanidae
+	Cecidomyia_1543682_Cecidomyiidae
+	Celyphus_1979294_Celyphidae
+	Centrophlebomyia_1603419_Piophilidae
+	Cephenemyia_170894_Oestridae
+	Ceratitis_7212_Tephritidae
+	Cerodontha_127401_Agromyzidae
+	Cetema_540891_Chloropidae
+	Chaetopsis_240871_Ulidiidae
+	Chalarus_115250_Pipunculidae
+	Chamaemyia_305621_Chamaemyiidae
+	Chaoborus_41812_Chaoboridae
+	Cheilosia_173981_Syrphidae
+	Chelifera_369889_Empididae
+	Chiastocheta_129251_Anthomyiidae
+	Chironomus_7150_Chironomidae
+	Chirosia_392044_Anthomyiidae
+	Chloromyia_343649_Stratiomyidae
+	Chlorops_540892_Chloropidae
+	Chonocephalus_92528_Phoridae
+	Chrysogaster_224248_Syrphidae
+	Chrysomya_45449_Calliphoridae
+	Chrysopilus_124301_Rhagionidae
+	Chrysops_27458_Tabanidae
+	Chyliza_716634_Psilidae
+	Chymomyza_7292_Drosophilidae
+	Cistudinomyia_2173397_Sarcophagidae
+	Cladochaeta_2035586_Drosophilidae
+	Clausicella_1718822_Tachinidae
+	Cleigastra_113167_Scathophagidae
+	Cleonice_1918224_Tachinidae
+	Clinocera_192484_Empididae
+	Clogmia_85119_Psychodidae
+	Clunio_315556_Chironomidae
+	Clusia_574057_Clusiidae
+	Clusiodes_500306_Clusiidae
+	Cobboldia_2583773_Oestridae
+	Coboldia_170624_Scatopsidae
+	Coelopa_169466_Coelopidae
+	Coenomyia_124305_Xylophagaidae
+	Compsobata_286452_Micropezidae
+	Compsomyiops_142897_Calliphoridae
+	Contarinia_153220_Cecidomyiidae
+	Copestylum_511142_Syrphidae
+	Copromyza_1217530_Sphaeroceridae
+	Cordilura_113132_Scathophagidae
+	Cordylobia_226131_Calliphoridae
+	Coremacera_1226614_Sciomyzidae
+	Corynoneura_611344_Chironomidae
+	Corynoptera_1260849_Sciaridae
+	Cramptonomyia_209688_Pachyneuridae
+	Crataerina_452743_Hippoboscidae
+	Craticulina_2021509_Sarcophagidae
+	Cryptochetum_1262333_Cryptochetidae
+	Cryptonevra_1616778_Chloropidae
+	Ctenophora_516519_Tipulidae
+	Ctenostylidae_Ctenostylidae
+	Culex_7174_Culicidae
+	Culicoides_41820_Ceratopogonidae
+	Culiseta_174825_Culicidae
+	Curtonotum_1262296_Curtonotidae
+	Cuterebra_170896_Oestridae
+	Cylindrotoma_700834_Cylindrotomidae
+	Cyrtophleba_991141_Tachinidae
+	Dactylolabis_560717_Limoniidae
+	Dasineura_240745_Cecidomyiidae
+	Dasiops_286456_Lonchaeidae
+	Dasyhelea_41822_Ceratopogonidae
+	Delia_30063_Anthomyiidae
+	Delphinia_43369_Ulidiidae
+	Dermatobia_115426_Oestridae
+	Desmometopa_305587_Milichiidae
+	Deuterophlebia_560719_Deuterophlebiidae
+	Dexia_569033_Tachinidae
+	Diadocidia_560721_Diadocidiidae
+	Diasemopsis_139652_Diopsidae
+	Dicranota_700836_Pediciidae
+	Dictenidia_2108369_Tipulidae
+	Dictya_1096051_Sciomyzidae
+	Dilophus_52733_Bibionidae
+	Dinera_569035_Tachinidae
+	Dioctria_468720_Asilidae
+	Diopsis_139667_Diopsidae
+	Diplonevra_92534_Phoridae
+	Discocerina_745181_Ephydridae
+	Discomyza_1720780_Ephydridae
+	Ditomyia_1520322_Ditomyiidae
+	Dixa_79309_Dixidae
+	Dolichopus_192427_Dolichopodidae
+	Drino_179459_Tachinidae
+	Drosophila_7215_Drosophilidae
+	Dryomyza_169444_Dryomyzidae
+	Ectophasia_569037_Tachinidae
+	Eginia_1511678_Muscidae
+	Egle_411076_Anthomyiidae
+	Elachiptera_540858_Chloropidae
+	Elephantomyia_700838_Limoniidae
+	Elgiva_320938_Sciomyzidae
+	Elomyia_1562792_Tachinidae
+	Ephydra_504564_Ephydridae
+	Epichlorops_540897_Chloropidae
+	Epicypta_397117_Mycetophilidae
+	Epistrophe_414810_Syrphidae
+	Eriozona_414724_Syrphidae
+	Eristalis_198633_Syrphidae
+	Esenbeckia_124297_Tabanidae
+	Estheria_1918238_Tachinidae
+	Eukiefferiella_288843_Chironomidae
+	Euleia_28591_Tephritidae
+	Eulonchus_210230_Acroceridae
+	Eumerus_224220_Syrphidae
+	Eumesembrinella_672472_Calliphoridae
+	Eupeodes_290403_Syrphidae
+	Eurosta_28593_Tephritidae
+	Euryomma_1650677_Fanniidae
+	Euxesta_286468_Ulidiidae
+	Exechia_397139_Mycetophilidae
+	Exeretonevra_560723_Xylophagaidae
+	Exetasis_1932988_Acroceridae
+	Exorista_113238_Tachinidae
+	Fannia_95468_Fanniidae
+	Fergusonina_156411_Fergusoninidae
+	Fidena_1334907_Tabanidae
+	Forcipomyia_209700_Ceratopogonidae
+	Fucellia_205683_Anthomyiidae
+	Gasterophilus_84524_Oestridae
+	Gaurax_540862_Chloropidae
+	Geomyza_305619_Opomyzidae
+	Glaurocara_2027854_Tachinidae
+	Glossina_7393_Glossinidae
+	Glutops_124309_Pelecorhynchidae
+	Gnophomyia_700845_Limoniidae
+	Goniops_428065_Tabanidae
+	Graphomya_1072499_Muscidae
+	Gymnocarena_28597_Tephritidae
+	Gymnometriocnemus_611353_Chironomidae
+	Gyrostigma_2555504_Oestridae
+	Haematobosca_559680_Muscidae
+	Haematopota_124311_Tabanidae
+	Hammerschmidtia_226171_Syrphidae
+	Hebecnema_559682_Muscidae
+	Hedria_320941_Sciomyzidae
+	Helcomyza_169476_Helcomyzidae
+	Helius_700865_Limoniidae
+	Helosciomyzidae_Helosciomyzidae
+	Hemerodromia_626769_Empididae
+	Hemigymnochaeta_1240433_Calliphoridae
+	Hemilucilia_416848_Calliphoridae
+	Hermetia_343581_Stratiomyidae
+	Hesperinus_1086788_Hesperinidae
+	Heterocheila_169481_Heterocheilidae
+	Hippelates_540866_Chloropidae
+	Hippobosca_452745_Hippoboscidae
+	Hirmoneura_388531_Nemestrinidae
+	Homoneura_1692452_Lauxaniidae
+	Huascaromusca_1609532_Calliphoridae
+	Hybomitra_124690_Tabanidae
+	Hydrellia_92591_Ephydridae
+	Hydromyza_113174_Scathophagidae
+	Hylemya_253328_Anthomyiidae
+	Hypocera_940227_Phoridae
+	Hypoderma_7388_Oestridae
+	Icosta_402409_Hippoboscidae
+	Icterica_28599_Tephritidae
+	Idiella_1902146_Rhiniidae
+	Ilione_1096072_Sciomyzidae
+	Incertella_540867_Chloropidae
+	Jamesomyia_28601_Tephritidae
+	Japanagromyza_414298_Agromyzidae
+	Kesselimyia_1445844_Platypezidae
+	Lamprolonchaea_907706_Lonchaeidae
+	Laneella_1658054_Calliphoridae
+	Laphria_50683_Asilidae
+	Lasiomma_95464_Anthomyiidae
+	Lasiopiophila_1790233_Piophilidae
+	Lasiopogon_219536_Asilidae
+	Lasioptera_201413_Cecidomyiidae
+	Lauterborniella_288850_Chironomidae
+	Leptocera_1614654_Sphaeroceridae
+	Leptometopa_1720790_Milichiidae
+	Leptomorphus_560729_Mycetophilidae
+	Leptopsilopa_1887046_Ephydridae
+	Leschenaultia_179486_Tachinidae
+	Leucophenga_7329_Drosophilidae
+	Leucopis_1728826_Chamaemyiidae
+	Leucotabanus_1969939_Tabanidae
+	Ligyra_117088_Bombyliidae
+	Limnophora_307207_Muscidae
+	Limonia_52743_Limoniidae
+	Liogma_560731_Cylindrotomidae
+	Liopiophila_1603421_Piophilidae
+	Lipara_540870_Chloropidae
+	Liponeura_446516_Blephariceridae
+	Lipoptena_170902_Hippoboscidae
+	Lipsothrix_700849_Limoniidae
+	Liriomyza_127403_Agromyzidae
+	Lonchaea_198649_Lonchaeidae
+	Lonchoptera_92595_Lonchopteridae
+	Loxocera_34684_Psilidae
+	Lucilia_7374_Calliphoridae
+	Lutzomyia_7199_Psychodidae
+	Lydella_283929_Tachinidae
+	Machimus_247604_Asilidae
+	Macquartia_1918266_Tachinidae
+	Macrocera_608727_Keroplatidae
+	Mallophora_270862_Asilidae
+	Mallota_535942_Syrphidae
+	Maruina_1144738_Psychodidae
+	Medetera_377527_Dolichopodidae
+	Megaselia_36165_Phoridae
+	Melanagromyza_286470_Agromyzidae
+	Melangyna_414825_Syrphidae
+	Melanophora_1606787_Rhinophoridae
+	Melinda_170907_Calliphoridae
+	Melophagus_452748_Hippoboscidae
+	Merodon_224226_Syrphidae
+	Mesembrina_116147_Muscidae
+	Mesembrinella_460529_Calliphoridae
+	Metachela_369884_Empididae
+	Metalimnobia_700851_Limoniidae
+	Metriocnemus_137497_Chironomidae
+	Microchrysa_931517_Stratiomyidae
+	Microdon_115291_Syrphidae
+	Micropeza_1572561_Micropezidae
+	Milichiella_1890919_Milichiidae
+	Mimegralla_115300_Micropezidae
+	Mintho_1918277_Tachinidae
+	Mischoderus_560267_Tanyderidae
+	Mochlonyx_1577622_Chaoboridae
+	Monodiamesa_891905_Chironomidae
+	Morellia_253340_Muscidae
+	Mormotomyia_1155704_Mormotomyiidae
+	Musca_7369_Muscidae
+	Muscina_57892_Muscidae
+	Mycetophila_397146_Mycetophilidae
+	Mycomya_608706_Mycetophilidae
+	Mydaea_559689_Muscidae
+	Mydas_186100_Mydidae
+	Myolepta_1473716_Syrphidae
+	Myospila_520040_Muscidae
+	Mystacinobia_81694_Mystacinobiidae
+	Neaera_695903_Tachinidae
+	Nemoraea_170911_Tachinidae
+	Nemotelus_343582_Stratiomyidae
+	Neoalticomerus_716622_Odiniidae
+	Neoascia_224222_Syrphidae
+	Neoempheria_608686_Mycetophilidae
+	Neolimnia_1262312_Sciomyzidae
+	Neomyia_305607_Muscidae
+	Neopachygaster_1692469_Stratiomyidae
+	Neoplasta_192640_Empididae
+	Neorhynchocephalus_259248_Nemestrinidae
+	Neossos_2268121_Heleomyzidae
+	Nephrocerus_115303_Pipunculidae
+	Nephrotoma_46210_Tipulidae
+	Neurochaeta_716624_Neurochaetidae
+	Noeeta_381362_Tephritidae
+	Norellia_113119_Scathophagidae
+	Nostima_1473719_Ephydridae
+	Nothomicrodon_1857748_Syrphidae
+	Notiphila_1118049_Ephydridae
+	Nycteribia_633884_Nycteribiidae
+	Nymphomyia_560766_Nymphomyiidae
+	Ochthera_1744809_Ephydridae
+	Ocnaea_210271_Acroceridae
+	Ocyptamus_369855_Syrphidae
+	Odinia_414302_Odiniidae
+	Odontoloxozus_588320_Neriidae
+	Odontomyia_343652_Stratiomyidae
+	Oedoparena_1262316_Dryomyzidae
+	Oestromyia_170913_Oestridae
+	Oestrus_123736_Oestridae
+	Ogcodes_188257_Acroceridae
+	Olbiogaster_560768_Anisopodidae
+	Olfersia_1333310_Hippoboscidae
+	Onesiomima_2173510_Calliphoridae
+	Ophiomyia_341050_Agromyzidae
+	Oplodontha_446504_Stratiomyidae
+	Opomyza_716643_Opomyzidae
+	Oreoleptis_1262318_Oreoleptidae
+	Orfelia_270890_Keroplatidae
+	Ornidia_994473_Syrphidae
+	Ornithophila_1497392_Hippoboscidae
+	Orthacheta_113181_Scathophagidae
+	Oxycera_860348_Stratiomyidae
+	Oxyna_381365_Tephritidae
+	Pachygaster_124321_Stratiomyidae
+	Pachylophus_1990794_Chloropidae
+	Pachyneura_1588165_Pachyneuridae
+	Palloptera_286498_Pallopteridae
+	Palpomyia_1525500_Ceratopogonidae
+	Pamponerus_1717601_Asilidae
+	Pantophthalmus_124295_Pantophthalmidae
+	Paraborniella_903459_Chironomidae
+	Paracantha_164885_Tephritidae
+	Paracoenia_1690382_Ephydridae
+	Paragus_115308_Syrphidae
+	Paralucilia_1042205_Calliphoridae
+	Paranthomyza_500298_Anthomyzidae
+	Paraplatypeza_192442_Platypezidae
+	Parasetigena_380521_Tachinidae
+	Paregle_559693_Anthomyiidae
+	Parochlus_315560_Chironomidae
+	Parochthiphila_1262282_Chamaemyiidae
+	Passeromyia_1511687_Muscidae
+	Paucispinigera_903463_Chironomidae
+	Paykullia_559695_Rhinophoridae
+	Pedicia_472374_Pediciidae
+	Pegohylemyia_1887308_Anthomyiidae
+	Pegomya_559697_Anthomyiidae
+	Pelidnoptera_1096074_Sciomyzidae
+	Pelina_1086796_Ephydridae
+	Penicillidia_81721_Nycteribiidae
+	Pentaneura_891922_Chironomidae
+	Penthetria_560770_Pleciidae
+	Pericoma_1148481_Psychodidae
+	Periscelis_716628_Periscelididae
+	Peromyia_1914937_Cecidomyiidae
+	Phalacrocera_2203737_Cylindrotomidae
+	Phaonia_253431_Muscidae
+	Philonicus_247567_Asilidae
+	Philornis_253427_Muscidae
+	Phlebotomus_13203_Psychodidae
+	Pholeomyia_1720804_Milichiidae
+	Phorbia_1993534_Anthomyiidae
+	Phronia_397119_Mycetophilidae
+	Phryxe_569079_Tachinidae
+	Phyllodromia_1209097_Empididae
+	Physocephala_198643_Conopidae
+	Phyto_1262320_Rhinophoridae
+	Phytobia_414304_Agromyzidae
+	Phytomyptera_179785_Tachinidae
+	Phytomyza_132616_Agromyzidae
+	Piceacecis_2597495_Cecidomyiidae
+	Piophila_53709_Piophilidae
+	Pipiza_221788_Syrphidae
+	Pipunculus_240898_Pipunculidae
+	Platypeza_289241_Platypezidae
+	Platystoma_286504_Platystomatidae
+	Plecia_1260898_Bibionidae
+	Pnyxia_1781626_Sciaridae
+	Polietes_559702_Muscidae
+	Pollenia_229639_Polleniidae
+	Polyporivora_1445854_Platypezidae
+	Potamia_559704_Muscidae
+	Prionocera_1690388_Tipulidae
+	Procanace_1262322_Canacidae
+	Promachus_247552_Asilidae
+	Prosena_1918293_Tachinidae
+	Protocalliphora_142901_Calliphoridae
+	Protoplasa_560776_Tanyderidae
+	Przhevalskiana_123746_Oestridae
+	Psacadina_1096078_Sciomyzidae
+	Psectrotanypus_903467_Chironomidae
+	Pseudacteon_378799_Phoridae
+	Pseudoperichaeta_283931_Tachinidae
+	Pseudosmittia_611382_Chironomidae
+	Psila_305548_Psilidae
+	Psychoda_7201_Psychodidae
+	Ptecticus_343648_Stratiomyidae
+	Pterodontia_210267_Acroceridae
+	Pteromicra_1226622_Sciomyzidae
+	Ptiolina_124325_Rhagionidae
+	Ptychoptera_209691_Ptychopteridae
+	Quametopia_1603285_Anthomyzidae
+	Rhagio_124327_Rhagionidae
+	Rhagoletis_28609_Tephritidae
+	Rhamphomyia_192612_Empididae
+	Rhaphium_377528_Dolichopodidae
+	Rhinoestrus_204922_Oestridae
+	Rhinophora_670625_Rhinophoridae
+	Rhyncomya_670621_Rhiniidae
+	Rivellia_28633_Platystomatidae
+	Sarconesia_670650_Calliphoridae
+	Sarcophaga_7384_Sarcophagidae
+	Sargus_343647_Stratiomyidae
+	Scaeva_219538_Syrphidae
+	Scaptodrosophila_7354_Drosophilidae
+	Scaptomyza_7298_Drosophilidae
+	Scatella_305595_Ephydridae
+	Scathophaga_95462_Scathophagidae
+	Scatophila_1763968_Ephydridae
+	Scatopse_1520324_Scatopsidae
+	Scenopinus_247599_Scenopinidae
+	Scholastes_1902237_Platystomatidae
+	Sciadocera_192453_Sciadoceridae
+	Sciara_82677_Sciaridae
+	Sciomyza_320936_Sciomyzidae
+	Sciophila_1085959_Mycetophilidae
+	Scoliocentra_1823605_Heleomyzidae
+	Senotainia_179787_Tachinidae
+	Sepedon_320954_Sciomyzidae
+	Sepsis_137507_Sepsidae
+	Serromyia_209716_Ceratopogonidae
+	Sicus_1219203_Conopidae
+	Silba_198646_Lonchaeidae
+	Silvius_415257_Tabanidae
+	Simulium_7191_Simuliidae
+	Sitodiplosis_263139_Cecidomyiidae
+	Smittia_315559_Chironomidae
+	Sobarocephala_574054_Clusiidae
+	Spania_1559498_Rhagionidae
+	Spaniocelyphus_1262326_Celyphidae
+	Sphaeromias_1874311_Ceratopogonidae
+	Sphaerophoria_226179_Syrphidae
+	Sphecapatoclea_2021595_Sarcophagidae
+	Sphecapatodes_2021536_Sarcophagidae
+	Sphyracephala_139674_Diopsidae
+	Stegana_188292_Drosophilidae
+	Stenomicra_716630_Aulacigastridae
+	Stenotabanus_1547430_Tabanidae
+	Stevenia_670627_Rhinophoridae
+	Stiphrosoma_500293_Anthomyzidae
+	Stratiomys_219520_Stratiomyidae
+	Sturmia_569089_Tachinidae
+	Sycorax_114592_Psychodidae
+	Sylvicola_52753_Anisopodidae
+	Symmerus_560780_Mycetophilidae
+	Syritta_34681_Syrphidae
+	Syrphus_224255_Syrphidae
+	Systoechus_1690390_Bombyliidae
+	Tabanus_7206_Tabanidae
+	Tanypeza_1692486_Tanypezidae
+	Tanyptera_2108371_Tipulidae
+	Telostylinus_1262347_Neriidae
+	Temnostoma_226164_Syrphidae
+	Tephritis_43386_Tephritidae
+	Teratomyzidae_Teratomyzidae
+	Terellia_28615_Tephritidae
+	Tetanocera_320959_Sciomyzidae
+	Tetanops_454640_Ulidiidae
+	Thaumalea_61068_Thaumaleidae
+	Thaumatomyia_333800_Chloropidae
+	Thecophora_305546_Conopidae
+	Themira_292396_Sepsidae
+	Thereva_95078_Therevidae
+	Therobia_1918313_Tachinidae
+	Tipula_41043_Tipulidae
+	Toxomerus_115327_Syrphidae
+	Trichocera_52759_Trichoceridae
+	Tricholauxania_192459_Lauxaniidae
+	Trichomyia_560271_Psychodidae
+	Trichonta_397122_Mycetophilidae
+	Tricimba_540889_Chloropidae
+	Tricogena_1606792_Rhinophoridae
+	Tricyphona_700863_Pediciidae
+	Triphleba_92553_Phoridae
+	Trupanea_30060_Tephritidae
+	Trypocalliphora_1042207_Calliphoridae
+	Tvetenia_611398_Chironomidae
+	Urophora_28620_Tephritidae
+	Vermileo_124333_Vermileonidae
+	Verrallia_115333_Pipunculidae
+	Vibrissina_179525_Tachinidae
+	Volucella_226148_Syrphidae
+	Wiedemannia_240904_Empididae
+	Winnertzia_2338641_Cecidomyiidae
+	Wohlfahrtia_128961_Sarcophagidae
+	Xanthogramma_414873_Syrphidae
+	Xylophagus_219493_Xylophagaidae
+	Xyphosia_381372_Tephritidae
+	Zabrachia_1891525_Stratiomyidae
+	Zaira_179789_Tachinidae
+	Zaprionus_7296_Drosophilidae
+	Zodion_768804_Conopidae
+	Zonosemata_28622_Tephritidae
+	Zygothrica_504731_Drosophilidae
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Deuterophlebia_560719_Deuterophlebiidae:0.499279,(Metalimnobia_700851_Limoniidae:0.145712,(Pedicia_472374_Pediciidae:0.205299,(((((Olbiogaster_560768_Anisopodidae[&!rotate=false]:0.633395,((((((Agathomyia_226141_Platypezidae[&!rotate=false]:0.770135,((((Mimegralla_115300_Micropezidae:0.397525,(((((((((((Rhyncomya_670621_Rhiniidae:0.210839,((Lucilia_7374_Calliphoridae:0.110799,(Sarconesia_670650_Calliphoridae:0.115438,(Calliphora_7372_Calliphoridae:0.033838,Melinda_170907_Calliphoridae:0.070095)[&label=100]:0.037727)[&label=100]:0.026711)[&label=100]:0.022365,((Chrysomya_45449_Calliphoridae:0.123427,(Protocalliphora_142901_Calliphoridae:0.083424,Trypocalliphora_1042207_Calliphoridae:0.102336)[&label=100]:0.034291)[&label=100]:0.028032,(Hemilucilia_416848_Calliphoridae:0.083685,(Paralucilia_1042205_Calliphoridae:0.022852,Compsomyiops_142897_Calliphoridae:0.050924)[&label=95]:0.014878)[&label=100]:0.048431)[&label=100]:0.026239)[&label=94]:0.011888)[&label=50]:0.011007,(((Pollenia_229639_Polleniidae:0.202448,((Anthomyiopsis_1918198_Tachinidae:0.117073,(((Blondelia_179437_Tachinidae:0.133634,Zaira_179789_Tachinidae:0.127916)[&label=94]:0.029445,(Vibrissina_179525_Tachinidae:0.201859,((Drino_179459_Tachinidae:0.129839,(Phryxe_569079_Tachinidae:0.075452,Pseudoperichaeta_283931_Tachinidae:0.114625)[&label=100]:0.023029)[&label=100]:0.028207,(Sturmia_569089_Tachinidae:0.103531,Leschenaultia_179486_Tachinidae:0.10549)[&label=100]:0.010732)[&label=100]:0.028685)[&label=94]:0.015076)[&label=100]:0.024434,(Exorista_113238_Tachinidae:0.094381,Parasetigena_380521_Tachinidae:0.04431)[&label=100]:0.111097)[&label=100]:0.052531)[&label=22]:0.02268,(Macquartia_1918266_Tachinidae:0.158373,((((Blepharomyia_179434_Tachinidae:0.142032,(Dexia_569033_Tachinidae:0.267716,(Cyrtophleba_991141_Tachinidae:0.180676,Aulacigaster_716608_Aulacigastridae[&!color=#ff0000]:0.296782)[&label=100]:0.055368)[&label=92]:0.009839)[&label=92]:0.015816,(Prosena_1918293_Tachinidae:0.166501,(Dinera_569035_Tachinidae:0.058875,(Billaea_701468_Tachinidae:0.037106,Ateloglossa_1890907_Tachinidae:0.172522)[&label=100]:0.037413)[&label=100]:0.081705)[&label=100]:0.039617)[&label=100]:0.024761,(Cephenemyia_170894_Oestridae:0.348867,(Ectophasia_569037_Tachinidae:0.115935,Elomyia_1562792_Tachinidae:0.073751)[&label=99]:0.037185)[&label=89]:0.013587)[&label=89]:0.017024,(((Glaurocara_2027854_Tachinidae:0.218912,(Nemoraea_170911_Tachinidae:0.165816,Archytas_198637_Tachinidae:0.205446)[&label=6]:0.002549)[&label=89]:0.013306,(Mydaea_559689_Muscidae:0.206242,(Neaera_695903_Tachinidae:0.118325,Therobia_1918313_Tachinidae:0.346405)[&label=90]:0.031227)[&label=84]:0.053913)[&label=94]:0.020907,(Phytomyptera_179785_Tachinidae:0.215316,(Clausicella_1718822_Tachinidae:0.233873,(Mintho_1918277_Tachinidae:0.14203,Cleonice_1918224_Tachinidae:0.116341)[&label=98]:0.022515)[&label=25]:0.019645)[&label=25]:0.018647)[&label=25]:0.013713)[&label=25]:0.014663)[&label=25]:0.008926)[&label=88]:0.016293)[&label=84]:0.018261,(Amenia_2086281_Calliphoridae:0.135269,((Estheria_1918238_Tachinidae:0.264491,(Tricogena_1606792_Rhinophoridae:0.175523,(Phyto_1262320_Rhinophoridae:0.159267,(Paykullia_559695_Rhinophoridae:0.12959,(Stevenia_670627_Rhinophoridae:0.106833,Idiella_1902146_Rhiniidae:0.159978)[&label=78]:0.028739)[&label=93]:0.03207)[&label=78]:0.008542)[&label=78]:0.012824)[&label=70]:2.0E-6,(Rhinophora_670625_Rhinophoridae:0.208431,(Melanophora_1606787_Rhinophoridae:0.179027,Acemya_1677647_Tachinidae:0.343945)[&label=99]:0.067642)[&label=86]:0.025205)[&label=92]:0.030739)[&label=84]:0.014786)[&label=79]:0.015601,(Hemigymnochaeta_1240433_Calliphoridae:0.045934,(Cordylobia_226131_Calliphoridae:0.119302,Auchmeromyia_226129_Calliphoridae:0.044832)[&label=100]:0.03215)[&label=100]:0.049937)[&label=32]:0.007671)[&label=95]:0.023919,(((((Penicillidia_81721_Nycteribiidae:0.320644,(Nycteribia_633884_Nycteribiidae:0.288997,Basilia_170889_Nycteribiidae:0.205694)[&label=100]:0.019163)[&label=100]:1.08767,(Oestrus_123736_Oestridae:0.330491,Rhinoestrus_204922_Oestridae:0.179894)[&label=100]:0.339557)[&label=79]:0.034909,((Craticulina_2021509_Sarcophagidae:0.20542,Sphecapatodes_2021536_Sarcophagidae:0.170654)[&label=100]:0.037,(Senotainia_179787_Tachinidae:0.208343,Sphecapatoclea_2021595_Sarcophagidae:0.277106)[&label=100]:0.050605)[&label=99]:0.033235)[&label=81]:0.021503,(Wohlfahrtia_128961_Sarcophagidae:0.22806,(Sarcophaga_7384_Sarcophagidae:0.10886,Blaesoxipha_128953_Sarcophagidae:0.183414)[&label=100]:0.03774)[&label=94]:0.040898)[&label=98]:0.028778,(Laneella_1658054_Calliphoridae:0.097302,(Huascaromusca_1609532_Calliphoridae:0.179617,(Eumesembrinella_672472_Calliphoridae:0.170569,Mesembrinella_460529_Calliphoridae:0.164942)[&label=100]:0.025057)[&label=100]:0.043949)[&label=100]:0.033341)[&label=97]:0.019205)[&label=94]:0.012894,(Mystacinobia_81694_Mystacinobiidae:0.269755,(Dermatobia_115426_Oestridae:0.825765,Cuterebra_170896_Oestridae:0.060238)[&label=99]:0.236507)[&label=96]:0.053811)[&label=84]:0.023333,((Hydromyza_113174_Scathophagidae:0.143579,(Cordilura_113132_Scathophagidae:0.134198,((Scathophaga_95462_Scathophagidae:0.10999,Norellia_113119_Scathophagidae:0.106073)[&label=100]:0.02803,(Cleigastra_113167_Scathophagidae:0.086947,Orthacheta_113181_Scathophagidae:0.087448)[&label=100]:0.031497)[&label=100]:0.063325)[&label=100]:0.030672)[&label=100]:0.038448,(Leptopsilopa_1887046_Ephydridae[&!color=#ff0000]:0.329291,(Pegomya_559697_Anthomyiidae:0.122637,(Hylemya_253328_Anthomyiidae:0.165792,(((Anthomyia_259845_Anthomyiidae:0.127983,Lasiomma_95464_Anthomyiidae:0.079908)[&label=64]:0.01833,(((Paregle_559693_Anthomyiidae:0.046035,Egle_411076_Anthomyiidae:0.117598)[&label=68]:0.029744,(Alliopsis_1692454_Anthomyiidae:0.02607,Pegohylemyia_1887308_Anthomyiidae:0.018503)[&label=100]:0.073982)[&label=27]:0.006784,(Chirosia_392044_Anthomyiidae:0.115582,(Chiastocheta_129251_Anthomyiidae:0.06104,Fucellia_205683_Anthomyiidae:0.091662)[&label=79]:0.0255)[&label=34]:0.009805)[&label=37]:0.004477)[&label=62]:0.013556,(Delia_30063_Anthomyiidae:0.115938,Phorbia_1993534_Anthomyiidae:0.136702)[&label=97]:0.051581)[&label=91]:0.0149)[&label=93]:0.014496)[&label=96]:0.007745)[&label=38]:0.018708)[&label=64]:0.065245)[&label=78,!rotate=true]:0.029386,(Cobboldia_2583773_Oestridae:1.797857,(Potamia_559704_Muscidae:0.184869,(((Haematobosca_559680_Muscidae:0.172385,(Morellia_253340_Muscidae:0.183584,(Polietes_559702_Muscidae:0.120087,Mesembrina_116147_Muscidae:0.152372)[&label=100]:0.065339)[&label=94]:0.023099)[&label=70]:0.011005,(Musca_7369_Muscidae:0.173347,(Neomyia_305607_Muscidae:0.110414,Onesiomima_2173510_Calliphoridae:0.095829)[&label=96]:0.061634)[&label=96]:0.064242)[&label=98]:0.037356,(((Ochthera_1744809_Ephydridae:0.13064,(Eginia_1511678_Muscidae:0.254898,(Passeromyia_1511687_Muscidae:0.482172,Pholeomyia_1720804_Milichiidae:0.441923)[&label=11]:0.032447)[&label=87]:0.03436)[&label=77]:0.020727,(Muscina_57892_Muscidae:0.171815,Philornis_253427_Muscidae:0.231686)[&label=87]:0.091827)[&label=97]:0.051152,((Myospila_520040_Muscidae:0.173571,(Graphomya_1072499_Muscidae:0.313675,(Limnophora_307207_Muscidae:0.209839,Lydella_283929_Tachinidae:0.326986)[&label=99]:0.049619)[&label=99]:0.03772)[&label=92]:0.02619,(Hebecnema_559682_Muscidae:0.094898,Phaonia_253431_Muscidae:0.22419)[&label=93]:0.042571)[&label=98]:0.043746)[&label=89]:0.049664)[&label=85]:0.018724)[&label=82]:0.054547)[&label=54]:2.0E-6)[&label=67,!rotate=true]:0.017207,(Fannia_95468_Fanniidae:0.216195,Euryomma_1650677_Fanniidae:0.189198)[&label=51]:0.061328)[&label=40]:0.017609,(Oestromyia_170913_Oestridae:0.309628,(Hypoderma_7388_Oestridae:0.165068,Przhevalskiana_123746_Oestridae:0.6035)[&label=100]:0.20738)[&label=95]:0.101966)[&label=74]:0.050721,((Ornithophila_1497392_Hippoboscidae:0.359779,((Hippobosca_452745_Hippoboscidae:0.098086,Chonocephalus_92528_Phoridae[&!color=#ff0000]:0.93561)[&label=84]:0.105786,(Icosta_402409_Hippoboscidae:0.467539,(Crataerina_452743_Hippoboscidae:0.473123,(Olfersia_1333310_Hippoboscidae:0.2424,(Lipoptena_170902_Hippoboscidae:0.217957,Melophagus_452748_Hippoboscidae:0.186854)[&label=100]:0.046763)[&label=92]:0.067754)[&label=92]:0.055149)[&label=85]:0.028826)[&label=99]:0.097254)[&label=88]:0.077679,(Glossina_7393_Glossinidae:0.420314,Pachylophus_1990794_Chloropidae[&!color=#ff0000]:0.204268)[&label=96]:0.167755)[&label=86]:0.125935)[&label=80]:0.02789,(Allotrichoma_1492368_Ephydridae:0.321091,(Brachydeutera_1990785_Ephydridae:0.155568,Discomyza_1720780_Ephydridae:0.226228)[&label=94]:0.032967)[&label=91]:0.045884)[&label=82,!rotate=true]:0.022474,(Odinia_414302_Odiniidae:0.289953,((Agromyza_414290_Agromyzidae:0.360154,(Japanagromyza_414298_Agromyzidae:0.218017,(Calycomyza_414293_Agromyzidae:0.124859,(Liriomyza_127403_Agromyzidae:0.318948,(Phytomyza_132616_Agromyzidae:0.315212,Phytobia_414304_Agromyzidae:0.328214)[&label=100]:0.05144)[&label=99]:0.01529)[&label=95]:0.023274)[&label=95]:0.029176)[&label=91]:0.028718,(Melanagromyza_286470_Agromyzidae:0.247724,Ophiomyia_341050_Agromyzidae:0.26631)[&label=100]:0.159914)[&label=90]:0.045552)[&label=85]:0.060389)[&label=93,!rotate=true]:0.012122)[&label=89]:0.02834,((((Procanace_1262322_Canacidae:0.507661,(((((Hydrellia_92591_Ephydridae:0.294978,((((Drosophila_7215_Drosophilidae:0.10817,Zaprionus_7296_Drosophilidae:0.131524)[&label=100]:0.034098,(Acletoxenus_462271_Drosophilidae:0.200108,Scaptodrosophila_7354_Drosophilidae:0.16091)[&label=100]:0.021026)[&label=99]:0.011943,(Scaptomyza_7298_Drosophilidae:0.152112,(Zygothrica_504731_Drosophilidae:0.153687,Cladochaeta_2035586_Drosophilidae:0.147644)[&label=99]:0.040846)[&label=98]:0.042799)[&label=87]:0.124356,((Leucophenga_7329_Drosophilidae:0.171857,Stegana_188292_Drosophilidae:0.308834)[&label=78]:0.032933,(Curtonotum_1262296_Curtonotidae:0.315586,(Cacoxenus_462273_Drosophilidae:0.25141,Chymomyza_7292_Drosophilidae:0.141113)[&label=80]:0.049347)[&label=72]:0.045707)[&label=63]:0.025567)[&label=90]:0.020494)[&label=44]:0.044625,(Notiphila_1118049_Ephydridae[&!color=#ff0000]:0.248538,(Atherigona_305597_Muscidae[&!color=#ff0000]:0.232273,Cistudinomyia_2173397_Sarcophagidae[&!color=#ff0000]:0.365183)[&label=94,!color=#ff0000]:0.054879)[&label=81]:0.042354)[&label=46]:0.023679,(Leptocera_1614654_Sphaeroceridae:0.227799,(Odontoloxozus_588320_Neriidae:0.211043,(Neossos_2268121_Heleomyzidae:0.275506,Scoliocentra_1823605_Heleomyzidae:0.149124)[&label=93]:0.072603)[&label=70]:0.013506)[&label=68]:0.028804)[&label=34]:0.02046,(Sepsis_137507_Sepsidae:0.311266,Themira_292396_Sepsidae:0.17066)[&label=100]:0.155529)[&label=36]:0.027795,(((Clusia_574057_Clusiidae:0.392488,(Silba_198646_Lonchaeidae:0.178273,(Lamprolonchaea_907706_Lonchaeidae:0.191394,Lonchaea_198649_Lonchaeidae:0.147981)[&label=100]:0.072857)[&label=100]:0.092408)[&label=96]:0.024699,((Paraplatypeza_192442_Platypezidae:0.494215,(Dasiops_286456_Lonchaeidae:0.269128,(Cryptonevra_1616778_Chloropidae:0.176749,(Gaurax_540862_Chloropidae:0.217005,((Incertella_540867_Chloropidae:0.064055,Coelopa_169466_Coelopidae:0.143266)[&label=100]:0.015457,(Elachiptera_540858_Chloropidae:0.122959,Hippelates_540866_Chloropidae:0.118637)[&label=92]:0.042563)[&label=92]:0.010813)[&label=99]:0.022878)[&label=99]:0.091708)[&label=78]:0.014581)[&label=82]:0.031554,(Geomyza_305619_Opomyzidae:0.19212,Opomyza_716643_Opomyzidae:0.192249)[&label=100]:0.140696)[&label=83]:0.083471)[&label=76]:0.024941,((Ephydra_504564_Ephydridae:0.106072,Paracoenia_1690382_Ephydridae:0.208951)[&label=95]:0.102081,((Nostima_1473719_Ephydridae:0.341579,Pelina_1086796_Ephydridae:0.129322)[&label=64]:0.037841,(Scatella_305595_Ephydridae:0.145859,Scatophila_1763968_Ephydridae:0.1041)[&label=100]:0.093399)[&label=58]:0.019252)[&label=85]:0.066413)[&label=31]:0.010186)[&label=90,!rotate=true]:0.039115)[&label=25,!rotate=true]:0.015201,((Teratomyzidae_Teratomyzidae:0.25863,((((Anticheta_1096047_Sciomyzidae:0.084404,((((Neolimnia_1262312_Sciomyzidae:0.11356,(Elgiva_320938_Sciomyzidae:0.119567,Tetanocera_320959_Sciomyzidae:0.11877)[&label=99]:0.028882)[&label=94]:0.066799,(Hedria_320941_Sciomyzidae:0.204894,Ilione_1096072_Sciomyzidae:0.176924)[&label=26]:0.036992)[&label=12]:0.023494,(Sepedon_320954_Sciomyzidae:0.255798,Dictya_1096051_Sciomyzidae:0.147931)[&label=83]:0.050784)[&label=21]:0.040786,(Coremacera_1226614_Sciomyzidae:0.319245,Psacadina_1096078_Sciomyzidae:0.187037)[&label=14]:0.035175)[&label=98]:0.057884)[&label=99]:0.123429,(Pelidnoptera_1096074_Sciomyzidae:0.359303,(Sciomyza_320936_Sciomyzidae:0.070004,Pteromicra_1226622_Sciomyzidae:0.280284)[&label=100]:0.084911)[&label=98]:0.052386)[&label=82]:0.041699,(((Heterocheila_169481_Heterocheilidae:0.409242,(Helosciomyzidae_Helosciomyzidae:0.127486,Helcomyza_169476_Helcomyzidae:0.18025)[&label=99]:0.014633)[&label=65]:0.00534,(Homoneura_1692452_Lauxaniidae:0.376164,(Aulogastromyia_1824990_Lauxaniidae:0.101308,Tricholauxania_192459_Lauxaniidae:0.116996)[&label=100]:0.096822)[&label=97]:0.236774)[&label=60]:0.007819,(Oedoparena_1262316_Dryomyzidae:0.265368,Dryomyza_169444_Dryomyzidae:0.245573)[&label=89]:0.058194)[&label=57]:0.027999)[&label=68]:0.030612,(Sicus_1219203_Conopidae:0.707261,(Thecophora_305546_Conopidae:0.582998,(Physocephala_198643_Conopidae:0.417106,Zodion_768804_Conopidae:0.669399)[&label=51]:0.043671)[&label=50]:0.01808)[&label=90]:0.169481)[&label=90]:0.020093)[&label=88]:0.018763,((Tanypeza_1692486_Tanypezidae:0.336195,Copromyza_1217530_Sphaeroceridae:0.166787)[&label=52]:3.0E-6,(Neoalticomerus_716622_Odiniidae:0.607399,((Parochthiphila_1262282_Chamaemyiidae:0.315182,Chamaemyia_305621_Chamaemyiidae:0.268361)[&label=100]:0.196659,(Leucopis_1728826_Chamaemyiidae:0.303794,Tricimba_540889_Chloropidae:0.245639)[&label=97]:0.148565)[&label=95]:0.0633)[&label=84]:0.086566)[&label=57]:0.014883)[&label=83]:0.048211)[&label=81]:0.034024,((((Ctenostylidae_Ctenostylidae:0.718498,((((Anastrepha_28585_Tephritidae:0.200365,Rhagoletis_28609_Tephritidae:0.179243)[&label=100]:0.027201,(Zonosemata_28622_Tephritidae:0.197858,Rivellia_28633_Platystomatidae:0.298466)[&label=97]:0.042557)[&label=97]:0.028454,(Euleia_28591_Tephritidae:0.228976,(Bactrocera_27456_Tephritidae:0.19117,(Ceratitis_7212_Tephritidae:0.179149,Scholastes_1902237_Platystomatidae:0.333365)[&label=56]:0.084583)[&label=56]:0.038922)[&label=53]:0.00691)[&label=53]:0.027169,(((Urophora_28620_Tephritidae:0.316164,((Oxyna_381365_Tephritidae:0.271369,(Eurosta_28593_Tephritidae:0.257786,Tephritis_43386_Tephritidae:0.093757)[&label=60]:0.012353)[&label=64]:0.02198,(Paracantha_164885_Tephritidae:0.231747,Trupanea_30060_Tephritidae:0.095585)[&label=64]:0.020131)[&label=100]:0.067465)[&label=88]:0.019189,((Icterica_28599_Tephritidae:0.048269,Xyphosia_381372_Tephritidae:0.161389)[&label=100]:0.074825,(Jamesomyia_28601_Tephritidae:0.117869,Noeeta_381362_Tephritidae:0.168941)[&label=99]:0.018955)[&label=84]:0.039234)[&label=94]:0.042014,(Gymnocarena_28597_Tephritidae:0.189519,Terellia_28615_Tephritidae:0.186903)[&label=81]:0.011083)[&label=99]:0.107211)[&label=45]:0.058069)[&label=66]:0.004916,(Platystoma_286504_Platystomatidae:0.266613,Desmometopa_305587_Milichiidae:0.287169)[&label=66]:0.054794)[&label=98]:0.022878,(Delphinia_43369_Ulidiidae:0.26745,(Euxesta_286468_Ulidiidae:0.254445,Tetanops_454640_Ulidiidae:0.277799)[&label=77]:0.051507)[&label=91]:0.123818)[&label=83]:0.034534,((Braula_305561_Braulidae:0.440559,(Palloptera_286498_Pallopteridae:0.191003,(Spaniocelyphus_1262326_Celyphidae:0.006432,Celyphus_1979294_Celyphidae:2.0E-6)[&label=100]:0.366053)[&label=99]:0.037282)[&label=86]:0.052401,(Centrophlebomyia_1603419_Piophilidae:0.204831,(Piophila_53709_Piophilidae:0.121983,(Lasiopiophila_1790233_Piophilidae:0.033141,Liopiophila_1603421_Piophilidae:0.071479)[&label=98]:0.037675)[&label=99]:0.042943)[&label=99]:0.091819)[&label=73]:0.04289)[&label=77]:0.048267)[&label=71,!rotate=true]:0.031729,(((((Sphyracephala_139674_Diopsidae:0.247169,(Diopsis_139667_Diopsidae:0.268216,Diasemopsis_139652_Diopsidae:0.244479)[&label=98]:0.061577)[&label=100]:0.126347,(Discocerina_745181_Ephydridae:0.290263,(Aphanotrigonum_540849_Chloropidae:0.23991,(Telostylinus_1262347_Neriidae:0.200192,(Stenomicra_716630_Aulacigastridae:0.391782,(Leptometopa_1720790_Milichiidae:0.18224,Milichiella_1890919_Milichiidae:0.143941)[&label=100]:0.103954)[&label=62]:2.0E-6)[&label=99]:0.036892)[&label=29]:0.015049)[&label=53]:0.087978)[&label=19]:2.0E-6,(Compsobata_286452_Micropezidae:0.295475,Micropeza_1572561_Micropezidae:0.399054)[&label=95]:0.073594)[&label=64]:0.016951,(Quametopia_1603285_Anthomyzidae:0.183128,Stiphrosoma_500293_Anthomyzidae:0.167848)[&label=100]:0.18157)[&label=65]:0.058593,((Periscelis_716628_Periscelididae:0.342202,(Psila_305548_Psilidae:0.228837,(Chyliza_716634_Psilidae:0.309825,(Clusiodes_500306_Clusiidae:0.292419,Epichlorops_540897_Chloropidae:0.203544)[&label=99]:0.068971)[&label=30]:0.026215)[&label=89]:0.04444)[&label=38]:0.010766,(Cryptochetum_1262333_Cryptochetidae:0.624133,Neurochaeta_716624_Neurochaetidae:0.331948)[&label=42]:0.133553)[&label=73]:0.0666)[&label=71]:0.031468)[&label=68]:0.024115)[&label=61,!rotate=true]:0.034742,((Paranthomyza_500298_Anthomyzidae:0.201256,(Calobata_1820059_Micropezidae:0.162615,(Cerodontha_127401_Agromyzidae:0.318104,Sobarocephala_574054_Clusiidae:0.306073)[&label=83]:0.070117)[&label=81]:0.035689)[&label=71]:0.051665,(Loxocera_34684_Psilidae:0.491858,(Fergusonina_156411_Fergusoninidae:0.360852,Hemerodromia_626769_Empididae:5.107341)[&label=65]:0.327765)[&label=46]:0.042457)[&label=44]:0.049713)[&label=66,!rotate=true]:0.024219,(((Chalarus_115250_Pipunculidae:0.215269,Verrallia_115333_Pipunculidae:0.324259)[&label=100]:0.120675,(Nephrocerus_115303_Pipunculidae:0.184189,(Pipunculus_240898_Pipunculidae:0.446775,Cetema_540891_Chloropidae:0.426423)[&label=87]:0.025368)[&label=89]:0.066615)[&label=89]:0.054764,(Lipara_540870_Chloropidae:0.176682,(Calamoncosis_540852_Chloropidae:0.185711,Thaumatomyia_333800_Chloropidae:0.247303)[&label=99]:0.058736)[&label=97]:0.04135)[&label=86,!rotate=false]:0.060537)[&label=66]:3.0E-6)[&label=52,!rotate=true]:0.039352,(Chrysogaster_224248_Syrphidae:0.33018,(((Cheilosia_173981_Syrphidae:0.195019,(Neoascia_224222_Syrphidae:0.233499,(((Sphaerophoria_226179_Syrphidae:0.169151,(Paragus_115308_Syrphidae:0.256952,(Toxomerus_115327_Syrphidae:0.139439,Ocyptamus_369855_Syrphidae:0.120346)[&label=100]:0.104987)[&label=100]:0.053752)[&label=86]:0.04112,(Xanthogramma_414873_Syrphidae:0.267364,(Epistrophe_414810_Syrphidae:0.292796,(Scaeva_219538_Syrphidae:0.201819,((Eriozona_414724_Syrphidae:0.135503,Melangyna_414825_Syrphidae:0.142964)[&label=2]:0.028693,(Eupeodes_290403_Syrphidae:0.096361,Syrphus_224255_Syrphidae:0.130024)[&label=83]:0.029529)[&label=65]:0.058106)[&label=2]:0.024269)[&label=70]:0.014714)[&label=67]:0.02201)[&label=98]:0.036281,(Blera_226146_Syrphidae:0.155962,Temnostoma_226164_Syrphidae:0.141354)[&label=100]:0.07179)[&label=98]:0.016199)[&label=99]:0.017879)[&label=87]:0.018479,(((Pipiza_221788_Syrphidae:0.286264,(Myolepta_1473716_Syrphidae:0.230754,(Volucella_226148_Syrphidae:0.170837,(Copestylum_511142_Syrphidae:0.111667,Ornidia_994473_Syrphidae:0.31002)[&label=100]:0.059757)[&label=98]:0.055607)[&label=90]:0.038993)[&label=46]:0.0015,((Callicera_228567_Syrphidae:0.155405,Syritta_34681_Syrphidae:0.191369)[&label=84]:0.026561,(Eristalis_198633_Syrphidae:0.099196,Mallota_535942_Syrphidae:0.223638)[&label=90]:0.093705)[&label=86]:0.022281)[&label=99]:0.046965,(Brachyopa_1637464_Syrphidae:0.139727,Hammerschmidtia_226171_Syrphidae:0.178903)[&label=100]:0.046426)[&label=87]:0.027445)[&label=68]:0.038322,(Microdon_115291_Syrphidae:0.653279,(Eumerus_224220_Syrphidae:0.162244,Merodon_224226_Syrphidae:0.158698)[&label=100]:0.076967)[&label=27]:0.030783)[&label=48]:0.024668)[&label=100]:0.089698)[&label=59,!rotate=true]:0.068251,(Sciadocera_192453_Sciadoceridae:0.335039,(((Borophaga_712093_Phoridae:0.275509,(Hypocera_940227_Phoridae:0.852658,Triphleba_92553_Phoridae:0.094876)[&label=98]:0.075348)[&label=98]:0.190213,(Pseudacteon_378799_Phoridae:0.809924,(Anevrina_92526_Phoridae:0.189051,Diplonevra_92534_Phoridae:0.373111)[&label=100]:0.043751)[&label=77]:0.076918)[&label=76]:0.034656,(Nothomicrodon_1857748_Syrphidae:0.646669,(Megaselia_36165_Phoridae:0.206788,Apocephalus_117252_Phoridae:0.232559)[&label=92]:0.01046)[&label=96]:0.052055)[&label=33]:0.044144)[&label=98]:0.131631)[&label=96,!rotate=true]:0.039743,((Polyporivora_1445854_Platypezidae:0.319216,(Platypeza_289241_Platypezidae:0.201828,Kesselimyia_1445844_Platypezidae:0.153576)[&label=100]:0.136913)[&label=100]:0.122347,(Bertamyia_1445832_Platypezidae:0.242057,Callomyia_712098_Platypezidae:0.310105)[&label=100]:0.087748)[&label=99]:0.088051)[&label=97,!rotate=true]:0.071762,((Systoechus_1690390_Bombyliidae:0.528639,((((Microchrysa_931517_Stratiomyidae:0.295408,Chloromyia_343649_Stratiomyidae:0.175116)[&label=99]:0.079267,(Ptecticus_343648_Stratiomyidae:0.210083,Sargus_343647_Stratiomyidae:0.253328)[&label=100]:0.070469)[&label=100]:0.081999,(Hermetia_343581_Stratiomyidae:0.236787,((Stratiomys_219520_Stratiomyidae:0.846174,Odontomyia_343652_Stratiomyidae:0.034064)[&label=100]:0.563543,(Nemotelus_343582_Stratiomyidae:0.961114,Oxycera_860348_Stratiomyidae:0.093302)[&label=94]:0.27924)[&label=89]:0.098818)[&label=98]:0.04977)[&label=98]:0.128357,((Pachygaster_124321_Stratiomyidae:0.322299,(Oplodontha_446504_Stratiomyidae:0.372468,Neopachygaster_1692469_Stratiomyidae:0.054985)[&label=98]:0.065913)[&label=42]:0.072018,(Berkshiria_2061012_Stratiomyidae:0.184401,Zabrachia_1891525_Stratiomyidae:0.247318)[&label=47]:0.083526)[&label=97]:0.053283)[&label=99]:0.082091)[&label=92]:0.030291,(Lauterborniella_288850_Chironomidae[&!color=#ff0000]:0.720138,Sylvicola_52753_Anisopodidae[&!color=#ff0000]:0.296338)[&label=71]:2.0E-6)[&label=84]:0.025723)[&label=70,!rotate=true]:0.035838,((((Tricyphona_700863_Pediciidae[&!color=#ff0000]:0.306885,(((((Mydas_186100_Mydidae:0.297194,(Apiocera_160270_Apioceridae:0.279743,Bathypogon_1718388_Asilidae:0.39774)[&label=98]:0.022317)[&label=97]:0.090952,((Laphria_50683_Asilidae:0.454465,((Philonicus_247567_Asilidae:0.318672,(Pamponerus_1717601_Asilidae:0.270478,Machimus_247604_Asilidae:0.17866)[&label=100]:0.073532)[&label=100]:0.09925,(Promachus_247552_Asilidae:0.145353,Mallophora_270862_Asilidae:0.156575)[&label=100]:0.155972)[&label=100]:0.124598)[&label=39]:0.053714,(Dioctria_468720_Asilidae:0.362401,Lasiopogon_219536_Asilidae:0.312562)[&label=52]:0.063408)[&label=83]:0.06262)[&label=99]:0.049849,((Gasterophilus_84524_Oestridae[&!color=#ff0033]:0.203461,Gyrostigma_2555504_Oestridae[&!color=#ff0033]:0.260248)[&label=100,!color=#ff0000]:0.378788,(Thereva_95078_Therevidae:0.363308,(Chaetopsis_240871_Ulidiidae[&!color=#ff0000]:0.335459,Chlorops_540892_Chloropidae[&!color=#ff0000]:0.491188)[&label=41]:0.003075)[&label=85]:0.051941)[&label=89]:0.061209)[&label=85]:0.03774,(Spania_1559498_Rhagionidae:0.638126,(Scenopinus_247599_Scenopinidae:0.613873,Pantophthalmus_124295_Pantophthalmidae:0.37903)[&label=98]:0.089256)[&label=94]:0.016006)[&label=86]:0.025941,((Ligyra_117088_Bombyliidae:0.29957,(Anthrax_117078_Bombyliidae:0.298492,Bombylius_219362_Bombyliidae:0.157034)[&label=100]:0.105572)[&label=99]:0.115583,(Hirmoneura_388531_Nemestrinidae:0.335335,Neorhynchocephalus_259248_Nemestrinidae:0.327991)[&label=100]:0.097347)[&label=99]:0.050181)[&label=77]:0.013295)[&label=72]:0.035434,(((((Bolbodimyia_1547386_Tabanidae:0.317048,(Chrysops_27458_Tabanidae:0.306468,Silvius_415257_Tabanidae:0.285058)[&label=100]:0.048151)[&label=99]:0.046445,(Catachlorops_1547373_Tabanidae:0.184459,((Hybomitra_124690_Tabanidae:0.05833,(Tabanus_7206_Tabanidae:0.115659,(Atylotus_1310336_Tabanidae:0.129173,Haematopota_124311_Tabanidae:0.220677)[&label=98]:0.048116)[&label=96]:0.02301)[&label=98]:0.040391,(Stenotabanus_1547430_Tabanidae:0.237858,Leucotabanus_1969939_Tabanidae:0.042293)[&label=100]:0.088674)[&label=98]:0.058605)[&label=97]:0.04543)[&label=98]:0.070871,((Apatolestes_428062_Tabanidae:0.393841,Fidena_1334907_Tabanidae:0.221141)[&label=32]:0.034955,(Esenbeckia_124297_Tabanidae:0.211999,Goniops_428065_Tabanidae:0.24063)[&label=32]:0.026818)[&label=100]:0.084458)[&label=100]:0.140391,((Atherix_124299_Athericidae:0.542304,Vermileo_124333_Vermileonidae:0.339237)[&label=4]:0.066746,(Oreoleptis_1262318_Oreoleptidae:0.159892,Mormotomyia_1155704_Mormotomyiidae[&!color=#ff0000]:0.201867)[&label=3]:0.128556)[&label=65]:0.046323)[&label=64]:0.078094,(Glutops_124309_Pelecorhynchidae:0.34982,(Ptiolina_124325_Rhagionidae:0.259866,(Rhagio_124327_Rhagionidae:0.230047,(Chrysopilus_124301_Rhagionidae:0.818263,Coenomyia_124305_Xylophagaidae:0.16214)[&label=48]:0.089562)[&label=47]:0.056955)[&label=71]:0.061638)[&label=70]:0.137057)[&label=56]:0.048692)[&label=47]:0.017836,((Xylophagus_219493_Xylophagaidae:0.291472,Exeretonevra_560723_Xylophagaidae:0.374952)[&label=100]:0.133971,(Acrocera_210245_Acroceridae:0.549386,(((Astomella_210239_Acroceridae:0.470484,Eulonchus_210230_Acroceridae:0.086411)[&label=100]:0.200235,(Ocnaea_210271_Acroceridae:0.141915,Exetasis_1932988_Acroceridae:0.109591)[&label=99]:0.238375)[&label=99]:0.062232,(Ogcodes_188257_Acroceridae:0.362912,Pterodontia_210267_Acroceridae:0.380547)[&label=100]:0.210498)[&label=100]:0.212611)[&label=100]:0.137729)[&label=94]:0.050498)[&label=76]:0.019514,((Chelifera_369889_Empididae:0.427955,((Clinocera_192484_Empididae:0.228581,Wiedemannia_240904_Empididae:0.305079)[&label=100]:0.113251,(Phyllodromia_1209097_Empididae:0.397805,(Rhamphomyia_192612_Empididae:0.367944,(Metachela_369884_Empididae:0.097243,Neoplasta_192640_Empididae:0.37079)[&label=93]:0.019943)[&label=93]:0.059931)[&label=93]:0.042599)[&label=93]:0.046945)[&label=100]:0.084658,(Dolichopus_192427_Dolichopodidae:0.372104,(Medetera_377527_Dolichopodidae:0.298223,Rhaphium_377528_Dolichopodidae:0.370444)[&label=100]:0.152716)[&label=95]:0.125762)[&label=94]:0.092026)[&label=79]:0.045139)[&label=89,!rotate=true]:0.13426)[&label=85,!rotate=false]:0.0424,(((((Aprionus_1819779_Cecidomyiidae:0.671126,(Winnertzia_2338641_Cecidomyiidae:0.429863,(Peromyia_1914937_Cecidomyiidae:0.973726,(((Asphondylia_153012_Cecidomyiidae:0.739721,(Aphidoletes_95971_Cecidomyiidae:0.258451,Cecidomyia_1543682_Cecidomyiidae:0.277529)[&label=99]:0.085167)[&label=79]:0.02859,(Contarinia_153220_Cecidomyiidae:0.217414,Sitodiplosis_263139_Cecidomyiidae:0.339005)[&label=100]:0.160875)[&label=78]:0.06559,(Lasioptera_201413_Cecidomyiidae:0.344875,(Dasineura_240745_Cecidomyiidae:0.190726,Piceacecis_2597495_Cecidomyiidae:0.206042)[&label=100]:0.167375)[&label=100]:0.081621)[&label=92]:0.127011)[&label=100]:0.058259)[&label=100]:0.131901)[&label=100]:0.372802,((((Diadocidia_560721_Diadocidiidae:0.442796,((Bradysia_35571_Sciaridae:0.150176,Corynoptera_1260849_Sciaridae:0.166535)[&label=100]:0.157696,(Sciara_82677_Sciaridae:0.13019,Pnyxia_1781626_Sciaridae:0.920919)[&label=100]:0.199011)[&label=100]:0.30627)[&label=100]:0.123309,((Leptomorphus_560729_Mycetophilidae:0.35164,Sciophila_1085959_Mycetophilidae:0.360434)[&label=100]:0.090791,((Trichonta_397122_Mycetophilidae:0.243871,(Phronia_397119_Mycetophilidae:0.244397,((Exechia_397139_Mycetophilidae:0.192403,Brachypeza_2326774_Mycetophilidae:0.17818)[&label=100]:0.097416,(Mycetophila_397146_Mycetophilidae:0.131046,Epicypta_397117_Mycetophilidae:0.306238)[&label=77]:0.07704)[&label=77]:0.075508)[&label=100]:0.295772)[&label=100]:0.2004,(Mycomya_608706_Mycetophilidae:0.256678,Neoempheria_608686_Mycetophilidae:0.33438)[&label=100]:0.170023)[&label=100]:0.050829)[&label=100]:0.051648)[&label=100]:0.026187,(Macrocera_608727_Keroplatidae:0.600487,Bolitophila_52718_Mycetophilidae:0.401508)[&label=100]:0.095477)[&label=100]:0.096293,((Plecia_1260898_Bibionidae:0.374233,Hesperinus_1086788_Hesperinidae:0.297079)[&label=95]:0.142885,(Cramptonomyia_209688_Pachyneuridae:0.242579,Pachyneura_1588165_Pachyneuridae:0.344009)[&label=97]:0.051848)[&label=92]:0.066763)[&label=89]:0.042604)[&label=89]:0.05194,(((Pericoma_1148481_Psychodidae:2.0E-6,Clogmia_85119_Psychodidae:0.437148)[&label=100]:0.343569,(Symmerus_560780_Mycetophilidae:0.451197,Ditomyia_1520322_Ditomyiidae:0.540174)[&label=100]:0.12045)[&label=99]:0.128944,(Penthetria_560770_Pleciidae:0.373664,(Orfelia_270890_Keroplatidae:0.457036,(Bibio_189978_Bibionidae:0.241365,Dilophus_52733_Bibionidae:0.239804)[&label=100]:0.108259)[&label=97]:0.144674)[&label=90]:0.051553)[&label=91]:0.034561)[&label=99]:0.13756,(Lipsothrix_700849_Limoniidae:0.126266,(Coboldia_170624_Scatopsidae:0.289649,Scatopse_1520324_Scatopsidae:0.294353)[&label=100]:0.281984)[&label=51]:0.025792)[&label=79]:0.041424,(Blepharicera_547808_Blephariceridae:0.441474,Liponeura_446516_Blephariceridae:0.240098)[&label=100]:0.594501)[&label=73]:0.031286)[&label=75,!rotate=true]:0.035382,((Elephantomyia_700838_Limoniidae:0.471171,(((((((Chaoborus_41812_Chaoboridae:0.507642,(Anopheles_7164_Culicidae:1.171944,(Aedes_7158_Culicidae:0.211066,(Culex_7174_Culicidae:0.422625,Culiseta_174825_Culicidae:0.196073)[&label=100]:0.145931)[&label=100]:0.132912)[&label=100]:0.723304)[&label=86]:0.316984,(((Pseudosmittia_611382_Chironomidae:0.069713,((Chironomus_7150_Chironomidae:0.517844,(Ainuyusurika_1165747_Chironomidae:0.571135,(Paraborniella_903459_Chironomidae:0.238642,Paucispinigera_903463_Chironomidae:0.373955)[&label=100]:0.2924)[&label=100]:0.066793)[&label=98]:0.314288,(Monodiamesa_891905_Chironomidae:0.534094,(Clunio_315556_Chironomidae:0.465031,(Metriocnemus_137497_Chironomidae:0.285334,(Gymnometriocnemus_611353_Chironomidae:0.236606,(Tvetenia_611398_Chironomidae:0.426573,(Eukiefferiella_288843_Chironomidae:0.312955,(Corynoneura_611344_Chironomidae:0.499592,Smittia_315559_Chironomidae:0.25707)[&label=82]:0.061349)[&label=94]:0.022469)[&label=18]:0.093003)[&label=71]:0.23466)[&label=74]:0.091876)[&label=82]:0.10963)[&label=66]:0.103065)[&label=56]:0.058095)[&label=99]:0.155704,(Psectrotanypus_903467_Chironomidae:0.601872,(Pentaneura_891922_Chironomidae:0.531976,Ablabesmyia_46216_Chironomidae:0.496136)[&label=100]:0.241936)[&label=96]:0.15163)[&label=65]:0.068469,(Aphroteniella_646259_Chironomidae:0.703465,Parochlus_315560_Chironomidae:0.825337)[&label=100]:0.375284)[&label=100]:0.410359)[&label=72]:0.129633,(Dixa_79309_Dixidae:1.165232,(Simulium_7191_Simuliidae:0.983756,(Austrothaumalea_1085085_Thaumaleidae:0.964897,(Thaumalea_61068_Thaumaleidae:0.445894,Androprosopa_41815_Thaumaleidae:0.085557)[&label=100]:0.277376)[&label=100]:0.481948)[&label=100]:0.287798)[&label=76]:0.177104)[&label=13]:0.061304,(((Atrichopogon_209702_Ceratopogonidae:0.617381,(Dasyhelea_41822_Ceratopogonidae:0.563702,Forcipomyia_209700_Ceratopogonidae:0.616841)[&label=97]:0.096889)[&label=100]:0.101929,(Culicoides_41820_Ceratopogonidae:0.820813,(Sphaeromias_1874311_Ceratopogonidae:0.391491,(Serromyia_209716_Ceratopogonidae:0.282459,Austroconops_209696_Ceratopogonidae:0.482173)[&label=40]:0.076837)[&label=40]:0.044843)[&label=99]:0.126668)[&label=100]:0.220674,(Liogma_560731_Cylindrotomidae:0.362115,Cylindrotoma_700834_Cylindrotomidae:0.202481)[&label=79]:0.018459)[&label=77]:0.076254)[&label=36]:0.158528,(Axymyia_560715_Axymyiidae:0.553287,Gnophomyia_700845_Limoniidae:0.213181)[&label=80]:0.108188)[&label=53]:0.094266,(Dicranota_700836_Pediciidae:1.813112,Lonchoptera_92595_Lonchopteridae:0.154395)[&label=54]:0.138511)[&label=47]:0.144208,((Sycorax_114592_Psychodidae:0.532524,(Psychoda_7201_Psychodidae:0.698412,(Araucoderus_1549737_Tanyderidae:0.080085,(Phlebotomus_13203_Psychodidae:0.565172,Lutzomyia_7199_Psychodidae:1.074512)[&label=87]:0.160446)[&label=83]:0.082168)[&label=81]:0.0627)[&label=86]:0.237219,(Limonia_52743_Limoniidae:0.302892,((Protoplasa_560776_Tanyderidae:0.211131,Mischoderus_560267_Tanyderidae:0.398832)[&label=100]:0.149851,(Mochlonyx_1577622_Chaoboridae:0.13646,(Maruina_1144738_Psychodidae:0.761416,Trichomyia_560271_Psychodidae:1.431809)[&label=86]:0.415795)[&label=66]:0.020694)[&label=77]:0.087986)[&label=18]:0.010089)[&label=62]:0.161847)[&label=26]:0.02075)[&label=54]:0.025371,(Ptychoptera_209691_Ptychopteridae:0.540256,Bittacomorpha_79307_Ptychopteridae:0.150465)[&label=91]:0.724684)[&label=69]:0.039666)[&label=65,!rotate=true]:0.054485,(Dactylolabis_560717_Limoniidae:0.416527,(Phalacrocera_2203737_Cylindrotomidae:0.182271,(Nymphomyia_560766_Nymphomyiidae:0.497643,Palpomyia_1525500_Ceratopogonidae:0.395921)[&label=98]:0.067883)[&label=87]:0.039059)[&label=88]:0.269218)[&label=39,!rotate=true]:0.0357,(Helius_700865_Limoniidae:0.208797,(Trichocera_52759_Trichoceridae:0.505489,(Antocha_454619_Limoniidae:0.3931,(Prionocera_1690388_Tipulidae:0.273879,(Nephrotoma_46210_Tipulidae:0.305875,(Tipula_41043_Tipulidae:0.058874,(Dictenidia_2108369_Tipulidae:0.223019,(Ctenophora_516519_Tipulidae:0.002112,Tanyptera_2108371_Tipulidae:0.003736)[&label=100]:0.132704)[&label=100]:0.071735)[&label=100]:0.118198)[&label=100]:0.042037)[&label=100]:0.103552)[&label=99]:0.110865)[&label=30]:0.073069)[&label=94]:0.086893)[&label=41,!rotate=true]:0.087475)[&label=45,!rotate=false]:0.147395):0.0)[&label="Root"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=106;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
