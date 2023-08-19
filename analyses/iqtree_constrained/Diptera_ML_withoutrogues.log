@@ -1,0 +1,2047 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    chandler.fm.pri (AVX512, FMA3, 251 GB RAM)
+Command: iqtree -s concatenated_alignment.nex -m MFP+MERGE -B 1000 -p partitions.nex -g partial_iqtree_pruned.tre -T 3 --prefix Diptera_ML_withoutrogues
+Seed:    310048 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 18 17:43:50 2023
+Kernel:  AVX+FMA - 3 threads (72 CPU cores detected)
+
+Reading partition model file partitions.nex ...
+Reading alignment file concatenated_alignment.nex ... Nexus format detected
+WARNING: 6 sites contain only gaps or ambiguous characters.
+Alignment has 523 sequences with 14852 columns, 11060 distinct patterns
+7149 parsimony-informative, 2422 singleton sites, 5281 constant sites
+                           Gap/Ambiguity  Composition  p-value
+   1  Lucilia_7374                58.63%    failed      0.00%
+   2  Drosophila_7215             24.56%    failed      0.02%
+   3  Aedes_7158                  43.17%    failed      0.03%
+   4  Anastrepha_28585            61.76%    passed     97.94%
+   5  Apiocera_160270             76.55%    failed      4.97%
+   6  Hippobosca_452745           79.32%    failed      0.44%
+   7  Elgiva_320938               70.60%    failed      0.63%
+   8  Microchrysa_931517          93.29%    failed      0.02%
+   9  Nycteribia_633884           82.77%    failed      0.00%
+  10  Phlebotomus_13203           46.84%    failed      0.00%
+  11  Polietes_559702             80.90%    failed      0.00%
+  12  Simulium_7191               43.46%    failed      0.24%
+  13  Stratiomys_219520           71.65%    failed      0.99%
+  14  Trichocera_52759            48.55%    failed      0.01%
+  15  Xylophagus_219493           51.10%    failed      0.00%
+  16  Helosciomyzidae             76.04%    failed      0.00%
+  17  Ctenostylidae               65.08%    failed      0.17%
+  18  Acrocera_210245             68.63%    failed      0.00%
+  19  Anevrina_92526              89.47%    failed      0.00%
+  20  Anopheles_7164              61.51%    failed      0.00%
+  21  Anthomyia_259845            77.20%    failed      0.00%
+  22  Anthrax_117078              90.17%    failed      0.00%
+  23  Aphidoletes_95971           84.17%    failed      0.00%
+  24  Apocephalus_117252          90.20%    failed      0.00%
+  25  Aprionus_1819779            69.63%    passed      9.91%
+  26  Asphondylia_153012          69.16%    failed      0.00%
+  27  Astomella_210239            88.48%    failed      0.00%
+  28  Atherigona_305597           79.52%    failed      2.11%
+  29  Atrichopogon_209702         72.79%    failed      0.00%
+  30  Aulogastromyia_1824990      84.90%    failed      0.00%
+  31  Bactrocera_27456            59.12%    passed     78.97%
+  32  Bertamyia_1445832           87.11%    failed      0.00%
+  33  Bibio_189978                77.22%    failed      0.00%
+  34  Blondelia_179437            55.22%    passed     10.90%
+  35  Bolitophila_52718           70.15%    failed      1.25%
+  36  Bombylius_219362            49.25%    failed      0.00%
+  37  Borophaga_712093            87.91%    failed      0.00%
+  38  Bradysia_35571              61.41%    failed      0.06%
+  39  Calliphora_7372             52.92%    passed     76.58%
+  40  Callomyia_712098            86.63%    failed      0.00%
+  41  Cecidomyia_1543682          84.28%    failed      0.00%
+  42  Ceratitis_7212              72.72%    passed     22.05%
+  43  Chalarus_115250             84.55%    failed      0.00%
+  44  Chelifera_369889            83.52%    failed      0.00%
+  45  Chironomus_7150             57.22%    failed      0.04%
+  46  Chloromyia_343649           86.35%    failed      0.81%
+  47  Chrysomya_45449             63.31%    failed      0.01%
+  48  Chrysops_27458              64.48%    failed      0.07%
+  49  Chyliza_716634              70.50%    passed      5.97%
+  50  Cleigastra_113167           77.92%    failed      0.03%
+  51  Clinocera_192484            63.53%    failed      0.00%
+  52  Clusia_574057               75.79%    failed      0.00%
+  53  Coboldia_170624             88.22%    failed      0.00%
+  54  Compsomyiops_142897         64.86%    failed      0.01%
+  55  Contarinia_153220           77.24%    failed      0.00%
+  56  Cordilura_113132            62.81%    failed      0.23%
+  57  Cordylobia_226131           72.69%    failed      0.00%
+  58  Coremacera_1226614          75.46%    passed     83.93%
+  59  Corynoptera_1260849         67.57%    passed     21.76%
+  60  Crataerina_452743           82.04%    failed      0.01%
+  61  Craticulina_2021509         86.82%    failed      0.14%
+  62  Culex_7174                  72.03%    failed      0.00%
+  63  Culicoides_41820            70.14%    passed     11.73%
+  64  Culiseta_174825             78.66%    passed     16.36%
+  65  Cuterebra_170896            48.69%    failed      0.13%
+  66  Dasineura_240745            73.77%    failed      0.00%
+  67  Dasiops_286456              91.24%    failed      0.00%
+  68  Dasyhelea_41822             71.86%    failed      0.03%
+  69  Delia_30063                 77.38%    failed      0.00%
+  70  Delphinia_43369             79.01%    failed      0.12%
+  71  Dermatobia_115426           84.34%    failed      0.00%
+  72  Dexia_569033                57.74%    failed      0.10%
+  73  Diadocidia_560721           54.68%    failed      0.51%
+  74  Diopsis_139667              79.72%    passed      5.40%
+  75  Diplonevra_92534            79.34%    failed      4.85%
+  76  Ditomyia_1520322            55.86%    failed      0.01%
+  77  Dolichopus_192427           75.40%    failed      0.00%
+  78  Ectophasia_569037           60.60%    failed      0.62%
+  79  Eginia_1511678              75.07%    failed      0.00%
+  80  Ephydra_504564              80.24%    failed      0.00%
+  81  Euleia_28591                84.35%    failed      0.00%
+  82  Eulonchus_210230            64.87%    failed      0.00%
+  83  Eumesembrinella_672472      73.30%    failed      0.00%
+  84  Eurosta_28593               86.02%    failed      0.00%
+  85  Euxesta_286468              85.91%    failed      0.00%
+  86  Exechia_397139              61.11%    failed      0.00%
+  87  Exeretonevra_560723         58.58%    failed      0.00%
+  88  Exorista_113238             42.69%    failed      1.83%
+  89  Fannia_95468                61.75%    failed      0.00%
+  90  Forcipomyia_209700          84.77%    failed      1.30%
+  91  Gasterophilus_84524         85.03%    failed      0.00%
+  92  Geomyza_305619              73.03%    failed      0.00%
+  93  Glossina_7393               79.36%    failed      0.11%
+  94  Graphomya_1072499           79.69%    failed      0.28%
+  95  Gymnocarena_28597           91.52%    failed      0.00%
+  96  Gyrostigma_2555504          85.22%    passed     13.33%
+  97  Haematobosca_559680         69.63%    failed      0.02%
+  98  Hebecnema_559682            77.56%    failed      0.01%
+  99  Hedria_320941               80.04%    failed      0.00%
+ 100  Helcomyza_169476            61.02%    passed     85.68%
+ 101  Hemigymnochaeta_1240433     85.09%    failed      0.00%
+ 102  Heterocheila_169481         80.82%    failed      0.16%
+ 103  Hirmoneura_388531           78.00%    failed      0.00%
+ 104  Homoneura_1692452           83.08%    failed      0.00%
+ 105  Huascaromusca_1609532       84.39%    failed      0.00%
+ 106  Hydrellia_92591             88.90%    failed      0.00%
+ 107  Hydromyza_113174            77.19%    failed      0.01%
+ 108  Hylemya_253328              77.66%    failed      0.00%
+ 109  Hypocera_940227             82.79%    failed      4.01%
+ 110  Hypoderma_7388              83.55%    failed      0.00%
+ 111  Icosta_402409               86.20%    failed      0.00%
+ 112  Icterica_28599              89.74%    failed      0.00%
+ 113  Ilione_1096072              66.00%    passed     33.20%
+ 114  Incertella_540867           92.22%    failed      0.00%
+ 115  Jamesomyia_28601            93.87%    failed      0.00%
+ 116  Laneella_1658054            84.66%    failed      0.00%
+ 117  Leptomorphus_560729         71.54%    failed      0.00%
+ 118  Leucophenga_7329            76.84%    failed      0.00%
+ 119  Ligyra_117088               94.56%    failed      0.00%
+ 120  Limnophora_307207           64.62%    passed     10.69%
+ 121  Lipoptena_170902            76.45%    failed      0.00%
+ 122  Liriomyza_127403            61.75%    failed      0.02%
+ 123  Lutzomyia_7199              70.58%    passed     13.08%
+ 124  Macrocera_608727            71.27%    failed      1.43%
+ 125  Medetera_377527             83.79%    passed     23.19%
+ 126  Megaselia_36165             63.90%    failed      0.02%
+ 127  Melanophora_1606787         64.99%    failed      0.40%
+ 128  Melinda_170907              64.45%    failed      2.49%
+ 129  Melophagus_452748           74.02%    failed      0.00%
+ 130  Mesembrina_116147           79.52%    failed      0.00%
+ 131  Mesembrinella_460529        52.35%    failed      0.18%
+ 132  Mimegralla_115300           92.40%    failed      0.00%
+ 133  Morellia_253340             80.63%    failed      0.01%
+ 134  Musca_7369                  50.16%    passed     66.04%
+ 135  Muscina_57892               74.60%    passed     14.75%
+ 136  Mycomya_608706              63.48%    failed      0.12%
+ 137  Mydas_186100                48.29%    failed      0.00%
+ 138  Mystacinobia_81694          74.55%    failed      0.00%
+ 139  Nemoraea_170911             61.91%    passed     16.50%
+ 140  Nemotelus_343582            78.96%    passed     68.49%
+ 141  Neoempheria_608686          61.35%    failed      1.68%
+ 142  Neomyia_305607              79.12%    failed      0.00%
+ 143  Nephrocerus_115303          80.84%    failed      0.00%
+ 144  Noeeta_381362               91.29%    failed      0.00%
+ 145  Norellia_113119             77.17%    failed      0.01%
+ 146  Ocnaea_210271               77.01%    failed      0.00%
+ 147  Ocyptamus_369855            65.45%    failed      0.00%
+ 148  Odontomyia_343652           86.37%    passed     29.82%
+ 149  Oestrus_123736              75.42%    failed      0.00%
+ 150  Ogcodes_188257              71.87%    failed      0.00%
+ 151  Olfersia_1333310            92.92%    failed      0.00%
+ 152  Oplodontha_446504           88.65%    failed      0.00%
+ 153  Opomyza_716643              87.10%    failed      0.00%
+ 154  Orfelia_270890              76.17%    failed      0.06%
+ 155  Orthacheta_113181           77.48%    failed      0.01%
+ 156  Oxycera_860348              93.29%    failed      0.00%
+ 157  Oxyna_381365                91.33%    failed      0.00%
+ 158  Pachygaster_124321          84.66%    passed     14.30%
+ 159  Palloptera_286498           81.83%    failed      0.00%
+ 160  Pamponerus_1717601          92.90%    failed      0.04%
+ 161  Paracantha_164885           91.52%    failed      0.00%
+ 162  Paragus_115308              72.01%    failed      0.00%
+ 163  Paralucilia_1042205         84.77%    failed      0.00%
+ 164  Paranthomyza_500298         93.09%    failed      0.00%
+ 165  Parasetigena_380521         71.05%    failed      0.00%
+ 166  Paregle_559693              83.15%    failed      0.00%
+ 167  Passeromyia_1511687         76.25%    failed      0.00%
+ 168  Paykullia_559695            52.07%    failed      0.01%
+ 169  Pegomya_559697              84.90%    failed      0.00%
+ 170  Pelidnoptera_1096074        69.20%    passed     97.63%
+ 171  Penicillidia_81721          81.33%    failed      0.00%
+ 172  Pericoma_1148481            91.72%    failed      0.00%
+ 173  Phaonia_253431              67.01%    passed     12.55%
+ 174  Philonicus_247567           67.84%    failed      1.51%
+ 175  Phryxe_569079               70.66%    passed      7.94%
+ 176  Phyllodromia_1209097        83.52%    failed      0.00%
+ 177  Physocephala_198643         59.03%    failed      0.04%
+ 178  Phyto_1262320               76.53%    failed      0.00%
+ 179  Phytomyptera_179785         72.52%    failed      0.00%
+ 180  Piceacecis_2597495          84.70%    failed      0.00%
+ 181  Piophila_53709              83.19%    failed      0.00%
+ 182  Pipunculus_240898           77.83%    failed      0.00%
+ 183  Platypeza_289241            82.62%    failed      0.00%
+ 184  Platystoma_286504           85.91%    failed      0.00%
+ 185  Plecia_1260898              70.39%    failed      0.80%
+ 186  Pollenia_229639             51.93%    failed      1.51%
+ 187  Polyporivora_1445854        82.25%    failed      0.00%
+ 188  Promachus_247552            53.86%    failed      1.91%
+ 189  Protoplasa_560776           70.45%    failed      0.00%
+ 190  Psacadina_1096078           69.78%    passed      9.07%
+ 191  Psychoda_7201               88.92%    failed      0.00%
+ 192  Pterodontia_210267          70.86%    failed      0.00%
+ 193  Quametopia_1603285          87.35%    failed      0.00%
+ 194  Rhagio_124327               87.05%    failed      0.00%
+ 195  Rhagoletis_28609            72.15%    passed     30.66%
+ 196  Rhamphomyia_192612          76.74%    failed      0.00%
+ 197  Rhaphium_377528             85.91%    passed      9.73%
+ 198  Rhinoestrus_204922          92.42%    failed      0.00%
+ 199  Rhinophora_670625           76.62%    failed      0.00%
+ 200  Rhyncomya_670621            51.44%    failed      4.52%
+ 201  Sarconesia_670650           63.73%    failed      0.74%
+ 202  Scaptomyza_7298             75.40%    failed      0.00%
+ 203  Scathophaga_95462           55.12%    failed      0.13%
+ 204  Scenopinus_247599           58.69%    failed      0.86%
+ 205  Sciadocera_192453           85.51%    failed      0.00%
+ 206  Sciara_82677                75.65%    failed      0.99%
+ 207  Sciophila_1085959           48.86%    passed      7.56%
+ 208  Senotainia_179787           80.38%    failed      0.03%
+ 209  Sepedon_320954              66.19%    failed      0.35%
+ 210  Sepsis_137507               55.66%    failed      0.00%
+ 211  Sicus_1219203               88.80%    failed      0.10%
+ 212  Silba_198646                85.89%    failed      0.00%
+ 213  Sitodiplosis_263139         74.05%    failed      0.00%
+ 214  Sphecapatoclea_2021595      86.82%    passed     19.55%
+ 215  Sphecapatodes_2021536       86.82%    failed      0.81%
+ 216  Sphyracephala_139674        66.76%    passed     63.34%
+ 217  Stegana_188292              75.21%    failed      0.00%
+ 218  Stevenia_670627             62.72%    failed      0.03%
+ 219  Stiphrosoma_500293          86.94%    failed      0.00%
+ 220  Sturmia_569089              72.44%    failed      0.01%
+ 221  Symmerus_560780             73.78%    failed      0.09%
+ 222  Tanypeza_1692486            85.72%    failed      0.00%
+ 223  Tephritis_43386             83.94%    failed      0.00%
+ 224  Terellia_28615              88.34%    failed      0.00%
+ 225  Tetanocera_320959           70.64%    failed      0.20%
+ 226  Tetanops_454640             87.83%    passed      5.38%
+ 227  Thecophora_305546           70.83%    passed     55.15%
+ 228  Themira_292396              62.16%    passed     60.54%
+ 229  Tipula_41043                45.27%    failed      0.00%
+ 230  Toxomerus_115327            67.84%    failed      0.00%
+ 231  Tricholauxania_192459       88.36%    failed      0.00%
+ 232  Tricogena_1606792           86.40%    failed      0.00%
+ 233  Trupanea_30060              83.62%    failed      0.00%
+ 234  Urophora_28620              83.81%    failed      0.00%
+ 235  Verrallia_115333            87.76%    failed      0.00%
+ 236  Volucella_226148            75.55%    failed      0.00%
+ 237  Wiedemannia_240904          76.70%    failed      0.00%
+ 238  Winnertzia_2338641          72.43%    failed      0.00%
+ 239  Wohlfahrtia_128961          85.52%    failed      2.04%
+ 240  Xyphosia_381372             91.32%    failed      0.00%
+ 241  Zodion_768804               83.11%    passed     38.07%
+ 242  Zonosemata_28622            78.45%    failed      0.07%
+ 243  Zygothrica_504731           87.75%    failed      0.00%
+ 244  Corynoneura_611344          91.73%    passed     30.59%
+ 245  Metriocnemus_137497         89.58%    passed      5.49%
+ 246  Ptychoptera_209691          56.06%    failed      2.94%
+ 247  Sycorax_114592              84.35%    passed     25.17%
+ 248  Ainuyusurika_1165747        79.82%    failed      2.56%
+ 249  Antocha_454619              88.49%    failed      2.90%
+ 250  Aphroteniella_646259        85.22%    failed      0.55%
+ 251  Atherix_124299              81.90%    passed     10.24%
+ 252  Atylotus_1310336            85.05%    passed      7.26%
+ 253  Austrothaumalea_1085085     85.49%    passed     10.32%
+ 254  Blepharicera_547808         96.00%    passed     26.05%
+ 255  Brachyopa_1637464           86.56%    failed      0.00%
+ 256  Brachypeza_2326774          79.02%    failed      0.00%
+ 257  Callicera_228567            86.19%    failed      0.00%
+ 258  Cheilosia_173981            83.50%    failed      0.00%
+ 259  Chrysogaster_224248         86.13%    failed      0.00%
+ 260  Copestylum_511142           89.42%    failed      0.00%
+ 261  Cramptonomyia_209688        75.65%    failed      0.00%
+ 262  Ctenophora_516519           75.74%    passed      5.32%
+ 263  Deuterophlebia_560719       66.93%    failed      1.59%
+ 264  Dicranota_700836            91.63%    failed      0.00%
+ 265  Dixa_79309                  77.65%    passed     21.18%
+ 266  Epistrophe_414810           82.02%    failed      0.00%
+ 267  Eriozona_414724             86.08%    failed      0.00%
+ 268  Eristalis_198633            81.61%    failed      0.00%
+ 269  Eumerus_224220              81.99%    failed      0.00%
+ 270  Eupeodes_290403             78.66%    failed      0.00%
+ 271  Hammerschmidtia_226171      86.13%    failed      0.00%
+ 272  Hesperinus_1086788          69.57%    failed      0.01%
+ 273  Liponeura_446516            91.56%    passed     11.54%
+ 274  Mallophora_270862           78.74%    passed     79.51%
+ 275  Maruina_1144738             88.86%    failed      0.07%
+ 276  Merodon_224226              81.36%    failed      0.00%
+ 277  Microdon_115291             80.79%    failed      0.00%
+ 278  Monodiamesa_891905          80.45%    failed      2.65%
+ 279  Myolepta_1473716            81.38%    failed      0.00%
+ 280  Oestromyia_170913           83.44%    passed     28.43%
+ 281  Pachyneura_1588165          73.02%    failed      0.02%
+ 282  Paraborniella_903459        80.64%    failed      0.61%
+ 283  Parochlus_315560            85.45%    failed      3.79%
+ 284  Paucispinigera_903463       82.74%    failed      1.96%
+ 285  Pentaneura_891922           84.94%    passed     11.12%
+ 286  Phronia_397119              79.19%    failed      0.00%
+ 287  Phytomyza_132616            67.61%    failed      0.00%
+ 288  Pipiza_221788               83.40%    failed      0.00%
+ 289  Sarcophaga_7384             65.39%    passed     13.47%
+ 290  Scaeva_219538               78.53%    failed      0.00%
+ 291  Scatopse_1520324            78.95%    passed     29.09%
+ 292  Sphaerophoria_226179        79.49%    failed      0.00%
+ 293  Syritta_34681               78.98%    failed      0.00%
+ 294  Tabanus_7206                66.48%    passed     11.35%
+ 295  Thaumalea_61068             60.34%    failed      0.21%
+ 296  Trichomyia_560271           84.56%    failed      0.03%
+ 297  Neorhynchocephalus_259248   92.86%    passed      7.31%
+ 298  Pantophthalmus_124295       77.22%    passed      8.10%
+ 299  Periscelis_716628           71.89%    failed      0.05%
+ 300  Teratomyzidae               79.44%    failed      0.15%
+ 301  Ablabesmyia_46216           88.15%    passed     60.81%
+ 302  Acletoxenus_462271          84.30%    failed      0.00%
+ 303  Amenia_2086281              78.71%    passed      6.13%
+ 304  Androprosopa_41815          76.37%    failed      0.01%
+ 305  Anticheta_1096047           87.14%    failed      0.94%
+ 306  Apatolestes_428062          93.63%    passed     29.05%
+ 307  Archytas_198637             70.58%    failed      1.57%
+ 308  Auchmeromyia_226129         82.55%    passed     54.14%
+ 309  Billaea_701468              81.98%    passed     67.56%
+ 310  Blepharomyia_179434         82.92%    passed     17.72%
+ 311  Bolbodimyia_1547386         89.21%    failed      0.93%
+ 312  Cacoxenus_462273            84.01%    failed      0.00%
+ 313  Catachlorops_1547373        84.97%    passed      9.69%
+ 314  Cephenemyia_170894          86.01%    passed     10.76%
+ 315  Chirosia_392044             88.71%    failed      0.00%
+ 316  Chrysopilus_124301          91.94%    passed     27.00%
+ 317  Chymomyza_7292              92.26%    failed      0.09%
+ 318  Clusiodes_500306            91.82%    failed      0.00%
+ 319  Coenomyia_124305            92.75%    failed      0.01%
+ 320  Cyrtophleba_991141          59.16%    passed     76.43%
+ 321  Dinera_569035               76.55%    passed      9.91%
+ 322  Discocerina_745181          89.35%    failed      0.14%
+ 323  Drino_179459                73.41%    passed     70.12%
+ 324  Esenbeckia_124297           75.73%    failed      0.15%
+ 325  Eukiefferiella_288843       90.72%    passed     35.14%
+ 326  Fidena_1334907              82.11%    failed      0.14%
+ 327  Glutops_124309              84.45%    passed     22.33%
+ 328  Goniops_428065              80.67%    failed      0.58%
+ 329  Hemilucilia_416848          82.27%    failed      1.10%
+ 330  Hermetia_343581             79.84%    failed      0.00%
+ 331  Kesselimyia_1445844         91.03%    failed      0.00%
+ 332  Lasioptera_201413           87.44%    failed      0.00%
+ 333  Leschenaultia_179486        77.76%    passed     92.93%
+ 334  Macquartia_1918266          76.63%    failed      2.53%
+ 335  Melanagromyza_286470        89.99%    failed      0.00%
+ 336  Metachela_369884            89.62%    failed      0.24%
+ 337  Mintho_1918277              76.43%    failed      0.03%
+ 338  Mycetophila_397146          79.97%    failed      0.72%
+ 339  Neaera_695903               76.75%    passed     11.67%
+ 340  Ophiomyia_341050            79.07%    failed      0.00%
+ 341  Paraplatypeza_192442        82.53%    failed      0.01%
+ 342  Potamia_559704              72.90%    passed      5.67%
+ 343  Prosena_1918293             77.56%    failed      3.90%
+ 344  Przhevalskiana_123746       89.03%    failed      0.00%
+ 345  Psectrotanypus_903467       85.04%    failed      0.00%
+ 346  Ptiolina_124325             92.74%    failed      0.01%
+ 347  Rivellia_28633              93.41%    failed      0.00%
+ 348  Scaptodrosophila_7354       83.76%    failed      0.00%
+ 349  Sciomyza_320936             74.12%    passed     14.26%
+ 350  Silvius_415257              79.38%    failed      1.06%
+ 351  Smittia_315559              90.96%    passed     55.30%
+ 352  Stenotabanus_1547430        86.12%    failed      1.23%
+ 353  Thereva_95078               76.70%    passed     58.56%
+ 354  Triphleba_92553             90.82%    failed      1.87%
+ 355  Vermileo_124333             89.91%    failed      3.22%
+ 356  Zaira_179789                71.01%    passed     47.95%
+ 357  Zaprionus_7296              83.76%    failed      0.00%
+ 358  Axymyia_560715              83.67%    failed      0.00%
+ 359  Bittacomorpha_79307         82.91%    failed      0.00%
+ 360  Braula_305561               91.91%    failed      0.94%
+ 361  Chaoborus_41812             82.82%    passed     14.18%
+ 362  Cryptochetum_1262333        96.98%    failed      3.71%
+ 363  Dactylolabis_560717         82.55%    failed      0.90%
+ 364  Dioctria_468720             91.87%    passed     39.76%
+ 365  Fergusonina_156411          72.58%    passed     98.35%
+ 366  Haematopota_124311          90.67%    failed      0.63%
+ 367  Lasiopogon_219536           91.87%    passed     48.86%
+ 368  Liogma_560731               92.53%    failed      0.00%
+ 369  Neolimnia_1262312           94.07%    passed     79.21%
+ 370  Neurochaeta_716624          87.38%    failed      0.01%
+ 371  Nymphomyia_560766           92.43%    failed      0.00%
+ 372  Oedoparena_1262316          93.16%    passed     69.44%
+ 373  Olbiogaster_560768          83.18%    failed      1.05%
+ 374  Oreoleptis_1262318          88.14%    passed     14.97%
+ 375  Parochthiphila_1262282      87.58%    passed      8.41%
+ 376  Philornis_253427            81.17%    failed      4.97%
+ 377  Procanace_1262322           88.40%    failed      0.00%
+ 378  Serromyia_209716            88.87%    failed      0.24%
+ 379  Spaniocelyphus_1262326      89.11%    passed     51.81%
+ 380  Telostylinus_1262347        91.88%    passed      9.50%
+ 381  Aphanotrigonum_540849       95.57%    failed      0.00%
+ 382  Cryptonevra_1616778         95.27%    failed      0.00%
+ 383  Copromyza_1217530           96.04%    failed      0.23%
+ 384  Leucopis_1728826            86.11%    passed     19.94%
+ 385  Mallota_535942              95.55%    failed      0.01%
+ 386  Phytobia_414304             85.86%    failed      0.00%
+ 387  Acemya_1677647              95.57%    failed      0.00%
+ 388  Agathomyia_226141           92.41%    failed      0.00%
+ 389  Agromyza_414290             85.85%    failed      0.99%
+ 390  Alliopsis_1692454           95.53%    failed      0.04%
+ 391  Allotrichoma_1492368        95.57%    failed      0.04%
+ 392  Anthomyiopsis_1918198       95.57%    failed      0.00%
+ 393  Araucoderus_1549737         95.58%    failed      0.13%
+ 394  Ateloglossa_1890907         95.57%    failed      0.00%
+ 395  Austroconops_209696         95.57%    failed      0.91%
+ 396  Basilia_170889              95.57%    failed      0.00%
+ 397  Bathypogon_1718388          95.57%    failed      0.92%
+ 398  Berkshiria_2061012          95.57%    failed      0.07%
+ 399  Blaesoxipha_128953          95.02%    failed      0.00%
+ 400  Blera_226146                95.55%    failed      0.12%
+ 401  Brachydeutera_1990785       95.57%    failed      0.05%
+ 402  Calamoncosis_540852         95.83%    failed      0.35%
+ 403  Calobata_1820059            95.57%    failed      0.86%
+ 404  Calycomyza_414293           95.57%    failed      0.02%
+ 405  Celyphus_1979294            95.97%    passed      6.27%
+ 406  Centrophlebomyia_1603419    94.24%    passed     39.72%
+ 407  Cerodontha_127401           91.77%    failed      0.00%
+ 408  Cetema_540891               95.57%    failed      0.06%
+ 409  Chaetopsis_240871           89.94%    failed      0.01%
+ 410  Chamaemyia_305621           86.11%    failed      0.03%
+ 411  Chiastocheta_129251         90.06%    failed      0.00%
+ 412  Chlorops_540892             95.15%    failed      0.94%
+ 413  Cladochaeta_2035586         95.26%    failed      0.37%
+ 414  Clausicella_1718822         90.18%    passed     43.95%
+ 415  Cleonice_1918224            95.57%    failed      0.00%
+ 416  Clogmia_85119               95.39%    failed      0.01%
+ 417  Clunio_315556               89.49%    failed      0.08%
+ 418  Coelopa_169466              79.60%    failed      0.00%
+ 419  Compsobata_286452           80.71%    passed     64.27%
+ 420  Curtonotum_1262296          90.49%    passed     81.90%
+ 421  Cylindrotoma_700834         95.33%    failed      0.00%
+ 422  Desmometopa_305587          95.57%    failed      0.01%
+ 423  Diasemopsis_139652          88.67%    failed      1.83%
+ 424  Dictenidia_2108369          95.33%    failed      0.30%
+ 425  Dictya_1096051              95.57%    failed      0.15%
+ 426  Dilophus_52733              95.57%    failed      0.16%
+ 427  Discomyza_1720780           95.57%    failed      0.00%
+ 428  Dryomyza_169444             95.57%    failed      0.20%
+ 429  Egle_411076                 95.57%    failed      0.00%
+ 430  Elachiptera_540858          95.57%    failed      0.06%
+ 431  Elephantomyia_700838        95.33%    failed      0.00%
+ 432  Elomyia_1562792             95.94%    failed      0.00%
+ 433  Epichlorops_540897          95.57%    failed      0.01%
+ 434  Epicypta_397117             95.57%    failed      0.00%
+ 435  Estheria_1918238            95.57%    failed      0.00%
+ 436  Euryomma_1650677            95.57%    failed      0.00%
+ 437  Fucellia_205683             95.57%    failed      0.00%
+ 438  Gaurax_540862               95.57%    failed      0.01%
+ 439  Gnophomyia_700845           95.57%    failed      0.06%
+ 440  Gymnometriocnemus_611353    95.57%    failed      0.00%
+ 441  Helius_700865               95.57%    failed      0.01%
+ 442  Hippelates_540866           95.57%    failed      0.00%
+ 443  Hybomitra_124690            95.26%    failed      0.10%
+ 444  Idiella_1902146             95.57%    failed      0.16%
+ 445  Japanagromyza_414298        90.55%    failed      0.00%
+ 446  Lamprolonchaea_907706       95.57%    failed      1.12%
+ 447  Laphria_50683               95.57%    failed      0.11%
+ 448  Lasiomma_95464              95.57%    failed      0.00%
+ 449  Lasiopiophila_1790233       95.57%    failed      1.21%
+ 450  Leptocera_1614654           95.56%    failed      0.00%
+ 451  Leptometopa_1720790         95.04%    failed      0.01%
+ 452  Leptopsilopa_1887046        95.57%    failed      0.00%
+ 453  Leucotabanus_1969939        95.57%    failed      0.02%
+ 454  Limonia_52743               95.33%    failed      1.48%
+ 455  Liopiophila_1603421         92.87%    passed      8.39%
+ 456  Lipara_540870               95.57%    failed      0.04%
+ 457  Lipsothrix_700849           95.57%    failed      1.30%
+ 458  Lonchaea_198649             95.53%    failed      0.01%
+ 459  Lonchoptera_92595           95.57%    failed      0.00%
+ 460  Loxocera_34684              91.17%    passed     49.21%
+ 461  Lydella_283929              95.57%    failed      0.00%
+ 462  Machimus_247604             95.57%    failed      0.10%
+ 463  Melangyna_414825            95.55%    failed      0.00%
+ 464  Metalimnobia_700851         95.33%    failed      1.47%
+ 465  Micropeza_1572561           90.28%    failed      0.00%
+ 466  Milichiella_1890919         95.57%    failed      0.02%
+ 467  Mochlonyx_1577622           95.57%    failed      0.06%
+ 468  Mormotomyia_1155704         96.03%    passed     23.26%
+ 469  Myospila_520040             95.57%    failed      0.00%
+ 470  Neoascia_224222             95.54%    failed      0.03%
+ 471  Neopachygaster_1692469      95.57%    failed      0.18%
+ 472  Neoplasta_192640            88.94%    passed      5.02%
+ 473  Neossos_2268121             95.57%    failed      0.17%
+ 474  Nephrotoma_46210            95.33%    failed      0.01%
+ 475  Nostima_1473719             95.57%    failed      0.02%
+ 476  Odinia_414302               90.55%    failed      0.00%
+ 477  Odontoloxozus_588320        95.70%    failed      1.81%
+ 478  Ornidia_994473              95.57%    failed      0.00%
+ 479  Ornithophila_1497392        95.57%    failed      0.00%
+ 480  Palpomyia_1525500           95.44%    failed      0.00%
+ 481  Paracoenia_1690382          95.57%    failed      0.01%
+ 482  Pedicia_472374              94.67%    failed      0.00%
+ 483  Pegohylemyia_1887308        95.76%    failed      0.00%
+ 484  Pelina_1086796              95.57%    failed      0.39%
+ 485  Penthetria_560770           89.55%    failed      0.01%
+ 486  Peromyia_1914937            95.57%    failed      0.00%
+ 487  Phalacrocera_2203737        95.57%    failed      0.01%
+ 488  Pholeomyia_1720804          95.57%    failed      0.00%
+ 489  Phorbia_1993534             95.53%    failed      0.00%
+ 490  Pnyxia_1781626              95.57%    failed      0.00%
+ 491  Prionocera_1690388          95.57%    failed      0.10%
+ 492  Protocalliphora_142901      95.57%    failed      0.14%
+ 493  Pseudacteon_378799          95.30%    failed      0.00%
+ 494  Pseudoperichaeta_283931     95.57%    failed      0.00%
+ 495  Pseudosmittia_611382        95.40%    failed      0.05%
+ 496  Psila_305548                95.57%    failed      0.00%
+ 497  Ptecticus_343648            95.57%    failed      0.23%
+ 498  Pteromicra_1226622          95.57%    passed      6.53%
+ 499  Sargus_343647               95.57%    failed      1.63%
+ 500  Scatella_305595             95.43%    failed      0.17%
+ 501  Scatophila_1763968          95.57%    failed      0.26%
+ 502  Scholastes_1902237          95.57%    failed      0.67%
+ 503  Scoliocentra_1823605        95.57%    failed      2.84%
+ 504  Sobarocephala_574054        90.02%    failed      0.00%
+ 505  Spania_1559498              95.57%    failed      0.00%
+ 506  Sphaeromias_1874311         89.91%    failed      0.06%
+ 507  Stenomicra_716630           95.57%    failed      0.06%
+ 508  Syrphus_224255              95.54%    failed      0.00%
+ 509  Systoechus_1690390          95.57%    failed      0.24%
+ 510  Tanyptera_2108371           95.57%    failed      0.00%
+ 511  Temnostoma_226164           95.56%    failed      0.03%
+ 512  Thaumatomyia_333800         95.56%    failed      0.10%
+ 513  Therobia_1918313            95.74%    failed      0.00%
+ 514  Trichonta_397122            95.57%    failed      0.00%
+ 515  Tricimba_540889             95.53%    failed      0.70%
+ 516  Trypocalliphora_1042207     84.93%    failed      0.00%
+ 517  Tvetenia_611398             95.57%    failed      0.02%
+ 518  Vibrissina_179525           90.43%    failed      1.14%
+ 519  Xanthogramma_414873         95.29%    failed      0.00%
+ 520  Zabrachia_1891525           95.57%    failed      0.00%
+ 521  Exetasis_1932988            94.03%    failed      0.61%
+ 522  Mischoderus_560267          90.63%    failed      4.60%
+ 523  Glaurocara_2027854          94.26%    passed     39.88%
+WARNING: 512 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                       82.30%  425 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 24 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		156	1166	503	412	MFP+MERGE	mito_noncoding
+2		16	318	59	171	MFP+MERGE	ND1_codon1
+3		16	318	30	212	MFP+MERGE	ND1_codon2
+4		16	318	137	75	MFP+MERGE	ND1_codon3
+5		101	235	115	88	MFP+MERGE	cytb_codon3
+6		101	235	226	2	MFP+MERGE	cytb_codon2
+7		101	235	64	129	MFP+MERGE	cytb_codon1
+8		147	2297	952	861	MFP+MERGE	18S
+9		261	3419	1651	1022	MFP+MERGE	28S
+10		90	196	124	61	MFP+MERGE	AATS_codon1
+11		90	196	83	92	MFP+MERGE	AATS_codon2
+12		90	196	85	91	MFP+MERGE	AATS_codon3
+13		503	498	239	216	MFP+MERGE	COI_codon1
+14		503	498	115	327	MFP+MERGE	COI_codon2
+15		503	498	494	1	MFP+MERGE	COI_codon3
+16		140	373	72	220	MFP+MERGE	EF1a_codon1
+17		140	373	295	53	MFP+MERGE	EF1a_codon2
+18		140	373	108	185	MFP+MERGE	EF1a_codon3
+19		133	482	356	111	MFP+MERGE	CAD1_codon1
+20		133	482	232	210	MFP+MERGE	CAD1_codon2
+21		133	481	272	178	MFP+MERGE	CAD1_codon3
+22		67	555	254	235	MFP+MERGE	CAD2_codon1
+23		67	555	217	273	MFP+MERGE	CAD2_codon2
+24		67	555	466	56	MFP+MERGE	CAD2_codon3
+Degree of missing data: 0.644
+Info: multi-threading strategy over partitions
+
+Reading constraint tree partial_iqtree_pruned.tre...
+WARNING: Rooted constraint tree will be treated as unrooted tree
+INFO: Constraint tree will be applied to ML tree and all bootstrap trees.
+
+Creating fast initial parsimony tree by random order stepwise addition...
+1.382 seconds, parsimony score: 121681 (based on 9571 sites)
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -543952.842
+Current log-likelihood at step 1: -487260.955
+Current log-likelihood at step 2: -477281.549
+Current log-likelihood at step 3: -472432.347
+Current log-likelihood at step 4: -471804.902
+Current log-likelihood at step 5: -471555.911
+Current log-likelihood at step 6: -471482.928
+Current log-likelihood at step 7: -471442.860
+Current log-likelihood at step 8: -471429.585
+Current log-likelihood at step 9: -471421.847
+Current log-likelihood at step 10: -471415.838
+Current log-likelihood at step 11: -471409.636
+Current log-likelihood at step 12: -471404.991
+Parameters optimization took 11 rounds (30.975 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -463448.471
+Current log-likelihood at step 1: -463399.178
+Current log-likelihood at step 2: -463387.804
+Current log-likelihood at step 3: -463384.277
+Current log-likelihood at step 4: -463381.302
+Current log-likelihood at step 5: -463378.625
+Current log-likelihood at step 6: -463376.573
+Current log-likelihood at step 7: -463374.399
+Current log-likelihood at step 8: -463372.443
+Current log-likelihood at step 9: -463370.393
+Current log-likelihood at step 10: -463368.124
+Current log-likelihood at step 11: -463365.886
+Current log-likelihood at step 12: -463363.803
+Current log-likelihood at step 13: -463361.512
+Current log-likelihood at step 14: -463359.359
+Current log-likelihood at step 15: -463357.058
+Current log-likelihood at step 16: -463354.400
+Current log-likelihood at step 17: -463352.261
+Current log-likelihood at step 18: -463350.034
+Current log-likelihood at step 19: -463348.030
+Current log-likelihood at step 20: -463345.903
+Current log-likelihood at step 21: -463343.915
+Current log-likelihood at step 22: -463341.855
+Current log-likelihood at step 23: -463340.006
+Current log-likelihood at step 24: -463338.456
+Current log-likelihood at step 25: -463336.973
+Current log-likelihood at step 26: -463335.520
+Current log-likelihood at step 27: -463334.140
+Current log-likelihood at step 28: -463332.790
+Current log-likelihood at step 29: -463331.501
+Current log-likelihood at step 30: -463330.263
+Current log-likelihood at step 31: -463329.099
+Current log-likelihood at step 32: -463327.980
+Current log-likelihood at step 33: -463326.908
+Current log-likelihood at step 34: -463325.893
+Current log-likelihood at step 35: -463324.947
+Partition-specific rates:  0.354 0.157 0.090 0.547 0.431 13.830 0.158 0.194 0.319 3.714 0.587 0.783 0.234 0.120 10.474 0.158 0.678 0.213 1.404 0.277 0.561 0.408 0.560 1.561
+Parameters optimization took 34 rounds (57.719 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 130.785 seconds
+
+NOTE: ModelFinder requires 408 MB RAM!
+Selecting individual models for 24 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+   1 GTR+F+I+G4   80654.076   11.885      18S
+   2 GTR+F+I+G4   60002.424   35.218      COI_codon1
+   3 GTR+F+I+G4   17586.232   11.670      COI_codon2
+   4 GTR+F+I+G4   161364.073  28.094      28S
+   5 GTR+F+I+G4   57517.008   72.223      CAD1_codon1
+   6 GTR+F+I+G4   43786.663   33.664      EF1a_codon2
+   7 GTR+F+I+G4   38147.439   30.140      CAD1_codon3
+   8 GTR+F+I+G4   55071.479   24.319      mito_noncoding
+   9 GTR+F+I+G4   26397.341   14.661      CAD1_codon2
+  10 GTR+F+I+G4   13936.639   10.350      EF1a_codon3	0h:0m:4s (0h:3m:52s left)
+  11 GTR+F+I+G4   9000.500    7.794       EF1a_codon1	0h:0m:4s (0h:3m:32s left)
+  12 GTR+F+I+G4   39094.508   34.043      CAD2_codon3	0h:0m:4s (0h:3m:19s left)
+  13 GTR+F+I+G4   18553.663   9.734       CAD2_codon1	0h:0m:4s (0h:3m:5s left)
+  14 GTR+F+I+G4   15367.818   12.201      CAD2_codon2	0h:0m:4s (0h:2m:53s left)
+  15 GTR+F+I+G4   13269.177   15.705      cytb_codon3	0h:0m:4s (0h:2m:45s left)
+  16 GTR+F+I+G4   5883.581    5.533       cytb_codon1	0h:0m:4s (0h:2m:36s left)
+  17 GTR+F+I+G4   18391.920   137.794     AATS_codon1	0h:0m:4s (0h:2m:29s left)
+  18 GTR+F+I+G4   11396.663   19.900      AATS_codon2	0h:0m:4s (0h:2m:25s left)
+  19 GTR+F+I+G4   11129.163   29.073      AATS_codon3	0h:0m:4s (0h:2m:20s left)
+  20 GTR+F+I+G4   4039.195    76.415      ND1_codon3	0h:0m:5s (0h:2m:17s left)
+  21 GTR+F+I+G4   2776.282    1.613       ND1_codon1	0h:0m:5s (0h:2m:10s left)
+  22 GTR+F+I+G4   2154.056    0.809       ND1_codon2	0h:0m:5s (0h:2m:4s left)
+  23 GTR+F+I+G4   27531.176   893.166     cytb_codon2	0h:0m:5s (0h:2m:5s left)
+  24 GTR+F+I+G4   192951.832  2274.806    COI_codon3	0h:0m:10s (0h:3m:50s left)
+Full partition model BIC score: 936938.658 (LnL: -462196.683  df:1306)
+Merging models to increase model fit (about 553 total partition schemes)...
+  25 GTR+F+I+G4   937351.978  27.149      18S+28S	0h:0m:22s (0h:7m:49s left)
+  26 GTR+F+I+G4   937969.667  41.444      28S+COI_codon2	0h:0m:47s (0h:15m:54s left)
+  27 GTR+F+I+G4   939883.026  47.072      28S+COI_codon1	0h:0m:54s (0h:17m:34s left)
+  28 GTR+F+I+G4   938307.713  33.882      mito_noncoding+28S	0h:1m:7s (0h:21m:12s left)
+  29 GTR+F+I+G4   938671.577  45.539      28S+CAD1_codon1	0h:1m:8s (0h:20m:44s left)
+  30 GTR+F+I+G4   951250.593  86.191      28S+COI_codon3	0h:1m:10s (0h:20m:21s left)
+  31 GTR+F+I+G4   937562.243  32.044      28S+CAD1_codon2	0h:1m:19s (0h:22m:14s left)
+  32 GTR+F+I+G4   937845.522  37.364      28S+CAD1_codon3	0h:1m:22s (0h:22m:30s left)
+  33 GTR+F+I+G4   938653.830  34.859      28S+EF1a_codon2	0h:1m:25s (0h:22m:19s left)
+  34 GTR+F+I+G4   937295.685  30.417      28S+EF1a_codon3	0h:1m:28s (0h:22m:27s left)
+  35 GTR+F+I+G4   937285.220  29.742      28S+EF1a_codon1	0h:1m:32s (0h:22m:43s left)
+  36 GTR+F+I+G4   937379.435  30.463      28S+CAD2_codon1	0h:1m:36s (0h:23m:8s left)
+  37 GTR+F+I+G4   937364.792  31.274      28S+CAD2_codon2	0h:1m:40s (0h:23m:19s left)
+  38 GTR+F+I+G4   938713.026  48.543      28S+CAD2_codon3	0h:1m:40s (0h:22m:42s left)
+  39 GTR+F+I+G4   937113.641  29.757      cytb_codon1+28S	0h:1m:47s (0h:23m:42s left)
+  40 GTR+F+I+G4   937128.975  31.257      cytb_codon3+28S	0h:1m:48s (0h:23m:8s left)
+  41 GTR+F+I+G4   940039.881  37.363      cytb_codon2+28S	0h:1m:51s (0h:23m:16s left)
+  42 GTR+F+I+G4   937370.493  33.220      28S+AATS_codon2	0h:1m:54s (0h:23m:16s left)
+  43 GTR+F+I+G4   937413.638  35.047      28S+AATS_codon3	0h:1m:59s (0h:23m:37s left)
+  44 GTR+F+I+G4   937451.243  29.560      ND1_codon3+28S	0h:2m:0s (0h:23m:19s left)
+  45 GTR+F+I+G4   938302.207  38.731      28S+AATS_codon1	0h:2m:3s (0h:23m:9s left)
+  46 GTR+F+I+G4   936939.913  28.022      ND1_codon1+28S	0h:2m:6s (0h:23m:11s left)
+  47 GTR+F+I+G4   937009.526  27.618      ND1_codon2+28S	0h:2m:8s (0h:23m:4s left)
+  48 GTR+F+I+G4   946448.636  164.395     COI_codon1+COI_codon3	0h:2m:23s (0h:25m:12s left)
+  49 GTR+F+I+G4   950815.249  90.912      18S+COI_codon3	0h:2m:31s (0h:26m:3s left)
+  50 GTR+F+I+G4   947475.842  107.479     COI_codon2+COI_codon3	0h:2m:33s (0h:25m:39s left)
+  51 GTR+F+I+G4   938421.603  36.212      18S+COI_codon1	0h:2m:33s (0h:25m:7s left)
+  52 GTR+F+I+G4   939143.031  23.228      mito_noncoding+18S	0h:2m:43s (0h:26m:10s left)
+  53 GTR+F+I+G4   937535.815  25.992      18S+COI_codon2	0h:2m:47s (0h:26m:16s left)
+  54 GTR+F+I+G4   937950.701  26.222      COI_codon1+COI_codon2	0h:2m:47s (0h:25m:51s left)
+  55 GTR+F+I+G4   939079.303  35.071      mito_noncoding+COI_codon2	0h:3m:0s (0h:27m:18s left)
+  56 GTR+F+I+G4   941071.983  48.234      mito_noncoding+COI_codon1	0h:3m:2s (0h:26m:57s left)
+  57 GTR+F+I+G4   945129.482  242.748     mito_noncoding+COI_codon3	0h:3m:4s (0h:26m:44s left)
+  58 GTR+F+I+G4   938249.592  36.296      18S+CAD1_codon1	0h:3m:8s (0h:26m:45s left)
+  59 GTR+F+I+G4   945106.035  255.406     COI_codon3+EF1a_codon2	0h:3m:23s (0h:28m:23s left)
+  60 GTR+F+I+G4   944116.327  342.439     COI_codon3+CAD1_codon3	0h:3m:25s (0h:28m:11s left)
+  61 GTR+F+I+G4   945096.766  318.638     COI_codon3+CAD1_codon1	0h:3m:30s (0h:28m:20s left)
+  62 GTR+F+I+G4   938088.485  22.752      18S+EF1a_codon2	0h:3m:33s (0h:28m:8s left)
+  63 GTR+F+I+G4   937659.214  27.363      18S+CAD1_codon3	0h:3m:37s (0h:28m:12s left)
+  64 GTR+F+I+G4   937263.813  19.153      18S+CAD1_codon2	0h:3m:38s (0h:27m:45s left)
+  65 GTR+F+I+G4   945065.090  267.272     COI_codon3+CAD1_codon2	0h:3m:48s (0h:28m:35s left)
+  66 GTR+F+I+G4   937027.195  16.780      18S+EF1a_codon3	0h:3m:53s (0h:28m:42s left)
+  67 GTR+F+I+G4   937066.799  15.403      18S+EF1a_codon1	0h:3m:56s (0h:28m:35s left)
+  68 GTR+F+I+G4   944130.232  303.618     COI_codon3+EF1a_codon3	0h:3m:59s (0h:28m:29s left)
+  69 GTR+F+I+G4   938587.210  37.890      18S+CAD2_codon3	0h:4m:4s (0h:28m:34s left)
+  70 GTR+F+I+G4   943618.419  407.343     COI_codon3+EF1a_codon1	0h:4m:13s (0h:29m:10s left)
+  71 GTR+F+I+G4   942354.788  432.225     COI_codon3+CAD2_codon3	0h:4m:17s (0h:29m:10s left)
+  72 GTR+F+I+G4   943201.287  352.840     COI_codon3+CAD2_codon1	0h:4m:33s (0h:30m:27s left)
+  73 GTR+F+I+G4   937269.838  17.740      18S+CAD2_codon1	0h:4m:36s (0h:30m:18s left)
+  74 GTR+F+I+G4   937384.800  18.285      18S+CAD2_codon2	0h:4m:39s (0h:30m:9s left)
+  75 GTR+F+I+G4   940685.420  25.972      cytb_codon2+18S	0h:4m:46s (0h:30m:22s left)
+  76 GTR+F+I+G4   942278.210  460.567     COI_codon3+CAD2_codon2	0h:4m:57s (0h:31m:7s left)
+  77 GTR+F+I+G4   940055.720  929.565     cytb_codon2+COI_codon3	0h:5m:2s (0h:31m:10s left)
+  78 GTR+F+I+G4   940261.863  582.386     cytb_codon3+COI_codon3	0h:5m:10s (0h:31m:30s left)
+  79 GTR+F+I+G4   937177.557  17.156      cytb_codon3+18S	0h:5m:14s (0h:31m:26s left)
+  80 GTR+F+I+G4   940001.753  642.766     cytb_codon1+COI_codon3	0h:5m:17s (0h:31m:15s left)
+  81 GTR+F+I+G4   940844.476  624.957     AATS_codon1+COI_codon3	0h:5m:31s (0h:32m:11s left)
+  82 GTR+F+I+G4   936981.662  14.470      cytb_codon1+18S	0h:5m:34s (0h:32m:0s left)
+  83 GTR+F+I+G4   940424.533  592.454     AATS_codon3+COI_codon3	0h:5m:38s (0h:31m:55s left)
+  84 GTR+F+I+G4   938171.761  28.576      18S+AATS_codon1	0h:5m:38s (0h:31m:31s left)
+  85 GTR+F+I+G4   937316.741  18.390      18S+AATS_codon2	0h:5m:43s (0h:31m:30s left)
+  86 GTR+F+I+G4   937425.735  20.788      18S+AATS_codon3	0h:5m:47s (0h:31m:28s left)
+  87 GTR+F+I+G4   940246.269  600.374     AATS_codon2+COI_codon3	0h:5m:50s (0h:31m:19s left)
+  88 GTR+F+I+G4   937491.366  120.188     COI_codon1+CAD1_codon1	0h:5m:51s (0h:30m:59s left)
+  89 GTR+F+I+G4   937561.369  51.802      COI_codon1+EF1a_codon2	0h:5m:53s (0h:30m:45s left)
+  90 GTR+F+I+G4   937749.077  37.502      COI_codon1+CAD1_codon2	0h:6m:0s (0h:30m:55s left)
+  91 GTR+F+I+G4   937649.683  91.182      COI_codon1+CAD1_codon3	0h:6m:2s (0h:30m:39s left)
+  92 GTR+F+I+G4   938765.997  791.284     ND1_codon1+COI_codon3	0h:6m:28s (0h:32m:27s left)
+  93 GTR+F+I+G4   938992.862  766.049     ND1_codon2+COI_codon3	0h:6m:28s (0h:32m:3s left)
+  94 GTR+F+I+G4   937687.663  14.011      ND1_codon3+18S	0h:6m:30s (0h:31m:48s left)
+  95 GTR+F+I+G4   936962.100  12.721      ND1_codon1+18S	0h:6m:31s (0h:31m:25s left)
+  96 GTR+F+I+G4   936963.721  12.364      ND1_codon2+18S	0h:6m:33s (0h:31m:13s left)
+  97 GTR+F+I+G4   938459.232  856.568     ND1_codon3+COI_codon3	0h:6m:34s (0h:30m:53s left)
+  98 GTR+F+I+G4   937252.895  34.157      COI_codon1+EF1a_codon3	0h:6m:37s (0h:30m:43s left)
+  99 GTR+F+I+G4   937612.081  54.594      COI_codon1+EF1a_codon1	0h:6m:42s (0h:30m:46s left)
+ 100 GTR+F+I+G4   937571.770  44.006      COI_codon1+CAD2_codon1	0h:6m:44s (0h:30m:32s left)
+ 101 GTR+F+I+G4   937916.330  136.453     COI_codon1+CAD2_codon3	0h:6m:47s (0h:30m:24s left)
+ 102 GTR+F+I+G4   937510.439  75.032      COI_codon1+CAD2_codon2	0h:6m:49s (0h:30m:8s left)
+ 103 GTR+F+I+G4   941556.820  107.085     cytb_codon2+COI_codon1	0h:6m:50s (0h:29m:54s left)
+ 104 GTR+F+I+G4   937357.984  38.260      cytb_codon3+COI_codon1	0h:6m:54s (0h:29m:51s left)
+ 105 GTR+F+I+G4   938412.502  100.534     COI_codon2+CAD1_codon1	0h:6m:55s (0h:29m:33s left)
+ 106 GTR+F+I+G4   937017.648  64.768      cytb_codon1+COI_codon1	0h:6m:58s (0h:29m:26s left)
+ 107 GTR+F+I+G4   938029.664  36.062      COI_codon2+EF1a_codon2	0h:6m:59s (0h:29m:8s left)
+ 108 GTR+F+I+G4   937242.106  110.718     AATS_codon1+COI_codon1	0h:7m:3s (0h:29m:3s left)
+ 109 GTR+F+I+G4   937348.219  26.448      COI_codon2+CAD1_codon2	0h:7m:3s (0h:28m:46s left)
+ 110 GTR+F+I+G4   937705.827  50.941      COI_codon2+CAD1_codon3	0h:7m:4s (0h:28m:29s left)
+ 111 GTR+F+I+G4   937124.028  81.459      AATS_codon3+COI_codon1	0h:7m:9s (0h:28m:31s left)
+ 112 GTR+F+I+G4   940023.352  50.055      mito_noncoding+CAD1_codon1	0h:7m:10s (0h:28m:15s left)
+ 113 GTR+F+I+G4   937081.767  76.466      AATS_codon2+COI_codon1	0h:7m:11s (0h:28m:0s left)
+ 114 GTR+F+I+G4   937214.603  21.923      COI_codon2+EF1a_codon3	0h:7m:13s (0h:27m:49s left)
+ 115 GTR+F+I+G4   936960.419  14.907      COI_codon2+EF1a_codon1	0h:7m:13s (0h:27m:31s left)
+ 116 GTR+F+I+G4   937927.972  43.556      ND1_codon3+COI_codon1	0h:7m:17s (0h:27m:29s left)
+ 117 GTR+F+I+G4   937079.690  34.934      ND1_codon2+COI_codon1	0h:7m:18s (0h:27m:13s left)
+ 118 GTR+F+I+G4   937073.617  37.727      ND1_codon1+COI_codon1	0h:7m:18s (0h:26m:57s left)
+ 119 GTR+F+I+G4   939987.850  33.033      mito_noncoding+EF1a_codon2	0h:7m:24s (0h:27m:1s left)
+ 120 GTR+F+I+G4   938904.530  94.334      COI_codon2+CAD2_codon3	0h:7m:24s (0h:26m:44s left)
+ 121 GTR+F+I+G4   939128.034  37.890      mito_noncoding+CAD1_codon3	0h:7m:25s (0h:26m:29s left)
+ 122 GTR+F+I+G4   938850.682  29.320      mito_noncoding+CAD1_codon2	0h:7m:27s (0h:26m:20s left)
+ 123 GTR+F+I+G4   937518.122  31.933      COI_codon2+CAD2_codon1	0h:7m:28s (0h:26m:6s left)
+ 124 GTR+F+I+G4   938231.112  25.414      mito_noncoding+EF1a_codon3	0h:7m:31s (0h:26m:2s left)
+ 125 GTR+F+I+G4   937488.410  37.478      COI_codon2+CAD2_codon2	0h:7m:31s (0h:25m:46s left)
+ 126 GTR+F+I+G4   940930.211  53.687      cytb_codon2+COI_codon2	0h:7m:33s (0h:25m:36s left)
+ 127 GTR+F+I+G4   937622.695  25.106      cytb_codon3+COI_codon2	0h:7m:34s (0h:25m:23s left)
+ 128 GTR+F+I+G4   937916.393  25.736      mito_noncoding+EF1a_codon1	0h:7m:35s (0h:25m:13s left)
+ 129 GTR+F+I+G4   937171.651  13.986      cytb_codon1+COI_codon2	0h:7m:37s (0h:25m:2s left)
+ 130 GTR+F+I+G4   939265.259  54.873      mito_noncoding+CAD2_codon3	0h:7m:38s (0h:24m:51s left)
+ 131 GTR+F+I+G4   938113.111  51.484      AATS_codon1+COI_codon2	0h:7m:39s (0h:24m:40s left)
+ 132 GTR+F+I+G4   937299.075  25.061      AATS_codon2+COI_codon2	0h:7m:40s (0h:24m:28s left)
+ 133 GTR+F+I+G4   937412.081  33.016      AATS_codon3+COI_codon2	0h:7m:41s (0h:24m:16s left)
+ 134 GTR+F+I+G4   938410.193  25.871      mito_noncoding+CAD2_codon1	0h:7m:44s (0h:24m:13s left)
+ 135 GTR+F+I+G4   938166.145  27.366      mito_noncoding+CAD2_codon2	0h:7m:45s (0h:24m:1s left)
+ 136 GTR+F+I+G4   938948.704  57.396      mito_noncoding+cytb_codon2	0h:7m:47s (0h:23m:54s left)
+ 137 GTR+F+I+G4   938084.658  29.375      ND1_codon3+COI_codon2	0h:7m:48s (0h:23m:42s left)
+ 138 GTR+F+I+G4   937168.433  16.640      ND1_codon1+COI_codon2	0h:7m:48s (0h:23m:29s left)
+ 139 GTR+F+I+G4   937482.845  31.893      mito_noncoding+cytb_codon3	0h:7m:52s (0h:23m:26s left)
+ 140 GTR+F+I+G4   936960.860  13.961      ND1_codon2+COI_codon2	0h:7m:52s (0h:23m:14s left)
+ 141 GTR+F+I+G4   937457.699  29.078      mito_noncoding+cytb_codon1	0h:7m:53s (0h:23m:3s left)
+ 142 GTR+F+I+G4   939025.532  40.712      mito_noncoding+AATS_codon1	0h:7m:56s (0h:22m:59s left)
+ 143 GTR+F+I+G4   938020.364  31.256      mito_noncoding+AATS_codon2	0h:7m:57s (0h:22m:48s left)
+ 144 GTR+F+I+G4   938037.594  34.380      mito_noncoding+AATS_codon3	0h:7m:57s (0h:22m:36s left)
+ 145 GTR+F+I+G4   937096.827  22.652      mito_noncoding+ND1_codon2	0h:7m:59s (0h:22m:29s left)
+ 146 GTR+F+I+G4   937212.495  25.894      mito_noncoding+ND1_codon3	0h:8m:0s (0h:22m:19s left)
+ 147 GTR+F+I+G4   936941.732  23.203      mito_noncoding+ND1_codon1	0h:8m:0s (0h:22m:7s left)
+ 148 GTR+F+I+G4   937275.310  36.549      CAD1_codon1+CAD1_codon2	0h:8m:2s (0h:21m:59s left)
+ 149 GTR+F+I+G4   937015.639  59.009      CAD1_codon1+CAD1_codon3	0h:8m:2s (0h:21m:47s left)
+ 150 GTR+F+I+G4   937388.457  87.265      EF1a_codon2+CAD1_codon1	0h:8m:2s (0h:21m:36s left)
+ 151 GTR+F+I+G4   937172.050  34.624      EF1a_codon2+CAD1_codon2	0h:8m:3s (0h:21m:28s left)
+ 152 GTR+F+I+G4   937180.524  46.117      EF1a_codon2+CAD1_codon3	0h:8m:4s (0h:21m:17s left)
+ 153 GTR+F+I+G4   937433.208  45.688      EF1a_codon3+CAD1_codon1	0h:8m:4s (0h:21m:7s left)
+ 154 GTR+F+I+G4   936931.829  24.944      CAD1_codon2+CAD1_codon3	0h:8m:4s (0h:20m:56s left)
+ 155 GTR+F+I+G4   937212.373  23.395      EF1a_codon2+EF1a_codon3	0h:8m:5s (0h:20m:47s left)
+ 156 GTR+F+I+G4   937544.532  45.732      EF1a_codon1+CAD1_codon1	0h:8m:7s (0h:20m:40s left)
+ 157 GTR+F+I+G4   937065.044  31.239      EF1a_codon3+CAD1_codon3	0h:8m:7s (0h:20m:29s left)
+ 158 GTR+F+I+G4   937375.796  24.258      EF1a_codon1+EF1a_codon2	0h:8m:8s (0h:20m:20s left)
+ 159 GTR+F+I+G4   937023.453  91.287      CAD1_codon1+CAD2_codon3	0h:8m:8s (0h:20m:10s left)
+ 160 GTR+F+I+G4   936934.891  18.939      EF1a_codon3+CAD1_codon2	0h:8m:8s (0h:20m:0s left)
+ 161 GTR+F+I+G4   937085.920  31.355      EF1a_codon1+CAD1_codon3	0h:8m:9s (0h:19m:52s left)
+ 162 GTR+F+I+G4   936945.845  17.342      EF1a_codon1+CAD1_codon2	0h:8m:10s (0h:19m:43s left)
+ 163 GTR+F+I+G4   937559.255  73.919      EF1a_codon2+CAD2_codon3	0h:8m:11s (0h:19m:34s left)
+ 164 GTR+F+I+G4   937189.930  63.426      CAD1_codon3+CAD2_codon3	0h:8m:12s (0h:19m:28s left)
+ 165 GTR+F+I+G4   937090.994  58.003      CAD1_codon1+CAD2_codon1	0h:8m:12s (0h:19m:18s left)
+ 166 GTR+F+I+G4   937630.841  53.362      CAD1_codon2+CAD2_codon3	0h:8m:13s (0h:19m:9s left)
+ 167 GTR+F+I+G4   936967.727  9.375       EF1a_codon1+EF1a_codon3	0h:8m:13s (0h:19m:1s left)
+ 168 GTR+F+I+G4   940257.157  73.005      cytb_codon2+CAD1_codon1	0h:8m:14s (0h:18m:53s left)
+ 169 GTR+F+I+G4   937312.913  72.235      cytb_codon3+CAD1_codon1	0h:8m:15s (0h:18m:45s left)
+ 170 GTR+F+I+G4   937065.033  68.148      CAD1_codon1+CAD2_codon2	0h:8m:15s (0h:18m:36s left)
+ 171 GTR+F+I+G4   937119.267  32.343      EF1a_codon2+CAD2_codon1	0h:8m:16s (0h:18m:28s left)
+ 172 GTR+F+I+G4   937798.864  51.276      EF1a_codon3+CAD2_codon3	0h:8m:17s (0h:18m:21s left)
+ 173 GTR+F+I+G4   936877.173  32.332      CAD1_codon3+CAD2_codon1	0h:8m:17s (0h:18m:12s left)
+ 174 GTR+F+I+G4   936865.879  21.756      CAD1_codon2+CAD2_codon1	0h:8m:17s (0h:18m:4s left)
+ 175 GTR+F+I+G4   937220.346  36.139      EF1a_codon2+CAD2_codon2	0h:8m:18s (0h:17m:56s left)
+ 176 GTR+F+I+G4   937772.429  50.095      EF1a_codon1+CAD2_codon3	0h:8m:19s (0h:17m:49s left)
+ 177 GTR+F+I+G4   937118.992  66.361      cytb_codon1+CAD1_codon1	0h:8m:19s (0h:17m:41s left)
+ 178 GTR+F+I+G4   936837.433  34.410      CAD1_codon3+CAD2_codon2	0h:8m:19s (0h:17m:33s left)
+ 179 GTR+F+I+G4   937016.013  101.755     AATS_codon1+CAD1_codon1	0h:8m:21s (0h:17m:27s left)
+ 180 GTR+F+I+G4   940738.701  50.390      cytb_codon2+EF1a_codon2	0h:8m:21s (0h:17m:18s left)
+ 181 GTR+F+I+G4   936954.632  32.650      CAD1_codon2+CAD2_codon2	0h:8m:22s (0h:17m:12s left)
+ 182 GTR+F+I+G4   939874.486  61.312      cytb_codon2+CAD1_codon3	0h:8m:23s (0h:17m:5s left)
+ 183 GTR+F+I+G4   940279.569  46.072      cytb_codon2+CAD1_codon2	0h:8m:23s (0h:16m:57s left)
+ 184 GTR+F+I+G4   937412.918  33.920      cytb_codon3+EF1a_codon2	0h:8m:24s (0h:16m:51s left)
+ 185 GTR+F+I+G4   936960.989  75.591      AATS_codon2+CAD1_codon1	0h:8m:24s (0h:16m:43s left)
+ 186 GTR+F+I+G4   936909.567  81.095      AATS_codon3+CAD1_codon1	0h:8m:25s (0h:16m:37s left)
+ 187 GTR+F+I+G4   937311.869  19.401      cytb_codon3+CAD1_codon2	0h:8m:25s (0h:16m:29s left)
+ 188 GTR+F+I+G4   937171.389  36.457      cytb_codon3+CAD1_codon3	0h:8m:25s (0h:16m:21s left)
+ 189 GTR+F+I+G4   937184.002  32.015      cytb_codon1+EF1a_codon2	0h:8m:26s (0h:16m:15s left)
+ 190 GTR+F+I+G4   937000.669  19.612      EF1a_codon3+CAD2_codon1	0h:8m:26s (0h:16m:7s left)
+ 191 GTR+F+I+G4   937366.229  67.667      AATS_codon1+EF1a_codon2	0h:8m:27s (0h:16m:1s left)
+ 192 GTR+F+I+G4   936986.924  31.425      cytb_codon1+CAD1_codon3	0h:8m:27s (0h:15m:54s left)
+ 193 GTR+F+I+G4   937050.306  19.084      EF1a_codon1+CAD2_codon1	0h:8m:27s (0h:15m:47s left)
+ 194 GTR+F+I+G4   936992.805  16.569      cytb_codon1+CAD1_codon2	0h:8m:28s (0h:15m:41s left)
+ 195 GTR+F+I+G4   937079.524  24.779      EF1a_codon3+CAD2_codon2	0h:8m:29s (0h:15m:34s left)
+ 196 GTR+F+I+G4   937195.758  47.073      AATS_codon1+CAD1_codon3	0h:8m:29s (0h:15m:27s left)
+ 197 GTR+F+I+G4   937096.549  41.995      AATS_codon2+EF1a_codon2	0h:8m:30s (0h:15m:21s left)
+ 198 GTR+F+I+G4   937379.818  37.802      AATS_codon1+CAD1_codon2	0h:8m:30s (0h:15m:15s left)
+ 199 GTR+F+I+G4   939880.870  33.259      cytb_codon2+EF1a_codon3	0h:8m:30s (0h:15m:8s left)
+ 200 GTR+F+I+G4   936857.609  38.906      AATS_codon2+CAD1_codon3	0h:8m:31s (0h:15m:2s left)
+ 201 GTR+F+I+G4   936979.297  25.483      EF1a_codon1+CAD2_codon2	0h:8m:31s (0h:14m:56s left)
+ 202 GTR+F+I+G4   937059.668  48.109      AATS_codon3+EF1a_codon2	0h:8m:32s (0h:14m:49s left)
+ 203 GTR+F+I+G4   936972.835  27.184      AATS_codon2+CAD1_codon2	0h:8m:32s (0h:14m:44s left)
+ 204 GTR+F+I+G4   936900.297  39.300      AATS_codon3+CAD1_codon3	0h:8m:33s (0h:14m:38s left)
+ 205 GTR+F+I+G4   939229.180  47.656      cytb_codon2+EF1a_codon1	0h:8m:33s (0h:14m:32s left)
+ 206 GTR+F+I+G4   936995.110  37.832      AATS_codon3+CAD1_codon2	0h:8m:34s (0h:14m:26s left)
+ 207 GTR+F+I+G4   937381.623  22.279      CAD2_codon1+CAD2_codon3	0h:8m:34s (0h:14m:20s left)
+ 208 GTR+F+I+G4   937563.914  80.768      ND1_codon3+CAD1_codon1	0h:8m:34s (0h:14m:13s left)
+ 209 GTR+F+I+G4   937152.788  66.809      ND1_codon1+CAD1_codon1	0h:8m:35s (0h:14m:8s left)
+ 210 GTR+F+I+G4   937229.381  62.706      ND1_codon2+CAD1_codon1	0h:8m:36s (0h:14m:3s left)
+ 211 GTR+F+I+G4   937147.024  15.466      cytb_codon3+EF1a_codon3	0h:8m:36s (0h:13m:56s left)
+ 212 GTR+F+I+G4   937257.767  23.088      CAD2_codon2+CAD2_codon3	0h:8m:36s (0h:13m:50s left)
+ 213 GTR+F+I+G4   936945.283  11.817      cytb_codon1+EF1a_codon3	0h:8m:37s (0h:13m:45s left)
+ 214 GTR+F+I+G4   937209.381  15.430      cytb_codon3+EF1a_codon1	0h:8m:37s (0h:13m:40s left)
+ 215 GTR+F+I+G4   937424.398  45.198      AATS_codon1+EF1a_codon3	0h:8m:38s (0h:13m:35s left)
+ 216 GTR+F+I+G4   936928.633  9.524       cytb_codon1+EF1a_codon1	0h:8m:38s (0h:13m:28s left)
+ 217 GTR+F+I+G4   939202.716  88.954      cytb_codon2+CAD2_codon3	0h:8m:38s (0h:13m:22s left)
+ 218 GTR+F+I+G4   937857.062  35.733      ND1_codon3+EF1a_codon2	0h:8m:39s (0h:13m:18s left)
+ 219 GTR+F+I+G4   937030.815  25.767      AATS_codon2+EF1a_codon3	0h:8m:39s (0h:13m:13s left)
+ 220 GTR+F+I+G4   937549.919  39.977      AATS_codon1+EF1a_codon1	0h:8m:40s (0h:13m:7s left)
+ 221 GTR+F+I+G4   937039.733  39.224      AATS_codon3+EF1a_codon3	0h:8m:40s (0h:13m:2s left)
+ 222 GTR+F+I+G4   937569.926  38.350      ND1_codon3+CAD1_codon3	0h:8m:40s (0h:12m:56s left)
+ 223 GTR+F+I+G4   937240.901  29.813      ND1_codon1+EF1a_codon2	0h:8m:41s (0h:12m:52s left)
+ 224 GTR+F+I+G4   937083.174  20.384      AATS_codon2+EF1a_codon1	0h:8m:42s (0h:12m:46s left)
+ 225 GTR+F+I+G4   937270.229  62.115      cytb_codon3+CAD2_codon3	0h:8m:42s (0h:12m:41s left)
+ 226 GTR+F+I+G4   937109.899  30.790      AATS_codon3+EF1a_codon1	0h:8m:43s (0h:12m:37s left)
+ 227 GTR+F+I+G4   937076.578  30.644      ND1_codon1+CAD1_codon3	0h:8m:43s (0h:12m:31s left)
+ 228 GTR+F+I+G4   937811.917  21.173      ND1_codon3+CAD1_codon2	0h:8m:43s (0h:12m:26s left)
+ 229 GTR+F+I+G4   937086.249  28.300      ND1_codon2+CAD1_codon3	0h:8m:44s (0h:12m:21s left)
+ 230 GTR+F+I+G4   937221.719  27.501      ND1_codon2+EF1a_codon2	0h:8m:44s (0h:12m:16s left)
+ 231 GTR+F+I+G4   937076.869  15.878      ND1_codon1+CAD1_codon2	0h:8m:44s (0h:12m:11s left)
+ 232 GTR+F+I+G4   937065.329  14.265      ND1_codon2+CAD1_codon2	0h:8m:45s (0h:12m:6s left)
+ 233 GTR+F+I+G4   936921.346  11.153      CAD2_codon1+CAD2_codon2	0h:8m:45s (0h:12m:2s left)
+ 234 GTR+F+I+G4   937225.315  54.163      cytb_codon1+CAD2_codon3	0h:8m:46s (0h:11m:57s left)
+ 235 GTR+F+I+G4   937234.173  88.311      AATS_codon1+CAD2_codon3	0h:8m:46s (0h:11m:52s left)
+ 236 GTR+F+I+G4   939768.319  41.220      cytb_codon2+CAD2_codon1	0h:8m:47s (0h:11m:47s left)
+ 237 GTR+F+I+G4   937229.534  61.475      AATS_codon2+CAD2_codon3	0h:8m:48s (0h:11m:44s left)
+ 238 GTR+F+I+G4   937140.303  66.503      AATS_codon3+CAD2_codon3	0h:8m:48s (0h:11m:39s left)
+ 239 GTR+F+I+G4   939159.243  52.780      cytb_codon2+CAD2_codon2	0h:8m:49s (0h:11m:35s left)
+ 240 GTR+F+I+G4   937257.533  19.324      cytb_codon3+CAD2_codon1	0h:8m:49s (0h:11m:29s left)
+ 241 GTR+F+I+G4   937880.251  15.953      ND1_codon3+EF1a_codon3	0h:8m:49s (0h:11m:25s left)
+ 242 GTR+F+I+G4   937107.485  11.878      ND1_codon1+EF1a_codon3	0h:8m:49s (0h:11m:21s left)
+ 243 GTR+F+I+G4   937158.169  28.615      cytb_codon3+CAD2_codon2	0h:8m:50s (0h:11m:16s left)
+ 244 GTR+F+I+G4   937772.844  15.602      ND1_codon3+EF1a_codon1	0h:8m:50s (0h:11m:11s left)
+ 245 GTR+F+I+G4   937069.359  10.573      ND1_codon2+EF1a_codon3	0h:8m:50s (0h:11m:7s left)
+ 246 GTR+F+I+G4   937104.760  9.746       ND1_codon1+EF1a_codon1	0h:8m:50s (0h:11m:2s left)
+ 247 GTR+F+I+G4   937016.287  8.343       ND1_codon2+EF1a_codon1	0h:8m:51s (0h:10m:58s left)
+ 248 GTR+F+I+G4   937004.076  19.981      cytb_codon1+CAD2_codon1	0h:8m:51s (0h:10m:54s left)
+ 249 GTR+F+I+G4   938115.707  74.741      cytb_codon3+cytb_codon2	0h:8m:52s (0h:10m:49s left)
+ 250 GTR+F+I+G4   936949.061  23.661      cytb_codon1+CAD2_codon2	0h:8m:52s (0h:10m:45s left)
+ 251 GTR+F+I+G4   937254.849  35.317      AATS_codon1+CAD2_codon1	0h:8m:53s (0h:10m:41s left)
+ 252 GTR+F+I+G4   936916.194  26.762      AATS_codon2+CAD2_codon1	0h:8m:53s (0h:10m:36s left)
+ 253 GTR+F+I+G4   937250.540  36.546      AATS_codon1+CAD2_codon2	0h:8m:53s (0h:10m:32s left)
+ 254 GTR+F+I+G4   936929.829  30.163      AATS_codon3+CAD2_codon1	0h:8m:54s (0h:10m:28s left)
+ 255 GTR+F+I+G4   938387.731  60.762      cytb_codon2+cytb_codon1	0h:8m:54s (0h:10m:24s left)
+ 256 GTR+F+I+G4   937375.900  43.060      ND1_codon3+CAD2_codon3	0h:8m:54s (0h:10m:20s left)
+ 257 GTR+F+I+G4   936896.090  30.696      AATS_codon2+CAD2_codon2	0h:8m:55s (0h:10m:16s left)
+ 258 GTR+F+I+G4   937234.926  36.600      ND1_codon1+CAD2_codon3	0h:8m:55s (0h:10m:12s left)
+ 259 GTR+F+I+G4   939506.785  83.134      cytb_codon2+AATS_codon1	0h:8m:55s (0h:10m:8s left)
+ 260 GTR+F+I+G4   936914.418  31.386      AATS_codon3+CAD2_codon2	0h:8m:56s (0h:10m:4s left)
+ 261 GTR+F+I+G4   937369.713  34.515      ND1_codon2+CAD2_codon3	0h:8m:56s (0h:10m:0s left)
+ 262 GTR+F+I+G4   936965.800  10.649      cytb_codon3+cytb_codon1	0h:8m:57s (0h:9m:56s left)
+ 263 GTR+F+I+G4   939059.528  74.165      cytb_codon2+AATS_codon2	0h:8m:57s (0h:9m:52s left)
+ 264 GTR+F+I+G4   937218.540  35.850      cytb_codon3+AATS_codon2	0h:8m:57s (0h:9m:48s left)
+ 265 GTR+F+I+G4   937398.477  67.415      cytb_codon3+AATS_codon1	0h:8m:58s (0h:9m:44s left)
+ 266 GTR+F+I+G4   938953.390  96.093      cytb_codon2+AATS_codon3	0h:8m:58s (0h:9m:40s left)
+ 267 GTR+F+I+G4   937133.661  44.401      cytb_codon3+AATS_codon3	0h:8m:58s (0h:9m:36s left)
+ 268 GTR+F+I+G4   937194.887  119.857     cytb_codon1+AATS_codon1	0h:8m:58s (0h:9m:33s left)
+ 269 GTR+F+I+G4   936976.342  26.641      cytb_codon1+AATS_codon2	0h:8m:59s (0h:9m:29s left)
+ 270 GTR+F+I+G4   937694.513  15.468      ND1_codon3+CAD2_codon1	0h:8m:59s (0h:9m:25s left)
+ 271 GTR+F+I+G4   937034.730  49.113      AATS_codon1+AATS_codon2	0h:8m:59s (0h:9m:21s left)
+ 272 GTR+F+I+G4   937078.717  11.132      ND1_codon1+CAD2_codon1	0h:8m:59s (0h:9m:17s left)
+ 273 GTR+F+I+G4   937023.490  32.712      cytb_codon1+AATS_codon3	0h:9m:0s (0h:9m:13s left)
+ 274 GTR+F+I+G4   936970.642  64.199      AATS_codon1+AATS_codon3	0h:9m:0s (0h:9m:10s left)
+ 275 GTR+F+I+G4   937569.509  20.708      ND1_codon3+CAD2_codon2	0h:9m:0s (0h:9m:6s left)
+ 276 GTR+F+I+G4   937097.734  9.696       ND1_codon2+CAD2_codon1	0h:9m:0s (0h:9m:2s left)
+ 277 GTR+F+I+G4   936863.957  25.722      AATS_codon2+AATS_codon3	0h:9m:0s (0h:8m:58s left)
+ 278 GTR+F+I+G4   937077.534  14.372      ND1_codon1+CAD2_codon2	0h:9m:0s (0h:8m:54s left)
+ 279 GTR+F+I+G4   937073.130  13.132      ND1_codon2+CAD2_codon2	0h:9m:1s (0h:8m:51s left)
+ 280 GTR+F+I+G4   937528.822  301.392     ND1_codon1+cytb_codon2	0h:9m:3s (0h:8m:50s left)
+ 281 GTR+F+I+G4   937800.692  247.291     ND1_codon2+cytb_codon2	0h:9m:4s (0h:8m:46s left)
+ 282 GTR+F+I+G4   936984.217  15.221      ND1_codon1+cytb_codon3	0h:9m:4s (0h:8m:43s left)
+ 283 GTR+F+I+G4   937314.502  25.546      ND1_codon3+cytb_codon3	0h:9m:4s (0h:8m:39s left)
+ 284 GTR+F+I+G4   937040.004  13.523      ND1_codon2+cytb_codon3	0h:9m:5s (0h:8m:36s left)
+ 285 GTR+F+I+G4   937516.967  28.705      ND1_codon3+cytb_codon1	0h:9m:5s (0h:8m:32s left)
+ 286 GTR+F+I+G4   936871.259  1082.655    ND1_codon3+cytb_codon2	0h:9m:5s (0h:8m:29s left)
+ 287 GTR+F+I+G4   937027.113  6.950       ND1_codon1+cytb_codon1	0h:9m:5s (0h:8m:25s left)
+ 288 GTR+F+I+G4   937046.558  5.747       ND1_codon2+cytb_codon1	0h:9m:5s (0h:8m:22s left)
+ 289 GTR+F+I+G4   937597.475  34.309      ND1_codon3+AATS_codon2	0h:9m:6s (0h:8m:19s left)
+ 290 GTR+F+I+G4   937342.924  41.208      ND1_codon2+AATS_codon1	0h:9m:7s (0h:8m:16s left)
+ 291 GTR+F+I+G4   937668.363  172.116     ND1_codon3+AATS_codon1	0h:9m:7s (0h:8m:12s left)
+ 292 GTR+F+I+G4   937073.308  22.017      ND1_codon1+AATS_codon2	0h:9m:7s (0h:8m:9s left)
+ 293 GTR+F+I+G4   937284.591  68.955      ND1_codon1+AATS_codon1	0h:9m:7s (0h:8m:6s left)
+ 294 GTR+F+I+G4   937579.933  50.336      ND1_codon3+AATS_codon3	0h:9m:7s (0h:8m:2s left)
+ 295 GTR+F+I+G4   937080.219  18.750      ND1_codon2+AATS_codon2	0h:9m:8s (0h:7m:59s left)
+ 296 GTR+F+I+G4   937097.535  28.944      ND1_codon1+AATS_codon3	0h:9m:8s (0h:7m:56s left)
+ 297 GTR+F+I+G4   937185.082  4.932       ND1_codon1+ND1_codon3	0h:9m:8s (0h:7m:52s left)
+ 298 GTR+F+I+G4   936890.157  1.190       ND1_codon1+ND1_codon2	0h:9m:8s (0h:7m:49s left)
+ 299 GTR+F+I+G4   937345.405  4.005       ND1_codon2+ND1_codon3	0h:9m:8s (0h:7m:45s left)
+ 300 GTR+F+I+G4   937115.888  24.694      ND1_codon2+AATS_codon3	0h:9m:8s (0h:7m:42s left)
+6 compatible better partition pairs found
+Merging CAD1_codon3+CAD2_codon2 with BIC score: 936837.433 (LnL: -462198.903  df: 1295)
+Merging AATS_codon2+AATS_codon3 with BIC score: 936762.732 (LnL: -462214.385  df: 1284)
+Merging CAD1_codon2+CAD2_codon1 with BIC score: 936689.953 (LnL: -462230.828  df: 1273)
+Merging ND1_codon3+cytb_codon2 with BIC score: 936622.554 (LnL: -462249.961  df: 1262)
+Merging ND1_codon1+ND1_codon2 with BIC score: 936574.053 (LnL: -462278.543  df: 1251)
+Merging cytb_codon1+EF1a_codon1 with BIC score: 936564.029 (LnL: -462326.363  df: 1240)
+ 301 GTR+F+I+G4   936695.818  30.972      AATS_codon1+AATS_codon2+AATS_codon3	0h:9m:9s (0h:7m:39s left)
+ 302 GTR+F+I+G4   936845.744  45.607      AATS_codon2+AATS_codon3+EF1a_codon2	0h:9m:10s (0h:7m:37s left)
+ 303 GTR+F+I+G4   936733.961  38.605      AATS_codon2+AATS_codon3+EF1a_codon3	0h:9m:10s (0h:7m:34s left)
+ 304 GTR+F+I+G4   936598.775  71.180      AATS_codon2+AATS_codon3+CAD1_codon1	0h:9m:11s (0h:7m:31s left)
+ 305 GTR+F+I+G4   936936.345  54.601      AATS_codon2+AATS_codon3+CAD2_codon3	0h:9m:13s (0h:7m:29s left)
+ 306 GTR+F+I+G4   936557.843  43.884      AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:9m:14s (0h:7m:27s left)
+ 307 GTR+F+I+G4   938504.426  32.145      mito_noncoding+AATS_codon2+AATS_codon3	0h:9m:14s (0h:7m:24s left)
+ 308 GTR+F+I+G4   936662.206  39.343      AATS_codon2+AATS_codon3+CAD1_codon2+CAD2_codon1	0h:9m:16s (0h:7m:22s left)
+ 309 GTR+F+I+G4   936846.514  37.407      cytb_codon1+AATS_codon2+AATS_codon3+EF1a_codon1	0h:9m:17s (0h:7m:19s left)
+ 310 GTR+F+I+G4   937366.337  23.009      18S+AATS_codon2+AATS_codon3	0h:9m:19s (0h:7m:18s left)
+ 311 GTR+F+I+G4   937254.342  35.569      AATS_codon2+AATS_codon3+COI_codon2	0h:9m:23s (0h:7m:18s left)
+ 312 GTR+F+I+G4   937482.962  35.080      28S+AATS_codon2+AATS_codon3	0h:9m:24s (0h:7m:16s left)
+ 313 GTR+F+I+G4   936918.676  39.114      cytb_codon3+AATS_codon2+AATS_codon3	0h:9m:25s (0h:7m:13s left)
+ 314 GTR+F+I+G4   936954.855  81.628      AATS_codon2+AATS_codon3+COI_codon1	0h:9m:25s (0h:7m:10s left)
+ 315 GTR+F+I+G4   936935.803  24.881      ND1_codon1+ND1_codon2+AATS_codon2+AATS_codon3	0h:9m:26s (0h:7m:8s left)
+ 316 GTR+F+I+G4   939826.817  62.759      ND1_codon3+cytb_codon2+AATS_codon2+AATS_codon3	0h:9m:28s (0h:7m:6s left)
+ 317 GTR+F+I+G4   936759.243  43.512      CAD1_codon1+CAD1_codon3+CAD2_codon2	0h:9m:31s (0h:7m:5s left)
+ 318 GTR+F+I+G4   936909.232  47.844      AATS_codon1+CAD1_codon3+CAD2_codon2	0h:9m:31s (0h:7m:2s left)
+ 319 GTR+F+I+G4   936937.903  39.096      CAD1_codon1+CAD1_codon2+CAD2_codon1	0h:9m:33s (0h:7m:1s left)
+ 320 GTR+F+I+G4   937025.578  40.713      AATS_codon1+CAD1_codon2+CAD2_codon1	0h:9m:34s (0h:6m:58s left)
+ 321 GTR+F+I+G4   937216.225  37.863      cytb_codon1+AATS_codon1+EF1a_codon1	0h:9m:37s (0h:6m:57s left)
+ 322 GTR+F+I+G4   937179.114  45.752      cytb_codon1+EF1a_codon1+CAD1_codon1	0h:9m:37s (0h:6m:54s left)
+ 323 GTR+F+I+G4   937087.617  54.553      ND1_codon1+ND1_codon2+CAD1_codon1	0h:9m:39s (0h:6m:52s left)
+ 324 GTR+F+I+G4   936968.692  47.757      EF1a_codon2+CAD1_codon3+CAD2_codon2	0h:9m:40s (0h:6m:50s left)
+ 325 GTR+F+I+G4   937205.434  35.671      ND1_codon1+ND1_codon2+AATS_codon1	0h:9m:41s (0h:6m:47s left)
+ 326 GTR+F+I+G4   940261.093  78.081      ND1_codon3+cytb_codon2+CAD1_codon1	0h:9m:41s (0h:6m:45s left)
+ 327 GTR+F+I+G4   939432.815  89.358      ND1_codon3+cytb_codon2+AATS_codon1	0h:9m:44s (0h:6m:43s left)
+ 328 GTR+F+I+G4   936891.442  36.356      EF1a_codon2+CAD1_codon2+CAD2_codon1	0h:9m:44s (0h:6m:41s left)
+ 329 GTR+F+I+G4   937141.482  27.925      cytb_codon1+EF1a_codon1+EF1a_codon2	0h:9m:46s (0h:6m:39s left)
+ 330 GTR+F+I+G4   936761.441  36.895      EF1a_codon3+CAD1_codon3+CAD2_codon2	0h:9m:47s (0h:6m:37s left)
+ 331 GTR+F+I+G4   937123.822  24.802      ND1_codon1+ND1_codon2+EF1a_codon2	0h:9m:49s (0h:6m:35s left)
+ 332 GTR+F+I+G4   936612.643  24.579      EF1a_codon3+CAD1_codon2+CAD2_codon1	0h:9m:49s (0h:6m:32s left)
+ 333 GTR+F+I+G4   940806.829  53.494      ND1_codon3+cytb_codon2+EF1a_codon2	0h:9m:52s (0h:6m:31s left)
+ 334 GTR+F+I+G4   942118.157  398.602     AATS_codon2+AATS_codon3+COI_codon3	0h:9m:56s (0h:6m:31s left)
+ 335 GTR+F+I+G4   936618.060  10.583      cytb_codon1+EF1a_codon1+EF1a_codon3	0h:9m:58s (0h:6m:29s left)
+ 336 GTR+F+I+G4   939322.974  31.074      mito_noncoding+CAD1_codon2+CAD2_codon1	0h:9m:58s (0h:6m:26s left)
+ 337 GTR+F+I+G4   936870.598  10.918      ND1_codon1+ND1_codon2+EF1a_codon3	0h:9m:59s (0h:6m:24s left)
+ 338 GTR+F+I+G4   939400.755  40.843      mito_noncoding+CAD1_codon3+CAD2_codon2	0h:10m:1s (0h:6m:22s left)
+ 339 GTR+F+I+G4   939963.216  39.599      ND1_codon3+cytb_codon2+EF1a_codon3	0h:10m:1s (0h:6m:19s left)
+ 340 GTR+F+I+G4   936765.022  21.549      mito_noncoding+ND1_codon1+ND1_codon2	0h:10m:3s (0h:6m:18s left)
+ 341 GTR+F+I+G4   937844.595  26.261      mito_noncoding+cytb_codon1+EF1a_codon1	0h:10m:4s (0h:6m:15s left)
+ 342 GTR+F+I+G4   936983.882  50.818      CAD1_codon3+CAD2_codon2+CAD2_codon3	0h:10m:6s (0h:6m:14s left)
+ 343 GTR+F+I+G4   936613.149  30.284      CAD1_codon2+CAD1_codon3+CAD2_codon1+CAD2_codon2	0h:10m:7s (0h:6m:11s left)
+ 344 GTR+F+I+G4   937357.590  48.093      CAD1_codon2+CAD2_codon1+CAD2_codon3	0h:10m:9s (0h:6m:10s left)
+ 345 GTR+F+I+G4   938903.650  58.441      mito_noncoding+ND1_codon3+cytb_codon2	0h:10m:10s (0h:6m:8s left)
+ 346 GTR+F+I+G4   937488.319  33.723      18S+CAD1_codon3+CAD2_codon2	0h:10m:13s (0h:6m:7s left)
+ 347 GTR+F+I+G4   936750.435  38.213      cytb_codon1+EF1a_codon1+CAD1_codon3+CAD2_codon2	0h:10m:13s (0h:6m:4s left)
+ 348 GTR+F+I+G4   937483.623  60.086      COI_codon2+CAD1_codon3+CAD2_codon2	0h:10m:23s (0h:6m:7s left)
+ 349 GTR+F+I+G4   937844.203  39.863      28S+CAD1_codon3+CAD2_codon2	0h:10m:24s (0h:6m:4s left)
+ 350 GTR+F+I+G4   937106.914  23.316      18S+CAD1_codon2+CAD2_codon1	0h:10m:29s (0h:6m:5s left)
+ 351 GTR+F+I+G4   937589.042  89.403      COI_codon1+CAD1_codon3+CAD2_codon2	0h:10m:30s (0h:6m:2s left)
+ 352 GTR+F+I+G4   937419.380  52.618      cytb_codon1+EF1a_codon1+CAD2_codon3	0h:10m:32s (0h:6m:1s left)
+ 353 GTR+F+I+G4   936708.358  23.985      cytb_codon1+EF1a_codon1+CAD1_codon2+CAD2_codon1	0h:10m:34s (0h:5m:59s left)
+ 354 GTR+F+I+G4   937584.727  33.557      28S+CAD1_codon2+CAD2_codon1	0h:10m:48s (0h:6m:4s left)
+ 355 GTR+F+I+G4   937674.069  44.150      COI_codon1+CAD1_codon2+CAD2_codon1	0h:10m:50s (0h:6m:2s left)
+ 356 GTR+F+I+G4   936864.774  40.185      cytb_codon3+CAD1_codon3+CAD2_codon2	0h:10m:51s (0h:6m:0s left)
+ 357 GTR+F+I+G4   946390.705  192.029     COI_codon3+CAD1_codon3+CAD2_codon2	0h:10m:53s (0h:5m:58s left)
+ 358 GTR+F+I+G4   936924.880  32.681      ND1_codon1+ND1_codon2+CAD1_codon3+CAD2_codon2	0h:10m:54s (0h:5m:56s left)
+ 359 GTR+F+I+G4   937253.047  34.332      COI_codon2+CAD1_codon2+CAD2_codon1	0h:10m:57s (0h:5m:55s left)
+ 360 GTR+F+I+G4   940405.943  59.871      ND1_codon3+cytb_codon2+CAD1_codon3+CAD2_codon2	0h:10m:58s (0h:5m:53s left)
+ 361 GTR+F+I+G4   937235.783  29.914      ND1_codon1+ND1_codon2+CAD2_codon3	0h:10m:58s (0h:5m:50s left)
+ 362 GTR+F+I+G4   936993.283  24.936      cytb_codon3+CAD1_codon2+CAD2_codon1	0h:11m:0s (0h:5m:48s left)
+ 363 GTR+F+I+G4   939159.304  91.829      ND1_codon3+cytb_codon2+CAD2_codon3	0h:11m:2s (0h:5m:46s left)
+ 364 GTR+F+I+G4   936891.741  20.475      ND1_codon1+ND1_codon2+CAD1_codon2+CAD2_codon1	0h:11m:4s (0h:5m:45s left)
+ 365 GTR+F+I+G4   936730.141  16.163      cytb_codon1+18S+EF1a_codon1	0h:11m:6s (0h:5m:43s left)
+ 366 GTR+F+I+G4   941032.680  45.158      ND1_codon3+cytb_codon2+CAD1_codon2+CAD2_codon1	0h:11m:8s (0h:5m:41s left)
+ 367 GTR+F+I+G4   937058.717  29.594      cytb_codon1+28S+EF1a_codon1	0h:11m:17s (0h:5m:43s left)
+ 368 GTR+F+I+G4   936763.686  16.103      cytb_codon1+COI_codon2+EF1a_codon1	0h:11m:20s (0h:5m:42s left)
+ 369 GTR+F+I+G4   947197.020  188.817     COI_codon3+CAD1_codon2+CAD2_codon1	0h:11m:21s (0h:5m:39s left)
+ 370 GTR+F+I+G4   937365.251  52.298      cytb_codon1+COI_codon1+EF1a_codon1	0h:11m:22s (0h:5m:37s left)
+ 371 GTR+F+I+G4   936658.471  12.429      ND1_codon1+ND1_codon2+18S	0h:11m:23s (0h:5m:35s left)
+ 372 GTR+F+I+G4   936817.158  13.985      cytb_codon3+cytb_codon1+EF1a_codon1	0h:11m:26s (0h:5m:33s left)
+ 373 GTR+F+I+G4   936826.778  10.745      ND1_codon1+ND1_codon2+cytb_codon1+EF1a_codon1	0h:11m:27s (0h:5m:31s left)
+ 374 GTR+F+I+G4   940901.975  28.669      ND1_codon3+cytb_codon2+18S	0h:11m:31s (0h:5m:30s left)
+ 375 GTR+F+I+G4   939501.599  47.291      ND1_codon3+cytb_codon2+cytb_codon1+EF1a_codon1	0h:11m:31s (0h:5m:28s left)
+ 376 GTR+F+I+G4   936681.618  27.162      ND1_codon1+ND1_codon2+28S	0h:11m:37s (0h:5m:28s left)
+ 377 GTR+F+I+G4   936888.924  37.096      ND1_codon1+ND1_codon2+COI_codon1	0h:11m:38s (0h:5m:25s left)
+ 378 GTR+F+I+G4   941878.784  115.195     ND1_codon3+cytb_codon2+COI_codon1	0h:11m:45s (0h:5m:26s left)
+ 379 GTR+F+I+G4   936829.824  16.669      ND1_codon1+ND1_codon2+COI_codon2	0h:11m:50s (0h:5m:26s left)
+ 380 GTR+F+I+G4   940177.742  38.751      ND1_codon3+cytb_codon2+28S	0h:11m:52s (0h:5m:24s left)
+ 381 GTR+F+I+G4   941165.468  64.617      ND1_codon3+cytb_codon2+COI_codon2	0h:11m:57s (0h:5m:23s left)
+ 382 GTR+F+I+G4   944772.870  279.640     cytb_codon1+COI_codon3+EF1a_codon1	0h:11m:59s (0h:5m:21s left)
+ 383 GTR+F+I+G4   936747.426  12.440      ND1_codon1+ND1_codon2+cytb_codon3	0h:12m:0s (0h:5m:19s left)
+ 384 GTR+F+I+G4   937899.904  88.753      ND1_codon3+cytb_codon3+cytb_codon2	0h:12m:3s (0h:5m:18s left)
+ 385 GTR+F+I+G4   938139.212  145.704     ND1_codon1+ND1_codon2+ND1_codon3+cytb_codon2	0h:12m:7s (0h:5m:17s left)
+ 386 GTR+F+I+G4   940139.762  599.024     ND1_codon1+ND1_codon2+COI_codon3	0h:12m:17s (0h:5m:19s left)
+ 387 GTR+F+I+G4   940466.875  850.588     ND1_codon3+cytb_codon2+COI_codon3	0h:12m:37s (0h:5m:24s left)
+Merging AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2 with BIC score: 936557.843 (LnL: -462376.102  df: 1229)
+ 388 GTR+F+I+G4   936843.929  48.416      AATS_codon1+AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:12m:42s (0h:5m:24s left)
+ 389 GTR+F+I+G4   937018.383  55.038      AATS_codon2+AATS_codon3+EF1a_codon2+CAD1_codon3+CAD2_codon2	0h:12m:42s (0h:5m:21s left)
+ 390 GTR+F+I+G4   936734.444  52.394      AATS_codon2+AATS_codon3+CAD1_codon1+CAD1_codon3+CAD2_codon2	0h:12m:43s (0h:5m:19s left)
+ 391 GTR+F+I+G4   936792.208  47.987      AATS_codon2+AATS_codon3+EF1a_codon3+CAD1_codon3+CAD2_codon2	0h:12m:47s (0h:5m:17s left)
+ 392 GTR+F+I+G4   937042.816  58.568      AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2+CAD2_codon3	0h:12m:48s (0h:5m:15s left)
+ 393 GTR+F+I+G4   936655.406  40.120      AATS_codon2+AATS_codon3+CAD1_codon2+CAD1_codon3+CAD2_codon1+CAD2_codon2	0h:12m:52s (0h:5m:14s left)
+ 394 GTR+F+I+G4   940237.981  49.961      mito_noncoding+AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:12m:56s (0h:5m:13s left)
+ 395 GTR+F+I+G4   936823.807  46.654      cytb_codon1+AATS_codon2+AATS_codon3+EF1a_codon1+CAD1_codon3+CAD2_codon2	0h:12m:58s (0h:5m:11s left)
+ 396 GTR+F+I+G4   937814.529  40.028      18S+AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:12m:59s (0h:5m:9s left)
+ 397 GTR+F+I+G4   937618.732  71.434      AATS_codon2+AATS_codon3+COI_codon2+CAD1_codon3+CAD2_codon2	0h:13m:12s (0h:5m:11s left)
+ 398 GTR+F+I+G4   938473.950  43.981      28S+AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:13m:16s (0h:5m:10s left)
+ 399 GTR+F+I+G4   937631.803  91.965      AATS_codon2+AATS_codon3+COI_codon1+CAD1_codon3+CAD2_codon2	0h:13m:18s (0h:5m:8s left)
+ 400 GTR+F+I+G4   936944.092  47.658      cytb_codon3+AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:13m:20s (0h:5m:6s left)
+ 401 GTR+F+I+G4   936958.564  42.971      ND1_codon1+ND1_codon2+AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:13m:22s (0h:5m:4s left)
+ 402 GTR+F+I+G4   940987.319  61.358      ND1_codon3+cytb_codon2+AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:13m:26s (0h:5m:3s left)
+ 403 GTR+F+I+G4   947982.407  144.744     AATS_codon2+AATS_codon3+COI_codon3+CAD1_codon3+CAD2_codon2	0h:13m:35s (0h:5m:3s left)
+Agglomerative model selection: (mito_noncoding,(ND1_codon1,ND1_codon2)5:936574,(ND1_codon3,cytb_codon2)4:936623,cytb_codon3,(cytb_codon1,EF1a_codon1)6:936564,18S,28S,AATS_codon1,((AATS_codon2,AATS_codon3)2:936763,(CAD1_codon3,CAD2_codon2)1:936837)7:936558,COI_codon1,COI_codon2,COI_codon3,EF1a_codon2,EF1a_codon3,CAD1_codon1,(CAD1_codon2,CAD2_codon1)3:936690,CAD2_codon3)
+Merging into 17 partitions...
+ 404 GTR+F+I+G4   80654.076   18S	0h:16m:54s (0h:6m:14s left)
+ 405 GTR+F+I+G4   192951.832  COI_codon3	0h:21m:1s (0h:7m:41s left)
+ 406 GTR+F+I+G4   161364.073  28S	0h:21m:10s (0h:7m:40s left)
+ 407 GTR+F+I+G4   17586.232   COI_codon2	0h:24m:27s (0h:8m:46s left)
+ 408 GTR+F+I+G4   60002.424   COI_codon1	0h:26m:29s (0h:9m:24s left)
+ 409 GTR+F+R6     75924.487   AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:27m:10s (0h:9m:33s left)
+ 410 GTR+F+R5     55003.566   mito_noncoding	0h:27m:57s (0h:9m:44s left)
+ 411 TVM+F+R3     14800.938   cytb_codon1+EF1a_codon1	0h:28m:9s (0h:9m:43s left)
+ 412 GTR+F+R6     44877.083   CAD1_codon2+CAD2_codon1	0h:28m:16s (0h:9m:40s left)
+ 413 GTR+F+I+G4   43786.663   EF1a_codon2	0h:29m:1s (0h:9m:50s left)
+ 414 GTR+F+I+G4   13936.639   EF1a_codon3	0h:29m:15s (0h:9m:49s left)
+ 415 GTR+F+I+G4   39094.508   CAD2_codon3	0h:29m:25s (0h:9m:46s left)
+ 416 GTR+F+I+G4   13269.177   cytb_codon3	0h:29m:30s (0h:9m:42s left)
+ 417 GTR+F+I+G4   18391.920   AATS_codon1	0h:29m:42s (0h:9m:41s left)
+ 418 K3Pu+F+G4    4915.643    ND1_codon1+ND1_codon2	0h:29m:44s (0h:9m:36s left)
+ 419 GTR+F+I+G4   57517.008   CAD1_codon1	0h:29m:51s (0h:9m:32s left)
+ 420 TN+F+R5      31518.613   ND1_codon3+cytb_codon2	0h:31m:49s (0h:10m:4s left)
+Best partition model BIC score: 936245.884 (LnL: -462114.458  df:1251)
+Partition information was printed to Diptera_ML_withoutrogues.best_scheme.nex
+Partition information in Raxml format was printed to Diptera_ML_withoutrogues.best_scheme
+
+All model information printed to Diptera_ML_withoutrogues.model.gz
+CPU time for ModelFinder: 5782.872 seconds (1h:36m:22s)
+Wall-clock time for ModelFinder: 2042.101 seconds (0h:34m:2s)
+Generating 1000 samples for ultrafast bootstrap (seed: 310048)...
+
+NOTE: 389 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -476950.221
+Current log-likelihood at step 1: -466920.117
+Current log-likelihood at step 2: -464241.837
+Current log-likelihood at step 3: -463960.209
+Current log-likelihood at step 4: -463900.127
+Current log-likelihood at step 5: -463878.760
+Current log-likelihood at step 6: -463871.622
+Current log-likelihood at step 7: -463868.449
+Current log-likelihood at step 8: -463866.186
+Current log-likelihood at step 9: -463864.585
+Current log-likelihood at step 10: -463863.524
+Current log-likelihood at step 11: -463862.784
+Current log-likelihood at step 12: -463862.227
+Current log-likelihood at step 13: -463861.804
+Current log-likelihood at step 14: -463861.497
+Current log-likelihood at step 15: -463861.264
+Current log-likelihood at step 16: -463861.095
+Current log-likelihood at step 17: -463860.979
+Current log-likelihood at step 18: -463860.889
+Partition-specific rates:  0.250 0.104 8.093 0.341 0.066 0.154 0.253 2.846 0.392 0.188 0.063 11.415 0.539 0.170 1.104 0.260 1.236
+Parameters optimization took 17 rounds (49.198 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 42.280 second
+Computing log-likelihood of 99 initial trees ... 99.671 seconds
+Current best score: -463860.889
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463859.010
+Current log-likelihood at step 1: -463858.466
+Current log-likelihood at step 2: -463858.397
+Parameters optimization took 1 rounds (5.170 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -463858.397
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463702.873
+Current log-likelihood at step 1: -463688.461
+Current log-likelihood at step 2: -463687.353
+Current log-likelihood at step 3: -463687.061
+Current log-likelihood at step 4: -463686.918
+Current log-likelihood at step 5: -463686.822
+Parameters optimization took 4 rounds (12.585 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 2: -463686.822
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463411.776
+Current log-likelihood at step 1: -463404.739
+Current log-likelihood at step 2: -463404.122
+Current log-likelihood at step 3: -463403.886
+Current log-likelihood at step 4: -463403.739
+Current log-likelihood at step 5: -463403.657
+Parameters optimization took 4 rounds (12.554 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 7: -463403.657
+Iteration 10 / LogL: -463523.176 / Time: 0h:13m:50s
+Iteration 20 / LogL: -464786.851 / Time: 0h:25m:57s
+Finish initializing candidate tree set (20)
+Current best tree score: -463403.657 / CPU time: 1507.969
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463372.301
+Current log-likelihood at step 1: -463371.132
+Current log-likelihood at step 2: -463370.531
+Current log-likelihood at step 3: -463370.045
+Current log-likelihood at step 4: -463369.935
+Current log-likelihood at step 5: -463369.839
+Parameters optimization took 4 rounds (15.082 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 22: -463369.839
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463355.930
+Current log-likelihood at step 1: -463354.954
+Current log-likelihood at step 2: -463354.785
+Current log-likelihood at step 3: -463354.718
+Parameters optimization took 2 rounds (7.075 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 26: -463354.718
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463341.082
+Current log-likelihood at step 1: -463339.725
+Current log-likelihood at step 2: -463339.434
+Current log-likelihood at step 3: -463339.331
+Current log-likelihood at step 4: -463339.267
+Parameters optimization took 3 rounds (9.434 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 27: -463339.267
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463339.208
+Current log-likelihood at step 1: -463336.272
+Current log-likelihood at step 2: -463335.275
+Current log-likelihood at step 3: -463334.644
+Current log-likelihood at step 4: -463334.417
+Current log-likelihood at step 5: -463334.319
+Parameters optimization took 4 rounds (15.942 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 29: -463334.319
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463309.678
+Current log-likelihood at step 1: -463308.229
+Current log-likelihood at step 2: -463307.917
+Current log-likelihood at step 3: -463307.791
+Current log-likelihood at step 4: -463307.695
+Parameters optimization took 3 rounds (10.517 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 30: -463307.695
+Iteration 30 / LogL: -463307.695 / Time: 0h:31m:24s (1h:48m:17s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463294.030
+Current log-likelihood at step 1: -463292.122
+Current log-likelihood at step 2: -463291.785
+Current log-likelihood at step 3: -463291.717
+Parameters optimization took 2 rounds (7.427 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 31: -463291.717
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463218.153
+Current log-likelihood at step 1: -463216.351
+Current log-likelihood at step 2: -463216.141
+Current log-likelihood at step 3: -463216.047
+Parameters optimization took 2 rounds (7.898 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 32: -463216.047
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463148.487
+Current log-likelihood at step 1: -463147.825
+Current log-likelihood at step 2: -463147.626
+Current log-likelihood at step 3: -463147.495
+Current log-likelihood at step 4: -463147.379
+Current log-likelihood at step 5: -463147.290
+Parameters optimization took 4 rounds (12.445 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 33: -463147.290
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463145.778
+Current log-likelihood at step 1: -463144.289
+Current log-likelihood at step 2: -463143.720
+Current log-likelihood at step 3: -463143.576
+Current log-likelihood at step 4: -463143.477
+Parameters optimization took 3 rounds (11.088 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 38: -463143.477
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463106.117
+Current log-likelihood at step 1: -463104.854
+Current log-likelihood at step 2: -463104.715
+Current log-likelihood at step 3: -463104.636
+Parameters optimization took 2 rounds (7.259 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 39: -463104.636
+Iteration 40 / LogL: -463158.778 / Time: 0h:36m:21s (1h:32m:17s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463071.626
+Current log-likelihood at step 1: -463070.655
+Current log-likelihood at step 2: -463070.115
+Current log-likelihood at step 3: -463069.786
+Current log-likelihood at step 4: -463069.698
+Parameters optimization took 3 rounds (11.267 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 41: -463069.698
+Iteration 50 / LogL: -463079.828 / Time: 0h:40m:10s (1h:14m:36s left)
+Log-likelihood cutoff on original alignment: -463448.062
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463058.956
+Current log-likelihood at step 1: -463057.991
+Current log-likelihood at step 2: -463057.666
+Current log-likelihood at step 3: -463057.513
+Current log-likelihood at step 4: -463057.358
+Current log-likelihood at step 5: -463057.269
+Parameters optimization took 4 rounds (13.035 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 52: -463057.269
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463053.946
+Current log-likelihood at step 1: -463052.673
+Current log-likelihood at step 2: -463052.508
+Current log-likelihood at step 3: -463052.444
+Parameters optimization took 2 rounds (7.933 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 56: -463052.444
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463037.849
+Current log-likelihood at step 1: -463037.290
+Current log-likelihood at step 2: -463037.179
+Current log-likelihood at step 3: -463037.102
+Parameters optimization took 2 rounds (7.339 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 57: -463037.102
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -463034.704
+Current log-likelihood at step 1: -463032.486
+Current log-likelihood at step 2: -463032.349
+Current log-likelihood at step 3: -463032.287
+Parameters optimization took 2 rounds (7.096 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 60: -463032.287
+Iteration 60 / LogL: -463032.287 / Time: 0h:46m:24s (1h:18m:39s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462951.758
+Current log-likelihood at step 1: -462950.355
+Current log-likelihood at step 2: -462949.579
+Current log-likelihood at step 3: -462949.321
+Current log-likelihood at step 4: -462949.180
+Current log-likelihood at step 5: -462949.062
+Current log-likelihood at step 6: -462948.967
+Parameters optimization took 5 rounds (16.492 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 62: -462948.967
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462933.214
+Current log-likelihood at step 1: -462932.061
+Current log-likelihood at step 2: -462931.661
+Current log-likelihood at step 3: -462931.566
+Parameters optimization took 2 rounds (8.091 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 69: -462931.566
+Iteration 70 / LogL: -463032.508 / Time: 0h:50m:42s (1h:12m:45s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462904.760
+Current log-likelihood at step 1: -462904.157
+Current log-likelihood at step 2: -462904.061
+Parameters optimization took 1 rounds (5.086 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 75: -462904.061
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462895.736
+Current log-likelihood at step 1: -462895.437
+Current log-likelihood at step 2: -462895.385
+Parameters optimization took 1 rounds (4.223 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 79: -462895.385
+Iteration 80 / LogL: -462955.753 / Time: 0h:55m:7s (1h:9m:4s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462887.181
+Current log-likelihood at step 1: -462886.441
+Current log-likelihood at step 2: -462886.187
+Current log-likelihood at step 3: -462886.115
+Parameters optimization took 2 rounds (8.049 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 83: -462886.115
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462880.541
+Current log-likelihood at step 1: -462880.081
+Current log-likelihood at step 2: -462880.002
+Parameters optimization took 1 rounds (4.547 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 85: -462880.002
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462850.518
+Current log-likelihood at step 1: -462850.004
+Current log-likelihood at step 2: -462849.932
+Parameters optimization took 1 rounds (5.270 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 86: -462849.932
+Iteration 90 / LogL: -462898.355 / Time: 0h:58m:55s (1h:3m:33s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462830.405
+Current log-likelihood at step 1: -462825.382
+Current log-likelihood at step 2: -462822.592
+Current log-likelihood at step 3: -462821.998
+Current log-likelihood at step 4: -462821.941
+Parameters optimization took 3 rounds (11.765 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 94: -462821.941
+Iteration 100 / LogL: -462840.851 / Time: 1h:3m:6s (0h:59m:55s left)
+Log-likelihood cutoff on original alignment: -463060.718
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.619
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -462824.010 / Time: 1h:7m:19s (0h:55m:34s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462816.210
+Current log-likelihood at step 1: -462813.760
+Current log-likelihood at step 2: -462813.138
+Current log-likelihood at step 3: -462813.030
+Current log-likelihood at step 4: -462812.978
+Parameters optimization took 3 rounds (10.077 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 111: -462812.978
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462794.012
+Current log-likelihood at step 1: -462792.523
+Current log-likelihood at step 2: -462792.270
+Current log-likelihood at step 3: -462792.200
+Parameters optimization took 2 rounds (7.491 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 117: -462792.200
+Iteration 120 / LogL: -462797.548 / Time: 1h:11m:16s (0h:58m:5s left)
+Iteration 130 / LogL: -462816.192 / Time: 1h:15m:21s (0h:50m:49s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462785.805
+Current log-likelihood at step 1: -462784.590
+Current log-likelihood at step 2: -462784.489
+Current log-likelihood at step 3: -462784.445
+Parameters optimization took 2 rounds (7.420 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 135: -462784.445
+Iteration 140 / LogL: -462802.422 / Time: 1h:18m:43s (0h:53m:48s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462778.588
+Current log-likelihood at step 1: -462777.704
+Current log-likelihood at step 2: -462777.327
+Current log-likelihood at step 3: -462777.230
+Parameters optimization took 2 rounds (7.252 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 141: -462777.230
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462773.876
+Current log-likelihood at step 1: -462771.172
+Current log-likelihood at step 2: -462770.114
+Current log-likelihood at step 3: -462769.729
+Current log-likelihood at step 4: -462769.654
+Parameters optimization took 3 rounds (11.338 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 145: -462769.654
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462753.765
+Current log-likelihood at step 1: -462752.365
+Current log-likelihood at step 2: -462751.926
+Current log-likelihood at step 3: -462751.845
+Parameters optimization took 2 rounds (8.254 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 147: -462751.845
+Iteration 150 / LogL: -462790.860 / Time: 1h:21m:57s (0h:53m:21s left)
+Log-likelihood cutoff on original alignment: -462883.936
+Iteration 160 / LogL: -462803.349 / Time: 1h:24m:55s (0h:46m:28s left)
+Iteration 170 / LogL: -462769.903 / Time: 1h:27m:51s (0h:40m:1s left)
+Iteration 180 / LogL: -462764.141 / Time: 1h:30m:48s (0h:33m:59s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462745.802
+Current log-likelihood at step 1: -462745.183
+Current log-likelihood at step 2: -462744.958
+Current log-likelihood at step 3: -462744.887
+Parameters optimization took 2 rounds (7.350 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 185: -462744.887
+Iteration 190 / LogL: -462762.914 / Time: 1h:34m:36s (0h:47m:33s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462739.888
+Current log-likelihood at step 1: -462738.476
+Current log-likelihood at step 2: -462738.195
+Current log-likelihood at step 3: -462738.104
+Parameters optimization took 2 rounds (8.042 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 200: -462738.104
+Iteration 200 / LogL: -462738.104 / Time: 1h:37m:19s (0h:48m:54s left)
+Log-likelihood cutoff on original alignment: -462853.930
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.832
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -462765.297 / Time: 1h:40m:53s (0h:43m:26s left)
+Iteration 220 / LogL: -462756.219 / Time: 1h:44m:45s (0h:38m:16s left)
+Iteration 230 / LogL: -462742.735 / Time: 1h:47m:37s (0h:32m:53s left)
+Iteration 240 / LogL: -462738.527 / Time: 1h:50m:52s (0h:27m:50s left)
+Iteration 250 / LogL: -462741.909 / Time: 1h:54m:12s (0h:22m:55s left)
+Log-likelihood cutoff on original alignment: -462848.496
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462736.753
+Current log-likelihood at step 1: -462736.338
+Current log-likelihood at step 2: -462736.198
+Current log-likelihood at step 3: -462736.168
+Parameters optimization took 2 rounds (7.068 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 254: -462736.168
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462734.243
+Current log-likelihood at step 1: -462733.511
+Current log-likelihood at step 2: -462733.394
+Current log-likelihood at step 3: -462733.323
+Parameters optimization took 2 rounds (7.618 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 255: -462733.323
+Iteration 260 / LogL: -462752.860 / Time: 1h:57m:58s (0h:43m:16s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462728.994
+Current log-likelihood at step 1: -462728.559
+Current log-likelihood at step 2: -462728.447
+Current log-likelihood at step 3: -462728.411
+Parameters optimization took 2 rounds (6.865 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 261: -462728.411
+Iteration 270 / LogL: -462738.662 / Time: 2h:1m:46s (0h:41m:11s left)
+Iteration 280 / LogL: -462733.569 / Time: 2h:5m:16s (0h:36m:22s left)
+Iteration 290 / LogL: -462742.045 / Time: 2h:8m:46s (0h:31m:38s left)
+Iteration 300 / LogL: -462776.855 / Time: 2h:12m:12s (0h:26m:58s left)
+Log-likelihood cutoff on original alignment: -462848.496
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.886
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462725.676
+Current log-likelihood at step 1: -462725.021
+Current log-likelihood at step 2: -462724.898
+Current log-likelihood at step 3: -462724.833
+Parameters optimization took 2 rounds (7.363 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 309: -462724.833
+Iteration 310 / LogL: -462757.966 / Time: 2h:15m:44s (0h:43m:29s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462723.679
+Current log-likelihood at step 1: -462722.596
+Current log-likelihood at step 2: -462722.205
+Current log-likelihood at step 3: -462722.134
+Parameters optimization took 2 rounds (8.663 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 311: -462722.134
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462722.074
+Current log-likelihood at step 1: -462721.809
+Current log-likelihood at step 2: -462721.754
+Parameters optimization took 1 rounds (4.246 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 315: -462721.754
+Iteration 320 / LogL: -462752.558 / Time: 2h:19m:8s (0h:41m:26s left)
+Iteration 330 / LogL: -462730.475 / Time: 2h:23m:32s (0h:37m:5s left)
+Iteration 340 / LogL: -462729.216 / Time: 2h:27m:19s (0h:32m:35s left)
+Iteration 350 / LogL: -462754.219 / Time: 2h:30m:53s (0h:28m:6s left)
+Log-likelihood cutoff on original alignment: -462848.496
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462716.393
+Current log-likelihood at step 1: -462714.974
+Current log-likelihood at step 2: -462714.397
+Current log-likelihood at step 3: -462714.284
+Current log-likelihood at step 4: -462714.203
+Parameters optimization took 3 rounds (10.998 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 358: -462714.203
+Iteration 360 / LogL: -462761.218 / Time: 2h:34m:24s (0h:42m:8s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462711.389
+Current log-likelihood at step 1: -462710.377
+Current log-likelihood at step 2: -462710.088
+Current log-likelihood at step 3: -462709.997
+Parameters optimization took 2 rounds (8.415 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 366: -462709.997
+Iteration 370 / LogL: -462782.785 / Time: 2h:37m:56s (0h:41m:5s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462688.430
+Current log-likelihood at step 1: -462687.772
+Current log-likelihood at step 2: -462687.656
+Current log-likelihood at step 3: -462687.569
+Parameters optimization took 2 rounds (7.510 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 374: -462687.569
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462686.895
+Current log-likelihood at step 1: -462686.632
+Current log-likelihood at step 2: -462686.591
+Parameters optimization took 1 rounds (4.998 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 375: -462686.591
+Iteration 380 / LogL: -462700.829 / Time: 2h:41m:34s (0h:40m:29s left)
+Iteration 390 / LogL: -462750.751 / Time: 2h:45m:38s (0h:36m:11s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462681.429
+Current log-likelihood at step 1: -462680.804
+Current log-likelihood at step 2: -462680.570
+Current log-likelihood at step 3: -462680.482
+Parameters optimization took 2 rounds (7.798 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 395: -462680.482
+Iteration 400 / LogL: -462735.599 / Time: 2h:48m:54s (0h:40m:12s left)
+Log-likelihood cutoff on original alignment: -462840.168
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.860
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -462737.988 / Time: 2h:52m:49s (0h:38m:1s left)
+Iteration 420 / LogL: -462708.641 / Time: 2h:56m:8s (0h:33m:37s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462668.524
+Current log-likelihood at step 1: -462667.932
+Current log-likelihood at step 2: -462667.853
+Parameters optimization took 1 rounds (4.662 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 422: -462667.853
+Iteration 430 / LogL: -462674.771 / Time: 2h:59m:21s (0h:38m:27s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462658.866
+Current log-likelihood at step 1: -462657.758
+Current log-likelihood at step 2: -462657.492
+Current log-likelihood at step 3: -462657.396
+Parameters optimization took 2 rounds (8.064 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 431: -462657.396
+Iteration 440 / LogL: -462686.253 / Time: 3h:2m:50s (0h:37m:54s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462656.527
+Current log-likelihood at step 1: -462655.264
+Current log-likelihood at step 2: -462654.755
+Current log-likelihood at step 3: -462654.527
+Current log-likelihood at step 4: -462654.427
+Parameters optimization took 3 rounds (11.253 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 449: -462654.427
+Iteration 450 / LogL: -462667.050 / Time: 3h:6m:51s (0h:41m:12s left)
+Log-likelihood cutoff on original alignment: -462840.168
+Iteration 460 / LogL: -462667.257 / Time: 3h:10m:31s (0h:36m:56s left)
+Iteration 470 / LogL: -462663.856 / Time: 3h:14m:43s (0h:32m:48s left)
+Iteration 480 / LogL: -462658.390 / Time: 3h:18m:54s (0h:28m:39s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462650.069
+Current log-likelihood at step 1: -462649.045
+Current log-likelihood at step 2: -462648.747
+Current log-likelihood at step 3: -462648.667
+Parameters optimization took 2 rounds (7.851 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 484: -462648.667
+Iteration 490 / LogL: -462671.203 / Time: 3h:22m:39s (0h:38m:57s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462643.309
+Current log-likelihood at step 1: -462643.065
+Current log-likelihood at step 2: -462642.910
+Current log-likelihood at step 3: -462642.883
+Parameters optimization took 2 rounds (6.133 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 491: -462642.883
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462642.677
+Current log-likelihood at step 1: -462641.767
+Current log-likelihood at step 2: -462641.623
+Current log-likelihood at step 3: -462641.530
+Parameters optimization took 2 rounds (7.606 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 495: -462641.530
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462636.784
+Current log-likelihood at step 1: -462635.909
+Current log-likelihood at step 2: -462635.837
+Parameters optimization took 1 rounds (5.028 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 500: -462635.837
+Iteration 500 / LogL: -462635.837 / Time: 3h:26m:47s (0h:41m:26s left)
+Log-likelihood cutoff on original alignment: -462782.941
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.826
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462635.487
+Current log-likelihood at step 1: -462634.852
+Current log-likelihood at step 2: -462634.765
+Parameters optimization took 1 rounds (4.641 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 506: -462634.765
+Iteration 510 / LogL: -462644.527 / Time: 3h:31m:24s (0h:39m:52s left)
+Iteration 520 / LogL: -462660.945 / Time: 3h:35m:11s (0h:35m:39s left)
+Iteration 530 / LogL: -462662.230 / Time: 3h:39m:23s (0h:31m:31s left)
+Iteration 540 / LogL: -462660.689 / Time: 3h:42m:46s (0h:27m:16s left)
+Iteration 550 / LogL: -462642.544 / Time: 3h:46m:27s (0h:23m:5s left)
+Log-likelihood cutoff on original alignment: -462777.016
+Iteration 560 / LogL: -462646.744 / Time: 3h:50m:25s (0h:18m:57s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462634.720
+Current log-likelihood at step 1: -462634.137
+Current log-likelihood at step 2: -462634.018
+Current log-likelihood at step 3: -462633.949
+Parameters optimization took 2 rounds (7.753 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 564: -462633.949
+Iteration 570 / LogL: -462644.671 / Time: 3h:54m:46s (0h:38m:47s left)
+Iteration 580 / LogL: -462651.451 / Time: 3h:57m:35s (0h:34m:28s left)
+Iteration 590 / LogL: -462665.044 / Time: 4h:0m:53s (0h:30m:15s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462627.434
+Current log-likelihood at step 1: -462626.669
+Current log-likelihood at step 2: -462626.561
+Current log-likelihood at step 3: -462626.510
+Parameters optimization took 2 rounds (7.497 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 595: -462626.510
+Iteration 600 / LogL: -462662.274 / Time: 4h:4m:50s (0h:38m:49s left)
+Log-likelihood cutoff on original alignment: -462777.016
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.851
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -462632.041 / Time: 4h:8m:23s (0h:36m:42s left)
+Iteration 620 / LogL: -462645.180 / Time: 4h:12m:9s (0h:32m:35s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462625.537
+Current log-likelihood at step 1: -462624.582
+Current log-likelihood at step 2: -462624.194
+Current log-likelihood at step 3: -462624.080
+Current log-likelihood at step 4: -462623.987
+Parameters optimization took 3 rounds (10.387 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 625: -462623.987
+Iteration 630 / LogL: -462644.656 / Time: 4h:16m:29s (0h:38m:44s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462617.434
+Current log-likelihood at step 1: -462616.363
+Current log-likelihood at step 2: -462616.123
+Current log-likelihood at step 3: -462616.059
+Parameters optimization took 2 rounds (8.215 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 635: -462616.059
+Iteration 640 / LogL: -462651.497 / Time: 4h:20m:1s (0h:38m:39s left)
+Iteration 650 / LogL: -462633.601 / Time: 4h:23m:5s (0h:34m:27s left)
+Log-likelihood cutoff on original alignment: -462765.014
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462609.222
+Current log-likelihood at step 1: -462608.666
+Current log-likelihood at step 2: -462608.609
+Parameters optimization took 1 rounds (5.033 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 651: -462608.609
+Iteration 660 / LogL: -462693.768 / Time: 4h:26m:50s (0h:36m:50s left)
+Iteration 670 / LogL: -462647.892 / Time: 4h:30m:25s (0h:32m:44s left)
+Iteration 680 / LogL: -462614.726 / Time: 4h:33m:55s (0h:28m:38s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462606.045
+Current log-likelihood at step 1: -462605.683
+Current log-likelihood at step 2: -462605.604
+Parameters optimization took 1 rounds (4.621 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 685: -462605.604
+Iteration 690 / LogL: -462632.703 / Time: 4h:37m:38s (0h:38m:16s left)
+Iteration 700 / LogL: -462712.526 / Time: 4h:41m:21s (0h:34m:12s left)
+Log-likelihood cutoff on original alignment: -462765.014
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.842
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -462634.507 / Time: 4h:45m:11s (0h:36m:12s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462601.091
+Current log-likelihood at step 1: -462600.649
+Current log-likelihood at step 2: -462600.449
+Current log-likelihood at step 3: -462600.416
+Parameters optimization took 2 rounds (6.978 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 711: -462600.416
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462593.109
+Current log-likelihood at step 1: -462592.570
+Current log-likelihood at step 2: -462592.524
+Parameters optimization took 1 rounds (4.852 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 713: -462592.524
+Iteration 720 / LogL: -462636.649 / Time: 4h:49m:34s (0h:37m:27s left)
+Iteration 730 / LogL: -462624.201 / Time: 4h:53m:15s (0h:33m:23s left)
+Iteration 740 / LogL: -462655.456 / Time: 4h:56m:42s (0h:29m:18s left)
+Iteration 750 / LogL: -462655.709 / Time: 5h:0m:28s (0h:25m:16s left)
+Log-likelihood cutoff on original alignment: -462758.272
+Iteration 760 / LogL: -462637.569 / Time: 5h:4m:12s (0h:21m:14s left)
+Iteration 770 / LogL: -462607.531 / Time: 5h:7m:44s (0h:17m:12s left)
+Iteration 780 / LogL: -462625.334 / Time: 5h:12m:33s (0h:13m:14s left)
+Iteration 790 / LogL: -462595.357 / Time: 5h:16m:34s (0h:9m:13s left)
+Iteration 800 / LogL: -462622.398 / Time: 5h:20m:30s (0h:5m:12s left)
+Log-likelihood cutoff on original alignment: -462758.272
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.870
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -462602.583 / Time: 5h:24m:41s (0h:36m:7s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462588.868
+Current log-likelihood at step 1: -462588.423
+Current log-likelihood at step 2: -462588.359
+Parameters optimization took 1 rounds (4.730 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 818: -462588.359
+Iteration 820 / LogL: -462590.553 / Time: 5h:29m:19s (0h:39m:24s left)
+Iteration 830 / LogL: -462624.822 / Time: 5h:33m:5s (0h:35m:21s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462588.086
+Current log-likelihood at step 1: -462587.709
+Current log-likelihood at step 2: -462587.478
+Current log-likelihood at step 3: -462587.440
+Parameters optimization took 2 rounds (7.284 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 838: -462587.440
+Iteration 840 / LogL: -462613.582 / Time: 5h:38m:8s (0h:39m:29s left)
+Iteration 850 / LogL: -462609.895 / Time: 5h:42m:21s (0h:35m:29s left)
+Log-likelihood cutoff on original alignment: -462758.272
+Iteration 860 / LogL: -462603.652 / Time: 5h:47m:11s (0h:31m:31s left)
+Iteration 870 / LogL: -462602.783 / Time: 5h:51m:1s (0h:27m:28s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -462575.322
+Current log-likelihood at step 1: -462574.860
+Current log-likelihood at step 2: -462574.605
+Current log-likelihood at step 3: -462574.564
+Parameters optimization took 2 rounds (7.362 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 878: -462574.564
+Iteration 880 / LogL: -462601.770 / Time: 5h:55m:37s (0h:39m:38s left)
+Iteration 890 / LogL: -462603.401 / Time: 5h:59m:42s (0h:35m:36s left)
+Iteration 900 / LogL: -462611.358 / Time: 6h:4m:11s (0h:31m:35s left)
+Log-likelihood cutoff on original alignment: -462758.272
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.890
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -462617.893 / Time: 6h:9m:2s (0h:36m:32s left)
+Iteration 920 / LogL: -462667.648 / Time: 6h:12m:54s (0h:32m:27s left)
+Iteration 930 / LogL: -462622.130 / Time: 6h:17m:3s (0h:28m:24s left)
+Iteration 940 / LogL: -462618.477 / Time: 6h:21m:17s (0h:24m:21s left)
+Iteration 950 / LogL: -462602.927 / Time: 6h:25m:38s (0h:20m:19s left)
+Log-likelihood cutoff on original alignment: -462758.272
+Iteration 960 / LogL: -462608.193 / Time: 6h:29m:45s (0h:16m:15s left)
+Iteration 970 / LogL: -462619.375 / Time: 6h:34m:14s (0h:12m:12s left)
+Iteration 980 / LogL: -462625.785 / Time: 6h:37m:56s (0h:8m:7s left)
+Iteration 990 / LogL: -462643.775 / Time: 6h:42m:15s (0h:4m:4s left)
+Iteration 1000 / LogL: -462652.800 / Time: 6h:46m:12s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -462758.272
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.902
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 6h:47m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -462574.564
+Current log-likelihood at step 1: -462574.515
+Current log-likelihood at step 2: -462574.478
+Current log-likelihood at step 3: -462574.446
+Current log-likelihood at step 4: -462574.401
+Current log-likelihood at step 5: -462574.326
+Current log-likelihood at step 6: -462574.190
+Current log-likelihood at step 7: -462573.927
+Current log-likelihood at step 8: -462573.264
+Current log-likelihood at step 9: -462571.410
+Current log-likelihood at step 10: -462564.281
+Current log-likelihood at step 11: -462547.259
+Current log-likelihood at step 12: -462539.248
+Current log-likelihood at step 13: -462537.513
+Current log-likelihood at step 14: -462537.201
+Current log-likelihood at step 15: -462537.132
+Current log-likelihood at step 16: -462537.115
+Current log-likelihood at step 17: -462537.108
+Partition-specific rates:  0.243 0.107 8.233 0.335 0.063 0.149 0.248 2.634 0.415 0.192 0.061 11.376 0.519 0.166 1.186 0.249 1.181
+Parameters optimization took 16 rounds (45.870 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Partition information was printed to Diptera_ML_withoutrogues.best_model.nex
+BEST SCORE FOUND : -462537.108
+Creating bootstrap support values...
+Split supports printed to NEXUS file Diptera_ML_withoutrogues.splits.nex
+Total tree length: 198.775
+
+Total number of iterations: 1001
+CPU time used for tree search: 71411.515 sec (19h:50m:11s)
+Wall-clock time used for tree search: 24372.302 sec (6h:46m:12s)
+Total CPU time used: 71686.445 sec (19h:54m:46s)
+Total wall-clock time used: 24469.932 sec (6h:47m:49s)
+
+Computing bootstrap consensus tree...
+Reading input file Diptera_ML_withoutrogues.splits.nex...
+523 taxa and 2901 splits.
+Consensus tree written to Diptera_ML_withoutrogues.contree
+Reading input trees file Diptera_ML_withoutrogues.contree
+Log-likelihood of consensus tree: -462542.911
+
+Analysis results written to: 
+  IQ-TREE report:                Diptera_ML_withoutrogues.iqtree
+  Maximum-likelihood tree:       Diptera_ML_withoutrogues.treefile
+  Best partitioning scheme:      Diptera_ML_withoutrogues.best_scheme.nex
+           in RAxML format:      Diptera_ML_withoutrogues.best_scheme
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Diptera_ML_withoutrogues.splits.nex
+  Consensus tree:                Diptera_ML_withoutrogues.contree
+  Screen log file:               Diptera_ML_withoutrogues.log
+
+Date and Time: Sat Aug 19 01:06:13 2023
