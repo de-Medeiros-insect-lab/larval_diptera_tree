@@ -1,0 +1,301 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=199;
+	taxlabels
+	Ablabesmyia_46216
+	Agathomyia_226141
+	Agromyza_414290
+	Ainuyusurika_1165747
+	Anastrepha_28585
+	Androprosopa_41815
+	Anticheta_1096047
+	Aphanotrigonum_540849
+	Aphroteniella_646259
+	Araucoderus_1549737
+	Atherigona_305597
+	Atrichopogon_209702
+	Aulacigaster_716608
+	Aulogastromyia_1824990
+	Austroconops_209696
+	Austrothaumalea_1085085
+	Axymyia_560715
+	Bactrocera_27456
+	Bertamyia_1445832
+	Bibio_189978
+	Blepharicera_547808
+	Bradysia_35571
+	Calamoncosis_540852
+	Callomyia_712098
+	Calobata_1820059
+	Calycomyza_414293
+	Centrophlebomyia_1603419
+	Ceratitis_7212
+	Cerodontha_127401
+	Cetema_540891
+	Chaetopsis_240871
+	Chamaemyia_305621
+	Chironomus_7150
+	Chlorops_540892
+	Chyliza_716634
+	Cleigastra_113167
+	Clunio_315556
+	Coboldia_170624
+	Coelopa_169466
+	Compsobata_286452
+	Copromyza_1217530
+	Cordilura_113132
+	Coremacera_1226614
+	Corynoneura_611344
+	Corynoptera_1260849
+	Cramptonomyia_209688
+	Crataerina_452743
+	Cryptonevra_1616778
+	Culicoides_41820
+	Cylindrotoma_700834
+	Dasyhelea_41822
+	Delphinia_43369
+	Deuterophlebia_560719
+	Diadocidia_560721
+	Diasemopsis_139652
+	Dicranota_700836
+	Dictya_1096051
+	Dilophus_52733
+	Diopsis_139667
+	Dixa_79309
+	Eginia_1511678
+	Elachiptera_540858
+	Elgiva_320938
+	Epichlorops_540897
+	Eukiefferiella_288843
+	Euleia_28591
+	Eurosta_28593
+	Euxesta_286468
+	Fergusonina_156411
+	Forcipomyia_209700
+	Gaurax_540862
+	Geomyza_305619
+	Glossina_7393
+	Graphomya_1072499
+	Gymnocarena_28597
+	Gymnometriocnemus_611353
+	Haematobosca_559680
+	Hebecnema_559682
+	Hedria_320941
+	Helcomyza_169476
+	Hippelates_540866
+	Hippobosca_452745
+	Homoneura_1692452
+	Hydromyza_113174
+	Icosta_402409
+	Icterica_28599
+	Ilione_1096072
+	Incertella_540867
+	Jamesomyia_28601
+	Japanagromyza_414298
+	Kesselimyia_1445844
+	Lasiopiophila_1790233
+	Lauterborniella_288850
+	Leptocera_1614654
+	Leucopis_1728826
+	Limnophora_307207
+	Liogma_560731
+	Liopiophila_1603421
+	Lipara_540870
+	Liponeura_446516
+	Lipoptena_170902
+	Liriomyza_127403
+	Loxocera_34684
+	Macrocera_608727
+	Melanagromyza_286470
+	Melophagus_452748
+	Mesembrina_116147
+	Metriocnemus_137497
+	Micropeza_1572561
+	Mimegralla_115300
+	Mischoderus_560267
+	Monodiamesa_891905
+	Morellia_253340
+	Mormotomyia_1155704
+	Musca_7369
+	Muscina_57892
+	Mydaea_559689
+	Myospila_520040
+	Neoalticomerus_716622
+	Neolimnia_1262312
+	Neomyia_305607
+	Noeeta_381362
+	Norellia_113119
+	Nymphomyia_560766
+	Odinia_414302
+	Odontoloxozus_588320
+	Olfersia_1333310
+	Ophiomyia_341050
+	Opomyza_716643
+	Oreoleptis_1262318
+	Orfelia_270890
+	Ornithophila_1497392
+	Orthacheta_113181
+	Oxyna_381365
+	Pachylophus_1990794
+	Pachyneura_1588165
+	Palpomyia_1525500
+	Paraborniella_903459
+	Paracantha_164885
+	Paranthomyza_500298
+	Paraplatypeza_192442
+	Parochlus_315560
+	Parochthiphila_1262282
+	Passeromyia_1511687
+	Paucispinigera_903463
+	Pedicia_472374
+	Pelidnoptera_1096074
+	Pentaneura_891922
+	Periscelis_716628
+	Phalacrocera_2203737
+	Phaonia_253431
+	Philornis_253427
+	Phytobia_414304
+	Phytomyza_132616
+	Piophila_53709
+	Platypeza_289241
+	Plecia_1260898
+	Pnyxia_1781626
+	Polietes_559702
+	Polyporivora_1445854
+	Potamia_559704
+	Procanace_1262322
+	Protoplasa_560776
+	Psacadina_1096078
+	Psectrotanypus_903467
+	Pseudosmittia_611382
+	Psila_305548
+	Pteromicra_1226622
+	Quametopia_1603285
+	Rhagoletis_28609
+	Scathophaga_95462
+	Scatopse_1520324
+	Sciara_82677
+	Sciomyza_320936
+	Sepedon_320954
+	Sepsis_137507
+	Serromyia_209716
+	Smittia_315559
+	Sphaeromias_1874311
+	Sphyracephala_139674
+	Stenomicra_716630
+	Stiphrosoma_500293
+	Telostylinus_1262347
+	Tephritis_43386
+	Terellia_28615
+	Tetanocera_320959
+	Tetanops_454640
+	Thaumalea_61068
+	Thaumatomyia_333800
+	Themira_292396
+	Trichocera_52759
+	Tricholauxania_192459
+	Tricimba_540889
+	Tricyphona_700863
+	Trupanea_30060
+	Tvetenia_611398
+	Urophora_28620
+	Xyphosia_381372
+	Zonosemata_28622
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Deuterophlebia_560719:1.0,(Nymphomyia_560766:1.0,((Trichocera_52759:1.0,((Tricyphona_700863:1.0,Pedicia_472374:1.0,Dicranota_700836:1.0)[&!collapse={"collapsed",11.0},!name="Pediciidae"]:1.0,(Phalacrocera_2203737:1.0,Liogma_560731:1.0,Cylindrotoma_700834:1.0)[&!collapse={"collapsed",11.0},!name="Cylindrotomidae"]:1.0):1.0)[&!collapse={"collapsed",11.0},!name="Tipulomorpha"]:1.0,((((Liponeura_446516:1.0,Blepharicera_547808:1.0)[&!collapse={"collapsed",10.0},!name="Blephariceridae"]:1.0,(Protoplasa_560776:1.0,Mischoderus_560267:1.0,Araucoderus_1549737:1.0)[&!collapse={"collapsed",10.0},!name="Tanideridae"]:1.0)[&!collapse={"collapsed",10.0},!name="Psychodomorpha"]:1.0,(Dixa_79309:1.0,(((Culicoides_41820:1.0,Forcipomyia_209700:1.0,Sphaeromias_1874311:1.0,Serromyia_209716:1.0,Dasyhelea_41822:1.0,Atrichopogon_209702:1.0,Palpomyia_1525500:1.0,Austroconops_209696:1.0)[&!collapse={"collapsed",8.0},!name="Culicidae + Ceratopogonidae"]:1.0,(Smittia_315559:1.0,Monodiamesa_891905:1.0,Chironomus_7150:1.0,Paucispinigera_903463:1.0,Tvetenia_611398:1.0,Lauterborniella_288850:1.0,Eukiefferiella_288843:1.0,Paraborniella_903459:1.0,Metriocnemus_137497:1.0,Parochlus_315560:1.0,Psectrotanypus_903467:1.0,Gymnometriocnemus_611353:1.0,Aphroteniella_646259:1.0,Clunio_315556:1.0,Pseudosmittia_611382:1.0,Pentaneura_891922:1.0,Corynoneura_611344:1.0,Ainuyusurika_1165747:1.0,Ablabesmyia_46216:1.0)[&!collapse={"collapsed",8.0},!name="Chironomidae"]:1.0):1.0,(Androprosopa_41815:1.0,Thaumalea_61068:1.0,Austrothaumalea_1085085:1.0)[&!collapse={"collapsed",9.0},!name="Thaumaleidae"]:1.0):1.0)[&!collapse={"collapsed",8.0},!name="Culicomorpha"]:1.0):1.0,(((Coboldia_170624:1.0,Scatopse_1520324:1.0)[&!collapse={"collapsed",10.0},!name="Scatopsidae"]:1.0,(Axymyia_560715:1.0,(((Bibio_189978:1.0,Plecia_1260898:1.0,Dilophus_52733:1.0)[&!collapse={"collapsed",7.0},!name="Bibionidae"]:1.0,(Cramptonomyia_209688:1.0,Pachyneura_1588165:1.0)[&!collapse={"collapsed",7.0},!name="Pachyneuridae"]:1.0):1.0,(Diadocidia_560721:1.0,((Macrocera_608727:1.0,Orfelia_270890:1.0)[&!collapse={"collapsed",6.0},!name="Keroplatidae"]:1.0,(Corynoptera_1260849:1.0,Sciara_82677:1.0,Bradysia_35571:1.0,Pnyxia_1781626:1.0)[&!collapse={"collapsed",6.0},!name="Sciaridae"]:1.0):1.0):1.0):1.0):1.0)[&!collapse={"collapsed",6.0},!name="Bibionomorpha"]:1.0,(Oreoleptis_1262318:1.0,((Polyporivora_1445854:1.0,Callomyia_712098:1.0,Paraplatypeza_192442:1.0,Platypeza_289241:1.0,Agathomyia_226141:1.0,Kesselimyia_1445844:1.0,Bertamyia_1445832:1.0)[&!collapse={"collapsed",9.0},!name="Platypezidae"]:1.0,(((Parochthiphila_1262282:1.0,Chamaemyia_305621:1.0,Leucopis_1728826:1.0)[&!collapse={"collapsed",7.0},!name="Chamaemyiidae"]:1.0,((Coelopa_169466:1.0,Helcomyza_169476:1.0)[&!collapse={"collapsed",6.0},!name="Sciomyzoidea"]:1.0,((Homoneura_1692452:1.0,Tricholauxania_192459:1.0,Aulogastromyia_1824990:1.0)[&!collapse={"collapsed",5.0},!name="Lauxaniidae"]:1.0,(Psacadina_1096078:1.0,Sepedon_320954:1.0,Pelidnoptera_1096074:1.0,Elgiva_320938:1.0,Neolimnia_1262312:1.0,Sciomyza_320936:1.0,Hedria_320941:1.0,Dictya_1096051:1.0,Anticheta_1096047:1.0,Coremacera_1226614:1.0,Pteromicra_1226622:1.0,Ilione_1096072:1.0,Tetanocera_320959:1.0)[&!collapse={"collapsed",5.0},!name="Sciomyzidae + Phaeomyiidae"]:1.0):1.0):1.0)[&!collapse={"collapsed",5.0},!name="Lauxanioidea + Sciomyzoidea",!hilight={21,5.0,#f0ed30}]:1.0,((Leptocera_1614654:1.0,Copromyza_1217530:1.0)[&!collapse={"collapsed",7.0},!name="Sphaeroceridae"]:1.0,((((Micropeza_1572561:1.0,Compsobata_286452:1.0,Mimegralla_115300:1.0,Calobata_1820059:1.0)[&!collapse={"collapsed",4.0},!name="Micropezidae"]:1.0,(Telostylinus_1262347:1.0,Odontoloxozus_588320:1.0)[&!collapse={"collapsed",4.0},!name="Neriidae"]:1.0)[&!collapse={"collapsed",4.0},!name="Nerioidea"]:1.0,(((Liopiophila_1603421:1.0,Centrophlebomyia_1603419:1.0,Piophila_53709:1.0,Lasiopiophila_1790233:1.0)[&!collapse={"collapsed",3.0},!name="Piophilidae"]:1.0,((Tetanops_454640:1.0,Euxesta_286468:1.0,Chaetopsis_240871:1.0,Delphinia_43369:1.0)[&!collapse={"collapsed",2.0},!name="Ulididae"]:1.0,(Xyphosia_381372:1.0,Jamesomyia_28601:1.0,Bactrocera_27456:1.0,Anastrepha_28585:1.0,Urophora_28620:1.0,Terellia_28615:1.0,Tephritis_43386:1.0,Icterica_28599:1.0,Paracantha_164885:1.0,Gymnocarena_28597:1.0,Trupanea_30060:1.0,Eurosta_28593:1.0,Ceratitis_7212:1.0,Oxyna_381365:1.0,Zonosemata_28622:1.0,Noeeta_381362:1.0,Euleia_28591:1.0,Rhagoletis_28609:1.0)[&!collapse={"collapsed",2.0},!name="Tephritidae"]:1.0):1.0)[&!collapse={"collapsed",2.0},!name="Tephritoidea"]:1.0,(((Opomyza_716643:1.0,Geomyza_305619:1.0)[&!collapse={"collapsed",2.0},!name="Opomyzidae"]:1.0,(Loxocera_34684:1.0,Psila_305548:1.0,Chyliza_716634:1.0)[&!collapse={"collapsed",2.0},!name="Psilidae"]:1.0):1.0,(Themira_292396:1.0,Sepsis_137507:1.0)[&!collapse={"collapsed",3.0},!name="Sepsidae"]:1.0):1.0):1.0):1.0,(((Diasemopsis_139652:1.0,Sphyracephala_139674:1.0,Diopsis_139667:1.0)[&!collapse={"collapsed",4.0},!name="Diopsidae"]:1.0,(Procanace_1262322:1.0,(Paranthomyza_500298:1.0,Stiphrosoma_500293:1.0,Quametopia_1603285:1.0)[&!collapse={"collapsed",3.0},!name="Anthomyzidae"]:1.0):1.0):1.0,(((Cetema_540891:1.0,Calamoncosis_540852:1.0,Lipara_540870:1.0,Thaumatomyia_333800:1.0,Chlorops_540892:1.0,Aphanotrigonum_540849:1.0,Epichlorops_540897:1.0,Hippelates_540866:1.0,Incertella_540867:1.0,Gaurax_540862:1.0,Pachylophus_1990794:1.0,Cryptonevra_1616778:1.0,Tricimba_540889:1.0,Elachiptera_540858:1.0)[&!collapse={"collapsed",3.0},!name="Chloropidae"]:1.0,(((Stenomicra_716630:1.0,Aulacigaster_716608:1.0):1.0,Periscelis_716628:1.0)[&!collapse={"collapsed",1.0},!name="Periscelididae + Aulacigastridae"]:1.0,(Fergusonina_156411:1.0,((Ophiomyia_341050:1.0,Cerodontha_127401:1.0,Melanagromyza_286470:1.0,Calycomyza_414293:1.0,Agromyza_414290:1.0,Liriomyza_127403:1.0,Phytomyza_132616:1.0,Phytobia_414304:1.0,Japanagromyza_414298:1.0)[&!collapse={"collapsed",0.0},!name="Agromyzidae"]:1.0,(Odinia_414302:1.0,Neoalticomerus_716622:1.0)[&!collapse={"collapsed",0.0},!name="Odiniidae"]:1.0):1.0):1.0):1.0):1.0,((((Olfersia_1333310:1.0,Hippobosca_452745:1.0,Melophagus_452748:1.0,Icosta_402409:1.0,Lipoptena_170902:1.0,Crataerina_452743:1.0,Ornithophila_1497392:1.0)[&!collapse={"collapsed",1.0},!name="Hippoboscidae"]:1.0,Glossina_7393:1.0)[&!collapse={"collapsed",1.0},!name="Hippoboscoidea"]:1.0,((Haematobosca_559680:1.0,Potamia_559704:1.0,Limnophora_307207:1.0,Hebecnema_559682:1.0,Mydaea_559689:1.0,Morellia_253340:1.0,Myospila_520040:1.0,Phaonia_253431:1.0,Graphomya_1072499:1.0,Eginia_1511678:1.0,Neomyia_305607:1.0,Philornis_253427:1.0,Polietes_559702:1.0,Mesembrina_116147:1.0,Passeromyia_1511687:1.0,Muscina_57892:1.0,Musca_7369:1.0,Atherigona_305597:1.0)[&!collapse={"collapsed",1.0},!name="Muscidae"]:1.0,(Cleigastra_113167:1.0,Scathophaga_95462:1.0,Hydromyza_113174:1.0,Norellia_113119:1.0,Orthacheta_113181:1.0,Cordilura_113132:1.0)[&!collapse={"collapsed",1.0},!name="Scathophagidae"]:1.0)[&!collapse={"collapsed",1.0},!name="Muscoidea"]:1.0):1.0,Mormotomyia_1155704:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=57;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
