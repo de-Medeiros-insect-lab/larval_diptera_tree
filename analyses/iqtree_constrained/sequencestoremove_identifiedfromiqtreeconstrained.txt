@@ -1,0 +1,15 @@
+Lipsothrix_700849 only COI
+Therobia_1918313 only COI
+Olbiogaster_560768 AATS, COI, CAD1
+Nephrotoma_46210 only COI
+Bathypogon_1718388 only COI
+Spania_1559498 only COI
+Elephantomyia_700838 only COI
+Braula_305561 AATS & CAD1
+Chrysopilus_124301 28S & COI
+Cladochaeta_2035586 only COI
+Helius_700865 only COI
+Mormotomyia_1155704 only COI
+Mallota_535942 only COI
+Gasterophilus_84524 12S/16S & COI
+Gyrostigma_2555504 12S/16S & COI
