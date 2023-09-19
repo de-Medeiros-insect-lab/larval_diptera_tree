@@ -13,3 +13,29 @@ Mormotomyia_1155704 only COI
 Mallota_535942 only COI
 Gasterophilus_84524 12S/16S & COI
 Gyrostigma_2555504 12S/16S & COI
+Brachydeutera_1990785 only COI
+Discocerina_745181 28S, COI
+Allotrichoma_1492368 only COI
+Discomyza_1720780 only COI
+Paracoenia_1690382 only COI
+Leptopsilopa_1887046 only COI
+
+Phorids:
+Anevrina_92526 12/16S, 28S, COI
+Diplonevra_92534 12/16S, 28S, COI, EF1a, CAD1
+Pseudacteon_378799 only COI
+
+Psychodidae:
+Phlebotomus_13203 12/16S, 18S, 28S, COI, EF1a, CAD1
+Lutzomyia_7199 12/16S, 18S, 28S, COI, EF1a, CAD1
+Trichomyia_560271 18S, COI
+Sycorax_114592 18S, COI
+
+Potentially remove from Oestridae
+Dermatobia_115426 12/16S, 28S, COI
+Cuterebra_170896 12/16S, 18S, 28S, COI, Ef1a, CAD2
+Oestromyia_170913 18S, COI
+
+Keep all psychodidae? Bruno will read paper to see whether to constrain
+Bruno will read for phorids
+Keep Oestridae
