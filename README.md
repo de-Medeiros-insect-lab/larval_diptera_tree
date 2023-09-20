@@ -53,3 +53,8 @@ We got an error of negative branch length when running Step 8. Therefore, we ran
 We manually noted samples that seemed misplaced based on superfamily clusters. From these, we decided to exclude samples that (1) had sequence information from only 1 gene AND (2) had bootstrap values >50. These samples were excluded from the constraint tree and concatenated sequence files.
 
 # Step 10 - rerun maximum likelihood tree
+[Bruno to add details on tree generation]
+
+Manually noted additional samples that seemed misplaced based on family clusters. From these, excluded samples that (1) had sequence information from only 1 or 2 genes AND (2) for whom monophyly is unclear in the literature. All Oestridae and Psychodidae were retained. Olbiogaster_560768 was removed. 
+
+# Step 11 - 
