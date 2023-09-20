@@ -1,0 +1,2269 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    chandler.fm.pri (AVX512, FMA3, 251 GB RAM)
+Command: iqtree -s concatenated_alignment.nex -m MFP+MERGE -B 1000 -p partitions.nex -g partial_iqtree.tre -T AUTO --prefix Diptera_ML
+Seed:    775311 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug  4 13:31:51 2023
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+Reading partition model file partitions.nex ...
+Reading alignment file concatenated_alignment.nex ... Nexus format detected
+WARNING: 6 sites contain only gaps or ambiguous characters.
+Alignment has 538 sequences with 14852 columns, 11071 distinct patterns
+7154 parsimony-informative, 2427 singleton sites, 5271 constant sites
+                           Gap/Ambiguity  Composition  p-value
+   1  Lucilia_7374                58.63%    failed      0.00%
+   2  Drosophila_7215             24.56%    failed      0.01%
+   3  Aedes_7158                  43.17%    failed      0.03%
+   4  Anastrepha_28585            61.76%    passed     98.85%
+   5  Apiocera_160270             76.55%    failed      4.73%
+   6  Hippobosca_452745           79.32%    failed      0.31%
+   7  Elgiva_320938               70.60%    failed      0.46%
+   8  Microchrysa_931517          93.29%    failed      0.02%
+   9  Nycteribia_633884           82.77%    failed      0.00%
+  10  Phlebotomus_13203           46.84%    failed      0.00%
+  11  Polietes_559702             80.90%    failed      0.00%
+  12  Simulium_7191               43.46%    failed      0.29%
+  13  Stratiomys_219520           71.65%    failed      1.19%
+  14  Trichocera_52759            48.55%    failed      0.00%
+  15  Xylophagus_219493           51.10%    failed      0.00%
+  16  Helosciomyzidae             76.04%    failed      0.00%
+  17  Ctenostylidae               65.08%    failed      0.10%
+  18  Acrocera_210245             68.63%    failed      0.00%
+  19  Anevrina_92526              89.47%    failed      0.00%
+  20  Anopheles_7164              61.51%    failed      0.00%
+  21  Anthomyia_259845            77.20%    failed      0.00%
+  22  Anthrax_117078              90.17%    failed      0.00%
+  23  Aphidoletes_95971           84.17%    failed      0.00%
+  24  Apocephalus_117252          90.20%    failed      0.00%
+  25  Aprionus_1819779            69.63%    passed     11.61%
+  26  Asphondylia_153012          69.16%    failed      0.00%
+  27  Astomella_210239            88.48%    failed      0.00%
+  28  Atherigona_305597           79.52%    failed      1.94%
+  29  Atrichopogon_209702         72.79%    failed      0.00%
+  30  Aulogastromyia_1824990      84.90%    failed      0.00%
+  31  Bactrocera_27456            59.12%    passed     83.72%
+  32  Bertamyia_1445832           87.11%    failed      0.00%
+  33  Bibio_189978                77.22%    failed      0.00%
+  34  Blondelia_179437            55.22%    passed      8.54%
+  35  Bolitophila_52718           70.15%    failed      1.06%
+  36  Bombylius_219362            49.25%    failed      0.00%
+  37  Borophaga_712093            87.91%    failed      0.00%
+  38  Bradysia_35571              61.41%    failed      0.07%
+  39  Calliphora_7372             52.92%    passed     68.91%
+  40  Callomyia_712098            86.63%    failed      0.00%
+  41  Cecidomyia_1543682          84.28%    failed      0.00%
+  42  Ceratitis_7212              72.72%    passed     23.09%
+  43  Chalarus_115250             84.55%    failed      0.00%
+  44  Chelifera_369889            83.52%    failed      0.00%
+  45  Chironomus_7150             57.22%    failed      0.02%
+  46  Chloromyia_343649           86.35%    failed      1.07%
+  47  Chonocephalus_92528         96.92%    failed      0.00%
+  48  Chrysomya_45449             63.31%    failed      0.01%
+  49  Chrysops_27458              64.48%    failed      0.04%
+  50  Chyliza_716634              70.50%    failed      4.31%
+  51  Cleigastra_113167           77.92%    failed      0.02%
+  52  Clinocera_192484            63.53%    failed      0.00%
+  53  Clusia_574057               75.79%    failed      0.00%
+  54  Coboldia_170624             88.22%    failed      0.00%
+  55  Compsomyiops_142897         64.86%    failed      0.00%
+  56  Contarinia_153220           77.24%    failed      0.00%
+  57  Cordilura_113132            62.81%    failed      0.13%
+  58  Cordylobia_226131           72.69%    failed      0.00%
+  59  Coremacera_1226614          75.46%    passed     87.57%
+  60  Corynoptera_1260849         67.57%    passed     20.72%
+  61  Crataerina_452743           82.04%    failed      0.01%
+  62  Craticulina_2021509         86.82%    failed      0.11%
+  63  Culex_7174                  72.03%    failed      0.00%
+  64  Culicoides_41820            70.14%    passed     11.32%
+  65  Culiseta_174825             78.66%    passed     14.04%
+  66  Cuterebra_170896            48.69%    failed      0.07%
+  67  Dasineura_240745            73.77%    failed      0.00%
+  68  Dasiops_286456              91.24%    failed      0.00%
+  69  Dasyhelea_41822             71.86%    failed      0.02%
+  70  Delia_30063                 77.38%    failed      0.00%
+  71  Delphinia_43369             79.01%    failed      0.08%
+  72  Dermatobia_115426           84.34%    failed      0.00%
+  73  Dexia_569033                57.74%    failed      0.05%
+  74  Diadocidia_560721           54.68%    failed      0.32%
+  75  Diopsis_139667              79.72%    failed      4.33%
+  76  Diplonevra_92534            79.34%    failed      3.73%
+  77  Ditomyia_1520322            55.86%    failed      0.01%
+  78  Dolichopus_192427           75.40%    failed      0.00%
+  79  Ectophasia_569037           60.60%    failed      0.41%
+  80  Eginia_1511678              75.07%    failed      0.00%
+  81  Ephydra_504564              80.24%    failed      0.00%
+  82  Euleia_28591                84.35%    failed      0.00%
+  83  Eulonchus_210230            64.87%    failed      0.00%
+  84  Eumesembrinella_672472      73.30%    failed      0.00%
+  85  Eurosta_28593               86.02%    failed      0.00%
+  86  Euxesta_286468              85.91%    failed      0.00%
+  87  Exechia_397139              61.11%    failed      0.00%
+  88  Exeretonevra_560723         58.58%    failed      0.00%
+  89  Exorista_113238             42.69%    failed      1.07%
+  90  Fannia_95468                61.75%    failed      0.00%
+  91  Forcipomyia_209700          84.77%    failed      1.00%
+  92  Gasterophilus_84524         85.03%    failed      0.00%
+  93  Geomyza_305619              73.03%    failed      0.00%
+  94  Glossina_7393               79.36%    failed      0.08%
+  95  Graphomya_1072499           79.69%    failed      0.23%
+  96  Gymnocarena_28597           91.52%    failed      0.00%
+  97  Gyrostigma_2555504          85.22%    passed     12.16%
+  98  Haematobosca_559680         69.63%    failed      0.01%
+  99  Hebecnema_559682            77.56%    failed      0.00%
+ 100  Hedria_320941               80.04%    failed      0.00%
+ 101  Helcomyza_169476            61.02%    passed     83.24%
+ 102  Hemigymnochaeta_1240433     85.09%    failed      0.00%
+ 103  Heterocheila_169481         80.82%    failed      0.21%
+ 104  Hirmoneura_388531           78.00%    failed      0.00%
+ 105  Homoneura_1692452           83.08%    failed      0.00%
+ 106  Huascaromusca_1609532       84.39%    failed      0.00%
+ 107  Hydrellia_92591             88.90%    failed      0.00%
+ 108  Hydromyza_113174            77.19%    failed      0.00%
+ 109  Hylemya_253328              77.66%    failed      0.00%
+ 110  Hypocera_940227             82.79%    failed      3.09%
+ 111  Hypoderma_7388              83.55%    failed      0.00%
+ 112  Icosta_402409               86.20%    failed      0.00%
+ 113  Icterica_28599              89.74%    failed      0.00%
+ 114  Ilione_1096072              66.00%    passed     27.41%
+ 115  Incertella_540867           92.22%    failed      0.00%
+ 116  Jamesomyia_28601            93.87%    failed      0.00%
+ 117  Laneella_1658054            84.66%    failed      0.00%
+ 118  Leptomorphus_560729         71.54%    failed      0.00%
+ 119  Leucophenga_7329            76.84%    failed      0.00%
+ 120  Ligyra_117088               94.56%    failed      0.00%
+ 121  Limnophora_307207           64.62%    passed      7.98%
+ 122  Lipoptena_170902            76.45%    failed      0.00%
+ 123  Liriomyza_127403            61.75%    failed      0.01%
+ 124  Lutzomyia_7199              70.58%    passed     12.24%
+ 125  Macrocera_608727            71.27%    failed      1.13%
+ 126  Medetera_377527             83.79%    passed     19.91%
+ 127  Megaselia_36165             63.90%    failed      0.01%
+ 128  Melanophora_1606787         64.99%    failed      0.24%
+ 129  Melinda_170907              64.45%    failed      1.70%
+ 130  Melophagus_452748           74.02%    failed      0.00%
+ 131  Mesembrina_116147           79.52%    failed      0.00%
+ 132  Mesembrinella_460529        52.35%    failed      0.10%
+ 133  Mimegralla_115300           92.40%    failed      0.00%
+ 134  Morellia_253340             80.63%    failed      0.01%
+ 135  Musca_7369                  50.16%    passed     57.66%
+ 136  Muscina_57892               74.60%    passed     13.70%
+ 137  Mycomya_608706              63.48%    failed      0.07%
+ 138  Mydas_186100                48.29%    failed      0.00%
+ 139  Mystacinobia_81694          74.55%    failed      0.00%
+ 140  Nemoraea_170911             61.91%    passed     13.07%
+ 141  Nemotelus_343582            78.96%    passed     67.85%
+ 142  Neoempheria_608686          61.35%    failed      1.34%
+ 143  Neomyia_305607              79.12%    failed      0.00%
+ 144  Nephrocerus_115303          80.84%    failed      0.00%
+ 145  Noeeta_381362               91.29%    failed      0.00%
+ 146  Norellia_113119             77.17%    failed      0.01%
+ 147  Ocnaea_210271               77.01%    failed      0.00%
+ 148  Ocyptamus_369855            65.45%    failed      0.00%
+ 149  Odontomyia_343652           86.37%    passed     32.81%
+ 150  Oestrus_123736              75.42%    failed      0.00%
+ 151  Ogcodes_188257              71.87%    failed      0.00%
+ 152  Olfersia_1333310            92.92%    failed      0.00%
+ 153  Oplodontha_446504           88.65%    failed      0.00%
+ 154  Opomyza_716643              87.10%    failed      0.00%
+ 155  Orfelia_270890              76.17%    failed      0.04%
+ 156  Orthacheta_113181           77.48%    failed      0.00%
+ 157  Oxycera_860348              93.29%    failed      0.00%
+ 158  Oxyna_381365                91.33%    failed      0.00%
+ 159  Pachygaster_124321          84.66%    passed     12.17%
+ 160  Palloptera_286498           81.83%    failed      0.00%
+ 161  Pamponerus_1717601          92.90%    failed      0.03%
+ 162  Paracantha_164885           91.52%    failed      0.00%
+ 163  Paragus_115308              72.01%    failed      0.00%
+ 164  Paralucilia_1042205         84.77%    failed      0.00%
+ 165  Paranthomyza_500298         93.09%    failed      0.00%
+ 166  Parasetigena_380521         71.05%    failed      0.00%
+ 167  Paregle_559693              83.15%    failed      0.00%
+ 168  Passeromyia_1511687         76.25%    failed      0.00%
+ 169  Paykullia_559695            52.07%    failed      0.01%
+ 170  Pegomya_559697              84.90%    failed      0.00%
+ 171  Pelidnoptera_1096074        69.20%    passed     97.93%
+ 172  Penicillidia_81721          81.33%    failed      0.00%
+ 173  Pericoma_1148481            91.72%    failed      0.00%
+ 174  Phaonia_253431              67.01%    passed     10.75%
+ 175  Philonicus_247567           67.84%    failed      1.62%
+ 176  Phryxe_569079               70.66%    passed      6.62%
+ 177  Phyllodromia_1209097        83.52%    failed      0.00%
+ 178  Physocephala_198643         59.03%    failed      0.02%
+ 179  Phyto_1262320               76.53%    failed      0.00%
+ 180  Phytomyptera_179785         72.52%    failed      0.00%
+ 181  Piceacecis_2597495          84.70%    failed      0.00%
+ 182  Piophila_53709              83.19%    failed      0.00%
+ 183  Pipunculus_240898           77.83%    failed      0.00%
+ 184  Platypeza_289241            82.62%    failed      0.00%
+ 185  Platystoma_286504           85.91%    failed      0.00%
+ 186  Plecia_1260898              70.39%    failed      0.58%
+ 187  Pollenia_229639             51.93%    failed      0.92%
+ 188  Polyporivora_1445854        82.25%    failed      0.00%
+ 189  Promachus_247552            53.86%    failed      2.19%
+ 190  Protoplasa_560776           70.45%    failed      0.00%
+ 191  Psacadina_1096078           69.78%    passed      6.87%
+ 192  Psychoda_7201               88.92%    failed      0.00%
+ 193  Pterodontia_210267          70.86%    failed      0.00%
+ 194  Quametopia_1603285          87.35%    failed      0.00%
+ 195  Rhagio_124327               87.05%    failed      0.00%
+ 196  Rhagoletis_28609            72.15%    passed     29.16%
+ 197  Rhamphomyia_192612          76.74%    failed      0.00%
+ 198  Rhaphium_377528             85.91%    passed      8.44%
+ 199  Rhinoestrus_204922          92.42%    failed      0.00%
+ 200  Rhinophora_670625           76.62%    failed      0.00%
+ 201  Rhyncomya_670621            51.44%    failed      3.05%
+ 202  Sarconesia_670650           63.73%    failed      0.48%
+ 203  Scaptomyza_7298             75.40%    failed      0.00%
+ 204  Scathophaga_95462           55.12%    failed      0.07%
+ 205  Scenopinus_247599           58.69%    failed      0.58%
+ 206  Sciadocera_192453           85.51%    failed      0.00%
+ 207  Sciara_82677                75.65%    failed      0.69%
+ 208  Sciophila_1085959           48.86%    passed      5.68%
+ 209  Senotainia_179787           80.38%    failed      0.02%
+ 210  Sepedon_320954              66.19%    failed      0.22%
+ 211  Sepsis_137507               55.66%    failed      0.00%
+ 212  Sicus_1219203               88.80%    failed      0.08%
+ 213  Silba_198646                85.89%    failed      0.00%
+ 214  Sitodiplosis_263139         74.05%    failed      0.00%
+ 215  Sphecapatoclea_2021595      86.82%    passed     18.28%
+ 216  Sphecapatodes_2021536       86.82%    failed      0.67%
+ 217  Sphyracephala_139674        66.76%    passed     56.09%
+ 218  Stegana_188292              75.21%    failed      0.00%
+ 219  Stevenia_670627             62.72%    failed      0.02%
+ 220  Stiphrosoma_500293          86.94%    failed      0.00%
+ 221  Sturmia_569089              72.44%    failed      0.01%
+ 222  Symmerus_560780             73.78%    failed      0.06%
+ 223  Tanypeza_1692486            85.72%    failed      0.00%
+ 224  Tephritis_43386             83.94%    failed      0.00%
+ 225  Terellia_28615              88.34%    failed      0.00%
+ 226  Tetanocera_320959           70.64%    failed      0.23%
+ 227  Tetanops_454640             87.83%    passed      6.32%
+ 228  Thecophora_305546           70.83%    passed     51.52%
+ 229  Themira_292396              62.16%    passed     51.79%
+ 230  Tipula_41043                45.27%    failed      0.00%
+ 231  Toxomerus_115327            67.84%    failed      0.00%
+ 232  Tricholauxania_192459       88.36%    failed      0.00%
+ 233  Tricogena_1606792           86.40%    failed      0.00%
+ 234  Trupanea_30060              83.62%    failed      0.00%
+ 235  Urophora_28620              83.81%    failed      0.00%
+ 236  Verrallia_115333            87.76%    failed      0.00%
+ 237  Volucella_226148            75.55%    failed      0.00%
+ 238  Wiedemannia_240904          76.70%    failed      0.00%
+ 239  Winnertzia_2338641          72.43%    failed      0.00%
+ 240  Wohlfahrtia_128961          85.52%    failed      1.87%
+ 241  Xyphosia_381372             91.32%    failed      0.00%
+ 242  Zodion_768804               83.11%    passed     34.36%
+ 243  Zonosemata_28622            78.45%    failed      0.05%
+ 244  Zygothrica_504731           87.75%    failed      0.00%
+ 245  Corynoneura_611344          91.73%    passed     28.13%
+ 246  Metriocnemus_137497         89.58%    failed      4.89%
+ 247  Ptychoptera_209691          56.06%    failed      3.01%
+ 248  Sycorax_114592              84.35%    passed     27.27%
+ 249  Ainuyusurika_1165747        79.82%    failed      2.09%
+ 250  Antocha_454619              88.49%    failed      2.39%
+ 251  Aphroteniella_646259        85.22%    failed      0.41%
+ 252  Atherix_124299              81.90%    passed      8.38%
+ 253  Atylotus_1310336            85.05%    passed      6.43%
+ 254  Austrothaumalea_1085085     85.49%    passed      8.44%
+ 255  Blepharicera_547808         96.00%    passed     25.14%
+ 256  Brachyopa_1637464           86.56%    failed      0.00%
+ 257  Brachypeza_2326774          79.02%    failed      0.00%
+ 258  Callicera_228567            86.19%    failed      0.00%
+ 259  Cheilosia_173981            83.50%    failed      0.00%
+ 260  Chrysogaster_224248         86.13%    failed      0.00%
+ 261  Copestylum_511142           89.42%    failed      0.00%
+ 262  Cramptonomyia_209688        75.65%    failed      0.00%
+ 263  Ctenophora_516519           75.74%    passed      6.33%
+ 264  Deuterophlebia_560719       66.93%    failed      1.12%
+ 265  Dicranota_700836            91.63%    failed      0.00%
+ 266  Dixa_79309                  77.65%    passed     18.98%
+ 267  Epistrophe_414810           82.02%    failed      0.00%
+ 268  Eriozona_414724             86.08%    failed      0.00%
+ 269  Eristalis_198633            81.61%    failed      0.00%
+ 270  Eumerus_224220              81.99%    failed      0.00%
+ 271  Eupeodes_290403             78.66%    failed      0.00%
+ 272  Hammerschmidtia_226171      86.13%    failed      0.00%
+ 273  Hesperinus_1086788          69.57%    failed      0.01%
+ 274  Liponeura_446516            91.56%    passed     12.42%
+ 275  Mallophora_270862           78.74%    passed     76.80%
+ 276  Maruina_1144738             88.86%    failed      0.09%
+ 277  Merodon_224226              81.36%    failed      0.00%
+ 278  Microdon_115291             80.79%    failed      0.00%
+ 279  Monodiamesa_891905          80.45%    failed      2.38%
+ 280  Myolepta_1473716            81.38%    failed      0.00%
+ 281  Oestromyia_170913           83.44%    passed     33.19%
+ 282  Pachyneura_1588165          73.02%    failed      0.01%
+ 283  Paraborniella_903459        80.64%    failed      0.47%
+ 284  Parochlus_315560            85.45%    failed      4.66%
+ 285  Paucispinigera_903463       82.74%    failed      2.08%
+ 286  Pentaneura_891922           84.94%    passed      9.10%
+ 287  Phronia_397119              79.19%    failed      0.00%
+ 288  Phytomyza_132616            67.61%    failed      0.00%
+ 289  Pipiza_221788               83.40%    failed      0.00%
+ 290  Sarcophaga_7384             65.39%    passed     17.04%
+ 291  Scaeva_219538               78.53%    failed      0.00%
+ 292  Scatopse_1520324            78.95%    passed     24.89%
+ 293  Sphaerophoria_226179        79.49%    failed      0.00%
+ 294  Syritta_34681               78.98%    failed      0.00%
+ 295  Tabanus_7206                66.48%    passed      8.68%
+ 296  Thaumalea_61068             60.34%    failed      0.23%
+ 297  Trichomyia_560271           84.56%    failed      0.02%
+ 298  Neorhynchocephalus_259248   92.86%    passed      6.90%
+ 299  Pantophthalmus_124295       77.22%    passed      6.52%
+ 300  Periscelis_716628           71.89%    failed      0.03%
+ 301  Teratomyzidae               79.44%    failed      0.11%
+ 302  Ablabesmyia_46216           88.15%    passed     61.11%
+ 303  Acletoxenus_462271          84.30%    failed      0.00%
+ 304  Amenia_2086281              78.71%    failed      4.89%
+ 305  Androprosopa_41815          76.37%    failed      0.01%
+ 306  Anticheta_1096047           87.14%    failed      1.16%
+ 307  Apatolestes_428062          93.63%    passed     27.02%
+ 308  Archytas_198637             70.58%    failed      1.08%
+ 309  Auchmeromyia_226129         82.55%    passed     55.38%
+ 310  Billaea_701468              81.98%    passed     63.02%
+ 311  Blepharomyia_179434         82.92%    passed     14.95%
+ 312  Bolbodimyia_1547386         89.21%    failed      0.75%
+ 313  Cacoxenus_462273            84.01%    failed      0.00%
+ 314  Catachlorops_1547373        84.97%    passed      8.28%
+ 315  Cephenemyia_170894          86.01%    passed      9.32%
+ 316  Chirosia_392044             88.71%    failed      0.00%
+ 317  Chrysopilus_124301          91.94%    passed     25.14%
+ 318  Chymomyza_7292              92.26%    failed      0.07%
+ 319  Clusiodes_500306            91.82%    failed      0.00%
+ 320  Coenomyia_124305            92.75%    failed      0.01%
+ 321  Cyrtophleba_991141          59.16%    passed     68.85%
+ 322  Dinera_569035               76.55%    passed      7.91%
+ 323  Discocerina_745181          89.35%    failed      0.11%
+ 324  Drino_179459                73.41%    passed     67.70%
+ 325  Esenbeckia_124297           75.73%    failed      0.09%
+ 326  Eukiefferiella_288843       90.72%    passed     34.21%
+ 327  Fidena_1334907              82.11%    failed      0.09%
+ 328  Glutops_124309              84.45%    passed     22.91%
+ 329  Goniops_428065              80.67%    failed      0.41%
+ 330  Hemilucilia_416848          82.27%    failed      0.93%
+ 331  Hermetia_343581             79.84%    failed      0.00%
+ 332  Kesselimyia_1445844         91.03%    failed      0.00%
+ 333  Lasioptera_201413           87.44%    failed      0.00%
+ 334  Leschenaultia_179486        77.76%    passed     90.51%
+ 335  Macquartia_1918266          76.63%    failed      1.87%
+ 336  Melanagromyza_286470        89.99%    failed      0.00%
+ 337  Metachela_369884            89.62%    failed      0.19%
+ 338  Mintho_1918277              76.43%    failed      0.02%
+ 339  Mycetophila_397146          79.97%    failed      0.91%
+ 340  Neaera_695903               76.75%    passed      9.44%
+ 341  Ophiomyia_341050            79.07%    failed      0.00%
+ 342  Paraplatypeza_192442        82.53%    failed      0.01%
+ 343  Potamia_559704              72.90%    failed      4.56%
+ 344  Prosena_1918293             77.56%    failed      3.25%
+ 345  Przhevalskiana_123746       89.03%    failed      0.00%
+ 346  Psectrotanypus_903467       85.04%    failed      0.00%
+ 347  Ptiolina_124325             92.74%    failed      0.01%
+ 348  Rivellia_28633              93.41%    failed      0.00%
+ 349  Scaptodrosophila_7354       83.76%    failed      0.00%
+ 350  Sciomyza_320936             74.12%    passed     12.32%
+ 351  Silvius_415257              79.38%    failed      0.80%
+ 352  Smittia_315559              90.96%    passed     52.51%
+ 353  Stenotabanus_1547430        86.12%    failed      0.96%
+ 354  Thereva_95078               76.70%    passed     54.17%
+ 355  Triphleba_92553             90.82%    failed      1.55%
+ 356  Vermileo_124333             89.91%    failed      2.75%
+ 357  Zaira_179789                71.01%    passed     51.83%
+ 358  Zaprionus_7296              83.76%    failed      0.00%
+ 359  Axymyia_560715              83.67%    failed      0.00%
+ 360  Bittacomorpha_79307         82.91%    failed      0.00%
+ 361  Braula_305561               91.91%    failed      0.93%
+ 362  Chaoborus_41812             82.82%    passed     15.95%
+ 363  Cryptochetum_1262333        96.98%    failed      4.03%
+ 364  Dactylolabis_560717         82.55%    failed      0.69%
+ 365  Dioctria_468720             91.87%    passed     36.18%
+ 366  Fergusonina_156411          72.58%    passed     97.93%
+ 367  Haematopota_124311          90.67%    failed      0.53%
+ 368  Lasiopogon_219536           91.87%    passed     52.17%
+ 369  Liogma_560731               92.53%    failed      0.00%
+ 370  Neoalticomerus_716622       96.45%    passed     11.40%
+ 371  Neolimnia_1262312           94.07%    passed     77.80%
+ 372  Neurochaeta_716624          87.38%    failed      0.01%
+ 373  Nymphomyia_560766           92.43%    failed      0.00%
+ 374  Oedoparena_1262316          93.16%    passed     69.32%
+ 375  Olbiogaster_560768          83.18%    failed      0.82%
+ 376  Oreoleptis_1262318          88.14%    passed     13.48%
+ 377  Parochthiphila_1262282      87.58%    passed     10.11%
+ 378  Philornis_253427            81.17%    passed      6.40%
+ 379  Procanace_1262322           88.40%    failed      0.00%
+ 380  Serromyia_209716            88.87%    failed      0.18%
+ 381  Spaniocelyphus_1262326      89.11%    passed     48.63%
+ 382  Telostylinus_1262347        91.88%    passed      9.37%
+ 383  Aphanotrigonum_540849       95.57%    failed      0.00%
+ 384  Cryptonevra_1616778         95.27%    failed      0.00%
+ 385  Copromyza_1217530           96.04%    failed      0.22%
+ 386  Leucopis_1728826            86.11%    passed     22.72%
+ 387  Mallota_535942              95.55%    failed      0.01%
+ 388  Phytobia_414304             85.86%    failed      0.00%
+ 389  Acemya_1677647              95.57%    failed      0.00%
+ 390  Agathomyia_226141           92.41%    failed      0.00%
+ 391  Agromyza_414290             85.85%    failed      1.05%
+ 392  Alliopsis_1692454           95.53%    failed      0.03%
+ 393  Allotrichoma_1492368        95.57%    failed      0.04%
+ 394  Anthomyiopsis_1918198       95.57%    failed      0.00%
+ 395  Araucoderus_1549737         95.58%    failed      0.12%
+ 396  Ateloglossa_1890907         95.57%    failed      0.00%
+ 397  Aulacigaster_716608         95.57%    failed      0.00%
+ 398  Austroconops_209696         95.57%    failed      0.87%
+ 399  Basilia_170889              95.57%    failed      0.00%
+ 400  Bathypogon_1718388          95.57%    failed      0.97%
+ 401  Berkshiria_2061012          95.57%    failed      0.06%
+ 402  Blaesoxipha_128953          95.02%    failed      0.00%
+ 403  Blera_226146                95.55%    failed      0.10%
+ 404  Brachydeutera_1990785       95.57%    failed      0.04%
+ 405  Calamoncosis_540852         95.83%    failed      0.31%
+ 406  Calobata_1820059            95.57%    failed      0.78%
+ 407  Calycomyza_414293           95.57%    failed      0.01%
+ 408  Celyphus_1979294            95.97%    passed      5.82%
+ 409  Centrophlebomyia_1603419    94.24%    passed     41.09%
+ 410  Cerodontha_127401           91.77%    failed      0.00%
+ 411  Cetema_540891               95.57%    failed      0.05%
+ 412  Chaetopsis_240871           89.94%    failed      0.01%
+ 413  Chamaemyia_305621           86.11%    failed      0.05%
+ 414  Chiastocheta_129251         90.06%    failed      0.00%
+ 415  Chlorops_540892             95.15%    failed      0.85%
+ 416  Cistudinomyia_2173397       95.57%    failed      0.55%
+ 417  Cladochaeta_2035586         95.26%    failed      0.32%
+ 418  Clausicella_1718822         90.18%    passed     39.78%
+ 419  Cleonice_1918224            95.57%    failed      0.00%
+ 420  Clogmia_85119               95.39%    failed      0.01%
+ 421  Clunio_315556               89.49%    failed      0.06%
+ 422  Cobboldia_2583773           95.53%    passed     11.02%
+ 423  Coelopa_169466              79.60%    failed      0.00%
+ 424  Compsobata_286452           80.71%    passed     69.82%
+ 425  Curtonotum_1262296          90.49%    passed     79.71%
+ 426  Cylindrotoma_700834         95.33%    failed      0.00%
+ 427  Desmometopa_305587          95.57%    failed      0.01%
+ 428  Diasemopsis_139652          88.67%    failed      2.26%
+ 429  Dictenidia_2108369          95.33%    failed      0.27%
+ 430  Dictya_1096051              95.57%    failed      0.15%
+ 431  Dilophus_52733              95.57%    failed      0.14%
+ 432  Discomyza_1720780           95.57%    failed      0.00%
+ 433  Dryomyza_169444             95.57%    failed      0.19%
+ 434  Egle_411076                 95.57%    failed      0.00%
+ 435  Elachiptera_540858          95.57%    failed      0.05%
+ 436  Elephantomyia_700838        95.33%    failed      0.00%
+ 437  Elomyia_1562792             95.94%    failed      0.00%
+ 438  Epichlorops_540897          95.57%    failed      0.01%
+ 439  Epicypta_397117             95.57%    failed      0.00%
+ 440  Estheria_1918238            95.57%    failed      0.00%
+ 441  Euryomma_1650677            95.57%    failed      0.00%
+ 442  Fucellia_205683             95.57%    failed      0.00%
+ 443  Gaurax_540862               95.57%    failed      0.01%
+ 444  Gnophomyia_700845           95.57%    failed      0.06%
+ 445  Gymnometriocnemus_611353    95.57%    failed      0.00%
+ 446  Helius_700865               95.57%    failed      0.01%
+ 447  Hemerodromia_626769         95.57%    failed      0.00%
+ 448  Hippelates_540866           95.57%    failed      0.00%
+ 449  Hybomitra_124690            95.26%    failed      0.09%
+ 450  Idiella_1902146             95.57%    failed      0.14%
+ 451  Japanagromyza_414298        90.55%    failed      0.00%
+ 452  Lamprolonchaea_907706       95.57%    failed      1.05%
+ 453  Laphria_50683               95.57%    failed      0.10%
+ 454  Lasiomma_95464              95.57%    failed      0.00%
+ 455  Lasiopiophila_1790233       95.57%    failed      1.12%
+ 456  Lauterborniella_288850      95.57%    failed      0.00%
+ 457  Leptocera_1614654           95.56%    failed      0.00%
+ 458  Leptometopa_1720790         95.04%    failed      0.01%
+ 459  Leptopsilopa_1887046        95.57%    failed      0.00%
+ 460  Leucotabanus_1969939        95.57%    failed      0.01%
+ 461  Limonia_52743               95.33%    failed      1.41%
+ 462  Liopiophila_1603421         92.87%    passed      8.63%
+ 463  Lipara_540870               95.57%    failed      0.04%
+ 464  Lipsothrix_700849           95.57%    failed      1.17%
+ 465  Lonchaea_198649             95.53%    failed      0.00%
+ 466  Lonchoptera_92595           95.57%    failed      0.00%
+ 467  Loxocera_34684              91.17%    passed     45.49%
+ 468  Lydella_283929              95.57%    failed      0.00%
+ 469  Machimus_247604             95.57%    failed      0.12%
+ 470  Melangyna_414825            95.55%    failed      0.00%
+ 471  Metalimnobia_700851         95.33%    failed      1.35%
+ 472  Micropeza_1572561           90.28%    failed      0.00%
+ 473  Milichiella_1890919         95.57%    failed      0.02%
+ 474  Mochlonyx_1577622           95.57%    failed      0.05%
+ 475  Mormotomyia_1155704         96.03%    passed     22.83%
+ 476  Mydaea_559689               95.57%    failed      0.00%
+ 477  Myospila_520040             95.57%    failed      0.00%
+ 478  Neoascia_224222             95.54%    failed      0.02%
+ 479  Neopachygaster_1692469      95.57%    failed      0.16%
+ 480  Neoplasta_192640            88.94%    failed      4.23%
+ 481  Neossos_2268121             95.57%    failed      0.16%
+ 482  Nephrotoma_46210            95.33%    failed      0.01%
+ 483  Nostima_1473719             95.57%    failed      0.02%
+ 484  Nothomicrodon_1857748       94.77%    failed      0.00%
+ 485  Notiphila_1118049           95.57%    failed      0.14%
+ 486  Ochthera_1744809            95.57%    failed      0.00%
+ 487  Odinia_414302               90.55%    failed      0.00%
+ 488  Odontoloxozus_588320        95.70%    failed      1.63%
+ 489  Onesiomima_2173510          98.19%    failed      2.00%
+ 490  Ornidia_994473              95.57%    failed      0.00%
+ 491  Ornithophila_1497392        95.57%    failed      0.00%
+ 492  Pachylophus_1990794         96.08%    failed      0.14%
+ 493  Palpomyia_1525500           95.44%    failed      0.00%
+ 494  Paracoenia_1690382          95.57%    failed      0.01%
+ 495  Pedicia_472374              94.67%    failed      0.00%
+ 496  Pegohylemyia_1887308        95.76%    failed      0.00%
+ 497  Pelina_1086796              95.57%    failed      0.34%
+ 498  Penthetria_560770           89.55%    failed      0.01%
+ 499  Peromyia_1914937            95.57%    failed      0.00%
+ 500  Phalacrocera_2203737        95.57%    failed      0.01%
+ 501  Pholeomyia_1720804          95.57%    failed      0.00%
+ 502  Phorbia_1993534             95.53%    failed      0.00%
+ 503  Pnyxia_1781626              95.57%    failed      0.00%
+ 504  Prionocera_1690388          95.57%    failed      0.09%
+ 505  Protocalliphora_142901      95.57%    failed      0.13%
+ 506  Pseudacteon_378799          95.30%    failed      0.00%
+ 507  Pseudoperichaeta_283931     95.57%    failed      0.00%
+ 508  Pseudosmittia_611382        95.40%    failed      0.05%
+ 509  Psila_305548                95.57%    failed      0.00%
+ 510  Ptecticus_343648            95.57%    failed      0.24%
+ 511  Pteromicra_1226622          95.57%    passed      6.70%
+ 512  Sargus_343647               95.57%    failed      1.67%
+ 513  Scatella_305595             95.43%    failed      0.15%
+ 514  Scatophila_1763968          95.57%    failed      0.22%
+ 515  Scholastes_1902237          95.57%    failed      0.64%
+ 516  Scoliocentra_1823605        95.57%    failed      2.68%
+ 517  Sobarocephala_574054        90.02%    failed      0.00%
+ 518  Spania_1559498              95.57%    failed      0.00%
+ 519  Sphaeromias_1874311         89.91%    failed      0.04%
+ 520  Stenomicra_716630           95.57%    failed      0.05%
+ 521  Sylvicola_52753             95.57%    failed      0.05%
+ 522  Syrphus_224255              95.54%    failed      0.00%
+ 523  Systoechus_1690390          95.57%    failed      0.22%
+ 524  Tanyptera_2108371           95.57%    failed      0.00%
+ 525  Temnostoma_226164           95.56%    failed      0.03%
+ 526  Thaumatomyia_333800         95.56%    failed      0.08%
+ 527  Therobia_1918313            95.74%    failed      0.00%
+ 528  Trichonta_397122            95.57%    failed      0.00%
+ 529  Tricimba_540889             95.53%    failed      0.62%
+ 530  Tricyphona_700863           95.40%    failed      0.61%
+ 531  Trypocalliphora_1042207     84.93%    failed      0.00%
+ 532  Tvetenia_611398             95.57%    failed      0.02%
+ 533  Vibrissina_179525           90.43%    failed      0.93%
+ 534  Xanthogramma_414873         95.29%    failed      0.00%
+ 535  Zabrachia_1891525           95.57%    failed      0.00%
+ 536  Exetasis_1932988            94.03%    failed      0.50%
+ 537  Mischoderus_560267          90.63%    failed      4.84%
+ 538  Glaurocara_2027854          94.26%    passed     41.60%
+WARNING: 527 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                       82.67%  443 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 24 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		157	1166	505	411	MFP+MERGE	mito_noncoding
+2		16	318	59	171	MFP+MERGE	ND1_codon1
+3		16	318	30	212	MFP+MERGE	ND1_codon2
+4		16	318	137	75	MFP+MERGE	ND1_codon3
+5		101	235	115	88	MFP+MERGE	cytb_codon3
+6		101	235	226	2	MFP+MERGE	cytb_codon2
+7		101	235	64	129	MFP+MERGE	cytb_codon1
+8		147	2297	952	861	MFP+MERGE	18S
+9		261	3419	1651	1022	MFP+MERGE	28S
+10		91	196	124	61	MFP+MERGE	AATS_codon1
+11		91	196	83	92	MFP+MERGE	AATS_codon2
+12		91	196	85	91	MFP+MERGE	AATS_codon3
+13		516	498	240	211	MFP+MERGE	COI_codon1
+14		516	498	117	323	MFP+MERGE	COI_codon2
+15		516	498	494	1	MFP+MERGE	COI_codon3
+16		140	373	72	220	MFP+MERGE	EF1a_codon1
+17		140	373	295	53	MFP+MERGE	EF1a_codon2
+18		140	373	108	185	MFP+MERGE	EF1a_codon3
+19		133	482	356	111	MFP+MERGE	CAD1_codon1
+20		133	482	232	210	MFP+MERGE	CAD1_codon2
+21		133	481	272	178	MFP+MERGE	CAD1_codon3
+22		67	555	254	235	MFP+MERGE	CAD2_codon1
+23		67	555	217	273	MFP+MERGE	CAD2_codon2
+24		67	555	466	56	MFP+MERGE	CAD2_codon3
+Degree of missing data: 0.652
+Info: multi-threading strategy over partitions
+
+Reading constraint tree partial_iqtree.tre...
+WARNING: Rooted constraint tree will be treated as unrooted tree
+INFO: Constraint tree will be applied to ML tree and all bootstrap trees.
+
+NOTE: Restoring information from model checkpoint file Diptera_ML.model.gz
+
+CHECKPOINT: Initial tree restored
+Measuring multi-threading efficiency up to 72 CPU cores
+Increase to 10 rounds for branch lengths
+8 trees examined
+Threads: 1 / Time: 78.121 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -534496
+Threads: 2 / Time: 50.974 sec / Speedup: 1.533 / Efficiency: 77% / LogL: -534496
+Threads: 3 / Time: 43.308 sec / Speedup: 1.804 / Efficiency: 60% / LogL: -534496
+Threads: 4 / Time: 41.526 sec / Speedup: 1.881 / Efficiency: 47% / LogL: -534496
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+CHECKPOINT: Tree restored, LogL: -468081.882
+NOTE: ModelFinder requires 410 MB RAM!
+Selecting individual models for 24 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+   1 GTR+F+I+G4   161720.081  29.241      28S
+   2 GTR+F+I+G4   81157.529   11.967      18S
+   3 GTR+F+I+G4   61862.501   37.545      COI_codon1
+   4 GTR+F+I+G4   197237.048  2450.197    COI_codon3
+   5 GTR+F+I+G4   55973.281   24.641      mito_noncoding
+   6 GTR+F+I+G4   57669.524   72.643      CAD1_codon1
+   7 GTR+F+I+G4   43779.996   33.669      EF1a_codon2
+   8 GTR+F+I+G4   26377.445   14.528      CAD1_codon2
+   9 GTR+F+I+G4   18138.677   12.533      COI_codon2
+  10 GTR+F+I+G4   38213.405   30.315      CAD1_codon3	0h:0m:0s (0h:0m:6s left)
+  11 GTR+F+I+G4   14032.384   10.709      EF1a_codon3	0h:0m:0s (0h:0m:6s left)
+  12 GTR+F+I+G4   18544.356   9.588       CAD2_codon1	0h:0m:0s (0h:0m:5s left)
+  13 GTR+F+I+G4   39113.616   34.073      CAD2_codon3	0h:0m:0s (0h:0m:5s left)
+  14 GTR+F+I+G4   15374.454   11.553      CAD2_codon2	0h:0m:0s (0h:0m:4s left)
+  15 GTR+F+I+G4   9076.903    8.555       EF1a_codon1	0h:0m:0s (0h:0m:4s left)
+  16 GTR+F+I+G4   13317.957   17.817      cytb_codon3	0h:0m:0s (0h:0m:4s left)
+  17 GTR+F+I+G4   27491.133   811.368     cytb_codon2	0h:0m:0s (0h:0m:3s left)
+  18 GTR+F+I+G4   18662.406   145.773     AATS_codon1	0h:0m:0s (0h:0m:3s left)
+  19 GTR+F+I+G4   5920.161    5.386       cytb_codon1	0h:0m:0s (0h:0m:3s left)
+  20 GTR+F+I+G4   11513.296   19.539      AATS_codon2	0h:0m:0s (0h:0m:3s left)
+  21 GTR+F+I+G4   11303.798   57.571      AATS_codon3	0h:0m:0s (0h:0m:3s left)
+  22 GTR+F+I+G4   4033.778    71.552      ND1_codon3	0h:0m:0s (0h:0m:3s left)
+  23 GTR+F+I+G4   2155.715    0.826       ND1_codon2	0h:0m:0s (0h:0m:2s left)
+  24 GTR+F+I+G4   2774.970    1.627       ND1_codon1	0h:0m:0s (0h:0m:2s left)
+Full partition model BIC score: 946668.336 (LnL: -466917.434  df:1336)
+Merging models to increase model fit (about 553 total partition schemes)...
+6 compatible better partition pairs found
+Merging cytb_codon1+EF1a_codon1 with BIC score: 946506.962 (LnL: -466884.776  df: 1326)
+Merging CAD1_codon3+CAD2_codon2 with BIC score: 946399.414 (LnL: -466883.834  df: 1315)
+Merging CAD1_codon2+CAD2_codon1 with BIC score: 946293.193 (LnL: -466854.739  df: 1310)
+Merging AATS_codon2+AATS_codon3 with BIC score: 946194.320 (LnL: -466858.135  df: 1299)
+Merging ND1_codon1+ND1_codon2 with BIC score: 946115.441 (LnL: -466890.739  df: 1284)
+Merging ND1_codon3+cytb_codon2 with BIC score: 946040.380 (LnL: -466925.253  df: 1269)
+Merging AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2 with BIC score: 945949.220 (LnL: -466884.476  df: 1268)
+Agglomerative model selection: (mito_noncoding,(ND1_codon1,ND1_codon2)5:946115,(ND1_codon3,cytb_codon2)6:946040,cytb_codon3,(cytb_codon1,EF1a_codon1)1:946507,18S,28S,AATS_codon1,((AATS_codon2,AATS_codon3)4:946194,(CAD1_codon3,CAD2_codon2)2:946399)7:945949,COI_codon1,COI_codon2,COI_codon3,EF1a_codon2,EF1a_codon3,CAD1_codon1,(CAD1_codon2,CAD2_codon1)3:946293,CAD2_codon3)
+Merging into 17 partitions...
+  25 GTR+F+I+G4   81157.529   18S	0h:0m:0s (0h:0m:5s left)
+  26 GTR+F+I+G4   161720.081  28S	0h:0m:0s (0h:0m:5s left)
+  27 GTR+F+I+G4   197237.048  COI_codon3	0h:0m:0s (0h:0m:5s left)
+  28 GTR+F+I+G4   61862.501   COI_codon1	0h:0m:0s (0h:0m:6s left)
+  29 GTR+F+I+G4   18138.677   COI_codon2	0h:0m:0s (0h:0m:6s left)
+  30 GTR+F+R7     76227.290   AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:0m:0s (0h:0m:6s left)
+  31 K3Pu+F+R4    14883.478   cytb_codon1+EF1a_codon1	0h:0m:0s (0h:0m:6s left)
+  32 GTR+F+R5     55913.433   mito_noncoding	0h:0m:0s (0h:0m:6s left)
+  33 GTR+F+R5     44844.193   CAD1_codon2+CAD2_codon1	0h:0m:0s (0h:0m:6s left)
+  34 GTR+F+I+G4   57669.524   CAD1_codon1	0h:0m:0s (0h:0m:6s left)
+  35 TN+F+G4      31514.708   ND1_codon3+cytb_codon2	0h:0m:0s (0h:0m:6s left)
+  36 GTR+F+I+G4   43779.996   EF1a_codon2	0h:0m:0s (0h:0m:5s left)
+  37 GTR+F+I+G4   14032.384   EF1a_codon3	0h:0m:0s (0h:0m:5s left)
+  38 GTR+F+I+G4   39113.616   CAD2_codon3	0h:0m:0s (0h:0m:5s left)
+  39 GTR+F+I+G4   13317.957   cytb_codon3	0h:0m:0s (0h:0m:5s left)
+  40 GTR+F+I+G4   18662.406   AATS_codon1	0h:0m:0s (0h:0m:5s left)
+  41 K3Pu+F+G4    4914.315    ND1_codon1+ND1_codon2	0h:0m:0s (0h:0m:5s left)
+Best partition model BIC score: 945904.639 (LnL: -466833.368  df:1274)
+Partition information was printed to Diptera_ML.best_scheme.nex
+Partition information in Raxml format was printed to Diptera_ML.best_scheme
+
+All model information printed to Diptera_ML.model.gz
+CPU time for ModelFinder: 470.616 seconds (0h:7m:50s)
+Wall-clock time for ModelFinder: 215.005 seconds (0h:3m:35s)
+Generating 1000 samples for ultrafast bootstrap (seed: 775311)...
+
+NOTE: 396 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -480610.267
+Current log-likelihood at step 1: -471925.063
+Current log-likelihood at step 2: -470197.910
+Current log-likelihood at step 3: -469895.042
+Current log-likelihood at step 4: -469769.510
+Current log-likelihood at step 5: -469661.203
+Current log-likelihood at step 6: -469516.893
+Current log-likelihood at step 7: -468968.291
+Current log-likelihood at step 8: -468736.636
+Current log-likelihood at step 9: -468577.557
+Current log-likelihood at step 10: -468574.886
+Current log-likelihood at step 11: -468573.361
+Current log-likelihood at step 12: -468572.264
+Current log-likelihood at step 13: -468571.396
+Current log-likelihood at step 14: -468570.692
+Current log-likelihood at step 15: -468570.101
+Current log-likelihood at step 16: -468569.601
+Current log-likelihood at step 17: -468569.174
+Current log-likelihood at step 18: -468568.804
+Current log-likelihood at step 19: -468568.494
+Current log-likelihood at step 20: -468568.244
+Current log-likelihood at step 21: -468568.037
+Current log-likelihood at step 22: -468567.859
+Current log-likelihood at step 23: -468567.711
+Current log-likelihood at step 24: -468567.575
+Current log-likelihood at step 25: -468567.466
+Current log-likelihood at step 26: -468567.370
+Partition-specific rates:  0.253 0.108 7.321 0.415 0.069 0.157 0.259 2.974 0.450 0.189 0.065 11.899 0.544 0.175 1.142 0.258 1.244
+Parameters optimization took 25 rounds (78.679 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 42.333 second
+Computing log-likelihood of 99 initial trees ... 97.358 seconds
+Current best score: -468567.370
+
+Do NNI search on 20 best initial trees
+lambda = 0.000
+NEGATIVE BRANCH len = -4.543
+ rate = 7.321
+ERROR: phylosupertreeplen.cpp:383: virtual void PhyloSuperTreePlen::computeFunlambcda = 0.000Derv(dou
+u
+bNEGdATIVE BRANCH len = o-0.257u
+Nbl rate = E BRANCH len = o-0.257u
+Nble&)G: .415As
+ATIrVE BRANCH len = -0.073p
+ rate = y0.108l
+osupertreeplen.cpption `::p038'hylos 3u: pefailedrtreeplen.cppvirt.ual vo :
+ERROR: 33PhyloSuper: PhyloSuper: T
+ERROR: vreirtualePlen::computeFoi*uncDerv(do** IQ-TREE Cud Phble, double&, doublyRASHES WITH SIGNelo&AS)L uABperTreePle:: :OcAoRsmpsTuteEeFDrtiou
+ERROR: n `*** ForncD bug report please send to developers0erv(double' failed:, do.
+ERROR: uble&, double&
+ERROR: uble&, double&
+ERROR: )*** 
+ERROR: ***:  Log  As Isfile: ertion `Q0' fai-Diptera_leTREMdE CRASHES WI.
+ERROR: TH SIGNSLAL.log TACK A
+ERROR: TBORTEDR *
+ERROR: F**    OR DEBUGGING:gnment files (if 
+ERROR: *** Fpossible)or 
+
+******************************************************
+CHECKPOINT: Resuming analysis from Diptera_ML.ckp.gz
+
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    chandler.fm.pri (AVX512, FMA3, 251 GB RAM)
+Command: iqtree -s concatenated_alignment.nex -m MFP+MERGE -B 1000 -p partitions.nex -T AUTO --prefix Diptera_ML
+Seed:    676608 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug  4 13:42:51 2023
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+WARNING: Command-line argument `-T` differs from checkpoint `-g`
+WARNING: Command-line argument `AUTO` differs from checkpoint `partial_iqtree.tre`
+WARNING: Command-line argument `--prefix` differs from checkpoint `-T`
+WARNING: Command-line argument `Diptera_ML` differs from checkpoint `AUTO`
+WARNING: Command-line differs from checkpoint!
+Reading partition model file partitions.nex ...
+Reading alignment file concatenated_alignment.nex ... Nexus format detected
+WARNING: 6 sites contain only gaps or ambiguous characters.
+Alignment has 538 sequences with 14852 columns, 11071 distinct patterns
+7154 parsimony-informative, 2427 singleton sites, 5271 constant sites
+                           Gap/Ambiguity  Composition  p-value
+   1  Lucilia_7374                58.63%    failed      0.00%
+   2  Drosophila_7215             24.56%    failed      0.01%
+   3  Aedes_7158                  43.17%    failed      0.03%
+   4  Anastrepha_28585            61.76%    passed     98.85%
+   5  Apiocera_160270             76.55%    failed      4.73%
+   6  Hippobosca_452745           79.32%    failed      0.31%
+   7  Elgiva_320938               70.60%    failed      0.46%
+   8  Microchrysa_931517          93.29%    failed      0.02%
+   9  Nycteribia_633884           82.77%    failed      0.00%
+  10  Phlebotomus_13203           46.84%    failed      0.00%
+  11  Polietes_559702             80.90%    failed      0.00%
+  12  Simulium_7191               43.46%    failed      0.29%
+  13  Stratiomys_219520           71.65%    failed      1.19%
+  14  Trichocera_52759            48.55%    failed      0.00%
+  15  Xylophagus_219493           51.10%    failed      0.00%
+  16  Helosciomyzidae             76.04%    failed      0.00%
+  17  Ctenostylidae               65.08%    failed      0.10%
+  18  Acrocera_210245             68.63%    failed      0.00%
+  19  Anevrina_92526              89.47%    failed      0.00%
+  20  Anopheles_7164              61.51%    failed      0.00%
+  21  Anthomyia_259845            77.20%    failed      0.00%
+  22  Anthrax_117078              90.17%    failed      0.00%
+  23  Aphidoletes_95971           84.17%    failed      0.00%
+  24  Apocephalus_117252          90.20%    failed      0.00%
+  25  Aprionus_1819779            69.63%    passed     11.61%
+  26  Asphondylia_153012          69.16%    failed      0.00%
+  27  Astomella_210239            88.48%    failed      0.00%
+  28  Atherigona_305597           79.52%    failed      1.94%
+  29  Atrichopogon_209702         72.79%    failed      0.00%
+  30  Aulogastromyia_1824990      84.90%    failed      0.00%
+  31  Bactrocera_27456            59.12%    passed     83.72%
+  32  Bertamyia_1445832           87.11%    failed      0.00%
+  33  Bibio_189978                77.22%    failed      0.00%
+  34  Blondelia_179437            55.22%    passed      8.54%
+  35  Bolitophila_52718           70.15%    failed      1.06%
+  36  Bombylius_219362            49.25%    failed      0.00%
+  37  Borophaga_712093            87.91%    failed      0.00%
+  38  Bradysia_35571              61.41%    failed      0.07%
+  39  Calliphora_7372             52.92%    passed     68.91%
+  40  Callomyia_712098            86.63%    failed      0.00%
+  41  Cecidomyia_1543682          84.28%    failed      0.00%
+  42  Ceratitis_7212              72.72%    passed     23.09%
+  43  Chalarus_115250             84.55%    failed      0.00%
+  44  Chelifera_369889            83.52%    failed      0.00%
+  45  Chironomus_7150             57.22%    failed      0.02%
+  46  Chloromyia_343649           86.35%    failed      1.07%
+  47  Chonocephalus_92528         96.92%    failed      0.00%
+  48  Chrysomya_45449             63.31%    failed      0.01%
+  49  Chrysops_27458              64.48%    failed      0.04%
+  50  Chyliza_716634              70.50%    failed      4.31%
+  51  Cleigastra_113167           77.92%    failed      0.02%
+  52  Clinocera_192484            63.53%    failed      0.00%
+  53  Clusia_574057               75.79%    failed      0.00%
+  54  Coboldia_170624             88.22%    failed      0.00%
+  55  Compsomyiops_142897         64.86%    failed      0.00%
+  56  Contarinia_153220           77.24%    failed      0.00%
+  57  Cordilura_113132            62.81%    failed      0.13%
+  58  Cordylobia_226131           72.69%    failed      0.00%
+  59  Coremacera_1226614          75.46%    passed     87.57%
+  60  Corynoptera_1260849         67.57%    passed     20.72%
+  61  Crataerina_452743           82.04%    failed      0.01%
+  62  Craticulina_2021509         86.82%    failed      0.11%
+  63  Culex_7174                  72.03%    failed      0.00%
+  64  Culicoides_41820            70.14%    passed     11.32%
+  65  Culiseta_174825             78.66%    passed     14.04%
+  66  Cuterebra_170896            48.69%    failed      0.07%
+  67  Dasineura_240745            73.77%    failed      0.00%
+  68  Dasiops_286456              91.24%    failed      0.00%
+  69  Dasyhelea_41822             71.86%    failed      0.02%
+  70  Delia_30063                 77.38%    failed      0.00%
+  71  Delphinia_43369             79.01%    failed      0.08%
+  72  Dermatobia_115426           84.34%    failed      0.00%
+  73  Dexia_569033                57.74%    failed      0.05%
+  74  Diadocidia_560721           54.68%    failed      0.32%
+  75  Diopsis_139667              79.72%    failed      4.33%
+  76  Diplonevra_92534            79.34%    failed      3.73%
+  77  Ditomyia_1520322            55.86%    failed      0.01%
+  78  Dolichopus_192427           75.40%    failed      0.00%
+  79  Ectophasia_569037           60.60%    failed      0.41%
+  80  Eginia_1511678              75.07%    failed      0.00%
+  81  Ephydra_504564              80.24%    failed      0.00%
+  82  Euleia_28591                84.35%    failed      0.00%
+  83  Eulonchus_210230            64.87%    failed      0.00%
+  84  Eumesembrinella_672472      73.30%    failed      0.00%
+  85  Eurosta_28593               86.02%    failed      0.00%
+  86  Euxesta_286468              85.91%    failed      0.00%
+  87  Exechia_397139              61.11%    failed      0.00%
+  88  Exeretonevra_560723         58.58%    failed      0.00%
+  89  Exorista_113238             42.69%    failed      1.07%
+  90  Fannia_95468                61.75%    failed      0.00%
+  91  Forcipomyia_209700          84.77%    failed      1.00%
+  92  Gasterophilus_84524         85.03%    failed      0.00%
+  93  Geomyza_305619              73.03%    failed      0.00%
+  94  Glossina_7393               79.36%    failed      0.08%
+  95  Graphomya_1072499           79.69%    failed      0.23%
+  96  Gymnocarena_28597           91.52%    failed      0.00%
+  97  Gyrostigma_2555504          85.22%    passed     12.16%
+  98  Haematobosca_559680         69.63%    failed      0.01%
+  99  Hebecnema_559682            77.56%    failed      0.00%
+ 100  Hedria_320941               80.04%    failed      0.00%
+ 101  Helcomyza_169476            61.02%    passed     83.24%
+ 102  Hemigymnochaeta_1240433     85.09%    failed      0.00%
+ 103  Heterocheila_169481         80.82%    failed      0.21%
+ 104  Hirmoneura_388531           78.00%    failed      0.00%
+ 105  Homoneura_1692452           83.08%    failed      0.00%
+ 106  Huascaromusca_1609532       84.39%    failed      0.00%
+ 107  Hydrellia_92591             88.90%    failed      0.00%
+ 108  Hydromyza_113174            77.19%    failed      0.00%
+ 109  Hylemya_253328              77.66%    failed      0.00%
+ 110  Hypocera_940227             82.79%    failed      3.09%
+ 111  Hypoderma_7388              83.55%    failed      0.00%
+ 112  Icosta_402409               86.20%    failed      0.00%
+ 113  Icterica_28599              89.74%    failed      0.00%
+ 114  Ilione_1096072              66.00%    passed     27.41%
+ 115  Incertella_540867           92.22%    failed      0.00%
+ 116  Jamesomyia_28601            93.87%    failed      0.00%
+ 117  Laneella_1658054            84.66%    failed      0.00%
+ 118  Leptomorphus_560729         71.54%    failed      0.00%
+ 119  Leucophenga_7329            76.84%    failed      0.00%
+ 120  Ligyra_117088               94.56%    failed      0.00%
+ 121  Limnophora_307207           64.62%    passed      7.98%
+ 122  Lipoptena_170902            76.45%    failed      0.00%
+ 123  Liriomyza_127403            61.75%    failed      0.01%
+ 124  Lutzomyia_7199              70.58%    passed     12.24%
+ 125  Macrocera_608727            71.27%    failed      1.13%
+ 126  Medetera_377527             83.79%    passed     19.91%
+ 127  Megaselia_36165             63.90%    failed      0.01%
+ 128  Melanophora_1606787         64.99%    failed      0.24%
+ 129  Melinda_170907              64.45%    failed      1.70%
+ 130  Melophagus_452748           74.02%    failed      0.00%
+ 131  Mesembrina_116147           79.52%    failed      0.00%
+ 132  Mesembrinella_460529        52.35%    failed      0.10%
+ 133  Mimegralla_115300           92.40%    failed      0.00%
+ 134  Morellia_253340             80.63%    failed      0.01%
+ 135  Musca_7369                  50.16%    passed     57.66%
+ 136  Muscina_57892               74.60%    passed     13.70%
+ 137  Mycomya_608706              63.48%    failed      0.07%
+ 138  Mydas_186100                48.29%    failed      0.00%
+ 139  Mystacinobia_81694          74.55%    failed      0.00%
+ 140  Nemoraea_170911             61.91%    passed     13.07%
+ 141  Nemotelus_343582            78.96%    passed     67.85%
+ 142  Neoempheria_608686          61.35%    failed      1.34%
+ 143  Neomyia_305607              79.12%    failed      0.00%
+ 144  Nephrocerus_115303          80.84%    failed      0.00%
+ 145  Noeeta_381362               91.29%    failed      0.00%
+ 146  Norellia_113119             77.17%    failed      0.01%
+ 147  Ocnaea_210271               77.01%    failed      0.00%
+ 148  Ocyptamus_369855            65.45%    failed      0.00%
+ 149  Odontomyia_343652           86.37%    passed     32.81%
+ 150  Oestrus_123736              75.42%    failed      0.00%
+ 151  Ogcodes_188257              71.87%    failed      0.00%
+ 152  Olfersia_1333310            92.92%    failed      0.00%
+ 153  Oplodontha_446504           88.65%    failed      0.00%
+ 154  Opomyza_716643              87.10%    failed      0.00%
+ 155  Orfelia_270890              76.17%    failed      0.04%
+ 156  Orthacheta_113181           77.48%    failed      0.00%
+ 157  Oxycera_860348              93.29%    failed      0.00%
+ 158  Oxyna_381365                91.33%    failed      0.00%
+ 159  Pachygaster_124321          84.66%    passed     12.17%
+ 160  Palloptera_286498           81.83%    failed      0.00%
+ 161  Pamponerus_1717601          92.90%    failed      0.03%
+ 162  Paracantha_164885           91.52%    failed      0.00%
+ 163  Paragus_115308              72.01%    failed      0.00%
+ 164  Paralucilia_1042205         84.77%    failed      0.00%
+ 165  Paranthomyza_500298         93.09%    failed      0.00%
+ 166  Parasetigena_380521         71.05%    failed      0.00%
+ 167  Paregle_559693              83.15%    failed      0.00%
+ 168  Passeromyia_1511687         76.25%    failed      0.00%
+ 169  Paykullia_559695            52.07%    failed      0.01%
+ 170  Pegomya_559697              84.90%    failed      0.00%
+ 171  Pelidnoptera_1096074        69.20%    passed     97.93%
+ 172  Penicillidia_81721          81.33%    failed      0.00%
+ 173  Pericoma_1148481            91.72%    failed      0.00%
+ 174  Phaonia_253431              67.01%    passed     10.75%
+ 175  Philonicus_247567           67.84%    failed      1.62%
+ 176  Phryxe_569079               70.66%    passed      6.62%
+ 177  Phyllodromia_1209097        83.52%    failed      0.00%
+ 178  Physocephala_198643         59.03%    failed      0.02%
+ 179  Phyto_1262320               76.53%    failed      0.00%
+ 180  Phytomyptera_179785         72.52%    failed      0.00%
+ 181  Piceacecis_2597495          84.70%    failed      0.00%
+ 182  Piophila_53709              83.19%    failed      0.00%
+ 183  Pipunculus_240898           77.83%    failed      0.00%
+ 184  Platypeza_289241            82.62%    failed      0.00%
+ 185  Platystoma_286504           85.91%    failed      0.00%
+ 186  Plecia_1260898              70.39%    failed      0.58%
+ 187  Pollenia_229639             51.93%    failed      0.92%
+ 188  Polyporivora_1445854        82.25%    failed      0.00%
+ 189  Promachus_247552            53.86%    failed      2.19%
+ 190  Protoplasa_560776           70.45%    failed      0.00%
+ 191  Psacadina_1096078           69.78%    passed      6.87%
+ 192  Psychoda_7201               88.92%    failed      0.00%
+ 193  Pterodontia_210267          70.86%    failed      0.00%
+ 194  Quametopia_1603285          87.35%    failed      0.00%
+ 195  Rhagio_124327               87.05%    failed      0.00%
+ 196  Rhagoletis_28609            72.15%    passed     29.16%
+ 197  Rhamphomyia_192612          76.74%    failed      0.00%
+ 198  Rhaphium_377528             85.91%    passed      8.44%
+ 199  Rhinoestrus_204922          92.42%    failed      0.00%
+ 200  Rhinophora_670625           76.62%    failed      0.00%
+ 201  Rhyncomya_670621            51.44%    failed      3.05%
+ 202  Sarconesia_670650           63.73%    failed      0.48%
+ 203  Scaptomyza_7298             75.40%    failed      0.00%
+ 204  Scathophaga_95462           55.12%    failed      0.07%
+ 205  Scenopinus_247599           58.69%    failed      0.58%
+ 206  Sciadocera_192453           85.51%    failed      0.00%
+ 207  Sciara_82677                75.65%    failed      0.69%
+ 208  Sciophila_1085959           48.86%    passed      5.68%
+ 209  Senotainia_179787           80.38%    failed      0.02%
+ 210  Sepedon_320954              66.19%    failed      0.22%
+ 211  Sepsis_137507               55.66%    failed      0.00%
+ 212  Sicus_1219203               88.80%    failed      0.08%
+ 213  Silba_198646                85.89%    failed      0.00%
+ 214  Sitodiplosis_263139         74.05%    failed      0.00%
+ 215  Sphecapatoclea_2021595      86.82%    passed     18.28%
+ 216  Sphecapatodes_2021536       86.82%    failed      0.67%
+ 217  Sphyracephala_139674        66.76%    passed     56.09%
+ 218  Stegana_188292              75.21%    failed      0.00%
+ 219  Stevenia_670627             62.72%    failed      0.02%
+ 220  Stiphrosoma_500293          86.94%    failed      0.00%
+ 221  Sturmia_569089              72.44%    failed      0.01%
+ 222  Symmerus_560780             73.78%    failed      0.06%
+ 223  Tanypeza_1692486            85.72%    failed      0.00%
+ 224  Tephritis_43386             83.94%    failed      0.00%
+ 225  Terellia_28615              88.34%    failed      0.00%
+ 226  Tetanocera_320959           70.64%    failed      0.23%
+ 227  Tetanops_454640             87.83%    passed      6.32%
+ 228  Thecophora_305546           70.83%    passed     51.52%
+ 229  Themira_292396              62.16%    passed     51.79%
+ 230  Tipula_41043                45.27%    failed      0.00%
+ 231  Toxomerus_115327            67.84%    failed      0.00%
+ 232  Tricholauxania_192459       88.36%    failed      0.00%
+ 233  Tricogena_1606792           86.40%    failed      0.00%
+ 234  Trupanea_30060              83.62%    failed      0.00%
+ 235  Urophora_28620              83.81%    failed      0.00%
+ 236  Verrallia_115333            87.76%    failed      0.00%
+ 237  Volucella_226148            75.55%    failed      0.00%
+ 238  Wiedemannia_240904          76.70%    failed      0.00%
+ 239  Winnertzia_2338641          72.43%    failed      0.00%
+ 240  Wohlfahrtia_128961          85.52%    failed      1.87%
+ 241  Xyphosia_381372             91.32%    failed      0.00%
+ 242  Zodion_768804               83.11%    passed     34.36%
+ 243  Zonosemata_28622            78.45%    failed      0.05%
+ 244  Zygothrica_504731           87.75%    failed      0.00%
+ 245  Corynoneura_611344          91.73%    passed     28.13%
+ 246  Metriocnemus_137497         89.58%    failed      4.89%
+ 247  Ptychoptera_209691          56.06%    failed      3.01%
+ 248  Sycorax_114592              84.35%    passed     27.27%
+ 249  Ainuyusurika_1165747        79.82%    failed      2.09%
+ 250  Antocha_454619              88.49%    failed      2.39%
+ 251  Aphroteniella_646259        85.22%    failed      0.41%
+ 252  Atherix_124299              81.90%    passed      8.38%
+ 253  Atylotus_1310336            85.05%    passed      6.43%
+ 254  Austrothaumalea_1085085     85.49%    passed      8.44%
+ 255  Blepharicera_547808         96.00%    passed     25.14%
+ 256  Brachyopa_1637464           86.56%    failed      0.00%
+ 257  Brachypeza_2326774          79.02%    failed      0.00%
+ 258  Callicera_228567            86.19%    failed      0.00%
+ 259  Cheilosia_173981            83.50%    failed      0.00%
+ 260  Chrysogaster_224248         86.13%    failed      0.00%
+ 261  Copestylum_511142           89.42%    failed      0.00%
+ 262  Cramptonomyia_209688        75.65%    failed      0.00%
+ 263  Ctenophora_516519           75.74%    passed      6.33%
+ 264  Deuterophlebia_560719       66.93%    failed      1.12%
+ 265  Dicranota_700836            91.63%    failed      0.00%
+ 266  Dixa_79309                  77.65%    passed     18.98%
+ 267  Epistrophe_414810           82.02%    failed      0.00%
+ 268  Eriozona_414724             86.08%    failed      0.00%
+ 269  Eristalis_198633            81.61%    failed      0.00%
+ 270  Eumerus_224220              81.99%    failed      0.00%
+ 271  Eupeodes_290403             78.66%    failed      0.00%
+ 272  Hammerschmidtia_226171      86.13%    failed      0.00%
+ 273  Hesperinus_1086788          69.57%    failed      0.01%
+ 274  Liponeura_446516            91.56%    passed     12.42%
+ 275  Mallophora_270862           78.74%    passed     76.80%
+ 276  Maruina_1144738             88.86%    failed      0.09%
+ 277  Merodon_224226              81.36%    failed      0.00%
+ 278  Microdon_115291             80.79%    failed      0.00%
+ 279  Monodiamesa_891905          80.45%    failed      2.38%
+ 280  Myolepta_1473716            81.38%    failed      0.00%
+ 281  Oestromyia_170913           83.44%    passed     33.19%
+ 282  Pachyneura_1588165          73.02%    failed      0.01%
+ 283  Paraborniella_903459        80.64%    failed      0.47%
+ 284  Parochlus_315560            85.45%    failed      4.66%
+ 285  Paucispinigera_903463       82.74%    failed      2.08%
+ 286  Pentaneura_891922           84.94%    passed      9.10%
+ 287  Phronia_397119              79.19%    failed      0.00%
+ 288  Phytomyza_132616            67.61%    failed      0.00%
+ 289  Pipiza_221788               83.40%    failed      0.00%
+ 290  Sarcophaga_7384             65.39%    passed     17.04%
+ 291  Scaeva_219538               78.53%    failed      0.00%
+ 292  Scatopse_1520324            78.95%    passed     24.89%
+ 293  Sphaerophoria_226179        79.49%    failed      0.00%
+ 294  Syritta_34681               78.98%    failed      0.00%
+ 295  Tabanus_7206                66.48%    passed      8.68%
+ 296  Thaumalea_61068             60.34%    failed      0.23%
+ 297  Trichomyia_560271           84.56%    failed      0.02%
+ 298  Neorhynchocephalus_259248   92.86%    passed      6.90%
+ 299  Pantophthalmus_124295       77.22%    passed      6.52%
+ 300  Periscelis_716628           71.89%    failed      0.03%
+ 301  Teratomyzidae               79.44%    failed      0.11%
+ 302  Ablabesmyia_46216           88.15%    passed     61.11%
+ 303  Acletoxenus_462271          84.30%    failed      0.00%
+ 304  Amenia_2086281              78.71%    failed      4.89%
+ 305  Androprosopa_41815          76.37%    failed      0.01%
+ 306  Anticheta_1096047           87.14%    failed      1.16%
+ 307  Apatolestes_428062          93.63%    passed     27.02%
+ 308  Archytas_198637             70.58%    failed      1.08%
+ 309  Auchmeromyia_226129         82.55%    passed     55.38%
+ 310  Billaea_701468              81.98%    passed     63.02%
+ 311  Blepharomyia_179434         82.92%    passed     14.95%
+ 312  Bolbodimyia_1547386         89.21%    failed      0.75%
+ 313  Cacoxenus_462273            84.01%    failed      0.00%
+ 314  Catachlorops_1547373        84.97%    passed      8.28%
+ 315  Cephenemyia_170894          86.01%    passed      9.32%
+ 316  Chirosia_392044             88.71%    failed      0.00%
+ 317  Chrysopilus_124301          91.94%    passed     25.14%
+ 318  Chymomyza_7292              92.26%    failed      0.07%
+ 319  Clusiodes_500306            91.82%    failed      0.00%
+ 320  Coenomyia_124305            92.75%    failed      0.01%
+ 321  Cyrtophleba_991141          59.16%    passed     68.85%
+ 322  Dinera_569035               76.55%    passed      7.91%
+ 323  Discocerina_745181          89.35%    failed      0.11%
+ 324  Drino_179459                73.41%    passed     67.70%
+ 325  Esenbeckia_124297           75.73%    failed      0.09%
+ 326  Eukiefferiella_288843       90.72%    passed     34.21%
+ 327  Fidena_1334907              82.11%    failed      0.09%
+ 328  Glutops_124309              84.45%    passed     22.91%
+ 329  Goniops_428065              80.67%    failed      0.41%
+ 330  Hemilucilia_416848          82.27%    failed      0.93%
+ 331  Hermetia_343581             79.84%    failed      0.00%
+ 332  Kesselimyia_1445844         91.03%    failed      0.00%
+ 333  Lasioptera_201413           87.44%    failed      0.00%
+ 334  Leschenaultia_179486        77.76%    passed     90.51%
+ 335  Macquartia_1918266          76.63%    failed      1.87%
+ 336  Melanagromyza_286470        89.99%    failed      0.00%
+ 337  Metachela_369884            89.62%    failed      0.19%
+ 338  Mintho_1918277              76.43%    failed      0.02%
+ 339  Mycetophila_397146          79.97%    failed      0.91%
+ 340  Neaera_695903               76.75%    passed      9.44%
+ 341  Ophiomyia_341050            79.07%    failed      0.00%
+ 342  Paraplatypeza_192442        82.53%    failed      0.01%
+ 343  Potamia_559704              72.90%    failed      4.56%
+ 344  Prosena_1918293             77.56%    failed      3.25%
+ 345  Przhevalskiana_123746       89.03%    failed      0.00%
+ 346  Psectrotanypus_903467       85.04%    failed      0.00%
+ 347  Ptiolina_124325             92.74%    failed      0.01%
+ 348  Rivellia_28633              93.41%    failed      0.00%
+ 349  Scaptodrosophila_7354       83.76%    failed      0.00%
+ 350  Sciomyza_320936             74.12%    passed     12.32%
+ 351  Silvius_415257              79.38%    failed      0.80%
+ 352  Smittia_315559              90.96%    passed     52.51%
+ 353  Stenotabanus_1547430        86.12%    failed      0.96%
+ 354  Thereva_95078               76.70%    passed     54.17%
+ 355  Triphleba_92553             90.82%    failed      1.55%
+ 356  Vermileo_124333             89.91%    failed      2.75%
+ 357  Zaira_179789                71.01%    passed     51.83%
+ 358  Zaprionus_7296              83.76%    failed      0.00%
+ 359  Axymyia_560715              83.67%    failed      0.00%
+ 360  Bittacomorpha_79307         82.91%    failed      0.00%
+ 361  Braula_305561               91.91%    failed      0.93%
+ 362  Chaoborus_41812             82.82%    passed     15.95%
+ 363  Cryptochetum_1262333        96.98%    failed      4.03%
+ 364  Dactylolabis_560717         82.55%    failed      0.69%
+ 365  Dioctria_468720             91.87%    passed     36.18%
+ 366  Fergusonina_156411          72.58%    passed     97.93%
+ 367  Haematopota_124311          90.67%    failed      0.53%
+ 368  Lasiopogon_219536           91.87%    passed     52.17%
+ 369  Liogma_560731               92.53%    failed      0.00%
+ 370  Neoalticomerus_716622       96.45%    passed     11.40%
+ 371  Neolimnia_1262312           94.07%    passed     77.80%
+ 372  Neurochaeta_716624          87.38%    failed      0.01%
+ 373  Nymphomyia_560766           92.43%    failed      0.00%
+ 374  Oedoparena_1262316          93.16%    passed     69.32%
+ 375  Olbiogaster_560768          83.18%    failed      0.82%
+ 376  Oreoleptis_1262318          88.14%    passed     13.48%
+ 377  Parochthiphila_1262282      87.58%    passed     10.11%
+ 378  Philornis_253427            81.17%    passed      6.40%
+ 379  Procanace_1262322           88.40%    failed      0.00%
+ 380  Serromyia_209716            88.87%    failed      0.18%
+ 381  Spaniocelyphus_1262326      89.11%    passed     48.63%
+ 382  Telostylinus_1262347        91.88%    passed      9.37%
+ 383  Aphanotrigonum_540849       95.57%    failed      0.00%
+ 384  Cryptonevra_1616778         95.27%    failed      0.00%
+ 385  Copromyza_1217530           96.04%    failed      0.22%
+ 386  Leucopis_1728826            86.11%    passed     22.72%
+ 387  Mallota_535942              95.55%    failed      0.01%
+ 388  Phytobia_414304             85.86%    failed      0.00%
+ 389  Acemya_1677647              95.57%    failed      0.00%
+ 390  Agathomyia_226141           92.41%    failed      0.00%
+ 391  Agromyza_414290             85.85%    failed      1.05%
+ 392  Alliopsis_1692454           95.53%    failed      0.03%
+ 393  Allotrichoma_1492368        95.57%    failed      0.04%
+ 394  Anthomyiopsis_1918198       95.57%    failed      0.00%
+ 395  Araucoderus_1549737         95.58%    failed      0.12%
+ 396  Ateloglossa_1890907         95.57%    failed      0.00%
+ 397  Aulacigaster_716608         95.57%    failed      0.00%
+ 398  Austroconops_209696         95.57%    failed      0.87%
+ 399  Basilia_170889              95.57%    failed      0.00%
+ 400  Bathypogon_1718388          95.57%    failed      0.97%
+ 401  Berkshiria_2061012          95.57%    failed      0.06%
+ 402  Blaesoxipha_128953          95.02%    failed      0.00%
+ 403  Blera_226146                95.55%    failed      0.10%
+ 404  Brachydeutera_1990785       95.57%    failed      0.04%
+ 405  Calamoncosis_540852         95.83%    failed      0.31%
+ 406  Calobata_1820059            95.57%    failed      0.78%
+ 407  Calycomyza_414293           95.57%    failed      0.01%
+ 408  Celyphus_1979294            95.97%    passed      5.82%
+ 409  Centrophlebomyia_1603419    94.24%    passed     41.09%
+ 410  Cerodontha_127401           91.77%    failed      0.00%
+ 411  Cetema_540891               95.57%    failed      0.05%
+ 412  Chaetopsis_240871           89.94%    failed      0.01%
+ 413  Chamaemyia_305621           86.11%    failed      0.05%
+ 414  Chiastocheta_129251         90.06%    failed      0.00%
+ 415  Chlorops_540892             95.15%    failed      0.85%
+ 416  Cistudinomyia_2173397       95.57%    failed      0.55%
+ 417  Cladochaeta_2035586         95.26%    failed      0.32%
+ 418  Clausicella_1718822         90.18%    passed     39.78%
+ 419  Cleonice_1918224            95.57%    failed      0.00%
+ 420  Clogmia_85119               95.39%    failed      0.01%
+ 421  Clunio_315556               89.49%    failed      0.06%
+ 422  Cobboldia_2583773           95.53%    passed     11.02%
+ 423  Coelopa_169466              79.60%    failed      0.00%
+ 424  Compsobata_286452           80.71%    passed     69.82%
+ 425  Curtonotum_1262296          90.49%    passed     79.71%
+ 426  Cylindrotoma_700834         95.33%    failed      0.00%
+ 427  Desmometopa_305587          95.57%    failed      0.01%
+ 428  Diasemopsis_139652          88.67%    failed      2.26%
+ 429  Dictenidia_2108369          95.33%    failed      0.27%
+ 430  Dictya_1096051              95.57%    failed      0.15%
+ 431  Dilophus_52733              95.57%    failed      0.14%
+ 432  Discomyza_1720780           95.57%    failed      0.00%
+ 433  Dryomyza_169444             95.57%    failed      0.19%
+ 434  Egle_411076                 95.57%    failed      0.00%
+ 435  Elachiptera_540858          95.57%    failed      0.05%
+ 436  Elephantomyia_700838        95.33%    failed      0.00%
+ 437  Elomyia_1562792             95.94%    failed      0.00%
+ 438  Epichlorops_540897          95.57%    failed      0.01%
+ 439  Epicypta_397117             95.57%    failed      0.00%
+ 440  Estheria_1918238            95.57%    failed      0.00%
+ 441  Euryomma_1650677            95.57%    failed      0.00%
+ 442  Fucellia_205683             95.57%    failed      0.00%
+ 443  Gaurax_540862               95.57%    failed      0.01%
+ 444  Gnophomyia_700845           95.57%    failed      0.06%
+ 445  Gymnometriocnemus_611353    95.57%    failed      0.00%
+ 446  Helius_700865               95.57%    failed      0.01%
+ 447  Hemerodromia_626769         95.57%    failed      0.00%
+ 448  Hippelates_540866           95.57%    failed      0.00%
+ 449  Hybomitra_124690            95.26%    failed      0.09%
+ 450  Idiella_1902146             95.57%    failed      0.14%
+ 451  Japanagromyza_414298        90.55%    failed      0.00%
+ 452  Lamprolonchaea_907706       95.57%    failed      1.05%
+ 453  Laphria_50683               95.57%    failed      0.10%
+ 454  Lasiomma_95464              95.57%    failed      0.00%
+ 455  Lasiopiophila_1790233       95.57%    failed      1.12%
+ 456  Lauterborniella_288850      95.57%    failed      0.00%
+ 457  Leptocera_1614654           95.56%    failed      0.00%
+ 458  Leptometopa_1720790         95.04%    failed      0.01%
+ 459  Leptopsilopa_1887046        95.57%    failed      0.00%
+ 460  Leucotabanus_1969939        95.57%    failed      0.01%
+ 461  Limonia_52743               95.33%    failed      1.41%
+ 462  Liopiophila_1603421         92.87%    passed      8.63%
+ 463  Lipara_540870               95.57%    failed      0.04%
+ 464  Lipsothrix_700849           95.57%    failed      1.17%
+ 465  Lonchaea_198649             95.53%    failed      0.00%
+ 466  Lonchoptera_92595           95.57%    failed      0.00%
+ 467  Loxocera_34684              91.17%    passed     45.49%
+ 468  Lydella_283929              95.57%    failed      0.00%
+ 469  Machimus_247604             95.57%    failed      0.12%
+ 470  Melangyna_414825            95.55%    failed      0.00%
+ 471  Metalimnobia_700851         95.33%    failed      1.35%
+ 472  Micropeza_1572561           90.28%    failed      0.00%
+ 473  Milichiella_1890919         95.57%    failed      0.02%
+ 474  Mochlonyx_1577622           95.57%    failed      0.05%
+ 475  Mormotomyia_1155704         96.03%    passed     22.83%
+ 476  Mydaea_559689               95.57%    failed      0.00%
+ 477  Myospila_520040             95.57%    failed      0.00%
+ 478  Neoascia_224222             95.54%    failed      0.02%
+ 479  Neopachygaster_1692469      95.57%    failed      0.16%
+ 480  Neoplasta_192640            88.94%    failed      4.23%
+ 481  Neossos_2268121             95.57%    failed      0.16%
+ 482  Nephrotoma_46210            95.33%    failed      0.01%
+ 483  Nostima_1473719             95.57%    failed      0.02%
+ 484  Nothomicrodon_1857748       94.77%    failed      0.00%
+ 485  Notiphila_1118049           95.57%    failed      0.14%
+ 486  Ochthera_1744809            95.57%    failed      0.00%
+ 487  Odinia_414302               90.55%    failed      0.00%
+ 488  Odontoloxozus_588320        95.70%    failed      1.63%
+ 489  Onesiomima_2173510          98.19%    failed      2.00%
+ 490  Ornidia_994473              95.57%    failed      0.00%
+ 491  Ornithophila_1497392        95.57%    failed      0.00%
+ 492  Pachylophus_1990794         96.08%    failed      0.14%
+ 493  Palpomyia_1525500           95.44%    failed      0.00%
+ 494  Paracoenia_1690382          95.57%    failed      0.01%
+ 495  Pedicia_472374              94.67%    failed      0.00%
+ 496  Pegohylemyia_1887308        95.76%    failed      0.00%
+ 497  Pelina_1086796              95.57%    failed      0.34%
+ 498  Penthetria_560770           89.55%    failed      0.01%
+ 499  Peromyia_1914937            95.57%    failed      0.00%
+ 500  Phalacrocera_2203737        95.57%    failed      0.01%
+ 501  Pholeomyia_1720804          95.57%    failed      0.00%
+ 502  Phorbia_1993534             95.53%    failed      0.00%
+ 503  Pnyxia_1781626              95.57%    failed      0.00%
+ 504  Prionocera_1690388          95.57%    failed      0.09%
+ 505  Protocalliphora_142901      95.57%    failed      0.13%
+ 506  Pseudacteon_378799          95.30%    failed      0.00%
+ 507  Pseudoperichaeta_283931     95.57%    failed      0.00%
+ 508  Pseudosmittia_611382        95.40%    failed      0.05%
+ 509  Psila_305548                95.57%    failed      0.00%
+ 510  Ptecticus_343648            95.57%    failed      0.24%
+ 511  Pteromicra_1226622          95.57%    passed      6.70%
+ 512  Sargus_343647               95.57%    failed      1.67%
+ 513  Scatella_305595             95.43%    failed      0.15%
+ 514  Scatophila_1763968          95.57%    failed      0.22%
+ 515  Scholastes_1902237          95.57%    failed      0.64%
+ 516  Scoliocentra_1823605        95.57%    failed      2.68%
+ 517  Sobarocephala_574054        90.02%    failed      0.00%
+ 518  Spania_1559498              95.57%    failed      0.00%
+ 519  Sphaeromias_1874311         89.91%    failed      0.04%
+ 520  Stenomicra_716630           95.57%    failed      0.05%
+ 521  Sylvicola_52753             95.57%    failed      0.05%
+ 522  Syrphus_224255              95.54%    failed      0.00%
+ 523  Systoechus_1690390          95.57%    failed      0.22%
+ 524  Tanyptera_2108371           95.57%    failed      0.00%
+ 525  Temnostoma_226164           95.56%    failed      0.03%
+ 526  Thaumatomyia_333800         95.56%    failed      0.08%
+ 527  Therobia_1918313            95.74%    failed      0.00%
+ 528  Trichonta_397122            95.57%    failed      0.00%
+ 529  Tricimba_540889             95.53%    failed      0.62%
+ 530  Tricyphona_700863           95.40%    failed      0.61%
+ 531  Trypocalliphora_1042207     84.93%    failed      0.00%
+ 532  Tvetenia_611398             95.57%    failed      0.02%
+ 533  Vibrissina_179525           90.43%    failed      0.93%
+ 534  Xanthogramma_414873         95.29%    failed      0.00%
+ 535  Zabrachia_1891525           95.57%    failed      0.00%
+ 536  Exetasis_1932988            94.03%    failed      0.50%
+ 537  Mischoderus_560267          90.63%    failed      4.84%
+ 538  Glaurocara_2027854          94.26%    passed     41.60%
+WARNING: 527 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                       82.67%  443 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 24 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		157	1166	505	411	MFP+MERGE	mito_noncoding
+2		16	318	59	171	MFP+MERGE	ND1_codon1
+3		16	318	30	212	MFP+MERGE	ND1_codon2
+4		16	318	137	75	MFP+MERGE	ND1_codon3
+5		101	235	115	88	MFP+MERGE	cytb_codon3
+6		101	235	226	2	MFP+MERGE	cytb_codon2
+7		101	235	64	129	MFP+MERGE	cytb_codon1
+8		147	2297	952	861	MFP+MERGE	18S
+9		261	3419	1651	1022	MFP+MERGE	28S
+10		91	196	124	61	MFP+MERGE	AATS_codon1
+11		91	196	83	92	MFP+MERGE	AATS_codon2
+12		91	196	85	91	MFP+MERGE	AATS_codon3
+13		516	498	240	211	MFP+MERGE	COI_codon1
+14		516	498	117	323	MFP+MERGE	COI_codon2
+15		516	498	494	1	MFP+MERGE	COI_codon3
+16		140	373	72	220	MFP+MERGE	EF1a_codon1
+17		140	373	295	53	MFP+MERGE	EF1a_codon2
+18		140	373	108	185	MFP+MERGE	EF1a_codon3
+19		133	482	356	111	MFP+MERGE	CAD1_codon1
+20		133	482	232	210	MFP+MERGE	CAD1_codon2
+21		133	481	272	178	MFP+MERGE	CAD1_codon3
+22		67	555	254	235	MFP+MERGE	CAD2_codon1
+23		67	555	217	273	MFP+MERGE	CAD2_codon2
+24		67	555	466	56	MFP+MERGE	CAD2_codon3
+Degree of missing data: 0.652
+Info: multi-threading strategy over partitions
+
+
+NOTE: Restoring information from model checkpoint file Diptera_ML.model.gz
+
+CHECKPOINT: Initial tree restored
+Measuring multi-threading efficiency up to 72 CPU cores
+Increase to 10 rounds for branch lengths
+8 trees examined
+Threads: 1 / Time: 76.876 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -534198
+Threads: 2 / Time: 49.947 sec / Speedup: 1.539 / Efficiency: 77% / LogL: -534198
+Threads: 3 / Time: 42.046 sec / Speedup: 1.828 / Efficiency: 61% / LogL: -534198
+Threads: 4 / Time: 40.011 sec / Speedup: 1.921 / Efficiency: 48% / LogL: -534198
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+CHECKPOINT: Tree restored, LogL: -468081.882
+NOTE: ModelFinder requires 410 MB RAM!
+Selecting individual models for 24 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+   1 GTR+F+I+G4   161720.081  29.241      28S
+   2 GTR+F+I+G4   81157.529   11.967      18S
+   3 GTR+F+I+G4   197237.048  2450.197    COI_codon3
+   4 GTR+F+I+G4   61862.501   37.545      COI_codon1
+   5 GTR+F+I+G4   57669.524   72.643      CAD1_codon1
+   6 GTR+F+I+G4   55973.281   24.641      mito_noncoding
+   7 GTR+F+I+G4   43779.996   33.669      EF1a_codon2
+   8 GTR+F+I+G4   26377.445   14.528      CAD1_codon2
+   9 GTR+F+I+G4   38213.405   30.315      CAD1_codon3
+  10 GTR+F+I+G4   18138.677   12.533      COI_codon2	0h:0m:0s (0h:0m:6s left)
+  11 GTR+F+I+G4   14032.384   10.709      EF1a_codon3	0h:0m:0s (0h:0m:6s left)
+  12 GTR+F+I+G4   18544.356   9.588       CAD2_codon1	0h:0m:0s (0h:0m:5s left)
+  13 GTR+F+I+G4   39113.616   34.073      CAD2_codon3	0h:0m:0s (0h:0m:5s left)
+  14 GTR+F+I+G4   9076.903    8.555       EF1a_codon1	0h:0m:0s (0h:0m:4s left)
+  15 GTR+F+I+G4   15374.454   11.553      CAD2_codon2	0h:0m:0s (0h:0m:4s left)
+  16 GTR+F+I+G4   5920.161    5.386       cytb_codon1	0h:0m:0s (0h:0m:4s left)
+  17 GTR+F+I+G4   27491.133   811.368     cytb_codon2	0h:0m:0s (0h:0m:3s left)
+  18 GTR+F+I+G4   18662.406   145.773     AATS_codon1	0h:0m:0s (0h:0m:3s left)
+  19 GTR+F+I+G4   13317.957   17.817      cytb_codon3	0h:0m:0s (0h:0m:3s left)
+  20 GTR+F+I+G4   11513.296   19.539      AATS_codon2	0h:0m:0s (0h:0m:3s left)
+  21 GTR+F+I+G4   11303.798   57.571      AATS_codon3	0h:0m:0s (0h:0m:3s left)
+  22 GTR+F+I+G4   4033.778    71.552      ND1_codon3	0h:0m:0s (0h:0m:3s left)
+  23 GTR+F+I+G4   2155.715    0.826       ND1_codon2	0h:0m:0s (0h:0m:2s left)
+  24 GTR+F+I+G4   2774.970    1.627       ND1_codon1	0h:0m:0s (0h:0m:2s left)
+Full partition model BIC score: 946668.336 (LnL: -466917.434  df:1336)
+Merging models to increase model fit (about 553 total partition schemes)...
+6 compatible better partition pairs found
+Merging cytb_codon1+EF1a_codon1 with BIC score: 946506.962 (LnL: -466884.776  df: 1326)
+Merging CAD1_codon3+CAD2_codon2 with BIC score: 946399.414 (LnL: -466883.834  df: 1315)
+Merging CAD1_codon2+CAD2_codon1 with BIC score: 946293.193 (LnL: -466854.739  df: 1310)
+Merging AATS_codon2+AATS_codon3 with BIC score: 946194.320 (LnL: -466858.135  df: 1299)
+Merging ND1_codon1+ND1_codon2 with BIC score: 946115.441 (LnL: -466890.739  df: 1284)
+Merging ND1_codon3+cytb_codon2 with BIC score: 946040.380 (LnL: -466925.253  df: 1269)
+Merging AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2 with BIC score: 945949.220 (LnL: -466884.476  df: 1268)
+Agglomerative model selection: (mito_noncoding,(ND1_codon1,ND1_codon2)5:946115,(ND1_codon3,cytb_codon2)6:946040,cytb_codon3,(cytb_codon1,EF1a_codon1)1:946507,18S,28S,AATS_codon1,((AATS_codon2,AATS_codon3)4:946194,(CAD1_codon3,CAD2_codon2)2:946399)7:945949,COI_codon1,COI_codon2,COI_codon3,EF1a_codon2,EF1a_codon3,CAD1_codon1,(CAD1_codon2,CAD2_codon1)3:946293,CAD2_codon3)
+Merging into 17 partitions...
+  25 GTR+F+I+G4   161720.081  28S	0h:0m:0s (0h:0m:6s left)
+  26 GTR+F+I+G4   81157.529   18S	0h:0m:0s (0h:0m:5s left)
+  27 GTR+F+I+G4   197237.048  COI_codon3	0h:0m:0s (0h:0m:5s left)
+  28 GTR+F+I+G4   61862.501   COI_codon1	0h:0m:0s (0h:0m:6s left)
+  29 GTR+F+I+G4   18138.677   COI_codon2	0h:0m:0s (0h:0m:6s left)
+  30 GTR+F+R7     76227.290   AATS_codon2+AATS_codon3+CAD1_codon3+CAD2_codon2	0h:0m:0s (0h:0m:6s left)
+  31 GTR+F+R5     55913.433   mito_noncoding	0h:0m:0s (0h:0m:6s left)
+  32 GTR+F+R5     44844.193   CAD1_codon2+CAD2_codon1	0h:0m:0s (0h:0m:6s left)
+  33 K3Pu+F+R4    14883.478   cytb_codon1+EF1a_codon1	0h:0m:0s (0h:0m:6s left)
+  34 GTR+F+I+G4   57669.524   CAD1_codon1	0h:0m:0s (0h:0m:6s left)
+  35 GTR+F+I+G4   43779.996   EF1a_codon2	0h:0m:0s (0h:0m:6s left)
+  36 GTR+F+I+G4   14032.384   EF1a_codon3	0h:0m:0s (0h:0m:5s left)
+  37 TN+F+G4      31514.708   ND1_codon3+cytb_codon2	0h:0m:0s (0h:0m:5s left)
+  38 GTR+F+I+G4   39113.616   CAD2_codon3	0h:0m:0s (0h:0m:5s left)
+  39 GTR+F+I+G4   13317.957   cytb_codon3	0h:0m:0s (0h:0m:5s left)
+  40 GTR+F+I+G4   18662.406   AATS_codon1	0h:0m:0s (0h:0m:5s left)
+  41 K3Pu+F+G4    4914.315    ND1_codon1+ND1_codon2	0h:0m:0s (0h:0m:5s left)
+Best partition model BIC score: 945904.639 (LnL: -466833.368  df:1274)
+Partition information was printed to Diptera_ML.best_scheme.nex
+Partition information in Raxml format was printed to Diptera_ML.best_scheme
+
+All model information printed to Diptera_ML.model.gz
+CPU time for ModelFinder: 457.996 seconds (0h:7m:37s)
+Wall-clock time for ModelFinder: 210.447 seconds (0h:3m:30s)
+Generating 1000 samples for ultrafast bootstrap (seed: 676608)...
+
+NOTE: 396 MB RAM (0 GB) is required!
+CHECKPOINT: Model parameters restored, LogL: -472831.044
+Computing ML distances based on estimated model parameters... 31.537 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.278 seconds
+Log-likelihood of BIONJ tree: -518694.176
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 213.147 second
+Computing log-likelihood of 98 initial trees ... 78.919 seconds
+Current best score: -472831.044
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -470709.205
+Current log-likelihood at step 1: -468559.614
+Current log-likelihood at step 2: -468195.672
+Current log-likelihood at step 3: -468169.136
+Current log-likelihood at step 4: -468160.011
+Current log-likelihood at step 5: -468154.116
+Current log-likelihood at step 6: -468149.779
+Current log-likelihood at step 7: -468146.030
+Current log-likelihood at step 8: -468142.805
+Current log-likelihood at step 9: -468140.236
+Current log-likelihood at step 10: -468137.469
+Current log-likelihood at step 11: -468135.262
+Current log-likelihood at step 12: -468133.247
+Current log-likelihood at step 13: -468131.432
+Current log-likelihood at step 14: -468129.796
+Current log-likelihood at step 15: -468128.301
+Current log-likelihood at step 16: -468126.946
+Current log-likelihood at step 17: -468125.713
+Current log-likelihood at step 18: -468124.645
+Current log-likelihood at step 19: -468123.708
+Current log-likelihood at step 20: -468122.841
+Current log-likelihood at step 21: -468122.118
+Current log-likelihood at step 22: -468121.429
+Current log-likelihood at step 23: -468120.722
+Current log-likelihood at step 24: -468120.132
+Current log-likelihood at step 25: -468119.589
+Current log-likelihood at step 26: -468119.054
+Current log-likelihood at step 27: -468118.597
+Current log-likelihood at step 28: -468118.074
+Current log-likelihood at step 29: -468117.571
+Current log-likelihood at step 30: -468116.990
+Current log-likelihood at step 31: -468115.928
+Current log-likelihood at step 32: -468114.801
+Current log-likelihood at step 33: -468113.563
+Current log-likelihood at step 34: -468112.191
+Current log-likelihood at step 35: -468111.019
+Current log-likelihood at step 36: -468110.098
+Current log-likelihood at step 37: -468109.307
+Current log-likelihood at step 38: -468108.635
+Current log-likelihood at step 39: -468108.017
+Current log-likelihood at step 40: -468107.431
+Current log-likelihood at step 41: -468106.902
+Current log-likelihood at step 42: -468106.421
+Current log-likelihood at step 43: -468105.955
+Current log-likelihood at step 44: -468105.530
+Current log-likelihood at step 45: -468105.139
+Current log-likelihood at step 46: -468104.778
+Current log-likelihood at step 47: -468104.446
+Current log-likelihood at step 48: -468104.146
+Current log-likelihood at step 49: -468103.862
+Current log-likelihood at step 50: -468103.645
+Current log-likelihood at step 51: -468103.488
+Current log-likelihood at step 52: -468103.313
+Current log-likelihood at step 53: -468103.175
+Current log-likelihood at step 54: -468103.015
+Current log-likelihood at step 55: -468102.896
+Current log-likelihood at step 56: -468102.752
+Current log-likelihood at step 57: -468102.640
+Current log-likelihood at step 58: -468102.508
+Current log-likelihood at step 59: -468102.414
+Parameters optimization took 58 rounds (172.745 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -468102.414
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -466655.203
+Current log-likelihood at step 1: -466643.163
+Current log-likelihood at step 2: -466641.915
+Current log-likelihood at step 3: -466641.546
+Current log-likelihood at step 4: -466641.333
+Current log-likelihood at step 5: -466641.194
+Current log-likelihood at step 6: -466641.079
+Current log-likelihood at step 7: -466640.982
+Parameters optimization took 6 rounds (16.669 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 2: -466640.982
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -466616.384
+Current log-likelihood at step 1: -466601.607
+Current log-likelihood at step 2: -466599.887
+Current log-likelihood at step 3: -466599.162
+Current log-likelihood at step 4: -466598.735
+Current log-likelihood at step 5: -466598.527
+Current log-likelihood at step 6: -466598.352
+Current log-likelihood at step 7: -466598.235
+Current log-likelihood at step 8: -466598.121
+Current log-likelihood at step 9: -466598.014
+Current log-likelihood at step 10: -466597.927
+Parameters optimization took 9 rounds (26.689 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 3: -466597.927
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -466559.687
+Current log-likelihood at step 1: -466549.738
+Current log-likelihood at step 2: -466548.721
+Current log-likelihood at step 3: -466548.347
+Current log-likelihood at step 4: -466548.077
+Current log-likelihood at step 5: -466547.933
+Current log-likelihood at step 6: -466547.826
+Current log-likelihood at step 7: -466547.746
+Parameters optimization took 6 rounds (18.907 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 6: -466547.746
+Iteration 10 / LogL: -467159.378 / Time: 0h:19m:39s
+Iteration 20 / LogL: -466863.661 / Time: 0h:29m:26s
+Finish initializing candidate tree set (20)
+Current best tree score: -466547.746 / CPU time: 1710.921
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -466426.211
+Current log-likelihood at step 1: -466419.377
+Current log-likelihood at step 2: -466419.053
+Current log-likelihood at step 3: -466418.969
+Parameters optimization took 2 rounds (8.200 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 21: -466418.969
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -466394.079
+Current log-likelihood at step 1: -466381.442
+Current log-likelihood at step 2: -466381.005
+Current log-likelihood at step 3: -466380.904
+Current log-likelihood at step 4: -466380.834
+Parameters optimization took 3 rounds (9.698 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 22: -466380.834
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -466298.507
+Current log-likelihood at step 1: -466286.142
+Current log-likelihood at step 2: -466285.451
+Current log-likelihood at step 3: -466285.229
+Current log-likelihood at step 4: -466285.128
+Current log-likelihood at step 5: -466285.052
+Parameters optimization took 4 rounds (12.426 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 23: -466285.052
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -466066.561
+Current log-likelihood at step 1: -466063.337
+Current log-likelihood at step 2: -466062.174
+Current log-likelihood at step 3: -466061.779
+Current log-likelihood at step 4: -466061.643
+Current log-likelihood at step 5: -466061.531
+Current log-likelihood at step 6: -466061.442
+Parameters optimization took 5 rounds (15.506 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 25: -466061.442
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -466006.541
+Current log-likelihood at step 1: -466005.901
+Current log-likelihood at step 2: -466005.821
+Parameters optimization took 1 rounds (4.419 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 26: -466005.821
+Iteration 30 / LogL: -466106.973 / Time: 0h:35m:23s (1h:57m:8s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465966.921
+Current log-likelihood at step 1: -465962.145
+Current log-likelihood at step 2: -465961.109
+Current log-likelihood at step 3: -465960.720
+Current log-likelihood at step 4: -465960.565
+Current log-likelihood at step 5: -465960.462
+Current log-likelihood at step 6: -465960.377
+Parameters optimization took 5 rounds (16.210 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 37: -465960.377
+Iteration 40 / LogL: -465981.091 / Time: 0h:40m:58s (1h:41m:55s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465933.178
+Current log-likelihood at step 1: -465932.825
+Current log-likelihood at step 2: -465932.785
+Parameters optimization took 1 rounds (4.150 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 41: -465932.785
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465890.976
+Current log-likelihood at step 1: -465890.003
+Current log-likelihood at step 2: -465889.938
+Parameters optimization took 1 rounds (4.676 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 46: -465889.938
+Iteration 50 / LogL: -465913.980 / Time: 0h:47m:0s (1h:32m:6s left)
+Log-likelihood cutoff on original alignment: -466286.647
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465845.739
+Current log-likelihood at step 1: -465844.712
+Current log-likelihood at step 2: -465844.641
+Parameters optimization took 1 rounds (4.819 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 51: -465844.641
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465821.730
+Current log-likelihood at step 1: -465820.860
+Current log-likelihood at step 2: -465820.812
+Parameters optimization took 1 rounds (4.431 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 55: -465820.812
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465818.202
+Current log-likelihood at step 1: -465816.899
+Current log-likelihood at step 2: -465816.470
+Current log-likelihood at step 3: -465816.338
+Current log-likelihood at step 4: -465816.247
+Parameters optimization took 3 rounds (11.161 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 57: -465816.247
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465814.615
+Current log-likelihood at step 1: -465813.436
+Current log-likelihood at step 2: -465813.359
+Parameters optimization took 1 rounds (4.970 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 58: -465813.359
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465806.076
+Current log-likelihood at step 1: -465805.365
+Current log-likelihood at step 2: -465805.283
+Parameters optimization took 1 rounds (4.523 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 59: -465805.283
+Iteration 60 / LogL: -465848.053 / Time: 0h:53m:34s (1h:29m:53s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465790.046
+Current log-likelihood at step 1: -465789.384
+Current log-likelihood at step 2: -465789.231
+Current log-likelihood at step 3: -465789.156
+Parameters optimization took 2 rounds (6.464 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 62: -465789.156
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465779.987
+Current log-likelihood at step 1: -465778.815
+Current log-likelihood at step 2: -465778.674
+Current log-likelihood at step 3: -465778.600
+Parameters optimization took 2 rounds (6.511 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 63: -465778.600
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465768.477
+Current log-likelihood at step 1: -465767.728
+Current log-likelihood at step 2: -465767.655
+Parameters optimization took 1 rounds (4.422 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 65: -465767.655
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465760.801
+Current log-likelihood at step 1: -465759.958
+Current log-likelihood at step 2: -465759.836
+Current log-likelihood at step 3: -465759.772
+Parameters optimization took 2 rounds (6.987 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 70: -465759.772
+Iteration 70 / LogL: -465759.772 / Time: 0h:59m:7s (1h:25m:41s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465758.691
+Current log-likelihood at step 1: -465757.549
+Current log-likelihood at step 2: -465757.490
+Parameters optimization took 1 rounds (4.400 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 71: -465757.490
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465749.752
+Current log-likelihood at step 1: -465747.849
+Current log-likelihood at step 2: -465747.701
+Current log-likelihood at step 3: -465747.640
+Parameters optimization took 2 rounds (7.412 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 73: -465747.640
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465727.670
+Current log-likelihood at step 1: -465726.596
+Current log-likelihood at step 2: -465726.476
+Current log-likelihood at step 3: -465726.429
+Parameters optimization took 2 rounds (7.320 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 79: -465726.429
+Iteration 80 / LogL: -465780.571 / Time: 1h:4m:34s (1h:20m:54s left)
+Iteration 90 / LogL: -465746.214 / Time: 1h:9m:31s (1h:9m:31s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465715.780
+Current log-likelihood at step 1: -465713.433
+Current log-likelihood at step 2: -465713.016
+Current log-likelihood at step 3: -465712.878
+Current log-likelihood at step 4: -465712.788
+Parameters optimization took 3 rounds (10.170 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 94: -465712.788
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465708.209
+Current log-likelihood at step 1: -465706.729
+Current log-likelihood at step 2: -465706.316
+Current log-likelihood at step 3: -465706.206
+Current log-likelihood at step 4: -465706.123
+Parameters optimization took 3 rounds (10.603 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 97: -465706.123
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465663.640
+Current log-likelihood at step 1: -465662.829
+Current log-likelihood at step 2: -465662.700
+Current log-likelihood at step 3: -465662.629
+Parameters optimization took 2 rounds (7.836 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 99: -465662.629
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465644.088
+Current log-likelihood at step 1: -465642.539
+Current log-likelihood at step 2: -465641.384
+Current log-likelihood at step 3: -465640.663
+Current log-likelihood at step 4: -465640.564
+Parameters optimization took 3 rounds (11.242 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 100: -465640.564
+Iteration 100 / LogL: -465640.564 / Time: 1h:14m:22s (1h:15m:7s left)
+Log-likelihood cutoff on original alignment: -465845.564
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.655
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465634.194
+Current log-likelihood at step 1: -465632.410
+Current log-likelihood at step 2: -465631.581
+Current log-likelihood at step 3: -465631.227
+Current log-likelihood at step 4: -465631.151
+Parameters optimization took 3 rounds (11.564 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 102: -465631.151
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465627.927
+Current log-likelihood at step 1: -465627.175
+Current log-likelihood at step 2: -465627.024
+Current log-likelihood at step 3: -465626.949
+Parameters optimization took 2 rounds (6.932 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 103: -465626.949
+Iteration 110 / LogL: -465632.516 / Time: 1h:18m:52s (1h:7m:17s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465590.451
+Current log-likelihood at step 1: -465589.788
+Current log-likelihood at step 2: -465589.697
+Parameters optimization took 1 rounds (4.367 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 112: -465589.697
+Iteration 120 / LogL: -465618.344 / Time: 1h:22m:58s (1h:4m:9s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465581.114
+Current log-likelihood at step 1: -465579.806
+Current log-likelihood at step 2: -465579.057
+Current log-likelihood at step 3: -465578.577
+Current log-likelihood at step 4: -465578.497
+Parameters optimization took 3 rounds (11.816 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 124: -465578.497
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465534.362
+Current log-likelihood at step 1: -465533.445
+Current log-likelihood at step 2: -465533.298
+Current log-likelihood at step 3: -465533.225
+Parameters optimization took 2 rounds (6.713 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 127: -465533.225
+Iteration 130 / LogL: -465549.146 / Time: 1h:27m:22s (1h:5m:42s left)
+Iteration 140 / LogL: -465552.969 / Time: 1h:31m:18s (0h:57m:9s left)
+Iteration 150 / LogL: -465581.756 / Time: 1h:34m:57s (0h:49m:4s left)
+Log-likelihood cutoff on original alignment: -465661.590
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465532.779
+Current log-likelihood at step 1: -465531.379
+Current log-likelihood at step 2: -465530.853
+Current log-likelihood at step 3: -465530.736
+Current log-likelihood at step 4: -465530.662
+Parameters optimization took 3 rounds (9.795 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 155: -465530.662
+Iteration 160 / LogL: -465585.831 / Time: 1h:39m:7s (0h:59m:13s left)
+Iteration 170 / LogL: -465545.468 / Time: 1h:42m:46s (0h:51m:41s left)
+Iteration 180 / LogL: -465547.959 / Time: 1h:46m:11s (0h:44m:29s left)
+Iteration 190 / LogL: -465562.050 / Time: 1h:49m:33s (0h:37m:40s left)
+Iteration 200 / LogL: -465579.252 / Time: 1h:53m:36s (0h:31m:23s left)
+Log-likelihood cutoff on original alignment: -465625.981
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.804
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -465534.801 / Time: 1h:57m:36s (0h:50m:38s left)
+Iteration 220 / LogL: -465557.818 / Time: 2h:2m:5s (0h:44m:35s left)
+Iteration 230 / LogL: -465549.881 / Time: 2h:6m:13s (0h:38m:34s left)
+Iteration 240 / LogL: -465560.872 / Time: 2h:11m:23s (0h:32m:58s left)
+Iteration 250 / LogL: -465576.296 / Time: 2h:15m:31s (0h:27m:12s left)
+Log-likelihood cutoff on original alignment: -465625.981
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465522.551
+Current log-likelihood at step 1: -465521.665
+Current log-likelihood at step 2: -465521.576
+Parameters optimization took 1 rounds (4.847 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 256: -465521.576
+Iteration 260 / LogL: -465563.066 / Time: 2h:20m:22s (0h:52m:1s left)
+Iteration 270 / LogL: -465539.660 / Time: 2h:24m:41s (0h:46m:15s left)
+Iteration 280 / LogL: -465526.001 / Time: 2h:28m:57s (0h:40m:34s left)
+Iteration 290 / LogL: -465542.838 / Time: 2h:32m:53s (0h:34m:54s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465520.216
+Current log-likelihood at step 1: -465520.136
+Parameters optimization took 0 rounds (2.405 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 300: -465520.136
+Iteration 300 / LogL: -465520.136 / Time: 2h:37m:37s (0h:52m:43s left)
+Log-likelihood cutoff on original alignment: -465625.981
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.961
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -465557.997 / Time: 2h:41m:51s (0h:47m:8s left)
+Iteration 320 / LogL: -465566.707 / Time: 2h:45m:54s (0h:41m:36s left)
+Iteration 330 / LogL: -465550.215 / Time: 2h:50m:2s (0h:36m:10s left)
+Iteration 340 / LogL: -465544.621 / Time: 2h:54m:52s (0h:30m:57s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465517.589
+Current log-likelihood at step 1: -465516.595
+Current log-likelihood at step 2: -465516.073
+Current log-likelihood at step 3: -465515.860
+Current log-likelihood at step 4: -465515.773
+Parameters optimization took 3 rounds (10.754 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 347: -465515.773
+Iteration 350 / LogL: -465546.720 / Time: 2h:58m:33s (0h:49m:37s left)
+Log-likelihood cutoff on original alignment: -465625.981
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465486.795
+Current log-likelihood at step 1: -465485.847
+Current log-likelihood at step 2: -465485.762
+Parameters optimization took 1 rounds (4.575 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 360: -465485.762
+Iteration 360 / LogL: -465485.762 / Time: 3h:3m:23s (0h:51m:5s left)
+Iteration 370 / LogL: -465572.489 / Time: 3h:7m:50s (0h:45m:48s left)
+Iteration 380 / LogL: -465527.293 / Time: 3h:12m:10s (0h:40m:33s left)
+Iteration 390 / LogL: -465533.830 / Time: 3h:16m:19s (0h:35m:19s left)
+Iteration 400 / LogL: -465505.426 / Time: 3h:20m:46s (0h:30m:11s left)
+Log-likelihood cutoff on original alignment: -465625.981
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.937
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -465583.327 / Time: 3h:24m:34s (0h:45m:1s left)
+Iteration 420 / LogL: -465529.954 / Time: 3h:29m:9s (0h:39m:56s left)
+Iteration 430 / LogL: -465581.546 / Time: 3h:33m:28s (0h:34m:49s left)
+Iteration 440 / LogL: -465517.139 / Time: 3h:38m:36s (0h:29m:52s left)
+Iteration 450 / LogL: -465540.315 / Time: 3h:43m:36s (0h:24m:53s left)
+Log-likelihood cutoff on original alignment: -465625.981
+Iteration 460 / LogL: -465517.258 / Time: 3h:47m:53s (0h:19m:51s left)
+Iteration 470 / LogL: -465489.042 / Time: 3h:52m:48s (0h:14m:53s left)
+Iteration 480 / LogL: -465516.139 / Time: 3h:57m:38s (0h:9m:55s left)
+Iteration 490 / LogL: -465529.774 / Time: 4h:2m:50s (0h:4m:57s left)
+Iteration 500 / LogL: -465514.868 / Time: 4h:7m:33s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -465606.143
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.923
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -465488.150 / Time: 4h:12m:19s (0h:44m:36s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465485.364
+Current log-likelihood at step 1: -465484.477
+Current log-likelihood at step 2: -465484.222
+Current log-likelihood at step 3: -465484.135
+Parameters optimization took 2 rounds (7.965 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 519: -465484.135
+Iteration 520 / LogL: -465541.221 / Time: 4h:17m:25s (0h:49m:6s left)
+Iteration 530 / LogL: -465507.396 / Time: 4h:22m:34s (0h:44m:10s left)
+Iteration 540 / LogL: -465511.304 / Time: 4h:26m:55s (0h:39m:7s left)
+Iteration 550 / LogL: -465530.167 / Time: 4h:31m:28s (0h:34m:7s left)
+Log-likelihood cutoff on original alignment: -465606.143
+Iteration 560 / LogL: -465510.407 / Time: 4h:35m:56s (0h:29m:7s left)
+Iteration 570 / LogL: -465515.399 / Time: 4h:39m:54s (0h:24m:6s left)
+Iteration 580 / LogL: -465497.990 / Time: 4h:43m:54s (0h:19m:7s left)
+Iteration 590 / LogL: -465504.923 / Time: 4h:48m:20s (0h:14m:11s left)
+Iteration 600 / LogL: -465491.996 / Time: 4h:52m:57s (0h:9m:17s left)
+Log-likelihood cutoff on original alignment: -465606.143
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.921
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -465520.218 / Time: 4h:58m:39s (0h:44m:8s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465476.828
+Current log-likelihood at step 1: -465474.840
+Current log-likelihood at step 2: -465474.344
+Current log-likelihood at step 3: -465474.248
+Parameters optimization took 2 rounds (9.115 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 611: -465474.248
+Iteration 620 / LogL: -465494.401 / Time: 5h:3m:34s (0h:44m:37s left)
+Iteration 630 / LogL: -465508.986 / Time: 5h:7m:59s (0h:39m:39s left)
+Iteration 640 / LogL: -465517.927 / Time: 5h:12m:20s (0h:34m:42s left)
+Iteration 650 / LogL: -465497.329 / Time: 5h:16m:55s (0h:29m:47s left)
+Log-likelihood cutoff on original alignment: -465606.143
+Iteration 660 / LogL: -465527.849 / Time: 5h:21m:30s (0h:24m:52s left)
+Iteration 670 / LogL: -465490.602 / Time: 5h:25m:53s (0h:19m:58s left)
+Iteration 680 / LogL: -465488.041 / Time: 5h:30m:37s (0h:15m:5s left)
+Iteration 690 / LogL: -465501.311 / Time: 5h:34m:55s (0h:10m:12s left)
+Iteration 700 / LogL: -465505.872 / Time: 5h:38m:46s (0h:5m:19s left)
+Log-likelihood cutoff on original alignment: -465606.143
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.929
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -465534.052 / Time: 5h:42m:40s (0h:43m:29s left)
+Iteration 720 / LogL: -465486.796 / Time: 5h:46m:44s (0h:38m:34s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465471.232
+Current log-likelihood at step 1: -465469.115
+Current log-likelihood at step 2: -465468.820
+Current log-likelihood at step 3: -465468.731
+Parameters optimization took 2 rounds (8.729 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 728: -465468.731
+Iteration 730 / LogL: -465479.223 / Time: 5h:50m:53s (0h:47m:10s left)
+Iteration 740 / LogL: -465513.227 / Time: 5h:55m:4s (0h:42m:16s left)
+Iteration 750 / LogL: -465488.076 / Time: 5h:59m:58s (0h:37m:29s left)
+Log-likelihood cutoff on original alignment: -465606.143
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465465.141
+Current log-likelihood at step 1: -465464.069
+Current log-likelihood at step 2: -465463.896
+Current log-likelihood at step 3: -465463.832
+Parameters optimization took 2 rounds (6.962 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 757: -465463.832
+Iteration 760 / LogL: -465468.546 / Time: 6h:4m:39s (0h:46m:36s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465459.171
+Current log-likelihood at step 1: -465458.590
+Current log-likelihood at step 2: -465458.557
+Parameters optimization took 1 rounds (4.801 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 761: -465458.557
+Iteration 770 / LogL: -465506.104 / Time: 6h:9m:28s (0h:43m:43s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465455.179
+Current log-likelihood at step 1: -465454.229
+Current log-likelihood at step 2: -465454.116
+Current log-likelihood at step 3: -465454.068
+Parameters optimization took 2 rounds (7.470 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 773: -465454.068
+Iteration 780 / LogL: -465498.638 / Time: 6h:14m:45s (0h:44m:44s left)
+Iteration 790 / LogL: -465469.215 / Time: 6h:19m:41s (0h:39m:56s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465451.377
+Current log-likelihood at step 1: -465450.197
+Current log-likelihood at step 2: -465450.109
+Parameters optimization took 1 rounds (4.976 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 791: -465450.109
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465447.725
+Current log-likelihood at step 1: -465445.960
+Current log-likelihood at step 2: -465445.790
+Current log-likelihood at step 3: -465445.766
+Parameters optimization took 2 rounds (7.162 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 792: -465445.766
+Iteration 800 / LogL: -465479.624 / Time: 6h:25m:8s (0h:44m:20s left)
+Log-likelihood cutoff on original alignment: -465606.143
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.910
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -465523.863 / Time: 6h:30m:52s (0h:43m:29s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465435.456
+Current log-likelihood at step 1: -465435.227
+Current log-likelihood at step 2: -465435.198
+Parameters optimization took 1 rounds (4.905 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 812: -465435.198
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465427.485
+Current log-likelihood at step 1: -465427.190
+Current log-likelihood at step 2: -465427.149
+Parameters optimization took 1 rounds (4.474 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 813: -465427.149
+Iteration 820 / LogL: -465477.199 / Time: 6h:36m:29s (0h:45m:1s left)
+Iteration 830 / LogL: -465509.349 / Time: 6h:41m:27s (0h:40m:11s left)
+Iteration 840 / LogL: -465442.207 / Time: 6h:46m:47s (0h:35m:23s left)
+Iteration 850 / LogL: -465453.669 / Time: 6h:52m:54s (0h:30m:38s left)
+Log-likelihood cutoff on original alignment: -465598.336
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465425.451
+Current log-likelihood at step 1: -465424.738
+Current log-likelihood at step 2: -465424.633
+Current log-likelihood at step 3: -465424.581
+Parameters optimization took 2 rounds (6.755 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 851: -465424.581
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465418.758
+Current log-likelihood at step 1: -465417.923
+Current log-likelihood at step 2: -465417.831
+Parameters optimization took 1 rounds (4.721 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 856: -465417.831
+Iteration 860 / LogL: -465451.239 / Time: 6h:57m:41s (0h:46m:40s left)
+Iteration 870 / LogL: -465438.136 / Time: 7h:3m:7s (0h:41m:52s left)
+Iteration 880 / LogL: -465452.803 / Time: 7h:8m:27s (0h:37m:2s left)
+Iteration 890 / LogL: -465426.297 / Time: 7h:15m:0s (0h:32m:17s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465416.031
+Current log-likelihood at step 1: -465415.893
+Current log-likelihood at step 2: -465415.843
+Parameters optimization took 1 rounds (4.257 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 896: -465415.843
+Iteration 900 / LogL: -465429.657 / Time: 7h:20m:44s (0h:47m:3s left)
+Log-likelihood cutoff on original alignment: -465598.336
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.874
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -465460.011 / Time: 7h:26m:46s (0h:44m:14s left)
+Iteration 920 / LogL: -465448.731 / Time: 7h:31m:38s (0h:39m:18s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -465412.654
+Current log-likelihood at step 1: -465411.974
+Current log-likelihood at step 2: -465411.828
+Current log-likelihood at step 3: -465411.746
+Parameters optimization took 2 rounds (7.863 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 924: -465411.746
+Iteration 930 / LogL: -465421.846 / Time: 7h:38m:13s (0h:46m:21s left)
+Iteration 940 / LogL: -465430.694 / Time: 7h:43m:12s (0h:41m:26s left)
+Iteration 950 / LogL: -465442.217 / Time: 7h:48m:24s (0h:36m:31s left)
+Log-likelihood cutoff on original alignment: -465598.336
+Iteration 960 / LogL: -465431.159 / Time: 7h:53m:48s (0h:31m:37s left)
+Iteration 970 / LogL: -465438.169 / Time: 7h:59m:17s (0h:26m:42s left)
+Iteration 980 / LogL: -465447.593 / Time: 8h:4m:47s (0h:21m:47s left)
+Iteration 990 / LogL: -465420.041 / Time: 8h:10m:19s (0h:16m:51s left)
+Iteration 1000 / LogL: -465435.083 / Time: 8h:15m:47s (0h:11m:54s left)
+Log-likelihood cutoff on original alignment: -465598.336
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.871
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 8h:16m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -465411.746
+Current log-likelihood at step 1: -465411.640
+Current log-likelihood at step 2: -465411.543
+Current log-likelihood at step 3: -465411.467
+Current log-likelihood at step 4: -465411.419
+Current log-likelihood at step 5: -465411.407
+Current log-likelihood at step 6: -465411.397
+Current log-likelihood at step 7: -465411.385
+Current log-likelihood at step 8: -465411.373
+Current log-likelihood at step 9: -465411.361
+Current log-likelihood at step 10: -465411.352
+Partition-specific rates:  0.255 0.114 6.497 0.346 0.068 0.155 0.260 2.774 0.438 0.406 0.097 12.615 0.543 0.176 1.202 0.262 1.260
+Parameters optimization took 9 rounds (25.276 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Partition information was printed to Diptera_ML.best_model.nex
+BEST SCORE FOUND : -465411.352
+Creating bootstrap support values...
+Split supports printed to NEXUS file Diptera_ML.splits.nex
+Total tree length: 198.444
+
+Total number of iterations: 1001
+CPU time used for tree search: 86887.219 sec (24h:8m:7s)
+Wall-clock time used for tree search: 29728.299 sec (8h:15m:28s)
+Total CPU time used: 87121.830 sec (24h:12m:1s)
+Total wall-clock time used: 29811.168 sec (8h:16m:51s)
+
+Computing bootstrap consensus tree...
+Reading input file Diptera_ML.splits.nex...
+538 taxa and 4237 splits.
+Consensus tree written to Diptera_ML.contree
+Reading input trees file Diptera_ML.contree
+Log-likelihood of consensus tree: -465406.945
+
+Analysis results written to: 
+  IQ-TREE report:                Diptera_ML.iqtree
+  Maximum-likelihood tree:       Diptera_ML.treefile
+  Likelihood distances:          Diptera_ML.mldist
+  Best partitioning scheme:      Diptera_ML.best_scheme.nex
+           in RAxML format:      Diptera_ML.best_scheme
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Diptera_ML.splits.nex
+  Consensus tree:                Diptera_ML.contree
+  Screen log file:               Diptera_ML.log
+
+Date and Time: Fri Aug  4 22:03:52 2023
