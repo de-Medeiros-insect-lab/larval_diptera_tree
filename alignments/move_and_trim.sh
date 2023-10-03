@@ -1,18 +1,19 @@
 #get trim_alignments from Insect Egg Phylo github
 conda activate mafft
 
+mkdir -p aligned
 
 for fasta_file in aligned_macse/*_NT.fasta
 do
-	  # copy the file to the aligned/ directory
-	    cp "$fasta_file" aligned/
+	    # get the base file name
+	    base_name=$(basename "$fasta_file" _NT.fasta)
 
-	      # get the base file name
-	        base_name=$(basename "$fasta_file")
+	    # copy the file to the aligned/ directory
+	    cp "$fasta_file" aligned/${base_name}_aligned.fasta
 
-		  # replace ! with - in the copied file in aligned/ directory
-		    sed -i 's/!/-/g' "aligned/$base_name"
-	    done
+	    # replace ! with - in the copied file in aligned/ directory
+	    sed -i 's/!/-/g' "aligned/${base_name}_aligned.fasta"
+done
 
 for file in aligned_mafft/*.fasta; do 
     if [[ $(basename "$file") != *_refs_* ]]; then
@@ -34,3 +35,4 @@ done
 mkdir -p aligned_trimmed
 
 mv aligned/*trimmed.fasta aligned_trimmed
+sed -i 's/>_R_/>/g' aligned_trimmed/*.fasta

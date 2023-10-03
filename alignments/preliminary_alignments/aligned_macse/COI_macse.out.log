@@ -1,0 +1,2 @@
+Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
+1	:	1689716705.224	 12281.640	0	0	0	0	macse -prog alignSequences -seq ../to_align/COI.fasta >> ./COI_macse.out 2>&1

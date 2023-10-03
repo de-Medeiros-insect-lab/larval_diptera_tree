@@ -1,0 +1,40 @@
+#nexus
+begin sets;
+  charset mito_noncoding = 1-1061 2016-2120;
+  charset ND1_codon1_ND1_codon2 = 1062-2015\3  1063-2015\3;
+  charset ND1_codon3_cytb_codon2 = 1064-2015\3  2122-2825\3;
+  charset cytb_codon3 = 2121-2825\3;
+  charset cytb_codon1_EF1a_codon1 = 2123-2825\3  10624-11742\3;
+  charset 18S = 2826-5122;
+  charset 28S = 5123-8541;
+  charset AATS_codon1 = 8542-9129\3;
+  charset AATS_codon2_AATS_codon3 = 8543-9129\3  8544-9129\3;
+  charset COI_codon1 = 9130-10623\3;
+  charset COI_codon2 = 9131-10623\3;
+  charset COI_codon3 = 9132-10623\3;
+  charset EF1a_codon2 = 10625-11742\3;
+  charset EF1a_codon3 = 10626-11742\3;
+  charset CAD1_codon1 = 11743-13187\3;
+  charset CAD1_codon2_CAD2_codon1 = 11744-13187\3  13188-14852\3;
+  charset CAD1_codon3_CAD2_codon2 = 11745-13187\3  13189-14852\3;
+  charset CAD2_codon3 = 13190-14852\3;
+  charpartition mymodels =
+    GTR+F+R5: mito_noncoding,
+    K3Pu+F+G4: ND1_codon1_ND1_codon2,
+    TN+F+R5: ND1_codon3_cytb_codon2,
+    GTR+F+I+G4: cytb_codon3,
+    TVM+F+R4: cytb_codon1_EF1a_codon1,
+    GTR+F+I+G4: 18S,
+    GTR+F+I+G4: 28S,
+    GTR+F+I+G4: AATS_codon1,
+    GTR+F+I+G4: AATS_codon2_AATS_codon3,
+    GTR+F+I+G4: COI_codon1,
+    GTR+F+I+G4: COI_codon2,
+    GTR+F+I+G4: COI_codon3,
+    GTR+F+I+G4: EF1a_codon2,
+    GTR+F+I+G4: EF1a_codon3,
+    GTR+F+I+G4: CAD1_codon1,
+    GTR+F+R6: CAD1_codon2_CAD2_codon1,
+    TVM+F+R7: CAD1_codon3_CAD2_codon2,
+    GTR+F+I+G4: CAD2_codon3;
+end;

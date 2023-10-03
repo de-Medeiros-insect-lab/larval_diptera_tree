@@ -44,17 +44,38 @@ Then, we manually checked the generated table for errors and used TaxReformer to
 
 With that information and manually rooted trees obtained from the primary sources, we were able to generate constraints. All steps are described in the  jupyter notebook: scripts/create_constraint.ipynb
 
-# Step 8 - Maximum likelihood tree
+# Step 8 - preliminary ML inferences and dataset refinement
+
+## Step 8.1 - Maximum likelihood tree
 We copied the concatenated alignment, phylogenetic constraints and made an IQTREE partition file in the folder analyses/IQTREE. It also constains the bash script that calls IQTREE with all options.
 
-# Step 9 - unconstrained maximum likelihood tree
-We got an error of negative branch length when running Step 8. Therefore, we ran an unconstrained ML tree to find taxa that may be mislabelled/misplaced (such as NUMT copies).
+## Step 8.2 - unconstrained maximum likelihood tree
+We initially tried running IQTREE (folder analyses/preliminary_analyses/iqtree), but got an error of negative branch length when running Step 8. Therefore, we ran an unconstrained ML tree to find taxa that may be mislabelled/misplaced (such as NUMT copies) (folder analyses/preliminary_analyses/iqtree_unconstrained).
 
-We manually noted samples that seemed misplaced based on superfamily clusters. From these, we decided to exclude samples that (1) had sequence information from only 1 gene AND (2) had bootstrap values >50. These samples were excluded from the constraint tree and concatenated sequence files.
+Based on the results, we manually noted samples that seemed misplaced based on superfamily clusters. From these, we decided to exclude samples that (1) had sequence information from only 1 gene AND (2) had bootstrap values <50. These samples were excluded from the constraint tree and concatenated sequence files:
+Tricyphona_700863
+Lauterborniella_288850
+Sylvicola_52753
+Notiphila_1118049
+Cistudinomyia_2173397
+Aulacigaster_716608
+Chonocephalus_92528
+Pachylophus_1990794
+Hemerodromia_626769
+Mydaea_559689
+Cobboldia_2583773
+Onesiomima_2173510
+Ochthera_1744809
+Nothomicrodon_185774
+Neoalticomerus_716622
 
-# Step 10 - rerun maximum likelihood tree
-[Bruno to add details on tree generation]
+The ML alignment and analysis done with this dataset is in analyses/preliminary_analyses/iqtree_constrained
 
+## Step 8.3 
 Manually noted additional samples that seemed misplaced based on family clusters. From these, excluded samples that (1) had sequence information from only 1 or 2 genes AND (2) for whom monophyly is unclear in the literature. All Oestridae and Psychodidae were retained. Olbiogaster_560768 was removed. 
 
-# Step 11 - 
+# Step 11 - Reassemble dataset
+After cleaning out the dataset, we started from the alignment step again, this time adding sequences for Miltogramma (manually downloaded). 
+
+Alignments are in folder alignment_filtered
+

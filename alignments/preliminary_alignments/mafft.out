@@ -1,0 +1,423 @@
+12S_16S
+OS = linux
+The number of physical cores =  36
+nthread = 36
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 100
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+0 / 3 (thread 0)   
+
+Step 2/2
+ 1 / 3 (36 threads)   
+makedirectionlist (nuc) Version 7.505
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+36 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+3 x 4439 - 4265 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 3 (by thread   0) tbfast-pair (nuc) Version 7.505
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+36 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 3
+done.
+
+Progressive alignment ... 
+STEP     1 /2 (thread    0) STEP     2 /2 (thread    1) 
+done.
+tbfast (nuc) Version 7.505
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+16 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+
+OS = linux
+The number of physical cores =  36
+nthread = 36
+nadd = 275
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 100
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+0 / 275 (thread 2)   100 / 275 (thread 21)   200 / 275 (thread 30)   
+
+Step 2/2
+ 101 / 278 (36 threads)    201 / 278 (36 threads)   
+makedirectionlist (nuc) Version 7.505
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+36 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+278 x 4549 - 219 d
+nadd = 275
+generating a scoring matrix for nucleotide (dist=200) ... done
+    0 / 3 (thread    0)dndpre (nuc) Version 7.505
+alg=X, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+36 thread(s)
+
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+
+
+##### writing hat3
+pairlocalalign (nuc) Version 7.505
+alg=Y, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+36 thread(s)
+
+nadd = 275
+ppenalty_ex = -10
+nthread = 36
+blosum 62 / kimura 200
+sueff_global = 0.100000
+norg = 3
+njobc = 4
+Loading 'hat3' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Loading 'hat2n' (aligned sequences - new sequences) ... done.
+Loading 'hat2i' (aligned sequences) ... done.
+STEP 0 / 275 (thread 0)                    STEP 1 / 275 (thread 5)                    STEP 2 / 275 (thread 1)                    cSTEP 3 / 275 (thread 2)                    STEP 4 / 275 (thread 4)                    cSTEP 5 / 275 (thread 6)                    STEP 6 / 275 (thread 3)                    cSTEP 7 / 275 (thread 7)                    STEP 8 / 275 (thread 9)                    STEP 9 / 275 (thread 10)                    STEP 10 / 275 (thread 8)                    cSTEP 11 / 275 (thread 11)                    cccccSTEP 12 / 275 (thread 17)                    cSTEP 13 / 275 (thread 13)                    STEP 14 / 275 (thread 12)                    STEP 15 / 275 (thread 15)                    cSTEP 16 / 275 (thread 14)                    ccSTEP 17 / 275 (thread 16)                    ccSTEP 18 / 275 (thread 21)                    ccSTEP 19 / 275 (thread 29)                    STEP 20 / 275 (thread 19)                    STEP 21 / 275 (thread 18)                    STEP 22 / 275 (thread 20)                    STEP 23 / 275 (thread 31)                    STEP 24 / 275 (thread 23)                    STEP 25 / 275 (thread 22)                    cSTEP 26 / 275 (thread 30)                    STEP 27 / 275 (thread 27)                    ccSTEP 28 / 275 (thread 25)                    cSTEP 29 / 275 (thread 24)                    cSTEP 30 / 275 (thread 28)                    cSTEP 31 / 275 (thread 32)                    ccSTEP 32 / 275 (thread 26)                    ccSTEP 33 / 275 (thread 34)                    ccSTEP 34 / 275 (thread 35)                    cSTEP 35 / 275 (thread 33)                    ccccccSTEP 36 / 275 (thread 3)                    cSTEP 37 / 275 (thread 11)                    cSTEP 38 / 275 (thread 28)                    cSTEP 39 / 275 (thread 4)                    STEP 40 / 275 (thread 31)                    ccSTEP 41 / 275 (thread 10)                    cSTEP 42 / 275 (thread 14)                    cSTEP 43 / 275 (thread 35)                    STEP 44 / 275 (thread 1)                    ccSTEP 45 / 275 (thread 25)                    cSTEP 46 / 275 (thread 5)                    cSTEP 47 / 275 (thread 7)                    cSTEP 48 / 275 (thread 34)                    cSTEP 49 / 275 (thread 2)                    cSTEP 50 / 275 (thread 18)                    cSTEP 51 / 275 (thread 20)                    STEP 52 / 275 (thread 34)                    ccSTEP 53 / 275 (thread 17)                    cSTEP 54 / 275 (thread 33)                    cSTEP 55 / 275 (thread 4)                    cSTEP 56 / 275 (thread 20)                    cSTEP 57 / 275 (thread 3)                    cSTEP 58 / 275 (thread 24)                    STEP 59 / 275 (thread 6)                    ccSTEP 60 / 275 (thread 33)                    cSTEP 61 / 275 (thread 30)                    cSTEP 62 / 275 (thread 4)                    cSTEP 63 / 275 (thread 3)                    cSTEP 64 / 275 (thread 33)                    cSTEP 65 / 275 (thread 12)                    cSTEP 66 / 275 (thread 18)                    cSTEP 67 / 275 (thread 31)                    cSTEP 68 / 275 (thread 22)                    cSTEP 69 / 275 (thread 30)                    cSTEP 70 / 275 (thread 33)                    cSTEP 71 / 275 (thread 22)                    cSTEP 72 / 275 (thread 18)                    cSTEP 73 / 275 (thread 30)                    cSTEP 74 / 275 (thread 19)                    cSTEP 75 / 275 (thread 26)                    cSTEP 76 / 275 (thread 30)                    cSTEP 77 / 275 (thread 18)                    cSTEP 78 / 275 (thread 12)                    cSTEP 79 / 275 (thread 21)                    cSTEP 80 / 275 (thread 19)                    cSTEP 81 / 275 (thread 20)                    cSTEP 82 / 275 (thread 20)                    cSTEP 83 / 275 (thread 5)                    cSTEP 84 / 275 (thread 7)                    cSTEP 85 / 275 (thread 5)                    cSTEP 86 / 275 (thread 17)                    cSTEP 87 / 275 (thread 5)                    cSTEP 88 / 275 (thread 33)                    cSTEP 89 / 275 (thread 3)                    cSTEP 90 / 275 (thread 4)                    cSTEP 91 / 275 (thread 23)                    cSTEP 92 / 275 (thread 4)                    cSTEP 93 / 275 (thread 33)                    cSTEP 94 / 275 (thread 18)                    cSTEP 95 / 275 (thread 23)                    cSTEP 96 / 275 (thread 15)                    cSTEP 97 / 275 (thread 33)                    cSTEP 98 / 275 (thread 29)                    cSTEP 99 / 275 (thread 0)                    cSTEP 100 / 275 (thread 0)                    cSTEP 101 / 275 (thread 22)                    cSTEP 102 / 275 (thread 9)                    cSTEP 103 / 275 (thread 27)                    cSTEP 104 / 275 (thread 9)                    cSTEP 105 / 275 (thread 22)                    cSTEP 106 / 275 (thread 22)                    cSTEP 107 / 275 (thread 22)                    cSTEP 108 / 275 (thread 4)                    cSTEP 109 / 275 (thread 12)                    cSTEP 110 / 275 (thread 22)                    cSTEP 111 / 275 (thread 25)                    cSTEP 112 / 275 (thread 31)                    cSTEP 113 / 275 (thread 12)                    cSTEP 114 / 275 (thread 22)                    cSTEP 115 / 275 (thread 25)                    cSTEP 116 / 275 (thread 13)                    cSTEP 117 / 275 (thread 29)                    cSTEP 118 / 275 (thread 31)                    cSTEP 119 / 275 (thread 30)                    cSTEP 120 / 275 (thread 4)                    cSTEP 121 / 275 (thread 8)                    cSTEP 122 / 275 (thread 18)                    cSTEP 123 / 275 (thread 22)                    cSTEP 124 / 275 (thread 25)                    cSTEP 125 / 275 (thread 16)                    cSTEP 126 / 275 (thread 22)                    cSTEP 127 / 275 (thread 13)                    cSTEP 128 / 275 (thread 30)                    cSTEP 129 / 275 (thread 29)                    cSTEP 130 / 275 (thread 8)                    cSTEP 131 / 275 (thread 4)                    cSTEP 132 / 275 (thread 18)                    cSTEP 133 / 275 (thread 31)                    cSTEP 134 / 275 (thread 8)                    cSTEP 135 / 275 (thread 33)                    cSTEP 136 / 275 (thread 4)                    cSTEP 137 / 275 (thread 30)                    cSTEP 138 / 275 (thread 12)                    cSTEP 139 / 275 (thread 25)                    cSTEP 140 / 275 (thread 18)                    cSTEP 141 / 275 (thread 8)                    cSTEP 142 / 275 (thread 30)                    cSTEP 143 / 275 (thread 4)                    cSTEP 144 / 275 (thread 33)                    cSTEP 145 / 275 (thread 12)                    cSTEP 146 / 275 (thread 18)                    cSTEP 147 / 275 (thread 13)                    cSTEP 148 / 275 (thread 31)                    cSTEP 149 / 275 (thread 29)                    cSTEP 150 / 275 (thread 9)                    cSTEP 151 / 275 (thread 8)                    cSTEP 152 / 275 (thread 18)                    cSTEP 153 / 275 (thread 30)                    cSTEP 154 / 275 (thread 12)                    cSTEP 155 / 275 (thread 33)                    cSTEP 156 / 275 (thread 29)                    cSTEP 157 / 275 (thread 9)                    cSTEP 158 / 275 (thread 31)                    cSTEP 159 / 275 (thread 18)                    cSTEP 160 / 275 (thread 13)                    cSTEP 161 / 275 (thread 32)                    cSTEP 162 / 275 (thread 8)                    cSTEP 163 / 275 (thread 29)                    cSTEP 164 / 275 (thread 25)                    cSTEP 165 / 275 (thread 4)                    cSTEP 166 / 275 (thread 18)                    cSTEP 167 / 275 (thread 33)                    cSTEP 168 / 275 (thread 30)                    cSTEP 169 / 275 (thread 31)                    cSTEP 170 / 275 (thread 9)                    cSTEP 171 / 275 (thread 12)                    cSTEP 172 / 275 (thread 14)                    cSTEP 173 / 275 (thread 13)                    cSTEP 174 / 275 (thread 33)                    cSTEP 175 / 275 (thread 8)                    cSTEP 176 / 275 (thread 9)                    cSTEP 177 / 275 (thread 32)                    STEP 178 / 275 (thread 25)                    ccSTEP 179 / 275 (thread 30)                    cSTEP 180 / 275 (thread 18)                    cSTEP 181 / 275 (thread 31)                    cSTEP 182 / 275 (thread 1)                    cSTEP 183 / 275 (thread 33)                    cSTEP 184 / 275 (thread 9)                    cSTEP 185 / 275 (thread 30)                    cSTEP 186 / 275 (thread 25)                    cSTEP 187 / 275 (thread 29)                    cSTEP 188 / 275 (thread 8)                    cSTEP 189 / 275 (thread 13)                    cSTEP 190 / 275 (thread 12)                    cSTEP 191 / 275 (thread 31)                    cSTEP 192 / 275 (thread 22)                    cSTEP 193 / 275 (thread 26)                    cSTEP 194 / 275 (thread 30)                    cSTEP 195 / 275 (thread 25)                    cSTEP 196 / 275 (thread 24)                    cSTEP 197 / 275 (thread 9)                    cSTEP 198 / 275 (thread 18)                    cSTEP 199 / 275 (thread 8)                    cSTEP 200 / 275 (thread 33)                    cSTEP 201 / 275 (thread 3)                    cSTEP 202 / 275 (thread 29)                    cSTEP 203 / 275 (thread 22)                    cSTEP 204 / 275 (thread 31)                    cSTEP 205 / 275 (thread 12)                    cSTEP 206 / 275 (thread 30)                    cSTEP 207 / 275 (thread 27)                    cSTEP 208 / 275 (thread 24)                    cSTEP 209 / 275 (thread 13)                    STEP 210 / 275 (thread 8)                    ccSTEP 211 / 275 (thread 9)                    cSTEP 212 / 275 (thread 18)                    cSTEP 213 / 275 (thread 33)                    cSTEP 214 / 275 (thread 22)                    cSTEP 215 / 275 (thread 14)                    cSTEP 216 / 275 (thread 15)                    cSTEP 217 / 275 (thread 25)                    cSTEP 218 / 275 (thread 31)                    cSTEP 219 / 275 (thread 29)                    cSTEP 220 / 275 (thread 13)                    cSTEP 221 / 275 (thread 8)                    cSTEP 222 / 275 (thread 30)                    cSTEP 223 / 275 (thread 18)                    cSTEP 224 / 275 (thread 27)                    cSTEP 225 / 275 (thread 33)                    cSTEP 226 / 275 (thread 12)                    cSTEP 227 / 275 (thread 9)                    cSTEP 228 / 275 (thread 29)                    cSTEP 229 / 275 (thread 3)                    cSTEP 230 / 275 (thread 8)                    cSTEP 231 / 275 (thread 25)                    cSTEP 232 / 275 (thread 30)                    cSTEP 233 / 275 (thread 31)                    cSTEP 234 / 275 (thread 18)                    cSTEP 235 / 275 (thread 27)                    cSTEP 236 / 275 (thread 20)                    cSTEP 237 / 275 (thread 11)                    cSTEP 238 / 275 (thread 13)                    cSTEP 239 / 275 (thread 33)                    cSTEP 240 / 275 (thread 25)                    cSTEP 241 / 275 (thread 12)                    cSTEP 242 / 275 (thread 31)                    cSTEP 243 / 275 (thread 30)                    cSTEP 244 / 275 (thread 29)                    cSTEP 245 / 275 (thread 34)                    cSTEP 246 / 275 (thread 27)                    cSTEP 247 / 275 (thread 9)                    cSTEP 248 / 275 (thread 18)                    cSTEP 249 / 275 (thread 5)                    cSTEP 250 / 275 (thread 20)                    cSTEP 251 / 275 (thread 8)                    cSTEP 252 / 275 (thread 3)                    cSTEP 253 / 275 (thread 22)                    cSTEP 254 / 275 (thread 35)                    STEP 255 / 275 (thread 34)                    ccSTEP 256 / 275 (thread 27)                    cSTEP 257 / 275 (thread 11)                    cSTEP 258 / 275 (thread 5)                    cSTEP 259 / 275 (thread 25)                    cSTEP 260 / 275 (thread 30)                    cSTEP 261 / 275 (thread 29)                    cSTEP 262 / 275 (thread 33)                    cSTEP 263 / 275 (thread 20)                    cSTEP 264 / 275 (thread 6)                    cSTEP 265 / 275 (thread 21)                    cSTEP 266 / 275 (thread 3)                    cSTEP 267 / 275 (thread 9)                    cSTEP 268 / 275 (thread 31)                    cSTEP 269 / 275 (thread 13)                    cSTEP 270 / 275 (thread 27)                    cSTEP 271 / 275 (thread 18)                    cSTEP 272 / 275 (thread 7)                    cSTEP 273 / 275 (thread 8)                    cSTEP 274 / 275 (thread 35)                    c
+
+Combining ..
+0 / 275 0 / 2751 / 275 1 / 2752 / 275 2 / 2755 / 275 5 / 2756 / 275 6 / 2757 / 275 7 / 2758 / 275 8 / 27510 / 275 10 / 27511 / 275 11 / 27513 / 275 13 / 27517 / 275 17 / 27519 / 275 19 / 27520 / 275 20 / 27524 / 275 24 / 27526 / 275 26 / 27531 / 275 31 / 27535 / 275 35 / 27536 / 275 36 / 27540 / 275 40 / 27541 / 275 41 / 27544 / 275 44 / 27545 / 275 45 / 27546 / 275 46 / 27549 / 275 49 / 27550 / 275 50 / 27557 / 275 57 / 27558 / 275 58 / 27559 / 275 59 / 27562 / 275 62 / 27564 / 275 64 / 27566 / 275 66 / 27568 / 275 68 / 27575 / 275 75 / 27576 / 275 76 / 27577 / 275 77 / 27579 / 275 79 / 27580 / 275 80 / 27583 / 275 83 / 27584 / 275 84 / 27589 / 275 89 / 27592 / 275 92 / 27593 / 275 93 / 27594 / 275 94 / 27595 / 275 95 / 27596 / 275 96 / 27597 / 275 97 / 27598 / 275 98 / 275100 / 275 100 / 275101 / 275 101 / 275103 / 275 103 / 275104 / 275 104 / 275106 / 275 106 / 275108 / 275 108 / 275112 / 275 112 / 275113 / 275 113 / 275114 / 275 114 / 275115 / 275 115 / 275118 / 275 118 / 275119 / 275 119 / 275124 / 275 124 / 275125 / 275 125 / 275126 / 275 126 / 275129 / 275 129 / 275130 / 275 130 / 275131 / 275 131 / 275133 / 275 133 / 275134 / 275 134 / 275136 / 275 136 / 275139 / 275 139 / 275140 / 275 140 / 275141 / 275 141 / 275143 / 275 143 / 275148 / 275 148 / 275149 / 275 149 / 275150 / 275 150 / 275152 / 275 152 / 275153 / 275 153 / 275156 / 275 156 / 275158 / 275 158 / 275163 / 275 163 / 275165 / 275 165 / 275168 / 275 168 / 275169 / 275 169 / 275170 / 275 170 / 275177 / 275 177 / 275179 / 275 179 / 275180 / 275 180 / 275181 / 275 181 / 275182 / 275 182 / 275185 / 275 185 / 275186 / 275 186 / 275187 / 275 187 / 275193 / 275 193 / 275194 / 275 194 / 275197 / 275 197 / 275198 / 275 198 / 275199 / 275 199 / 275201 / 275 201 / 275205 / 275 205 / 275208 / 275 208 / 275209 / 275 209 / 275212 / 275 212 / 275213 / 275 213 / 275214 / 275 214 / 275216 / 275 216 / 275217 / 275 217 / 275220 / 275 220 / 275222 / 275 222 / 275228 / 275 228 / 275229 / 275 229 / 275230 / 275 230 / 275232 / 275 232 / 275234 / 275 234 / 275238 / 275 238 / 275241 / 275 241 / 275242 / 275 242 / 275245 / 275 245 / 275251 / 275 251 / 275252 / 275 252 / 275253 / 275 253 / 275256 / 275 256 / 275259 / 275 259 / 275263 / 275 263 / 275264 / 275 264 / 275268 / 275 268 / 275270 / 275 270 / 275271 / 275 271 / 275273 / 275 273 / 275274 / 275 274 / 275   done.                      
+
+Realigning 241/4549           Realigning 365/4549           Realigning 369/4549           Realigning 370/4549           Realigning 489/4549           Realigning 491/4549           Realigning 598/4549           Realigning 622/4549           Realigning 641/4549           Realigning 648/4549           Realigning 857/4549           Realigning 864/4549           Realigning 865/4549           Realigning 884/4549           Realigning 891/4549           Realigning 898/4549           Realigning 904/4549           Realigning 905/4549           Realigning 910/4549           Realigning 925/4549           Realigning 927/4549           Realigning 934/4549           Realigning 981/4549           Realigning 983/4549           Realigning 984/4549           Realigning 1088/4549           Realigning 1089/4549           Realigning 1252/4549           Realigning 1255/4549           Realigning 1322/4549           Realigning 1336/4549           Realigning 1384/4549           Realigning 1479/4549           Realigning 1480/4549           Realigning 1481/4549           Realigning 1482/4549           Realigning 1485/4549           Realigning 1486/4549           Realigning 1487/4549           Realigning 1500/4549           Realigning 1515/4549           Realigning 1533/4549           Realigning 1535/4549           Realigning 1537/4549           Realigning 1548/4549           Realigning 1572/4549           Realigning 1574/4549           Realigning 1603/4549           Realigning 1605/4549           Realigning 1792/4549           Realigning 1793/4549           Realigning 1808/4549           Realigning 1814/4549           Realigning 1817/4549           Realigning 1819/4549           Realigning 1881/4549           Realigning 1884/4549           Realigning 1889/4549           Realigning 1890/4549           Realigning 1893/4549           Realigning 1907/4549           Realigning 1908/4549           Realigning 1911/4549           Realigning 1922/4549           Realigning 2045/4549           Realigning 2049/4549           Realigning 2050/4549           Realigning 2180/4549           Realigning 2206/4549              done.                      
+
+addsingle (nuc) Version 7.505
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+36 thread(s)
+
+
+Strategy:
+ Multi-INS-fragment (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+18S
+OS = linux
+The number of physical cores =  36
+nthread = 36
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 100
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+0 / 2 (thread 0)   
+
+Step 2/2
+ 1 / 2 (36 threads)   
+makedirectionlist (nuc) Version 7.505
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+36 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+2 x 10001 - 10001 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 2 (by thread   0) tbfast-pair (nuc) Version 7.505
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+36 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 2
+done.
+
+Progressive alignment ... 
+STEP     1 /1 (thread    0) 
+done.
+tbfast (nuc) Version 7.505
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+16 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+
+OS = linux
+The number of physical cores =  36
+nthread = 36
+nadd = 147
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 100
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+0 / 147 (thread 0)   100 / 147 (thread 9)   
+
+Step 2/2
+ 101 / 149 (36 threads)   
+makedirectionlist (nuc) Version 7.505
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+36 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+149 x 11646 - 265 d
+nadd = 147
+generating a scoring matrix for nucleotide (dist=200) ... done
+    0 / 2 (thread    0)dndpre (nuc) Version 7.505
+alg=X, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+36 thread(s)
+
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+
+
+##### writing hat3
+pairlocalalign (nuc) Version 7.505
+alg=Y, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+36 thread(s)
+
+nadd = 147
+ppenalty_ex = -10
+nthread = 36
+blosum 62 / kimura 200
+sueff_global = 0.100000
+norg = 2
+njobc = 3
+Loading 'hat3' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Loading 'hat2n' (aligned sequences - new sequences) ... done.
+Loading 'hat2i' (aligned sequences) ... done.
+STEP 0 / 147 (thread 0)                    STEP 1 / 147 (thread 2)                    STEP 2 / 147 (thread 1)                    STEP 3 / 147 (thread 4)                    STEP 4 / 147 (thread 6)                    STEP 5 / 147 (thread 3)                    STEP 6 / 147 (thread 5)                    cSTEP 7 / 147 (thread 7)                    STEP 8 / 147 (thread 9)                    cSTEP 9 / 147 (thread 10)                    cSTEP 10 / 147 (thread 8)                    cccSTEP 11 / 147 (thread 13)                    cSTEP 12 / 147 (thread 12)                    STEP 13 / 147 (thread 14)                    STEP 14 / 147 (thread 15)                    STEP 15 / 147 (thread 11)                    STEP 16 / 147 (thread 16)                    cSTEP 17 / 147 (thread 18)                    cSTEP 18 / 147 (thread 17)                    cSTEP 19 / 147 (thread 21)                    ccSTEP 20 / 147 (thread 20)                    STEP 21 / 147 (thread 19)                    ccSTEP 22 / 147 (thread 22)                    ccSTEP 23 / 147 (thread 23)                    ccccSTEP 24 / 147 (thread 24)                    STEP 25 / 147 (thread 26)                    cSTEP 26 / 147 (thread 25)                    ccSTEP 27 / 147 (thread 27)                    cSTEP 28 / 147 (thread 28)                    cSTEP 29 / 147 (thread 31)                    STEP 30 / 147 (thread 32)                    cSTEP 31 / 147 (thread 29)                    STEP 32 / 147 (thread 30)                    cSTEP 33 / 147 (thread 35)                    ccSTEP 34 / 147 (thread 34)                    STEP 35 / 147 (thread 33)                    cccccccSTEP 36 / 147 (thread 10)                    cSTEP 37 / 147 (thread 10)                    cSTEP 38 / 147 (thread 29)                    cSTEP 39 / 147 (thread 28)                    cSTEP 40 / 147 (thread 35)                    cSTEP 41 / 147 (thread 35)                    cSTEP 42 / 147 (thread 16)                    cSTEP 43 / 147 (thread 21)                    cSTEP 44 / 147 (thread 1)                    cSTEP 45 / 147 (thread 24)                    cSTEP 46 / 147 (thread 10)                    cSTEP 47 / 147 (thread 34)                    cSTEP 48 / 147 (thread 31)                    cSTEP 49 / 147 (thread 22)                    cSTEP 50 / 147 (thread 20)                    cSTEP 51 / 147 (thread 31)                    cSTEP 52 / 147 (thread 6)                    cSTEP 53 / 147 (thread 15)                    cSTEP 54 / 147 (thread 6)                    cSTEP 55 / 147 (thread 18)                    cSTEP 56 / 147 (thread 19)                    cSTEP 57 / 147 (thread 10)                    cSTEP 58 / 147 (thread 6)                    cSTEP 59 / 147 (thread 6)                    cSTEP 60 / 147 (thread 10)                    cSTEP 61 / 147 (thread 28)                    cSTEP 62 / 147 (thread 23)                    cSTEP 63 / 147 (thread 35)                    cSTEP 64 / 147 (thread 6)                    cSTEP 65 / 147 (thread 29)                    cSTEP 66 / 147 (thread 10)                    cSTEP 67 / 147 (thread 28)                    cSTEP 68 / 147 (thread 23)                    cSTEP 69 / 147 (thread 28)                    cSTEP 70 / 147 (thread 10)                    cSTEP 71 / 147 (thread 23)                    cSTEP 72 / 147 (thread 10)                    cSTEP 73 / 147 (thread 25)                    STEP 74 / 147 (thread 23)                    ccSTEP 75 / 147 (thread 10)                    cSTEP 76 / 147 (thread 25)                    cSTEP 77 / 147 (thread 23)                    cSTEP 78 / 147 (thread 10)                    cSTEP 79 / 147 (thread 25)                    cSTEP 80 / 147 (thread 18)                    cSTEP 81 / 147 (thread 10)                    cSTEP 82 / 147 (thread 10)                    cSTEP 83 / 147 (thread 34)                    cSTEP 84 / 147 (thread 34)                    cSTEP 85 / 147 (thread 2)                    cSTEP 86 / 147 (thread 2)                    cSTEP 87 / 147 (thread 2)                    cSTEP 88 / 147 (thread 2)                    cSTEP 89 / 147 (thread 2)                    cSTEP 90 / 147 (thread 20)                    cSTEP 91 / 147 (thread 2)                    cSTEP 92 / 147 (thread 34)                    cSTEP 93 / 147 (thread 2)                    cSTEP 94 / 147 (thread 3)                    cSTEP 95 / 147 (thread 30)                    cSTEP 96 / 147 (thread 8)                    cSTEP 97 / 147 (thread 16)                    cSTEP 98 / 147 (thread 3)                    cSTEP 99 / 147 (thread 2)                    cSTEP 100 / 147 (thread 18)                    cSTEP 101 / 147 (thread 20)                    cSTEP 102 / 147 (thread 16)                    cSTEP 103 / 147 (thread 4)                    cSTEP 104 / 147 (thread 3)                    cSTEP 105 / 147 (thread 33)                    cSTEP 106 / 147 (thread 19)                    cSTEP 107 / 147 (thread 13)                    cSTEP 108 / 147 (thread 26)                    cSTEP 109 / 147 (thread 14)                    cSTEP 110 / 147 (thread 22)                    cSTEP 111 / 147 (thread 30)                    cSTEP 112 / 147 (thread 4)                    cSTEP 113 / 147 (thread 12)                    cSTEP 114 / 147 (thread 18)                    cSTEP 115 / 147 (thread 17)                    cSTEP 116 / 147 (thread 32)                    cSTEP 117 / 147 (thread 24)                    cSTEP 118 / 147 (thread 15)                    cSTEP 119 / 147 (thread 11)                    cSTEP 120 / 147 (thread 1)                    cSTEP 121 / 147 (thread 34)                    cSTEP 122 / 147 (thread 27)                    cSTEP 123 / 147 (thread 16)                    cSTEP 124 / 147 (thread 0)                    cSTEP 125 / 147 (thread 19)                    cSTEP 126 / 147 (thread 7)                    cSTEP 127 / 147 (thread 12)                    cSTEP 128 / 147 (thread 33)                    cSTEP 129 / 147 (thread 5)                    cSTEP 130 / 147 (thread 24)                    cSTEP 131 / 147 (thread 31)                    cSTEP 132 / 147 (thread 14)                    cSTEP 133 / 147 (thread 29)                    cSTEP 134 / 147 (thread 21)                    cSTEP 135 / 147 (thread 13)                    cSTEP 136 / 147 (thread 35)                    cSTEP 137 / 147 (thread 32)                    cSTEP 138 / 147 (thread 22)                    cSTEP 139 / 147 (thread 28)                    cSTEP 140 / 147 (thread 26)                    cSTEP 141 / 147 (thread 3)                    STEP 142 / 147 (thread 1)                    ccSTEP 143 / 147 (thread 18)                    cSTEP 144 / 147 (thread 2)                    cSTEP 145 / 147 (thread 14)                    cSTEP 146 / 147 (thread 19)                    c
+
+Combining ..
+0 / 147 0 / 1471 / 147 1 / 1472 / 147 2 / 1473 / 147 3 / 1474 / 147 4 / 1475 / 147 5 / 1476 / 147 6 / 1477 / 147 7 / 1478 / 147 8 / 1479 / 147 9 / 14710 / 147 10 / 14711 / 147 11 / 14712 / 147 12 / 14713 / 147 13 / 14714 / 147 14 / 14715 / 147 15 / 14716 / 147 16 / 14717 / 147 17 / 14718 / 147 18 / 14719 / 147 19 / 14720 / 147 20 / 14721 / 147 21 / 14722 / 147 22 / 14724 / 147 24 / 14725 / 147 25 / 14726 / 147 26 / 14727 / 147 27 / 14729 / 147 29 / 14730 / 147 30 / 14732 / 147 32 / 14733 / 147 33 / 14734 / 147 34 / 14735 / 147 35 / 14737 / 147 37 / 14738 / 147 38 / 14742 / 147 42 / 14743 / 147 43 / 14744 / 147 44 / 14745 / 147 45 / 14746 / 147 46 / 14747 / 147 47 / 14748 / 147 48 / 14749 / 147 49 / 14750 / 147 50 / 14751 / 147 51 / 14752 / 147 52 / 14753 / 147 53 / 14755 / 147 55 / 14756 / 147 56 / 14760 / 147 60 / 14763 / 147 63 / 14764 / 147 64 / 14765 / 147 65 / 14769 / 147 69 / 14772 / 147 72 / 14773 / 147 73 / 14774 / 147 74 / 14775 / 147 75 / 14777 / 147 77 / 14778 / 147 78 / 14779 / 147 79 / 14780 / 147 80 / 14781 / 147 81 / 14782 / 147 82 / 14784 / 147 84 / 14785 / 147 85 / 14788 / 147 88 / 14789 / 147 89 / 14791 / 147 91 / 14792 / 147 92 / 14795 / 147 95 / 14796 / 147 96 / 14797 / 147 97 / 14799 / 147 99 / 147100 / 147 100 / 147101 / 147 101 / 147102 / 147 102 / 147104 / 147 104 / 147105 / 147 105 / 147106 / 147 106 / 147108 / 147 108 / 147109 / 147 109 / 147110 / 147 110 / 147111 / 147 111 / 147112 / 147 112 / 147113 / 147 113 / 147114 / 147 114 / 147115 / 147 115 / 147118 / 147 118 / 147119 / 147 119 / 147121 / 147 121 / 147126 / 147 126 / 147127 / 147 127 / 147128 / 147 128 / 147129 / 147 129 / 147130 / 147 130 / 147132 / 147 132 / 147135 / 147 135 / 147136 / 147 136 / 147137 / 147 137 / 147138 / 147 138 / 147139 / 147 139 / 147141 / 147 141 / 147143 / 147 143 / 147145 / 147 145 / 147146 / 147 146 / 147   done.                      
+
+Realigning 1834/11646           Realigning 1835/11646           Realigning 1840/11646           Realigning 1841/11646           Realigning 1890/11646           Realigning 1899/11646           Realigning 1901/11646           Realigning 1902/11646           Realigning 1934/11646           Realigning 1937/11646           Realigning 1938/11646           Realigning 1939/11646           Realigning 1942/11646           Realigning 1943/11646           Realigning 1944/11646           Realigning 1949/11646           Realigning 1951/11646           Realigning 1953/11646           Realigning 1955/11646           Realigning 1961/11646           Realigning 1975/11646           Realigning 1977/11646           Realigning 1992/11646           Realigning 1994/11646           Realigning 2276/11646           Realigning 2378/11646           Realigning 2384/11646           Realigning 2406/11646           Realigning 2408/11646           Realigning 2409/11646           Realigning 2413/11646           Realigning 2423/11646           Realigning 2429/11646           Realigning 2431/11646           Realigning 2435/11646           Realigning 2450/11646           Realigning 2452/11646           Realigning 2453/11646           Realigning 2454/11646           Realigning 2457/11646           Realigning 2459/11646           Realigning 2463/11646           Realigning 2471/11646           Realigning 2479/11646           Realigning 2485/11646           Realigning 2486/11646           Realigning 2488/11646           Realigning 2526/11646           Realigning 2538/11646           Realigning 2541/11646           Realigning 2542/11646           Realigning 2578/11646           Realigning 2580/11646           Realigning 2633/11646           Realigning 2638/11646           Realigning 2639/11646           Realigning 2644/11646           Realigning 2652/11646           Realigning 2658/11646           Realigning 2732/11646           Realigning 2774/11646           Realigning 2775/11646           Realigning 2870/11646           Realigning 2871/11646           Realigning 2873/11646           Realigning 2890/11646           Realigning 3150/11646           Realigning 3190/11646           Realigning 3192/11646           Realigning 3197/11646           Realigning 3198/11646           Realigning 3199/11646           Realigning 3201/11646           Realigning 3208/11646           Realigning 3210/11646           Realigning 3211/11646           Realigning 3215/11646           Realigning 3218/11646           Realigning 3224/11646           Realigning 3225/11646           Realigning 3226/11646           Realigning 3234/11646           Realigning 3237/11646           Realigning 3248/11646           Realigning 3253/11646           Realigning 3258/11646           Realigning 3259/11646           Realigning 3290/11646           Realigning 3292/11646           Realigning 3293/11646           Realigning 3294/11646           Realigning 3299/11646           Realigning 3300/11646           Realigning 3418/11646           Realigning 3419/11646           Realigning 3459/11646           Realigning 4747/11646           Realigning 4748/11646           Realigning 4750/11646           Realigning 4751/11646           Realigning 4759/11646              done.                      
+
+addsingle (nuc) Version 7.505
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+36 thread(s)
+
+
+Strategy:
+ Multi-INS-fragment (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+28S
+OS = linux
+The number of physical cores =  36
+nthread = 36
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 100
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+0 / 2 (thread 0)   
+
+Step 2/2
+ 1 / 2 (36 threads)   
+makedirectionlist (nuc) Version 7.505
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+36 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+2 x 10001 - 10001 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 2 (by thread   1) tbfast-pair (nuc) Version 7.505
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+36 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 2
+done.
+
+Progressive alignment ... 
+STEP     1 /1 (thread    0) 
+done.
+tbfast (nuc) Version 7.505
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+16 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+
+OS = linux
+The number of physical cores =  36
+nthread = 36
+nadd = 270
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 100
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+0 / 270 (thread 1)   100 / 270 (thread 1)   200 / 270 (thread 33)   
+
+Step 2/2
+ 101 / 272 (36 threads)    201 / 272 (36 threads)   
+makedirectionlist (nuc) Version 7.505
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+36 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+272 x 11646 - 324 d
+nadd = 270
+generating a scoring matrix for nucleotide (dist=200) ... done
+    0 / 2 (thread    0)dndpre (nuc) Version 7.505
+alg=X, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+36 thread(s)
+
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+
+
+##### writing hat3
+pairlocalalign (nuc) Version 7.505
+alg=Y, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+36 thread(s)
+
+nadd = 270
+ppenalty_ex = -10
+nthread = 36
+blosum 62 / kimura 200
+sueff_global = 0.100000
+norg = 2
+njobc = 3
+Loading 'hat3' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Loading 'hat2n' (aligned sequences - new sequences) ... done.
+Loading 'hat2i' (aligned sequences) ... done.
+STEP 0 / 270 (thread 3)                    STEP 1 / 270 (thread 9)                    STEP 2 / 270 (thread 2)                    STEP 3 / 270 (thread 0)                    STEP 4 / 270 (thread 5)                    STEP 5 / 270 (thread 4)                    STEP 6 / 270 (thread 1)                    STEP 7 / 270 (thread 6)                    STEP 8 / 270 (thread 17)                    STEP 9 / 270 (thread 7)                    ccSTEP 10 / 270 (thread 10)                    STEP 11 / 270 (thread 11)                    STEP 12 / 270 (thread 8)                    ccSTEP 13 / 270 (thread 12)                    cSTEP 14 / 270 (thread 13)                    ccSTEP 15 / 270 (thread 14)                    STEP 16 / 270 (thread 15)                    STEP 17 / 270 (thread 16)                    cSTEP 18 / 270 (thread 18)                    ccSTEP 19 / 270 (thread 20)                    STEP 20 / 270 (thread 24)                    STEP 21 / 270 (thread 22)                    cSTEP 22 / 270 (thread 19)                    STEP 23 / 270 (thread 21)                    cSTEP 24 / 270 (thread 23)                    ccccSTEP 25 / 270 (thread 26)                    ccSTEP 26 / 270 (thread 34)                    cccSTEP 27 / 270 (thread 27)                    cSTEP 28 / 270 (thread 25)                    cccSTEP 29 / 270 (thread 28)                    STEP 30 / 270 (thread 29)                    cSTEP 31 / 270 (thread 33)                    cSTEP 32 / 270 (thread 30)                    STEP 33 / 270 (thread 31)                    STEP 34 / 270 (thread 32)                    ccSTEP 35 / 270 (thread 35)                    cccccccSTEP 36 / 270 (thread 29)                    cSTEP 37 / 270 (thread 25)                    cSTEP 38 / 270 (thread 21)                    cSTEP 39 / 270 (thread 32)                    cSTEP 40 / 270 (thread 29)                    cSTEP 41 / 270 (thread 33)                    cSTEP 42 / 270 (thread 29)                    cSTEP 43 / 270 (thread 33)                    cSTEP 44 / 270 (thread 33)                    cSTEP 45 / 270 (thread 28)                    cSTEP 46 / 270 (thread 24)                    cSTEP 47 / 270 (thread 15)                    cSTEP 48 / 270 (thread 16)                    cSTEP 49 / 270 (thread 26)                    cSTEP 50 / 270 (thread 21)                    cSTEP 51 / 270 (thread 26)                    cSTEP 52 / 270 (thread 21)                    cSTEP 53 / 270 (thread 26)                    cSTEP 54 / 270 (thread 26)                    cSTEP 55 / 270 (thread 19)                    cSTEP 56 / 270 (thread 25)                    cSTEP 57 / 270 (thread 21)                    cSTEP 58 / 270 (thread 19)                    cSTEP 59 / 270 (thread 21)                    cSTEP 60 / 270 (thread 34)                    cSTEP 61 / 270 (thread 20)                    cSTEP 62 / 270 (thread 31)                    cSTEP 63 / 270 (thread 27)                    cSTEP 64 / 270 (thread 34)                    cSTEP 65 / 270 (thread 9)                    cSTEP 66 / 270 (thread 0)                    cSTEP 67 / 270 (thread 20)                    cSTEP 68 / 270 (thread 34)                    cSTEP 69 / 270 (thread 33)                    cSTEP 70 / 270 (thread 27)                    cSTEP 71 / 270 (thread 0)                    cSTEP 72 / 270 (thread 34)                    cSTEP 73 / 270 (thread 22)                    cSTEP 74 / 270 (thread 0)                    cSTEP 75 / 270 (thread 30)                    cSTEP 76 / 270 (thread 33)                    cSTEP 77 / 270 (thread 34)                    cSTEP 78 / 270 (thread 34)                    cSTEP 79 / 270 (thread 30)                    cSTEP 80 / 270 (thread 33)                    cSTEP 81 / 270 (thread 0)                    cSTEP 82 / 270 (thread 34)                    cSTEP 83 / 270 (thread 26)                    cSTEP 84 / 270 (thread 9)                    cSTEP 85 / 270 (thread 30)                    cSTEP 86 / 270 (thread 9)                    cSTEP 87 / 270 (thread 26)                    cSTEP 88 / 270 (thread 9)                    cSTEP 89 / 270 (thread 16)                    cSTEP 90 / 270 (thread 29)                    cSTEP 91 / 270 (thread 9)                    cSTEP 92 / 270 (thread 16)                    cSTEP 93 / 270 (thread 30)                    cSTEP 94 / 270 (thread 18)                    cSTEP 95 / 270 (thread 29)                    cSTEP 96 / 270 (thread 9)                    cSTEP 97 / 270 (thread 29)                    cSTEP 98 / 270 (thread 28)                    cSTEP 99 / 270 (thread 18)                    cSTEP 100 / 270 (thread 15)                    cSTEP 101 / 270 (thread 16)                    cSTEP 102 / 270 (thread 30)                    cSTEP 103 / 270 (thread 28)                    cSTEP 104 / 270 (thread 15)                    cSTEP 105 / 270 (thread 18)                    cSTEP 106 / 270 (thread 29)                    cSTEP 107 / 270 (thread 30)                    cSTEP 108 / 270 (thread 19)                    cSTEP 109 / 270 (thread 28)                    cSTEP 110 / 270 (thread 18)                    cSTEP 111 / 270 (thread 29)                    cSTEP 112 / 270 (thread 30)                    cSTEP 113 / 270 (thread 17)                    cSTEP 114 / 270 (thread 28)                    cSTEP 115 / 270 (thread 30)                    cSTEP 116 / 270 (thread 18)                    cSTEP 117 / 270 (thread 35)                    cSTEP 118 / 270 (thread 17)                    cSTEP 119 / 270 (thread 28)                    cSTEP 120 / 270 (thread 29)                    cSTEP 121 / 270 (thread 30)                    cSTEP 122 / 270 (thread 35)                    STEP 123 / 270 (thread 25)                    ccSTEP 124 / 270 (thread 16)                    cSTEP 125 / 270 (thread 18)                    cSTEP 126 / 270 (thread 27)                    cSTEP 127 / 270 (thread 19)                    cSTEP 128 / 270 (thread 28)                    cSTEP 129 / 270 (thread 29)                    cSTEP 130 / 270 (thread 18)                    cSTEP 131 / 270 (thread 27)                    cSTEP 132 / 270 (thread 16)                    cSTEP 133 / 270 (thread 35)                    cSTEP 134 / 270 (thread 19)                    cSTEP 135 / 270 (thread 20)                    cSTEP 136 / 270 (thread 17)                    cSTEP 137 / 270 (thread 27)                    cSTEP 138 / 270 (thread 29)                    cSTEP 139 / 270 (thread 18)                    cSTEP 140 / 270 (thread 15)                    cSTEP 141 / 270 (thread 2)                    cSTEP 142 / 270 (thread 25)                    cSTEP 143 / 270 (thread 24)                    cSTEP 144 / 270 (thread 19)                    cSTEP 145 / 270 (thread 18)                    cSTEP 146 / 270 (thread 20)                    cSTEP 147 / 270 (thread 35)                    cSTEP 148 / 270 (thread 2)                    cSTEP 149 / 270 (thread 23)                    cSTEP 150 / 270 (thread 17)                    cSTEP 151 / 270 (thread 25)                    cSTEP 152 / 270 (thread 15)                    cSTEP 153 / 270 (thread 27)                    cSTEP 154 / 270 (thread 3)                    cSTEP 155 / 270 (thread 24)                    cSTEP 156 / 270 (thread 0)                    cSTEP 157 / 270 (thread 2)                    cSTEP 158 / 270 (thread 19)                    cSTEP 159 / 270 (thread 25)                    cSTEP 160 / 270 (thread 18)                    cSTEP 161 / 270 (thread 15)                    cSTEP 162 / 270 (thread 27)                    cSTEP 163 / 270 (thread 0)                    cSTEP 164 / 270 (thread 20)                    cSTEP 165 / 270 (thread 23)                    cSTEP 166 / 270 (thread 24)                    cSTEP 167 / 270 (thread 25)                    cSTEP 168 / 270 (thread 3)                    cSTEP 169 / 270 (thread 15)                    cSTEP 170 / 270 (thread 9)                    cSTEP 171 / 270 (thread 2)                    cSTEP 172 / 270 (thread 0)                    cSTEP 173 / 270 (thread 24)                    cSTEP 174 / 270 (thread 27)                    cSTEP 175 / 270 (thread 20)                    cSTEP 176 / 270 (thread 18)                    cSTEP 177 / 270 (thread 25)                    cSTEP 178 / 270 (thread 17)                    cSTEP 179 / 270 (thread 0)                    cSTEP 180 / 270 (thread 3)                    cSTEP 181 / 270 (thread 27)                    cSTEP 182 / 270 (thread 2)                    cSTEP 183 / 270 (thread 33)                    cSTEP 184 / 270 (thread 23)                    cSTEP 185 / 270 (thread 20)                    cSTEP 186 / 270 (thread 3)                    cSTEP 187 / 270 (thread 9)                    cSTEP 188 / 270 (thread 23)                    cSTEP 189 / 270 (thread 0)                    cSTEP 190 / 270 (thread 2)                    cSTEP 191 / 270 (thread 25)                    cSTEP 192 / 270 (thread 3)                    cSTEP 193 / 270 (thread 23)                    cSTEP 194 / 270 (thread 25)                    cSTEP 195 / 270 (thread 15)                    cSTEP 196 / 270 (thread 19)                    cSTEP 197 / 270 (thread 23)                    cSTEP 198 / 270 (thread 25)                    cSTEP 199 / 270 (thread 23)                    cSTEP 200 / 270 (thread 24)                    cSTEP 201 / 270 (thread 15)                    cSTEP 202 / 270 (thread 33)                    cSTEP 203 / 270 (thread 25)                    cSTEP 204 / 270 (thread 23)                    cSTEP 205 / 270 (thread 17)                    cSTEP 206 / 270 (thread 23)                    cSTEP 207 / 270 (thread 25)                    cSTEP 208 / 270 (thread 17)                    cSTEP 209 / 270 (thread 15)                    cSTEP 210 / 270 (thread 24)                    cSTEP 211 / 270 (thread 23)                    cSTEP 212 / 270 (thread 11)                    cSTEP 213 / 270 (thread 15)                    cSTEP 214 / 270 (thread 17)                    cSTEP 215 / 270 (thread 25)                    cSTEP 216 / 270 (thread 15)                    cSTEP 217 / 270 (thread 24)                    cSTEP 218 / 270 (thread 29)                    cSTEP 219 / 270 (thread 11)                    cSTEP 220 / 270 (thread 23)                    cSTEP 221 / 270 (thread 33)                    cSTEP 222 / 270 (thread 25)                    cSTEP 223 / 270 (thread 15)                    cSTEP 224 / 270 (thread 27)                    cSTEP 225 / 270 (thread 9)                    cSTEP 226 / 270 (thread 11)                    cSTEP 227 / 270 (thread 0)                    cSTEP 228 / 270 (thread 29)                    cSTEP 229 / 270 (thread 25)                    cSTEP 230 / 270 (thread 27)                    cSTEP 231 / 270 (thread 18)                    cSTEP 232 / 270 (thread 9)                    cSTEP 233 / 270 (thread 33)                    cSTEP 234 / 270 (thread 23)                    cSTEP 235 / 270 (thread 24)                    cSTEP 236 / 270 (thread 25)                    cSTEP 237 / 270 (thread 17)                    cSTEP 238 / 270 (thread 18)                    cSTEP 239 / 270 (thread 0)                    cSTEP 240 / 270 (thread 14)                    cSTEP 241 / 270 (thread 27)                    cSTEP 242 / 270 (thread 33)                    cSTEP 243 / 270 (thread 14)                    cSTEP 244 / 270 (thread 15)                    cSTEP 245 / 270 (thread 9)                    cSTEP 246 / 270 (thread 23)                    cSTEP 247 / 270 (thread 27)                    cSTEP 248 / 270 (thread 29)                    cSTEP 249 / 270 (thread 24)                    cSTEP 250 / 270 (thread 33)                    cSTEP 251 / 270 (thread 17)                    cSTEP 252 / 270 (thread 14)                    cSTEP 253 / 270 (thread 0)                    cSTEP 254 / 270 (thread 15)                    cSTEP 255 / 270 (thread 28)                    cSTEP 256 / 270 (thread 27)                    cSTEP 257 / 270 (thread 14)                    cSTEP 258 / 270 (thread 5)                    cSTEP 259 / 270 (thread 18)                    cSTEP 260 / 270 (thread 33)                    cSTEP 261 / 270 (thread 9)                    cSTEP 262 / 270 (thread 23)                    cSTEP 263 / 270 (thread 15)                    cSTEP 264 / 270 (thread 24)                    cSTEP 265 / 270 (thread 33)                    cSTEP 266 / 270 (thread 18)                    cSTEP 267 / 270 (thread 25)                    cSTEP 268 / 270 (thread 9)                    cSTEP 269 / 270 (thread 27)                    c
+
+Combining ..
+0 / 270 0 / 2701 / 270 1 / 2702 / 270 2 / 2703 / 270 3 / 2704 / 270 4 / 2705 / 270 5 / 2706 / 270 6 / 2707 / 270 7 / 2708 / 270 8 / 2709 / 270 9 / 27010 / 270 10 / 27011 / 270 11 / 27012 / 270 12 / 27013 / 270 13 / 27014 / 270 14 / 27015 / 270 15 / 27016 / 270 16 / 27017 / 270 17 / 27018 / 270 18 / 27019 / 270 19 / 27020 / 270 20 / 27022 / 270 22 / 27023 / 270 23 / 27024 / 270 24 / 27025 / 270 25 / 27026 / 270 26 / 27027 / 270 27 / 27028 / 270 28 / 27029 / 270 29 / 27030 / 270 30 / 27031 / 270 31 / 27032 / 270 32 / 27033 / 270 33 / 27034 / 270 34 / 27035 / 270 35 / 27036 / 270 36 / 27037 / 270 37 / 27038 / 270 38 / 27039 / 270 39 / 27040 / 270 40 / 27041 / 270 41 / 27042 / 270 42 / 27044 / 270 44 / 27045 / 270 45 / 27046 / 270 46 / 27047 / 270 47 / 27048 / 270 48 / 27050 / 270 50 / 27051 / 270 51 / 27052 / 270 52 / 27053 / 270 53 / 27054 / 270 54 / 27055 / 270 55 / 27056 / 270 56 / 27057 / 270 57 / 27058 / 270 58 / 27059 / 270 59 / 27060 / 270 60 / 27061 / 270 61 / 27062 / 270 62 / 27063 / 270 63 / 27064 / 270 64 / 27065 / 270 65 / 27066 / 270 66 / 27067 / 270 67 / 27068 / 270 68 / 27069 / 270 69 / 27070 / 270 70 / 27071 / 270 71 / 27072 / 270 72 / 27073 / 270 73 / 27074 / 270 74 / 27075 / 270 75 / 27076 / 270 76 / 27077 / 270 77 / 27078 / 270 78 / 27079 / 270 79 / 27080 / 270 80 / 27081 / 270 81 / 27082 / 270 82 / 27083 / 270 83 / 27084 / 270 84 / 27085 / 270 85 / 27087 / 270 87 / 27088 / 270 88 / 27089 / 270 89 / 27090 / 270 90 / 27091 / 270 91 / 27092 / 270 92 / 27093 / 270 93 / 27094 / 270 94 / 27095 / 270 95 / 27096 / 270 96 / 27097 / 270 97 / 27098 / 270 98 / 27099 / 270 99 / 270101 / 270 101 / 270103 / 270 103 / 270104 / 270 104 / 270105 / 270 105 / 270106 / 270 106 / 270107 / 270 107 / 270108 / 270 108 / 270109 / 270 109 / 270110 / 270 110 / 270111 / 270 111 / 270112 / 270 112 / 270113 / 270 113 / 270114 / 270 114 / 270115 / 270 115 / 270116 / 270 116 / 270117 / 270 117 / 270118 / 270 118 / 270119 / 270 119 / 270120 / 270 120 / 270121 / 270 121 / 270122 / 270 122 / 270123 / 270 123 / 270124 / 270 124 / 270125 / 270 125 / 270126 / 270 126 / 270127 / 270 127 / 270128 / 270 128 / 270129 / 270 129 / 270130 / 270 130 / 270131 / 270 131 / 270132 / 270 132 / 270133 / 270 133 / 270134 / 270 134 / 270135 / 270 135 / 270136 / 270 136 / 270137 / 270 137 / 270138 / 270 138 / 270139 / 270 139 / 270140 / 270 140 / 270141 / 270 141 / 270142 / 270 142 / 270144 / 270 144 / 270145 / 270 145 / 270146 / 270 146 / 270147 / 270 147 / 270148 / 270 148 / 270149 / 270 149 / 270150 / 270 150 / 270151 / 270 151 / 270152 / 270 152 / 270153 / 270 153 / 270154 / 270 154 / 270155 / 270 155 / 270156 / 270 156 / 270157 / 270 157 / 270158 / 270 158 / 270159 / 270 159 / 270161 / 270 161 / 270162 / 270 162 / 270163 / 270 163 / 270164 / 270 164 / 270165 / 270 165 / 270166 / 270 166 / 270167 / 270 167 / 270168 / 270 168 / 270169 / 270 169 / 270170 / 270 170 / 270171 / 270 171 / 270172 / 270 172 / 270173 / 270 173 / 270174 / 270 174 / 270175 / 270 175 / 270176 / 270 176 / 270177 / 270 177 / 270178 / 270 178 / 270179 / 270 179 / 270180 / 270 180 / 270181 / 270 181 / 270182 / 270 182 / 270183 / 270 183 / 270184 / 270 184 / 270185 / 270 185 / 270186 / 270 186 / 270187 / 270 187 / 270188 / 270 188 / 270189 / 270 189 / 270190 / 270 190 / 270191 / 270 191 / 270192 / 270 192 / 270194 / 270 194 / 270195 / 270 195 / 270196 / 270 196 / 270197 / 270 197 / 270198 / 270 198 / 270199 / 270 199 / 270200 / 270 200 / 270203 / 270 203 / 270204 / 270 204 / 270205 / 270 205 / 270206 / 270 206 / 270207 / 270 207 / 270208 / 270 208 / 270209 / 270 209 / 270210 / 270 210 / 270211 / 270 211 / 270213 / 270 213 / 270214 / 270 214 / 270215 / 270 215 / 270216 / 270 216 / 270217 / 270 217 / 270218 / 270 218 / 270219 / 270 219 / 270220 / 270 220 / 270221 / 270 221 / 270222 / 270 222 / 270223 / 270 223 / 270224 / 270 224 / 270225 / 270 225 / 270226 / 270 226 / 270227 / 270 227 / 270228 / 270 228 / 270229 / 270 229 / 270230 / 270 230 / 270231 / 270 231 / 270232 / 270 232 / 270233 / 270 233 / 270234 / 270 234 / 270235 / 270 235 / 270236 / 270 236 / 270237 / 270 237 / 270238 / 270 238 / 270239 / 270 239 / 270240 / 270 240 / 270241 / 270 241 / 270242 / 270 242 / 270243 / 270 243 / 270244 / 270 244 / 270245 / 270 245 / 270246 / 270 246 / 270247 / 270 247 / 270248 / 270 248 / 270249 / 270 249 / 270250 / 270 250 / 270251 / 270 251 / 270252 / 270 252 / 270253 / 270 253 / 270254 / 270 254 / 270255 / 270 255 / 270256 / 270 256 / 270257 / 270 257 / 270258 / 270 258 / 270259 / 270 259 / 270261 / 270 261 / 270262 / 270 262 / 270263 / 270 263 / 270264 / 270 264 / 270265 / 270 265 / 270266 / 270 266 / 270   done.                      
+
+Realigning 5722/11646           Realigning 6344/11646           Realigning 6349/11646           Realigning 6373/11646           Realigning 6376/11646           Realigning 6431/11646           Realigning 6436/11646           Realigning 6461/11646           Realigning 6650/11646           Realigning 6692/11646           Realigning 6695/11646           Realigning 6701/11646           Realigning 6703/11646           Realigning 6704/11646           Realigning 6706/11646           Realigning 6707/11646           Realigning 6708/11646           Realigning 6709/11646           Realigning 6710/11646           Realigning 6713/11646           Realigning 6714/11646           Realigning 6717/11646           Realigning 6720/11646           Realigning 6722/11646           Realigning 6724/11646           Realigning 6741/11646           Realigning 6745/11646           Realigning 6756/11646           Realigning 6773/11646           Realigning 6774/11646           Realigning 6775/11646           Realigning 6776/11646           Realigning 6777/11646           Realigning 6778/11646           Realigning 6779/11646           Realigning 6780/11646           Realigning 6781/11646           Realigning 6782/11646           Realigning 6783/11646           Realigning 6784/11646           Realigning 6785/11646           Realigning 6792/11646           Realigning 6795/11646           Realigning 6796/11646           Realigning 6797/11646           Realigning 6798/11646           Realigning 6799/11646           Realigning 6802/11646           Realigning 6804/11646           Realigning 6810/11646           Realigning 6811/11646           Realigning 6813/11646           Realigning 6814/11646           Realigning 6815/11646           Realigning 6823/11646           Realigning 6825/11646           Realigning 6827/11646           Realigning 6829/11646           Realigning 6830/11646           Realigning 6835/11646           Realigning 6836/11646           Realigning 6837/11646           Realigning 6839/11646           Realigning 6840/11646           Realigning 6841/11646           Realigning 6855/11646           Realigning 6857/11646           Realigning 6858/11646           Realigning 6859/11646           Realigning 6860/11646           Realigning 6861/11646           Realigning 6863/11646           Realigning 6864/11646           Realigning 6865/11646           Realigning 6870/11646           Realigning 6877/11646           Realigning 6886/11646           Realigning 6887/11646           Realigning 6888/11646           Realigning 6889/11646           Realigning 6890/11646           Realigning 6891/11646           Realigning 6894/11646           Realigning 6904/11646           Realigning 6908/11646           Realigning 6910/11646           Realigning 6913/11646           Realigning 6914/11646           Realigning 6915/11646           Realigning 6916/11646           Realigning 6918/11646           Realigning 6925/11646           Realigning 6929/11646           Realigning 6930/11646           Realigning 6932/11646           Realigning 6933/11646           Realigning 6934/11646           Realigning 6936/11646           Realigning 6937/11646           Realigning 6939/11646           Realigning 6940/11646           Realigning 6942/11646           Realigning 6943/11646           Realigning 6944/11646           Realigning 6947/11646           Realigning 6956/11646           Realigning 6957/11646           Realigning 6958/11646           Realigning 6959/11646           Realigning 6960/11646           Realigning 6961/11646           Realigning 6963/11646           Realigning 6965/11646           Realigning 6966/11646           Realigning 6967/11646           Realigning 6970/11646           Realigning 6982/11646           Realigning 6995/11646           Realigning 7068/11646           Realigning 7072/11646           Realigning 7074/11646           Realigning 7075/11646           Realigning 7076/11646           Realigning 7077/11646           Realigning 7078/11646           Realigning 7103/11646           Realigning 7104/11646           Realigning 7111/11646           Realigning 7116/11646           Realigning 7118/11646           Realigning 7119/11646           Realigning 7120/11646           Realigning 7121/11646           Realigning 7130/11646           Realigning 7133/11646           Realigning 7135/11646           Realigning 7136/11646           Realigning 7138/11646           Realigning 7139/11646           Realigning 7140/11646           Realigning 7141/11646           Realigning 7142/11646           Realigning 7143/11646           Realigning 7145/11646           Realigning 7146/11646           Realigning 7147/11646           Realigning 7148/11646           Realigning 7150/11646           Realigning 7152/11646           Realigning 7154/11646           Realigning 7156/11646           Realigning 7159/11646           Realigning 7161/11646           Realigning 7181/11646           Realigning 7188/11646           Realigning 7189/11646           Realigning 7191/11646           Realigning 7194/11646           Realigning 7200/11646           Realigning 7207/11646           Realigning 7228/11646           Realigning 7229/11646           Realigning 7453/11646           Realigning 7484/11646           Realigning 7558/11646           Realigning 7574/11646           Realigning 7701/11646           Realigning 7714/11646           Realigning 7883/11646           Realigning 7884/11646           Realigning 7886/11646           Realigning 7890/11646           Realigning 7892/11646           Realigning 7893/11646           Realigning 7903/11646           Realigning 7905/11646           Realigning 8117/11646           Realigning 8168/11646           Realigning 8174/11646           Realigning 8183/11646           Realigning 8184/11646           Realigning 8237/11646           Realigning 8239/11646           Realigning 8240/11646           Realigning 8252/11646           Realigning 8255/11646           Realigning 8257/11646           Realigning 8524/11646           Realigning 8627/11646           Realigning 8656/11646           Realigning 8684/11646           Realigning 8685/11646           Realigning 8695/11646           Realigning 8699/11646           Realigning 8710/11646           Realigning 8711/11646           Realigning 8713/11646           Realigning 8715/11646           Realigning 8748/11646           Realigning 8767/11646           Realigning 8768/11646           Realigning 9232/11646           Realigning 9235/11646           Realigning 9236/11646           Realigning 9238/11646           Realigning 9242/11646           Realigning 9244/11646           Realigning 9248/11646           Realigning 9250/11646           Realigning 9251/11646           Realigning 9347/11646           Realigning 9348/11646           Realigning 9365/11646           Realigning 9369/11646           Realigning 9408/11646           Realigning 9409/11646           Realigning 9410/11646           Realigning 9474/11646           Realigning 9475/11646           Realigning 9488/11646           Realigning 9494/11646           Realigning 9504/11646           Realigning 9509/11646           Realigning 9520/11646           Realigning 9522/11646           Realigning 9524/11646           Realigning 9526/11646           Realigning 9527/11646           Realigning 9528/11646           Realigning 9529/11646           Realigning 9532/11646           Realigning 10245/11646           Realigning 10249/11646           Realigning 10254/11646           Realigning 10257/11646           Realigning 10269/11646           Realigning 10272/11646           Realigning 10273/11646           Realigning 10274/11646           Realigning 10275/11646           Realigning 10289/11646           Realigning 10303/11646           Realigning 10307/11646           Realigning 10320/11646           Realigning 10321/11646           Realigning 10322/11646           Realigning 10325/11646           Realigning 10328/11646           Realigning 10329/11646           Realigning 10344/11646           Realigning 10346/11646           Realigning 10350/11646           Realigning 10351/11646              done.                      
+
+addsingle (nuc) Version 7.505
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+36 thread(s)
+
+
+Strategy:
+ Multi-INS-fragment (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
