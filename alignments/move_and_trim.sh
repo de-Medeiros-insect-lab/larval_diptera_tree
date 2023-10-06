@@ -35,4 +35,25 @@ done
 mkdir -p aligned_trimmed
 
 mv aligned/*trimmed.fasta aligned_trimmed
+
+# Remove reference sequences (starting with NW_ or NC_) from the aligned files
+for file in aligned_trimmed/*.fasta; do
+    awk '
+    /^>/ {
+        if ($0 ~ /^>NW_/ || $0 ~ /^>NC_/) {
+            skip = 1;
+        } else {
+            skip = 0;
+            print;
+        }
+        next;
+    }
+    {
+        if (skip == 0) print;
+    }
+    ' "$file" > "${file}.tmp" && mv "${file}.tmp" "$file"
+done
+
+# Replace >_R_ with > (mafft can add this)
 sed -i 's/>_R_/>/g' aligned_trimmed/*.fasta
+
