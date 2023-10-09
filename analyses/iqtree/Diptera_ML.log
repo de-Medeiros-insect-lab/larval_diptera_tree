@@ -1,0 +1,1170 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    chandler.fm.pri (AVX512, FMA3, 251 GB RAM)
+Command: iqtree -s concatenated_alignment.nexus -m MFP+MERGE -B 1000 -p partitions.nex -g partial_iqtree.tre -T AUTO --prefix Diptera_ML
+Seed:    174623 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct  6 10:28:39 2023
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+Reading partition model file partitions.nex ...
+Reading alignment file concatenated_alignment.nexus ... Nexus format detected
+WARNING: 6 sites contain only gaps or ambiguous characters.
+Alignment has 538 sequences with 16016 columns, 11297 distinct patterns
+7183 parsimony-informative, 2631 singleton sites, 6202 constant sites
+                           Gap/Ambiguity  Composition  p-value
+   1  Lucilia_7374                61.61%    failed      0.00%
+   2  Drosophila_7215             30.06%    failed      0.00%
+   3  Aedes_7158                  47.31%    failed      0.12%
+   4  Miltogramma_670602          64.77%    failed      0.00%
+   5  Anastrepha_28585            64.56%    passed     97.19%
+   6  Apiocera_160270             78.25%    failed      3.93%
+   7  Hippobosca_452745           80.83%    failed      0.08%
+   8  Elgiva_320938               72.73%    failed      0.10%
+   9  Microchrysa_931517          93.78%    failed      0.01%
+  10  Nycteribia_633884           84.02%    failed      0.00%
+  11  Phlebotomus_13203           50.71%    failed      0.00%
+  12  Polietes_559702             82.29%    failed      0.00%
+  13  Simulium_7191               47.54%    failed      0.51%
+  14  Stratiomys_219520           73.68%    failed      2.60%
+  15  Trichocera_52759            52.25%    failed      0.00%
+  16  Xylophagus_219493           54.64%    failed      0.00%
+  17  Helosciomyzidae             77.77%    failed      0.00%
+  18  Ctenostylidae               67.61%    failed      0.01%
+  19  Acrocera_210245             70.90%    failed      0.00%
+  20  Anevrina_92526              90.23%    failed      0.00%
+  21  Anopheles_7164              64.30%    failed      0.00%
+  22  Anthomyia_259845            78.86%    failed      0.00%
+  23  Anthrax_117078              90.88%    failed      0.00%
+  24  Aphidoletes_95971           85.32%    failed      0.00%
+  25  Apocephalus_117252          90.91%    failed      0.00%
+  26  Aprionus_1819779            71.83%    passed     16.16%
+  27  Asphondylia_153012          71.38%    failed      0.00%
+  28  Astomella_210239            89.32%    failed      0.00%
+  29  Atherigona_305597           81.01%    failed      1.09%
+  30  Atrichopogon_209702         74.64%    failed      0.00%
+  31  Aulogastromyia_1824990      86.00%    failed      0.00%
+  32  Bactrocera_27456            62.08%    passed     93.80%
+  33  Bertamyia_1445832           88.04%    failed      0.00%
+  34  Bibio_189978                78.88%    failed      0.00%
+  35  Blondelia_179437            58.49%    failed      3.62%
+  36  Bolitophila_52718           72.32%    failed      0.73%
+  37  Bombylius_219362            52.93%    failed      0.00%
+  38  Borophaga_712093            88.79%    failed      0.00%
+  39  Bradysia_35571              64.07%    failed      0.30%
+  40  Calliphora_7372             56.31%    passed     37.14%
+  41  Callomyia_712098            87.60%    failed      0.00%
+  42  Cecidomyia_1543682          85.42%    failed      0.00%
+  43  Ceratitis_7212              74.66%    passed     18.61%
+  44  Chalarus_115250             85.67%    failed      0.00%
+  45  Chelifera_369889            84.30%    failed      0.00%
+  46  Chironomus_7150             59.99%    failed      0.00%
+  47  Chloromyia_343649           87.31%    failed      2.79%
+  48  Chonocephalus_92528         97.15%    failed      0.00%
+  49  Chrysomya_45449             65.93%    failed      0.00%
+  50  Chrysops_27458              66.70%    failed      0.00%
+  51  Chyliza_716634              72.63%    failed      1.20%
+  52  Cleigastra_113167           79.53%    failed      0.00%
+  53  Clinocera_192484            66.18%    failed      0.00%
+  54  Clusia_574057               77.55%    failed      0.00%
+  55  Coboldia_170624             89.08%    failed      0.00%
+  56  Compsomyiops_142897         67.41%    failed      0.00%
+  57  Contarinia_153220           78.44%    failed      0.00%
+  58  Cordilura_113132            65.51%    failed      0.02%
+  59  Cordylobia_226131           74.68%    failed      0.00%
+  60  Coremacera_1226614          76.75%    passed     97.84%
+  61  Corynoptera_1260849         69.93%    passed     17.18%
+  62  Crataerina_452743           83.34%    failed      0.00%
+  63  Craticulina_2021509         87.75%    failed      0.06%
+  64  Culex_7174                  74.07%    failed      0.00%
+  65  Culicoides_41820            71.56%    passed      9.70%
+  66  Culiseta_174825             80.21%    passed      7.60%
+  67  Cuterebra_170896            52.38%    failed      0.01%
+  68  Dasineura_240745            75.67%    failed      0.00%
+  69  Dasiops_286456              91.88%    failed      0.00%
+  70  Dasyhelea_41822             73.91%    failed      0.01%
+  71  Delia_30063                 78.99%    failed      0.00%
+  72  Delphinia_43369             80.53%    failed      0.02%
+  73  Dermatobia_115426           85.35%    failed      0.00%
+  74  Dexia_569033                60.83%    failed      0.01%
+  75  Diadocidia_560721           57.96%    failed      0.05%
+  76  Diopsis_139667              81.16%    failed      1.68%
+  77  Diplonevra_92534            80.85%    failed      1.26%
+  78  Ditomyia_1520322            59.05%    failed      0.01%
+  79  Dolichopus_192427           76.87%    failed      0.00%
+  80  Ectophasia_569037           63.47%    failed      0.10%
+  81  Eginia_1511678              76.89%    failed      0.00%
+  82  Ephydra_504564              81.67%    failed      0.00%
+  83  Euleia_28591                85.49%    failed      0.00%
+  84  Eulonchus_210230            67.40%    failed      0.00%
+  85  Eumesembrinella_672472      75.24%    failed      0.00%
+  86  Eurosta_28593               87.03%    failed      0.00%
+  87  Euxesta_286468              86.93%    failed      0.00%
+  88  Exechia_397139              63.92%    failed      0.00%
+  89  Exeretonevra_560723         61.58%    failed      0.00%
+  90  Exorista_113238             46.86%    failed      0.12%
+  91  Fannia_95468                64.53%    failed      0.00%
+  92  Forcipomyia_209700          85.88%    failed      0.36%
+  93  Gasterophilus_84524         86.12%    failed      0.00%
+  94  Geomyza_305619              74.98%    failed      0.00%
+  95  Glossina_7393               80.86%    failed      0.02%
+  96  Graphomya_1072499           81.17%    failed      0.08%
+  97  Gymnocarena_28597           92.13%    failed      0.00%
+  98  Gyrostigma_2555504          86.29%    passed      7.42%
+  99  Haematobosca_559680         71.84%    failed      0.00%
+ 100  Hebecnema_559682            79.19%    failed      0.00%
+ 101  Hedria_320941               81.49%    failed      0.00%
+ 102  Helcomyza_169476            63.85%    passed     66.57%
+ 103  Hemigymnochaeta_1240433     86.17%    failed      0.00%
+ 104  Heterocheila_169481         82.21%    failed      0.65%
+ 105  Hirmoneura_388531           79.60%    failed      0.00%
+ 106  Homoneura_1692452           84.22%    failed      0.00%
+ 107  Huascaromusca_1609532       85.52%    failed      0.00%
+ 108  Hydrellia_92591             89.70%    failed      0.00%
+ 109  Hydromyza_113174            78.85%    failed      0.00%
+ 110  Hylemya_253328              79.28%    failed      0.00%
+ 111  Hypocera_940227             84.04%    failed      1.08%
+ 112  Hypoderma_7388              84.30%    failed      0.00%
+ 113  Icosta_402409               87.21%    failed      0.00%
+ 114  Icterica_28599              90.48%    failed      0.00%
+ 115  Ilione_1096072              68.47%    passed     10.38%
+ 116  Incertella_540867           92.79%    failed      0.00%
+ 117  Jamesomyia_28601            94.31%    failed      0.00%
+ 118  Laneella_1658054            85.77%    failed      0.00%
+ 119  Leptomorphus_560729         73.26%    failed      0.00%
+ 120  Leucophenga_7329            78.52%    failed      0.00%
+ 121  Ligyra_117088               94.96%    failed      0.00%
+ 122  Limnophora_307207           67.20%    failed      2.62%
+ 123  Lipoptena_170902            78.16%    failed      0.00%
+ 124  Liriomyza_127403            64.53%    failed      0.00%
+ 125  Lutzomyia_7199              72.61%    passed     11.07%
+ 126  Macrocera_608727            73.36%    failed      0.55%
+ 127  Medetera_377527             84.97%    passed     11.29%
+ 128  Megaselia_36165             66.53%    failed      0.00%
+ 129  Melanophora_1606787         67.19%    failed      0.01%
+ 130  Melinda_170907              67.05%    failed      0.38%
+ 131  Melophagus_452748           75.91%    failed      0.00%
+ 132  Mesembrina_116147           81.01%    failed      0.00%
+ 133  Mesembrinella_460529        55.81%    failed      0.01%
+ 134  Mimegralla_115300           92.95%    failed      0.00%
+ 135  Morellia_253340             82.04%    failed      0.00%
+ 136  Musca_7369                  53.80%    passed     28.70%
+ 137  Muscina_57892               76.44%    passed      8.20%
+ 138  Mycomya_608706              66.12%    failed      0.01%
+ 139  Mydas_186100                52.07%    failed      0.00%
+ 140  Mystacinobia_81694          76.40%    failed      0.00%
+ 141  Nemoraea_170911             64.26%    failed      4.35%
+ 142  Nemotelus_343582            80.49%    passed     65.25%
+ 143  Neoempheria_608686          64.15%    failed      0.70%
+ 144  Neomyia_305607              80.64%    failed      0.00%
+ 145  Nephrocerus_115303          82.23%    failed      0.00%
+ 146  Noeeta_381362               91.92%    failed      0.00%
+ 147  Norellia_113119             78.83%    failed      0.00%
+ 148  Ocnaea_210271               78.66%    failed      0.00%
+ 149  Ocyptamus_369855            67.96%    failed      0.00%
+ 150  Odontomyia_343652           87.33%    passed     48.92%
+ 151  Oestrus_123736              77.21%    failed      0.00%
+ 152  Ogcodes_188257              73.91%    failed      0.00%
+ 153  Olfersia_1333310            93.43%    failed      0.00%
+ 154  Oplodontha_446504           89.48%    failed      0.00%
+ 155  Opomyza_716643              88.02%    failed      0.00%
+ 156  Orfelia_270890              77.92%    failed      0.01%
+ 157  Orthacheta_113181           79.11%    failed      0.00%
+ 158  Oxycera_860348              93.77%    failed      0.00%
+ 159  Oxyna_381365                91.96%    failed      0.00%
+ 160  Pachygaster_124321          85.78%    passed      5.69%
+ 161  Palloptera_286498           83.15%    failed      0.00%
+ 162  Pamponerus_1717601          93.40%    failed      0.01%
+ 163  Paracantha_164885           92.14%    failed      0.00%
+ 164  Paragus_115308              74.04%    failed      0.00%
+ 165  Paralucilia_1042205         85.88%    failed      0.00%
+ 166  Paranthomyza_500298         93.59%    failed      0.00%
+ 167  Parasetigena_380521         73.16%    failed      0.00%
+ 168  Paregle_559693              84.37%    failed      0.00%
+ 169  Passeromyia_1511687         77.97%    failed      0.00%
+ 170  Paykullia_559695            55.55%    failed      0.00%
+ 171  Pegomya_559697              86.00%    failed      0.00%
+ 172  Pelidnoptera_1096074        71.44%    passed     94.96%
+ 173  Penicillidia_81721          82.69%    failed      0.00%
+ 174  Pericoma_1148481            92.32%    failed      0.00%
+ 175  Phaonia_253431              69.41%    passed      5.05%
+ 176  Philonicus_247567           70.18%    failed      2.60%
+ 177  Phryxe_569079               72.80%    failed      3.73%
+ 178  Phyllodromia_1209097        84.16%    failed      0.00%
+ 179  Physocephala_198643         62.01%    failed      0.00%
+ 180  Phyto_1262320               78.23%    failed      0.00%
+ 181  Phytomyptera_179785         74.52%    failed      0.00%
+ 182  Piceacecis_2597495          85.81%    failed      0.00%
+ 183  Piophila_53709              84.41%    failed      0.00%
+ 184  Pipunculus_240898           79.45%    failed      0.00%
+ 185  Platypeza_289241            83.88%    failed      0.00%
+ 186  Platystoma_286504           86.94%    failed      0.00%
+ 187  Plecia_1260898              72.54%    failed      0.19%
+ 188  Pollenia_229639             55.43%    failed      0.12%
+ 189  Polyporivora_1445854        83.54%    failed      0.00%
+ 190  Promachus_247552            57.21%    failed      3.92%
+ 191  Protoplasa_560776           72.58%    failed      0.00%
+ 192  Psacadina_1096078           71.98%    failed      1.96%
+ 193  Psychoda_7201               89.73%    failed      0.00%
+ 194  Pterodontia_210267          72.98%    failed      0.00%
+ 195  Quametopia_1603285          88.27%    failed      0.00%
+ 196  Rhagio_124327               87.99%    failed      0.00%
+ 197  Rhagoletis_28609            73.83%    passed     26.07%
+ 198  Rhamphomyia_192612          78.43%    failed      0.00%
+ 199  Rhaphium_377528             86.93%    failed      4.28%
+ 200  Rhinoestrus_204922          92.96%    failed      0.00%
+ 201  Rhinophora_670625           78.28%    failed      0.00%
+ 202  Rhyncomya_670621            54.96%    failed      0.62%
+ 203  Sarconesia_670650           66.36%    failed      0.09%
+ 204  Scaptomyza_7298             77.19%    failed      0.00%
+ 205  Scathophaga_95462           58.40%    failed      0.01%
+ 206  Scenopinus_247599           61.69%    failed      0.15%
+ 207  Sciadocera_192453           86.56%    failed      0.00%
+ 208  Sciara_82677                77.44%    failed      0.16%
+ 209  Sciophila_1085959           52.57%    failed      1.83%
+ 210  Senotainia_179787           81.77%    failed      0.01%
+ 211  Sepedon_320954              68.64%    failed      0.03%
+ 212  Sepsis_137507               58.90%    failed      0.00%
+ 213  Sicus_1219203               89.62%    failed      0.03%
+ 214  Silba_198646                86.91%    failed      0.00%
+ 215  Sitodiplosis_263139         75.75%    failed      0.00%
+ 216  Sphecapatoclea_2021595      87.75%    passed     17.10%
+ 217  Sphecapatodes_2021536       87.75%    failed      0.45%
+ 218  Sphyracephala_139674        69.12%    passed     31.73%
+ 219  Stegana_188292              77.01%    failed      0.00%
+ 220  Stevenia_670627             65.40%    failed      0.00%
+ 221  Stiphrosoma_500293          87.89%    failed      0.00%
+ 222  Sturmia_569089              74.46%    failed      0.00%
+ 223  Symmerus_560780             75.67%    failed      0.02%
+ 224  Tanypeza_1692486            86.76%    failed      0.00%
+ 225  Tephritis_43386             85.11%    failed      0.00%
+ 226  Terellia_28615              89.19%    failed      0.00%
+ 227  Tetanocera_320959           72.76%    failed      0.45%
+ 228  Tetanops_454640             88.68%    passed      8.45%
+ 229  Thecophora_305546           72.49%    passed     47.81%
+ 230  Themira_292396              64.54%    passed     15.81%
+ 231  Tipula_41043                49.26%    failed      0.00%
+ 232  Toxomerus_115327            70.18%    failed      0.00%
+ 233  Tricholauxania_192459       89.20%    failed      0.00%
+ 234  Tricogena_1606792           87.39%    failed      0.00%
+ 235  Trupanea_30060              84.81%    failed      0.00%
+ 236  Urophora_28620              84.99%    failed      0.00%
+ 237  Verrallia_115333            88.65%    failed      0.00%
+ 238  Volucella_226148            77.33%    failed      0.00%
+ 239  Wiedemannia_240904          77.69%    failed      0.00%
+ 240  Winnertzia_2338641          74.42%    failed      0.00%
+ 241  Wohlfahrtia_128961          86.54%    failed      1.75%
+ 242  Xyphosia_381372             91.95%    failed      0.00%
+ 243  Zodion_768804               84.33%    passed     23.75%
+ 244  Zonosemata_28622            80.02%    failed      0.01%
+ 245  Zygothrica_504731           88.64%    failed      0.00%
+ 246  Corynoneura_611344          92.33%    passed     19.41%
+ 247  Metriocnemus_137497         90.33%    failed      2.80%
+ 248  Ptychoptera_209691          59.23%    failed      3.48%
+ 249  Sycorax_114592              85.49%    passed     34.92%
+ 250  Ainuyusurika_1165747        81.08%    failed      1.07%
+ 251  Antocha_454619              89.33%    failed      1.06%
+ 252  Aphroteniella_646259        86.29%    failed      0.12%
+ 253  Atherix_124299              83.22%    failed      3.87%
+ 254  Atylotus_1310336            86.14%    failed      3.88%
+ 255  Austrothaumalea_1085085     86.54%    failed      3.79%
+ 256  Blepharicera_547808         96.29%    passed     21.81%
+ 257  Brachyopa_1637464           87.54%    failed      0.00%
+ 258  Brachypeza_2326774          80.54%    failed      0.00%
+ 259  Callicera_228567            87.19%    failed      0.00%
+ 260  Cheilosia_173981            84.70%    failed      0.00%
+ 261  Chrysogaster_224248         87.14%    failed      0.00%
+ 262  Copestylum_511142           90.19%    failed      0.00%
+ 263  Cramptonomyia_209688        76.23%    failed      0.00%
+ 264  Ctenophora_516519           77.49%    passed     12.50%
+ 265  Deuterophlebia_560719       69.31%    failed      0.30%
+ 266  Dicranota_700836            92.24%    failed      0.00%
+ 267  Dixa_79309                  79.28%    passed     12.50%
+ 268  Epistrophe_414810           83.33%    failed      0.00%
+ 269  Eriozona_414724             87.09%    failed      0.00%
+ 270  Eristalis_198633            82.95%    failed      0.00%
+ 271  Eumerus_224220              83.30%    failed      0.00%
+ 272  Eupeodes_290403             80.21%    failed      0.00%
+ 273  Hammerschmidtia_226171      87.14%    failed      0.00%
+ 274  Hesperinus_1086788          71.77%    failed      0.00%
+ 275  Liponeura_446516            92.18%    passed     13.88%
+ 276  Mallophora_270862           80.30%    passed     66.37%
+ 277  Maruina_1144738             89.67%    failed      0.17%
+ 278  Merodon_224226              82.72%    failed      0.00%
+ 279  Microdon_115291             82.19%    failed      0.00%
+ 280  Monodiamesa_891905          81.87%    failed      1.78%
+ 281  Myolepta_1473716            82.74%    failed      0.00%
+ 282  Oestromyia_170913           84.66%    passed     53.53%
+ 283  Pachyneura_1588165          74.99%    failed      0.00%
+ 284  Paraborniella_903459        82.05%    failed      0.21%
+ 285  Parochlus_315560            86.41%    passed     12.35%
+ 286  Paucispinigera_903463       83.99%    failed      3.02%
+ 287  Pentaneura_891922           86.03%    failed      4.14%
+ 288  Phronia_397119              80.70%    failed      0.00%
+ 289  Phytomyza_132616            69.97%    failed      0.00%
+ 290  Pipiza_221788               84.60%    failed      0.00%
+ 291  Sarcophaga_7384             67.86%    passed     33.17%
+ 292  Scaeva_219538               80.09%    failed      0.00%
+ 293  Scatopse_1520324            80.49%    passed     11.44%
+ 294  Sphaerophoria_226179        80.98%    failed      0.00%
+ 295  Syritta_34681               80.51%    failed      0.00%
+ 296  Tabanus_7206                68.92%    failed      2.66%
+ 297  Thaumalea_61068             63.17%    failed      0.34%
+ 298  Trichomyia_560271           85.68%    failed      0.00%
+ 299  Neorhynchocephalus_259248   93.38%    failed      4.72%
+ 300  Pantophthalmus_124295       78.88%    failed      2.77%
+ 301  Periscelis_716628           73.93%    failed      0.01%
+ 302  Teratomyzidae               80.93%    failed      0.04%
+ 303  Ablabesmyia_46216           89.01%    passed     55.37%
+ 304  Acletoxenus_462271          85.44%    failed      0.00%
+ 305  Amenia_2086281              80.26%    failed      2.27%
+ 306  Androprosopa_41815          78.10%    failed      0.01%
+ 307  Anticheta_1096047           88.07%    failed      2.65%
+ 308  Apatolestes_428062          94.09%    passed     21.17%
+ 309  Archytas_198637             72.72%    failed      0.25%
+ 310  Auchmeromyia_226129         83.79%    passed     59.15%
+ 311  Billaea_701468              83.29%    passed     48.00%
+ 312  Blepharomyia_179434         84.17%    passed      6.87%
+ 313  Bolbodimyia_1547386         90.00%    failed      0.31%
+ 314  Cacoxenus_462273            85.17%    failed      0.00%
+ 315  Catachlorops_1547373        86.06%    failed      4.30%
+ 316  Cephenemyia_170894          87.03%    failed      4.97%
+ 317  Chirosia_392044             89.53%    failed      0.00%
+ 318  Chrysopilus_124301          92.53%    passed     17.86%
+ 319  Chymomyza_7292              92.82%    failed      0.03%
+ 320  Clusiodes_500306            92.41%    failed      0.00%
+ 321  Coenomyia_124305            93.28%    failed      0.00%
+ 322  Cyrtophleba_991141          62.10%    passed     41.37%
+ 323  Dinera_569035               78.25%    failed      3.57%
+ 324  Discocerina_745181          90.12%    failed      0.04%
+ 325  Drino_179459                74.97%    passed     51.09%
+ 326  Esenbeckia_124297           77.48%    failed      0.02%
+ 327  Eukiefferiella_288843       91.40%    passed     27.21%
+ 328  Fidena_1334907              83.35%    failed      0.02%
+ 329  Glutops_124309              85.56%    passed     24.15%
+ 330  Goniops_428065              82.07%    failed      0.11%
+ 331  Hemilucilia_416848          83.55%    failed      0.39%
+ 332  Hermetia_343581             81.27%    failed      0.01%
+ 333  Kesselimyia_1445844         91.68%    failed      0.00%
+ 334  Lasioptera_201413           88.36%    failed      0.00%
+ 335  Leschenaultia_179486        79.38%    passed     72.99%
+ 336  Macquartia_1918266          78.33%    failed      0.66%
+ 337  Melanagromyza_286470        90.72%    failed      0.00%
+ 338  Metachela_369884            90.38%    failed      0.06%
+ 339  Mintho_1918277              78.15%    failed      0.00%
+ 340  Mycetophila_397146          81.41%    failed      1.57%
+ 341  Neaera_695903               78.44%    failed      4.48%
+ 342  Ophiomyia_341050            80.59%    failed      0.00%
+ 343  Paraplatypeza_192442        83.80%    failed      0.06%
+ 344  Potamia_559704              74.87%    failed      1.46%
+ 345  Prosena_1918293             79.19%    failed      1.86%
+ 346  Przhevalskiana_123746       89.82%    failed      0.00%
+ 347  Psectrotanypus_903467       86.13%    failed      0.00%
+ 348  Ptiolina_124325             93.27%    failed      0.00%
+ 349  Rivellia_28633              93.89%    failed      0.00%
+ 350  Scaptodrosophila_7354       84.94%    failed      0.00%
+ 351  Sciomyza_320936             76.01%    passed      5.28%
+ 352  Silvius_415257              80.86%    failed      0.25%
+ 353  Smittia_315559              91.62%    passed     39.68%
+ 354  Stenotabanus_1547430        87.13%    failed      0.36%
+ 355  Thereva_95078               78.37%    passed     39.83%
+ 356  Triphleba_92553             91.48%    failed      0.69%
+ 357  Vermileo_124333             90.64%    failed      1.31%
+ 358  Zaira_179789                73.12%    passed     66.97%
+ 359  Zaprionus_7296              84.94%    failed      0.00%
+ 360  Dactylolabis_560717         83.80%    failed      0.31%
+ 361  Dioctria_468720             92.46%    passed     24.33%
+ 362  Olbiogaster_560768          84.39%    failed      0.33%
+ 363  Spaniocelyphus_1262326      89.89%    passed     35.11%
+ 364  Fergusonina_156411          74.56%    passed     91.07%
+ 365  Philornis_253427            82.54%    passed     15.12%
+ 366  Cryptochetum_1262333        97.20%    passed      5.58%
+ 367  Axymyia_560715              84.84%    failed      0.01%
+ 368  Nymphomyia_560766           92.98%    failed      0.00%
+ 369  Chaoborus_41812             84.05%    passed     25.29%
+ 370  Lasiopogon_219536           92.46%    passed     63.81%
+ 371  Haematopota_124311          91.35%    failed      0.25%
+ 372  Oreoleptis_1262318          88.99%    passed      9.94%
+ 373  Procanace_1262322           89.23%    failed      0.00%
+ 374  Neurochaeta_716624          88.30%    failed      0.00%
+ 375  Telostylinus_1262347        92.47%    passed      8.54%
+ 376  Liogma_560731               93.07%    failed      0.00%
+ 377  Oedoparena_1262316          93.66%    passed     64.85%
+ 378  Braula_305561               92.48%    failed      0.72%
+ 379  Neoalticomerus_716622       96.71%    passed     12.14%
+ 380  Parochthiphila_1262282      88.47%    passed     16.52%
+ 381  Neolimnia_1262312           94.51%    passed     72.80%
+ 382  Bittacomorpha_79307         83.73%    failed      0.05%
+ 383  Serromyia_209716            89.68%    failed      0.06%
+ 384  Pedicia_472374              95.06%    failed      0.00%
+ 385  Therobia_1918313            96.05%    failed      0.00%
+ 386  Scatella_305595             95.76%    failed      0.08%
+ 387  Cistudinomyia_2173397       95.89%    failed      0.75%
+ 388  Celyphus_1979294            96.26%    failed      4.01%
+ 389  Gymnometriocnemus_611353    95.89%    failed      0.00%
+ 390  Pseudosmittia_611382        95.74%    failed      0.03%
+ 391  Diasemopsis_139652          89.47%    failed      4.46%
+ 392  Copromyza_1217530           96.33%    failed      0.14%
+ 393  Leptocera_1614654           95.89%    failed      0.00%
+ 394  Leucotabanus_1969939        95.89%    failed      0.01%
+ 395  Araucoderus_1549737         95.90%    failed      0.07%
+ 396  Mallota_535942              95.87%    failed      0.00%
+ 397  Liopiophila_1603421         93.39%    passed      8.07%
+ 398  Centrophlebomyia_1603419    94.66%    passed     42.47%
+ 399  Pachylophus_1990794         96.37%    failed      0.08%
+ 400  Desmometopa_305587          95.89%    failed      0.00%
+ 401  Lonchaea_198649             95.85%    failed      0.00%
+ 402  Leptometopa_1720790         95.40%    failed      0.00%
+ 403  Neossos_2268121             95.89%    failed      0.10%
+ 404  Penthetria_560770           90.31%    failed      0.00%
+ 405  Paracoenia_1690382          95.89%    failed      0.00%
+ 406  Lasiomma_95464              95.89%    failed      0.00%
+ 407  Scholastes_1902237          95.89%    failed      0.48%
+ 408  Epichlorops_540897          95.89%    failed      0.00%
+ 409  Sphaeromias_1874311         90.65%    failed      0.01%
+ 410  Ochthera_1744809            95.89%    failed      0.00%
+ 411  Pteromicra_1226622          95.89%    passed      6.41%
+ 412  Aulacigaster_716608         95.89%    failed      0.00%
+ 413  Agathomyia_226141           92.96%    failed      0.00%
+ 414  Xanthogramma_414873         95.63%    failed      0.00%
+ 415  Blaesoxipha_128953          95.38%    failed      0.00%
+ 416  Agromyza_414290             86.88%    failed      0.93%
+ 417  Chlorops_540892             95.50%    failed      0.51%
+ 418  Odinia_414302               91.23%    failed      0.00%
+ 419  Japanagromyza_414298        91.23%    failed      0.00%
+ 420  Phytobia_414304             86.89%    failed      0.00%
+ 421  Clunio_315556               90.25%    failed      0.02%
+ 422  Pseudacteon_378799          95.64%    failed      0.00%
+ 423  Nothomicrodon_1857748       95.15%    failed      0.00%
+ 424  Neopachygaster_1692469      95.89%    failed      0.10%
+ 425  Onesiomima_2173510          98.32%    failed      1.44%
+ 426  Lamprolonchaea_907706       95.89%    failed      0.70%
+ 427  Lasiopiophila_1790233       95.89%    failed      0.73%
+ 428  Milichiella_1890919         95.89%    failed      0.01%
+ 429  Chaetopsis_240871           90.67%    failed      0.00%
+ 430  Alliopsis_1692454           95.85%    failed      0.02%
+ 431  Elomyia_1562792             96.24%    failed      0.00%
+ 432  Pegohylemyia_1887308        96.07%    failed      0.00%
+ 433  Clausicella_1718822         90.48%    passed     10.59%
+ 434  Egle_411076                 95.89%    failed      0.00%
+ 435  Fucellia_205683             95.89%    failed      0.00%
+ 436  Idiella_1902146             95.89%    failed      0.08%
+ 437  Protocalliphora_142901      95.89%    failed      0.07%
+ 438  Trypocalliphora_1042207     86.01%    failed      0.00%
+ 439  Chiastocheta_129251         90.78%    failed      0.00%
+ 440  Dryomyza_169444             95.89%    failed      0.13%
+ 441  Pelina_1086796              95.89%    failed      0.19%
+ 442  Scoliocentra_1823605        95.89%    failed      1.90%
+ 443  Mormotomyia_1155704         96.32%    passed     19.82%
+ 444  Psila_305548                95.89%    failed      0.00%
+ 445  Syrphus_224255              95.87%    failed      0.00%
+ 446  Allotrichoma_1492368        95.89%    failed      0.02%
+ 447  Scatophila_1763968          95.89%    failed      0.11%
+ 448  Brachydeutera_1990785       95.89%    failed      0.02%
+ 449  Discomyza_1720780           95.89%    failed      0.00%
+ 450  Notiphila_1118049           95.89%    failed      0.08%
+ 451  Sobarocephala_574054        90.75%    failed      0.00%
+ 452  Myospila_520040             95.89%    failed      0.00%
+ 453  Blera_226146                95.87%    failed      0.05%
+ 454  Euryomma_1650677            95.89%    failed      0.00%
+ 455  Anthomyiopsis_1918198       95.89%    failed      0.00%
+ 456  Aphanotrigonum_540849       95.89%    failed      0.00%
+ 457  Cryptonevra_1616778         95.59%    failed      0.00%
+ 458  Leucopis_1728826            87.11%    passed     35.44%
+ 459  Calamoncosis_540852         96.14%    failed      0.17%
+ 460  Coelopa_169466              81.07%    failed      0.00%
+ 461  Elachiptera_540858          95.89%    failed      0.02%
+ 462  Thaumatomyia_333800         95.89%    failed      0.04%
+ 463  Gaurax_540862               95.89%    failed      0.01%
+ 464  Hippelates_540866           95.89%    failed      0.00%
+ 465  Lipara_540870               95.89%    failed      0.02%
+ 466  Cleonice_1918224            95.89%    failed      0.00%
+ 467  Dictya_1096051              95.89%    failed      0.10%
+ 468  Ornidia_994473              95.89%    failed      0.00%
+ 469  Stenomicra_716630           95.89%    failed      0.02%
+ 470  Temnostoma_226164           95.89%    failed      0.01%
+ 471  Dilophus_52733              95.89%    failed      0.07%
+ 472  Nostima_1473719             95.89%    failed      0.01%
+ 473  Phorbia_1993534             95.85%    failed      0.00%
+ 474  Calycomyza_414293           95.89%    failed      0.01%
+ 475  Bathypogon_1718388          95.89%    failed      1.01%
+ 476  Neoascia_224222             95.87%    failed      0.01%
+ 477  Leptopsilopa_1887046        95.89%    failed      0.00%
+ 478  Melangyna_414825            95.87%    failed      0.00%
+ 479  Palpomyia_1525500           95.77%    failed      0.00%
+ 480  Hybomitra_124690            95.60%    failed      0.05%
+ 481  Ptecticus_343648            95.89%    failed      0.20%
+ 482  Sargus_343647               95.89%    failed      1.54%
+ 483  Metalimnobia_700851         95.67%    failed      0.84%
+ 484  Limonia_52743               95.67%    failed      1.01%
+ 485  Dictenidia_2108369          95.67%    failed      0.15%
+ 486  Prionocera_1690388          95.89%    failed      0.05%
+ 487  Nephrotoma_46210            95.67%    failed      0.01%
+ 488  Gnophomyia_700845           95.89%    failed      0.03%
+ 489  Helius_700865               95.89%    failed      0.00%
+ 490  Lipsothrix_700849           95.89%    failed      0.69%
+ 491  Lonchoptera_92595           95.89%    failed      0.00%
+ 492  Sylvicola_52753             95.89%    failed      0.03%
+ 493  Cylindrotoma_700834         95.67%    failed      0.00%
+ 494  Phalacrocera_2203737        95.89%    failed      0.01%
+ 495  Neoplasta_192640            89.74%    failed      1.98%
+ 496  Berkshiria_2061012          95.89%    failed      0.03%
+ 497  Zabrachia_1891525           95.89%    failed      0.00%
+ 498  Laphria_50683               95.89%    failed      0.06%
+ 499  Tricimba_540889             95.85%    failed      0.35%
+ 500  Cladochaeta_2035586         95.60%    failed      0.17%
+ 501  Machimus_247604             95.89%    failed      0.19%
+ 502  Curtonotum_1262296          91.18%    passed     68.17%
+ 503  Odontoloxozus_588320        96.01%    failed      1.01%
+ 504  Chamaemyia_305621           87.11%    failed      0.19%
+ 505  Mydaea_559689               95.89%    failed      0.00%
+ 506  Ateloglossa_1890907         95.89%    failed      0.00%
+ 507  Estheria_1918238            95.89%    failed      0.00%
+ 508  Systoechus_1690390          95.89%    failed      0.12%
+ 509  Tvetenia_611398             95.89%    failed      0.01%
+ 510  Cetema_540891               95.89%    failed      0.03%
+ 511  Spania_1559498              95.89%    failed      0.00%
+ 512  Tanyptera_2108371           95.89%    failed      0.00%
+ 513  Pholeomyia_1720804          95.89%    failed      0.00%
+ 514  Calobata_1820059            95.89%    failed      0.48%
+ 515  Compsobata_286452           81.79%    passed     84.40%
+ 516  Micropeza_1572561           90.99%    failed      0.00%
+ 517  Trichonta_397122            95.89%    failed      0.00%
+ 518  Mochlonyx_1577622           95.89%    failed      0.03%
+ 519  Loxocera_34684              91.81%    passed     31.60%
+ 520  Elephantomyia_700838        95.67%    failed      0.00%
+ 521  Lauterborniella_288850      95.89%    failed      0.00%
+ 522  Vibrissina_179525           91.12%    failed      0.38%
+ 523  Lydella_283929              95.89%    failed      0.00%
+ 524  Pseudoperichaeta_283931     95.89%    failed      0.00%
+ 525  Austroconops_209696         95.89%    failed      0.62%
+ 526  Epicypta_397117             95.89%    failed      0.00%
+ 527  Ornithophila_1497392        95.89%    failed      0.00%
+ 528  Acemya_1677647              95.89%    failed      0.00%
+ 529  Clogmia_85119               95.73%    failed      0.00%
+ 530  Cobboldia_2583773           95.85%    passed      8.77%
+ 531  Cerodontha_127401           92.36%    failed      0.00%
+ 532  Pnyxia_1781626              95.89%    failed      0.00%
+ 533  Peromyia_1914937            95.89%    failed      0.00%
+ 534  Basilia_170889              95.89%    failed      0.00%
+ 535  Hemerodromia_626769         95.89%    failed      0.00%
+ 536  Mischoderus_560267          91.30%    passed      6.06%
+ 537  Exetasis_1932988            94.44%    failed      0.26%
+ 538  Glaurocara_2027854          94.37%    passed     65.89%
+WARNING: 533 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                       83.85%  459 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 24 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		161	1224	506	467	MFP+MERGE	mito_noncoding
+2		17	346	59	197	MFP+MERGE	ND1_codon1
+3		17	346	30	236	MFP+MERGE	ND1_codon2
+4		17	346	138	102	MFP+MERGE	ND1_codon3
+5		102	235	226	2	MFP+MERGE	cytb_codon3
+6		102	235	65	129	MFP+MERGE	cytb_codon2
+7		102	234	114	88	MFP+MERGE	cytb_codon1
+8		148	2294	951	857	MFP+MERGE	18S
+9		262	3421	1657	999	MFP+MERGE	28S
+10		91	237	118	107	MFP+MERGE	AATS_codon1
+11		91	236	53	157	MFP+MERGE	AATS_codon2
+12		91	236	123	102	MFP+MERGE	AATS_codon3
+13		516	498	240	207	MFP+MERGE	COI_codon1
+14		516	498	117	320	MFP+MERGE	COI_codon2
+15		516	498	495	1	MFP+MERGE	COI_codon3
+16		141	502	71	326	MFP+MERGE	EF1a_codon1
+17		141	502	273	151	MFP+MERGE	EF1a_codon2
+18		141	501	137	272	MFP+MERGE	EF1a_codon3
+19		133	624	285	303	MFP+MERGE	CAD1_codon1
+20		133	624	335	256	MFP+MERGE	CAD1_codon2
+21		133	623	244	338	MFP+MERGE	CAD1_codon3
+22		68	586	403	122	MFP+MERGE	CAD2_codon1
+23		68	585	203	278	MFP+MERGE	CAD2_codon2
+24		68	585	340	185	MFP+MERGE	CAD2_codon3
+Degree of missing data: 0.659
+Info: multi-threading strategy over partitions
+
+Reading constraint tree partial_iqtree.tre...
+WARNING: Rooted constraint tree will be treated as unrooted tree
+INFO: Constraint tree will be applied to ML tree and all bootstrap trees.
+
+Creating fast initial parsimony tree by random order stepwise addition...
+23.001 seconds, parsimony score: 122735 (based on 9814 sites)
+Measuring multi-threading efficiency up to 72 CPU cores
+Increase to 10 rounds for branch lengths
+8 trees examined
+Threads: 1 / Time: 80.607 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -579332
+Threads: 2 / Time: 54.780 sec / Speedup: 1.471 / Efficiency: 74% / LogL: -579332
+Threads: 3 / Time: 44.185 sec / Speedup: 1.824 / Efficiency: 61% / LogL: -579332
+Threads: 4 / Time: 41.848 sec / Speedup: 1.926 / Efficiency: 48% / LogL: -579332
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -553333.522
+Current log-likelihood at step 1: -494823.808
+Current log-likelihood at step 2: -484271.137
+Current log-likelihood at step 3: -479979.918
+Current log-likelihood at step 4: -479468.706
+Current log-likelihood at step 5: -479331.087
+Current log-likelihood at step 6: -479198.760
+Current log-likelihood at step 7: -479114.122
+Current log-likelihood at step 8: -479062.637
+Current log-likelihood at step 9: -479038.228
+Current log-likelihood at step 10: -479010.414
+Current log-likelihood at step 11: -479001.038
+Current log-likelihood at step 12: -478986.259
+Current log-likelihood at step 13: -478973.196
+Current log-likelihood at step 14: -478962.045
+Current log-likelihood at step 15: -478952.005
+Current log-likelihood at step 16: -478943.095
+Current log-likelihood at step 17: -478935.825
+Current log-likelihood at step 18: -478930.462
+Current log-likelihood at step 19: -478925.729
+Parameters optimization took 18 rounds (46.626 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -472915.303
+Current log-likelihood at step 1: -472888.886
+Current log-likelihood at step 2: -472885.511
+Current log-likelihood at step 3: -472882.629
+Current log-likelihood at step 4: -472880.640
+Current log-likelihood at step 5: -472878.968
+Current log-likelihood at step 6: -472877.541
+Current log-likelihood at step 7: -472877.014
+Partition-specific rates:  0.443 0.215 0.123 0.660 9.326 0.190 0.558 0.246 0.408 1.457 0.143 8.428 0.631 0.123 7.259 0.201 0.851 0.420 0.740 1.769 0.440 1.453 0.318 1.417
+Parameters optimization took 6 rounds (12.406 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 105.125 seconds
+
+NOTE: ModelFinder requires 415 MB RAM!
+Selecting individual models for 24 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+   1 GTR+F+I+G4   81283.566   11.888      18S
+   2 GTR+F+I+G4   61742.901   78.795      COI_codon1
+   3 GTR+F+I+G4   18259.391   12.986      COI_codon2
+   4 GTR+F+I+G4   55532.733   25.076      mito_noncoding
+   5 GTR+F+I+G4   55459.661   72.470      CAD1_codon2
+   6 GTR+F+I+G4   162581.242  28.428      28S
+   7 GTR+F+I+G4   41063.483   33.971      EF1a_codon2
+   8 GTR+F+I+G4   39728.484   31.284      CAD1_codon1
+   9 GTR+F+I+G4   28658.827   16.709      CAD1_codon3
+  10 GTR+F+I+G4   18852.919   16.128      EF1a_codon3	0h:0m:4s (0h:3m:46s left)
+  11 GTR+F+I+G4   10018.795   7.947       EF1a_codon1	0h:0m:4s (0h:3m:27s left)
+  12 GTR+F+I+G4   28427.939   25.898      CAD2_codon1	0h:0m:4s (0h:3m:12s left)
+  13 GTR+F+I+G4   12927.065   5.586       CAD2_codon2	0h:0m:4s (0h:3m:0s left)
+  14 GTR+F+I+G4   33940.933   25.381      CAD2_codon3	0h:0m:4s (0h:2m:47s left)
+  15 GTR+F+I+G4   13358.914   16.580      cytb_codon1	0h:0m:4s (0h:2m:40s left)
+  16 GTR+F+I+G4   5935.758    5.192       cytb_codon2	0h:0m:4s (0h:2m:32s left)
+  17 GTR+F+I+G4   17056.716   43.517      AATS_codon1	0h:0m:4s (0h:2m:25s left)
+  18 GTR+F+I+G4   19023.411   246.468     AATS_codon3	0h:0m:4s (0h:2m:21s left)
+  19 GTR+F+I+G4   5595.874    4.145       AATS_codon2	0h:0m:4s (0h:2m:15s left)
+  20 GTR+F+I+G4   4168.846    100.820     ND1_codon3	0h:0m:4s (0h:2m:13s left)
+  21 GTR+F+I+G4   2942.324    2.182       ND1_codon1	0h:0m:5s (0h:2m:6s left)
+  22 GTR+F+I+G4   2328.765    1.071       ND1_codon2	0h:0m:5s (0h:2m:0s left)
+  23 GTR+F+I+G4   27747.264   909.657     cytb_codon3	0h:0m:5s (0h:2m:10s left)
+  24 GTR+F+I+G4   198349.269  977.819     COI_codon3	0h:0m:11s (0h:4m:17s left)
+Full partition model BIC score: 956280.309 (LnL: -471673.017  df:1336)
+Merging models to increase model fit (about 553 total partition schemes)...
+  25 GTR+F+I+G4   956716.331  27.428      18S+28S	0h:0m:28s (0h:10m:8s left)
+  26 GTR+F+I+G4   959364.213  51.253      28S+COI_codon1	0h:0m:49s (0h:16m:35s left)
+  27 GTR+F+I+G4   957260.467  44.523      28S+COI_codon2	0h:0m:56s (0h:18m:24s left)
+  28 GTR+F+I+G4   969658.677  94.473      28S+COI_codon3	0h:1m:2s (0h:19m:41s left)
+  29 GTR+F+I+G4   957813.208  45.327      28S+CAD1_codon2	0h:1m:11s (0h:21m:37s left)
+  30 GTR+F+I+G4   957624.150  34.584      mito_noncoding+28S	0h:1m:12s (0h:21m:1s left)
+  31 GTR+F+I+G4   957798.413  34.824      28S+EF1a_codon2	0h:1m:17s (0h:21m:47s left)
+  32 GTR+F+I+G4   956846.625  32.970      28S+CAD1_codon3	0h:1m:20s (0h:21m:47s left)
+  33 GTR+F+I+G4   956672.948  31.841      28S+EF1a_codon3	0h:1m:25s (0h:22m:32s left)
+  34 GTR+F+I+G4   957220.516  38.445      28S+CAD1_codon1	0h:1m:30s (0h:23m:3s left)
+  35 GTR+F+I+G4   956653.432  30.338      28S+EF1a_codon1	0h:1m:32s (0h:22m:44s left)
+  36 GTR+F+I+G4   957381.223  39.724      28S+CAD2_codon1	0h:1m:37s (0h:23m:18s left)
+  37 GTR+F+I+G4   956606.576  28.987      28S+CAD2_codon2	0h:1m:39s (0h:23m:5s left)
+  38 GTR+F+I+G4   957508.411  43.982      28S+CAD2_codon3	0h:1m:47s (0h:24m:13s left)
+  39 GTR+F+I+G4   956457.580  31.742      cytb_codon1+28S	0h:1m:47s (0h:23m:40s left)
+  40 GTR+F+I+G4   959391.343  38.668      cytb_codon3+28S	0h:1m:52s (0h:23m:56s left)
+  41 GTR+F+I+G4   956450.976  30.166      cytb_codon2+28S	0h:1m:53s (0h:23m:41s left)
+  42 GTR+F+I+G4   957100.520  37.096      28S+AATS_codon1	0h:1m:57s (0h:23m:52s left)
+  43 GTR+F+I+G4   956533.720  31.852      28S+AATS_codon2	0h:2m:0s (0h:23m:49s left)
+  44 GTR+F+I+G4   956782.706  30.010      ND1_codon3+28S	0h:2m:5s (0h:24m:13s left)
+  45 GTR+F+I+G4   956275.261  28.590      ND1_codon1+28S	0h:2m:8s (0h:24m:5s left)
+  46 GTR+F+I+G4   957465.196  40.673      28S+AATS_codon3	0h:2m:11s (0h:24m:10s left)
+  47 GTR+F+I+G4   956342.684  28.176      ND1_codon2+28S	0h:2m:13s (0h:23m:58s left)
+  48 GTR+F+I+G4   969273.727  94.948      18S+COI_codon3	0h:2m:34s (0h:27m:1s left)
+  49 GTR+F+I+G4   965009.807  180.641     COI_codon1+COI_codon3	0h:2m:35s (0h:26m:44s left)
+  50 GTR+F+I+G4   957910.645  39.729      18S+COI_codon1	0h:2m:36s (0h:26m:11s left)
+  51 GTR+F+I+G4   965997.238  112.598     COI_codon2+COI_codon3	0h:2m:43s (0h:26m:45s left)
+  52 GTR+F+I+G4   956821.349  27.333      18S+COI_codon2	0h:2m:50s (0h:27m:26s left)
+  53 GTR+F+I+G4   958479.023  23.351      mito_noncoding+18S	0h:2m:55s (0h:27m:36s left)
+  54 GTR+F+I+G4   957391.085  29.665      COI_codon1+COI_codon2	0h:2m:56s (0h:27m:7s left)
+  55 GTR+F+I+G4   963722.472  195.887     mito_noncoding+COI_codon3	0h:2m:59s (0h:27m:4s left)
+  56 GTR+F+I+G4   960581.005  51.719      mito_noncoding+COI_codon1	0h:3m:9s (0h:28m:2s left)
+  57 GTR+F+I+G4   958386.796  38.025      mito_noncoding+COI_codon2	0h:3m:10s (0h:27m:34s left)
+  58 GTR+F+I+G4   962866.987  344.827     COI_codon3+CAD1_codon1	0h:3m:29s (0h:29m:48s left)
+  59 GTR+F+I+G4   963342.509  286.592     COI_codon3+EF1a_codon2	0h:3m:29s (0h:29m:17s left)
+  60 GTR+F+I+G4   963456.099  354.715     COI_codon3+CAD1_codon2	0h:3m:31s (0h:28m:55s left)
+  61 GTR+F+I+G4   957426.522  35.474      18S+CAD1_codon2	0h:3m:35s (0h:28m:54s left)
+  62 GTR+F+I+G4   957305.236  22.380      18S+EF1a_codon2	0h:3m:38s (0h:28m:53s left)
+  63 GTR+F+I+G4   963426.817  288.478     COI_codon3+CAD1_codon3	0h:4m:1s (0h:31m:17s left)
+  64 GTR+F+I+G4   957013.986  28.605      18S+CAD1_codon1	0h:4m:6s (0h:31m:25s left)
+  65 GTR+F+I+G4   962684.118  310.654     COI_codon3+EF1a_codon3	0h:4m:6s (0h:30m:53s left)
+  66 GTR+F+I+G4   956607.084  20.476      18S+CAD1_codon3	0h:4m:11s (0h:30m:58s left)
+  67 GTR+F+I+G4   956445.965  18.497      18S+EF1a_codon3	0h:4m:13s (0h:30m:35s left)
+  68 GTR+F+I+G4   962667.485  348.476     COI_codon3+EF1a_codon1	0h:4m:14s (0h:30m:13s left)
+  69 GTR+F+I+G4   956399.302  15.561      18S+EF1a_codon1	0h:4m:15s (0h:29m:52s left)
+  70 GTR+F+I+G4   957328.188  31.057      18S+CAD2_codon1	0h:4m:20s (0h:29m:56s left)
+  71 GTR+F+I+G4   960312.295  478.502     COI_codon3+CAD2_codon3	0h:4m:44s (0h:32m:10s left)
+  72 GTR+F+I+G4   961194.962  432.174     COI_codon3+CAD2_codon1	0h:4m:50s (0h:32m:20s left)
+  73 GTR+F+I+G4   957439.281  33.498      18S+CAD2_codon3	0h:4m:54s (0h:32m:19s left)
+  74 GTR+F+I+G4   961715.830  372.920     COI_codon3+CAD2_codon2	0h:4m:56s (0h:31m:58s left)
+  75 GTR+F+I+G4   956470.567  14.840      18S+CAD2_codon2	0h:5m:0s (0h:31m:58s left)
+  76 GTR+F+I+G4   958215.675  693.124     cytb_codon2+COI_codon3	0h:5m:23s (0h:33m:49s left)
+  77 GTR+F+I+G4   958543.712  632.761     cytb_codon1+COI_codon3	0h:5m:24s (0h:33m:27s left)
+  78 GTR+F+I+G4   958362.463  982.897     cytb_codon3+COI_codon3	0h:5m:32s (0h:33m:45s left)
+  79 GTR+F+I+G4   960047.686  27.062      cytb_codon3+18S	0h:5m:39s (0h:33m:57s left)
+  80 GTR+F+I+G4   958662.072  662.133     AATS_codon3+COI_codon3	0h:5m:40s (0h:33m:33s left)
+  81 GTR+F+I+G4   959011.751  650.450     AATS_codon1+COI_codon3	0h:5m:49s (0h:33m:57s left)
+  82 GTR+F+I+G4   956926.515  118.405     COI_codon1+CAD1_codon2	0h:5m:52s (0h:33m:44s left)
+  83 GTR+F+I+G4   956498.236  16.888      cytb_codon1+18S	0h:5m:56s (0h:33m:36s left)
+  84 GTR+F+I+G4   956941.743  63.125      COI_codon1+EF1a_codon2	0h:5m:58s (0h:33m:19s left)
+  85 GTR+F+I+G4   956318.515  14.461      cytb_codon2+18S	0h:5m:59s (0h:32m:57s left)
+  86 GTR+F+I+G4   958739.611  652.843     AATS_codon2+COI_codon3	0h:6m:3s (0h:32m:54s left)
+  87 GTR+F+I+G4   957051.666  25.258      18S+AATS_codon1	0h:6m:3s (0h:32m:28s left)
+  88 GTR+F+I+G4   957379.320  30.166      18S+AATS_codon3	0h:6m:4s (0h:32m:5s left)
+  89 GTR+F+I+G4   956380.963  15.378      18S+AATS_codon2	0h:6m:7s (0h:31m:56s left)
+  90 GTR+F+I+G4   957101.726  95.960      COI_codon1+CAD1_codon1	0h:6m:15s (0h:32m:12s left)
+  91 GTR+F+I+G4   957072.121  76.559      COI_codon1+CAD1_codon3	0h:6m:19s (0h:32m:5s left)
+  92 GTR+F+I+G4   957045.371  837.587     ND1_codon1+COI_codon3	0h:6m:43s (0h:33m:44s left)
+  93 GTR+F+I+G4   957313.669  818.285     ND1_codon2+COI_codon3	0h:6m:46s (0h:33m:30s left)
+  94 GTR+F+I+G4   956803.521  926.754     ND1_codon3+COI_codon3	0h:6m:49s (0h:33m:17s left)
+  95 GTR+F+I+G4   956741.523  40.655      COI_codon1+EF1a_codon3	0h:6m:50s (0h:32m:57s left)
+  96 GTR+F+I+G4   957024.804  13.962      ND1_codon3+18S	0h:6m:51s (0h:32m:39s left)
+  97 GTR+F+I+G4   956304.823  12.808      ND1_codon1+18S	0h:6m:52s (0h:32m:17s left)
+  98 GTR+F+I+G4   956299.524  12.451      ND1_codon2+18S	0h:6m:54s (0h:32m:3s left)
+  99 GTR+F+I+G4   956970.442  35.596      COI_codon1+EF1a_codon1	0h:6m:55s (0h:31m:43s left)
+ 100 GTR+F+I+G4   957101.436  41.493      COI_codon1+CAD2_codon2	0h:7m:1s (0h:31m:51s left)
+ 101 GTR+F+I+G4   957178.792  118.433     COI_codon1+CAD2_codon1	0h:7m:2s (0h:31m:31s left)
+ 102 GTR+F+I+G4   957075.269  123.887     COI_codon1+CAD2_codon3	0h:7m:5s (0h:31m:22s left)
+ 103 GTR+F+I+G4   961069.069  114.763     cytb_codon3+COI_codon1	0h:7m:7s (0h:31m:6s left)
+ 104 GTR+F+I+G4   957675.370  56.278      COI_codon2+CAD1_codon2	0h:7m:9s (0h:30m:52s left)
+ 105 GTR+F+I+G4   957204.059  37.919      COI_codon2+EF1a_codon2	0h:7m:10s (0h:30m:36s left)
+ 106 GTR+F+I+G4   957088.363  43.688      COI_codon2+CAD1_codon1	0h:7m:11s (0h:30m:21s left)
+ 107 GTR+F+I+G4   956635.104  30.260      COI_codon2+CAD1_codon3	0h:7m:14s (0h:30m:12s left)
+ 108 GTR+F+I+G4   956794.794  75.769      cytb_codon1+COI_codon1	0h:7m:16s (0h:29m:57s left)
+ 109 GTR+F+I+G4   956428.671  72.627      cytb_codon2+COI_codon1	0h:7m:20s (0h:29m:52s left)
+ 110 GTR+F+I+G4   956558.921  97.770      AATS_codon1+COI_codon1	0h:7m:21s (0h:29m:38s left)
+ 111 GTR+F+I+G4   956576.428  28.522      COI_codon2+EF1a_codon3	0h:7m:24s (0h:29m:28s left)
+ 112 GTR+F+I+G4   956553.313  108.822     AATS_codon3+COI_codon1	0h:7m:25s (0h:29m:14s left)
+ 113 GTR+F+I+G4   956338.565  16.831      COI_codon2+EF1a_codon1	0h:7m:27s (0h:29m:3s left)
+ 114 GTR+F+I+G4   956529.323  72.422      AATS_codon2+COI_codon1	0h:7m:31s (0h:28m:57s left)
+ 115 GTR+F+I+G4   959199.929  49.663      mito_noncoding+CAD1_codon2	0h:7m:32s (0h:28m:42s left)
+ 116 GTR+F+I+G4   959129.413  32.772      mito_noncoding+EF1a_codon2	0h:7m:32s (0h:28m:26s left)
+ 117 GTR+F+I+G4   956564.677  38.820      ND1_codon2+COI_codon1	0h:7m:38s (0h:28m:26s left)
+ 118 GTR+F+I+G4   956557.905  43.496      ND1_codon1+COI_codon1	0h:7m:40s (0h:28m:18s left)
+ 119 GTR+F+I+G4   957197.340  93.905      ND1_codon3+COI_codon1	0h:7m:40s (0h:28m:1s left)
+ 120 GTR+F+I+G4   958141.800  30.352      mito_noncoding+CAD1_codon3	0h:7m:44s (0h:27m:55s left)
+ 121 GTR+F+I+G4   957559.283  95.390      COI_codon2+CAD2_codon1	0h:7m:45s (0h:27m:40s left)
+ 122 GTR+F+I+G4   958543.497  38.771      mito_noncoding+CAD1_codon1	0h:7m:48s (0h:27m:34s left)
+ 123 GTR+F+I+G4   957623.494  71.339      COI_codon2+CAD2_codon3	0h:7m:50s (0h:27m:24s left)
+ 124 GTR+F+I+G4   957717.268  27.663      mito_noncoding+EF1a_codon3	0h:7m:51s (0h:27m:10s left)
+ 125 GTR+F+I+G4   957350.631  25.447      mito_noncoding+EF1a_codon1	0h:7m:54s (0h:27m:3s left)
+ 126 GTR+F+I+G4   956580.704  26.141      COI_codon2+CAD2_codon2	0h:7m:54s (0h:26m:47s left)
+ 127 GTR+F+I+G4   960288.231  54.459      cytb_codon3+COI_codon2	0h:7m:55s (0h:26m:34s left)
+ 128 GTR+F+I+G4   956890.472  25.882      cytb_codon1+COI_codon2	0h:7m:56s (0h:26m:21s left)
+ 129 GTR+F+I+G4   956502.584  15.468      cytb_codon2+COI_codon2	0h:7m:57s (0h:26m:10s left)
+ 130 GTR+F+I+G4   958281.701  51.869      mito_noncoding+CAD2_codon1	0h:8m:0s (0h:26m:3s left)
+ 131 GTR+F+I+G4   956989.000  37.078      AATS_codon1+COI_codon2	0h:8m:1s (0h:25m:51s left)
+ 132 GTR+F+I+G4   957299.476  44.996      AATS_codon3+COI_codon2	0h:8m:2s (0h:25m:38s left)
+ 133 GTR+F+I+G4   956324.025  17.761      AATS_codon2+COI_codon2	0h:8m:3s (0h:25m:25s left)
+ 134 GTR+F+I+G4   957411.592  24.338      mito_noncoding+CAD2_codon2	0h:8m:5s (0h:25m:16s left)
+ 135 GTR+F+I+G4   958256.364  47.860      mito_noncoding+CAD2_codon3	0h:8m:6s (0h:25m:5s left)
+ 136 GTR+F+I+G4   957380.767  30.425      ND1_codon3+COI_codon2	0h:8m:7s (0h:24m:55s left)
+ 137 GTR+F+I+G4   958346.724  55.644      mito_noncoding+cytb_codon3	0h:8m:9s (0h:24m:45s left)
+ 138 GTR+F+I+G4   956503.692  19.630      ND1_codon1+COI_codon2	0h:8m:9s (0h:24m:31s left)
+ 139 GTR+F+I+G4   956296.594  14.867      ND1_codon2+COI_codon2	0h:8m:10s (0h:24m:22s left)
+ 140 GTR+F+I+G4   956849.571  31.798      mito_noncoding+cytb_codon1	0h:8m:13s (0h:24m:16s left)
+ 141 GTR+F+I+G4   956789.797  28.906      mito_noncoding+cytb_codon2	0h:8m:14s (0h:24m:3s left)
+ 142 GTR+F+I+G4   957903.862  36.977      mito_noncoding+AATS_codon1	0h:8m:14s (0h:23m:50s left)
+ 143 GTR+F+I+G4   956561.292  26.777      mito_noncoding+ND1_codon3	0h:8m:17s (0h:23m:46s left)
+ 144 GTR+F+I+G4   957030.755  28.679      mito_noncoding+AATS_codon2	0h:8m:19s (0h:23m:38s left)
+ 145 GTR+F+I+G4   958102.635  43.855      mito_noncoding+AATS_codon3	0h:8m:20s (0h:23m:27s left)
+ 146 GTR+F+I+G4   956279.276  23.850      mito_noncoding+ND1_codon1	0h:8m:20s (0h:23m:16s left)
+ 147 GTR+F+I+G4   956436.784  23.184      mito_noncoding+ND1_codon2	0h:8m:22s (0h:23m:8s left)
+ 148 GTR+F+I+G4   956622.858  58.814      EF1a_codon2+CAD1_codon2	0h:8m:22s (0h:22m:56s left)
+ 149 GTR+F+I+G4   956300.621  39.797      CAD1_codon1+CAD1_codon2	0h:8m:23s (0h:22m:44s left)
+ 150 GTR+F+I+G4   956449.937  35.509      CAD1_codon2+CAD1_codon3	0h:8m:24s (0h:22m:35s left)
+ 151 GTR+F+I+G4   956430.979  39.600      EF1a_codon2+CAD1_codon3	0h:8m:25s (0h:22m:24s left)
+ 152 GTR+F+I+G4   956465.362  49.675      EF1a_codon2+CAD1_codon1	0h:8m:25s (0h:22m:13s left)
+ 153 GTR+F+I+G4   956195.128  27.114      CAD1_codon1+CAD1_codon3	0h:8m:26s (0h:22m:4s left)
+ 154 GTR+F+I+G4   956629.101  42.716      EF1a_codon3+CAD1_codon2	0h:8m:27s (0h:21m:53s left)
+ 155 GTR+F+I+G4   956468.444  25.986      EF1a_codon2+EF1a_codon3	0h:8m:27s (0h:21m:43s left)
+ 156 GTR+F+I+G4   956832.962  39.999      EF1a_codon1+CAD1_codon2	0h:8m:28s (0h:21m:33s left)
+ 157 GTR+F+I+G4   956660.165  20.190      EF1a_codon1+EF1a_codon2	0h:8m:28s (0h:21m:22s left)
+ 158 GTR+F+I+G4   956367.609  34.011      EF1a_codon3+CAD1_codon1	0h:8m:29s (0h:21m:12s left)
+ 159 GTR+F+I+G4   956252.322  24.858      EF1a_codon3+CAD1_codon3	0h:8m:30s (0h:21m:4s left)
+ 160 GTR+F+I+G4   956454.847  32.065      EF1a_codon1+CAD1_codon1	0h:8m:30s (0h:20m:53s left)
+ 161 GTR+F+I+G4   956324.590  13.398      EF1a_codon1+EF1a_codon3	0h:8m:31s (0h:20m:45s left)
+ 162 GTR+F+I+G4   956255.614  18.923      EF1a_codon1+CAD1_codon3	0h:8m:31s (0h:20m:35s left)
+ 163 GTR+F+I+G4   956262.601  80.481      CAD1_codon2+CAD2_codon1	0h:8m:33s (0h:20m:28s left)
+ 164 GTR+F+I+G4   956567.777  60.332      EF1a_codon2+CAD2_codon1	0h:8m:33s (0h:20m:18s left)
+ 165 GTR+F+I+G4   956310.910  78.544      CAD1_codon2+CAD2_codon3	0h:8m:34s (0h:20m:9s left)
+ 166 GTR+F+I+G4   956279.680  50.129      CAD1_codon1+CAD2_codon1	0h:8m:35s (0h:20m:1s left)
+ 167 GTR+F+I+G4   956401.212  49.526      CAD1_codon3+CAD2_codon1	0h:8m:35s (0h:19m:52s left)
+ 168 GTR+F+I+G4   956688.320  56.525      EF1a_codon2+CAD2_codon3	0h:8m:37s (0h:19m:44s left)
+ 169 GTR+F+I+G4   959554.621  67.730      cytb_codon3+CAD1_codon2	0h:8m:38s (0h:19m:37s left)
+ 170 GTR+F+I+G4   956660.933  38.353      CAD1_codon2+CAD2_codon2	0h:8m:38s (0h:19m:29s left)
+ 171 GTR+F+I+G4   956567.237  31.047      EF1a_codon2+CAD2_codon2	0h:8m:39s (0h:19m:19s left)
+ 172 GTR+F+I+G4   956355.240  48.730      CAD1_codon1+CAD2_codon3	0h:8m:40s (0h:19m:12s left)
+ 173 GTR+F+I+G4   956612.952  46.738      EF1a_codon3+CAD2_codon1	0h:8m:40s (0h:19m:4s left)
+ 174 GTR+F+I+G4   956575.497  45.799      CAD1_codon3+CAD2_codon3	0h:8m:41s (0h:18m:54s left)
+ 175 GTR+F+I+G4   956718.551  51.304      EF1a_codon1+CAD2_codon1	0h:8m:41s (0h:18m:47s left)
+ 176 GTR+F+I+G4   960101.409  50.721      cytb_codon3+EF1a_codon2	0h:8m:42s (0h:18m:38s left)
+ 177 GTR+F+I+G4   956360.810  29.586      CAD1_codon1+CAD2_codon2	0h:8m:42s (0h:18m:30s left)
+ 178 GTR+F+I+G4   956616.838  61.627      cytb_codon1+CAD1_codon2	0h:8m:43s (0h:18m:23s left)
+ 179 GTR+F+I+G4   956728.032  40.555      EF1a_codon3+CAD2_codon3	0h:8m:44s (0h:18m:15s left)
+ 180 GTR+F+I+G4   956217.587  19.479      CAD1_codon3+CAD2_codon2	0h:8m:44s (0h:18m:7s left)
+ 181 GTR+F+I+G4   959321.180  58.997      cytb_codon3+CAD1_codon1	0h:8m:46s (0h:18m:1s left)
+ 182 GTR+F+I+G4   956435.471  55.066      cytb_codon2+CAD1_codon2	0h:8m:46s (0h:17m:53s left)
+ 183 GTR+F+I+G4   956248.390  81.072      AATS_codon1+CAD1_codon2	0h:8m:46s (0h:17m:45s left)
+ 184 GTR+F+I+G4   956219.295  103.995     AATS_codon3+CAD1_codon2	0h:8m:47s (0h:17m:38s left)
+ 185 GTR+F+I+G4   959462.795  48.122      cytb_codon3+CAD1_codon3	0h:8m:48s (0h:17m:31s left)
+ 186 GTR+F+I+G4   956759.487  35.778      cytb_codon1+EF1a_codon2	0h:8m:48s (0h:17m:23s left)
+ 187 GTR+F+I+G4   956860.066  40.482      EF1a_codon1+CAD2_codon3	0h:8m:49s (0h:17m:16s left)
+ 188 GTR+F+I+G4   956371.497  19.068      EF1a_codon3+CAD2_codon2	0h:8m:49s (0h:17m:8s left)
+ 189 GTR+F+I+G4   956508.968  32.300      cytb_codon2+EF1a_codon2	0h:8m:50s (0h:17m:1s left)
+ 190 GTR+F+I+G4   956501.774  43.060      AATS_codon2+CAD1_codon2	0h:8m:51s (0h:16m:56s left)
+ 191 GTR+F+I+G4   956431.462  61.065      AATS_codon1+EF1a_codon2	0h:8m:51s (0h:16m:48s left)
+ 192 GTR+F+I+G4   956537.124  67.136      AATS_codon3+EF1a_codon2	0h:8m:52s (0h:16m:40s left)
+ 193 GTR+F+I+G4   956530.055  37.833      cytb_codon1+CAD1_codon1	0h:8m:53s (0h:16m:35s left)
+ 194 GTR+F+I+G4   956292.769  13.572      EF1a_codon1+CAD2_codon2	0h:8m:53s (0h:16m:27s left)
+ 195 GTR+F+I+G4   959214.094  37.195      cytb_codon3+EF1a_codon3	0h:8m:53s (0h:16m:20s left)
+ 196 GTR+F+I+G4   956563.490  22.504      cytb_codon1+CAD1_codon3	0h:8m:55s (0h:16m:14s left)
+ 197 GTR+F+I+G4   956395.574  39.209      AATS_codon2+EF1a_codon2	0h:8m:55s (0h:16m:7s left)
+ 198 GTR+F+I+G4   958779.564  43.745      cytb_codon3+EF1a_codon1	0h:8m:56s (0h:16m:1s left)
+ 199 GTR+F+I+G4   956347.725  33.294      cytb_codon2+CAD1_codon1	0h:8m:56s (0h:15m:54s left)
+ 200 GTR+F+I+G4   956278.888  47.788      AATS_codon1+CAD1_codon1	0h:8m:57s (0h:15m:48s left)
+ 201 GTR+F+I+G4   956300.729  18.977      cytb_codon2+CAD1_codon3	0h:8m:57s (0h:15m:41s left)
+ 202 GTR+F+I+G4   956381.336  50.166      AATS_codon3+CAD1_codon1	0h:8m:57s (0h:15m:34s left)
+ 203 GTR+F+I+G4   956340.612  42.815      AATS_codon1+CAD1_codon3	0h:8m:58s (0h:15m:28s left)
+ 204 GTR+F+I+G4   956445.870  20.286      cytb_codon1+EF1a_codon3	0h:8m:59s (0h:15m:22s left)
+ 205 GTR+F+I+G4   956524.059  41.353      AATS_codon3+CAD1_codon3	0h:8m:59s (0h:15m:15s left)
+ 206 GTR+F+I+G4   956264.965  25.733      CAD2_codon1+CAD2_codon3	0h:8m:59s (0h:15m:9s left)
+ 207 GTR+F+I+G4   956310.929  33.595      AATS_codon2+CAD1_codon1	0h:9m:0s (0h:15m:3s left)
+ 208 GTR+F+I+G4   956255.601  19.736      AATS_codon2+CAD1_codon3	0h:9m:0s (0h:14m:56s left)
+ 209 GTR+F+I+G4   956910.968  81.726      ND1_codon3+CAD1_codon2	0h:9m:1s (0h:14m:50s left)
+ 210 GTR+F+I+G4   956275.441  17.368      cytb_codon2+EF1a_codon3	0h:9m:1s (0h:14m:44s left)
+ 211 GTR+F+I+G4   956466.450  41.673      AATS_codon1+EF1a_codon3	0h:9m:2s (0h:14m:39s left)
+ 212 GTR+F+I+G4   956538.506  15.798      cytb_codon1+EF1a_codon1	0h:9m:2s (0h:14m:32s left)
+ 213 GTR+F+I+G4   956487.726  67.979      ND1_codon1+CAD1_codon2	0h:9m:2s (0h:14m:26s left)
+ 214 GTR+F+I+G4   956590.228  17.480      CAD2_codon1+CAD2_codon2	0h:9m:3s (0h:14m:20s left)
+ 215 GTR+F+I+G4   956558.350  61.936      ND1_codon2+CAD1_codon2	0h:9m:4s (0h:14m:15s left)
+ 216 GTR+F+I+G4   956258.010  9.519       cytb_codon2+EF1a_codon1	0h:9m:4s (0h:14m:9s left)
+ 217 GTR+F+I+G4   956619.635  43.081      AATS_codon3+EF1a_codon3	0h:9m:4s (0h:14m:2s left)
+ 218 GTR+F+I+G4   957182.218  37.783      ND1_codon3+EF1a_codon2	0h:9m:5s (0h:13m:58s left)
+ 219 GTR+F+I+G4   956579.489  46.507      AATS_codon1+EF1a_codon1	0h:9m:6s (0h:13m:53s left)
+ 220 GTR+F+I+G4   956300.818  22.629      AATS_codon2+EF1a_codon3	0h:9m:6s (0h:13m:47s left)
+ 221 GTR+F+I+G4   956708.946  71.870      AATS_codon3+EF1a_codon1	0h:9m:7s (0h:13m:41s left)
+ 222 GTR+F+I+G4   956561.658  31.530      ND1_codon1+EF1a_codon2	0h:9m:7s (0h:13m:36s left)
+ 223 GTR+F+I+G4   956537.490  28.093      ND1_codon2+EF1a_codon2	0h:9m:7s (0h:13m:30s left)
+ 224 GTR+F+I+G4   956241.584  10.002      AATS_codon2+EF1a_codon1	0h:9m:8s (0h:13m:25s left)
+ 225 GTR+F+I+G4   956918.581  39.195      ND1_codon3+CAD1_codon1	0h:9m:8s (0h:13m:20s left)
+ 226 GTR+F+I+G4   956730.965  16.301      CAD2_codon2+CAD2_codon3	0h:9m:8s (0h:13m:14s left)
+ 227 GTR+F+I+G4   958716.799  65.759      cytb_codon3+CAD2_codon1	0h:9m:8s (0h:13m:8s left)
+ 228 GTR+F+I+G4   956419.433  32.014      ND1_codon1+CAD1_codon1	0h:9m:9s (0h:13m:3s left)
+ 229 GTR+F+I+G4   956427.263  29.717      ND1_codon2+CAD1_codon1	0h:9m:10s (0h:12m:58s left)
+ 230 GTR+F+I+G4   957050.733  34.246      ND1_codon3+CAD1_codon3	0h:9m:10s (0h:12m:53s left)
+ 231 GTR+F+I+G4   956402.958  18.495      ND1_codon1+CAD1_codon3	0h:9m:10s (0h:12m:47s left)
+ 232 GTR+F+I+G4   956397.494  16.744      ND1_codon2+CAD1_codon3	0h:9m:11s (0h:12m:42s left)
+ 233 GTR+F+I+G4   956521.478  51.090      cytb_codon1+CAD2_codon1	0h:9m:12s (0h:12m:38s left)
+ 234 GTR+F+I+G4   957137.928  22.650      ND1_codon3+EF1a_codon3	0h:9m:12s (0h:12m:33s left)
+ 235 GTR+F+I+G4   956390.284  43.410      cytb_codon2+CAD2_codon1	0h:9m:13s (0h:12m:28s left)
+ 236 GTR+F+I+G4   958647.797  72.202      cytb_codon3+CAD2_codon3	0h:9m:13s (0h:12m:24s left)
+ 237 GTR+F+I+G4   956338.141  56.835      AATS_codon1+CAD2_codon1	0h:9m:14s (0h:12m:18s left)
+ 238 GTR+F+I+G4   956325.412  81.372      AATS_codon3+CAD2_codon1	0h:9m:14s (0h:12m:14s left)
+ 239 GTR+F+I+G4   956441.994  17.088      ND1_codon1+EF1a_codon3	0h:9m:15s (0h:12m:9s left)
+ 240 GTR+F+I+G4   956412.780  15.380      ND1_codon2+EF1a_codon3	0h:9m:15s (0h:12m:4s left)
+ 241 GTR+F+I+G4   958943.073  39.342      cytb_codon3+CAD2_codon2	0h:9m:15s (0h:11m:59s left)
+ 242 GTR+F+I+G4   957163.848  15.267      ND1_codon3+EF1a_codon1	0h:9m:16s (0h:11m:54s left)
+ 243 GTR+F+I+G4   956459.169  9.812       ND1_codon1+EF1a_codon1	0h:9m:16s (0h:11m:50s left)
+ 244 GTR+F+I+G4   956491.295  45.736      cytb_codon1+CAD2_codon3	0h:9m:17s (0h:11m:45s left)
+ 245 GTR+F+I+G4   956357.573  8.636       ND1_codon2+EF1a_codon1	0h:9m:17s (0h:11m:40s left)
+ 246 GTR+F+I+G4   956511.356  45.280      AATS_codon2+CAD2_codon1	0h:9m:17s (0h:11m:35s left)
+ 247 GTR+F+I+G4   956427.615  41.924      cytb_codon2+CAD2_codon3	0h:9m:18s (0h:11m:32s left)
+ 248 GTR+F+I+G4   956381.543  54.154      AATS_codon1+CAD2_codon3	0h:9m:18s (0h:11m:27s left)
+ 249 GTR+F+I+G4   956276.268  76.173      AATS_codon3+CAD2_codon3	0h:9m:19s (0h:11m:22s left)
+ 250 GTR+F+I+G4   956633.670  15.792      cytb_codon1+CAD2_codon2	0h:9m:19s (0h:11m:18s left)
+ 251 GTR+F+I+G4   956316.237  11.683      cytb_codon2+CAD2_codon2	0h:9m:20s (0h:11m:13s left)
+ 252 GTR+F+I+G4   956572.095  40.760      AATS_codon2+CAD2_codon3	0h:9m:20s (0h:11m:9s left)
+ 253 GTR+F+I+G4   956531.833  32.857      AATS_codon1+CAD2_codon2	0h:9m:20s (0h:11m:4s left)
+ 254 GTR+F+I+G4   957483.647  76.503      cytb_codon3+cytb_codon1	0h:9m:21s (0h:11m:1s left)
+ 255 GTR+F+I+G4   956680.996  31.838      AATS_codon3+CAD2_codon2	0h:9m:22s (0h:10m:57s left)
+ 256 GTR+F+I+G4   956256.152  10.507      AATS_codon2+CAD2_codon2	0h:9m:22s (0h:10m:52s left)
+ 257 GTR+F+I+G4   957736.500  74.414      cytb_codon3+cytb_codon2	0h:9m:22s (0h:10m:47s left)
+ 258 GTR+F+I+G4   956833.202  35.311      ND1_codon3+CAD2_codon1	0h:9m:23s (0h:10m:43s left)
+ 259 GTR+F+I+G4   956488.283  28.778      ND1_codon1+CAD2_codon1	0h:9m:23s (0h:10m:40s left)
+ 260 GTR+F+I+G4   958692.738  81.008      cytb_codon3+AATS_codon1	0h:9m:24s (0h:10m:35s left)
+ 261 GTR+F+I+G4   956574.334  27.192      ND1_codon2+CAD2_codon1	0h:9m:24s (0h:10m:31s left)
+ 262 GTR+F+I+G4   956299.384  10.580      cytb_codon2+cytb_codon1	0h:9m:24s (0h:10m:27s left)
+ 263 GTR+F+I+G4   958358.559  73.078      cytb_codon3+AATS_codon2	0h:9m:25s (0h:10m:23s left)
+ 264 GTR+F+I+G4   956581.236  45.550      cytb_codon1+AATS_codon1	0h:9m:25s (0h:10m:19s left)
+ 265 GTR+F+I+G4   956486.020  70.100      cytb_codon1+AATS_codon3	0h:9m:26s (0h:10m:15s left)
+ 266 GTR+F+I+G4   956740.843  35.542      ND1_codon3+CAD2_codon3	0h:9m:26s (0h:10m:11s left)
+ 267 GTR+F+I+G4   956458.170  28.681      ND1_codon1+CAD2_codon3	0h:9m:27s (0h:10m:7s left)
+ 268 GTR+F+I+G4   956533.236  26.477      ND1_codon2+CAD2_codon3	0h:9m:27s (0h:10m:3s left)
+ 269 GTR+F+I+G4   956352.734  39.461      cytb_codon2+AATS_codon1	0h:9m:28s (0h:10m:0s left)
+ 270 GTR+F+I+G4   956383.861  105.489     cytb_codon2+AATS_codon3	0h:9m:28s (0h:9m:56s left)
+ 271 GTR+F+I+G4   956535.051  15.839      cytb_codon1+AATS_codon2	0h:9m:28s (0h:9m:52s left)
+ 272 GTR+F+I+G4   956153.598  63.494      AATS_codon1+AATS_codon3	0h:9m:29s (0h:9m:48s left)
+ 273 GTR+F+I+G4   957025.135  11.192      ND1_codon3+CAD2_codon2	0h:9m:29s (0h:9m:44s left)
+ 274 GTR+F+I+G4   958464.087  113.816     cytb_codon3+AATS_codon3	0h:9m:29s (0h:9m:39s left)
+ 275 GTR+F+I+G4   956371.929  7.414       ND1_codon1+CAD2_codon2	0h:9m:29s (0h:9m:35s left)
+ 276 GTR+F+I+G4   956297.542  7.723       cytb_codon2+AATS_codon2	0h:9m:29s (0h:9m:31s left)
+ 277 GTR+F+I+G4   956340.193  6.533       ND1_codon2+CAD2_codon2	0h:9m:29s (0h:9m:27s left)
+ 278 GTR+F+I+G4   956355.969  26.003      AATS_codon1+AATS_codon2	0h:9m:30s (0h:9m:24s left)
+ 279 GTR+F+I+G4   956399.957  28.175      AATS_codon2+AATS_codon3	0h:9m:30s (0h:9m:20s left)
+ 280 GTR+F+I+G4   956882.966  322.350     ND1_codon1+cytb_codon3	0h:9m:32s (0h:9m:18s left)
+ 281 GTR+F+I+G4   956660.449  26.516      ND1_codon3+cytb_codon1	0h:9m:33s (0h:9m:15s left)
+ 282 GTR+F+I+G4   957159.718  249.843     ND1_codon2+cytb_codon3	0h:9m:33s (0h:9m:11s left)
+ 283 GTR+F+I+G4   956323.715  16.207      ND1_codon1+cytb_codon1	0h:9m:34s (0h:9m:7s left)
+ 284 GTR+F+I+G4   956379.188  14.373      ND1_codon2+cytb_codon1	0h:9m:34s (0h:9m:3s left)
+ 285 GTR+F+I+G4   956855.832  28.835      ND1_codon3+cytb_codon2	0h:9m:34s (0h:9m:0s left)
+ 286 GTR+F+I+G4   956256.815  1184.599    ND1_codon3+cytb_codon3	0h:9m:34s (0h:8m:56s left)
+ 287 GTR+F+I+G4   956970.234  48.077      ND1_codon3+AATS_codon1	0h:9m:34s (0h:8m:52s left)
+ 288 GTR+F+I+G4   956365.159  7.228       ND1_codon1+cytb_codon2	0h:9m:35s (0h:8m:49s left)
+ 289 GTR+F+I+G4   956466.342  37.993      ND1_codon1+AATS_codon1	0h:9m:35s (0h:8m:45s left)
+ 290 GTR+F+I+G4   956815.348  115.257     ND1_codon3+AATS_codon3	0h:9m:35s (0h:8m:42s left)
+ 291 GTR+F+I+G4   956374.967  5.764       ND1_codon2+cytb_codon2	0h:9m:35s (0h:8m:38s left)
+ 292 GTR+F+I+G4   956489.472  32.753      ND1_codon2+AATS_codon1	0h:9m:36s (0h:8m:35s left)
+ 293 GTR+F+I+G4   957098.149  26.470      ND1_codon3+AATS_codon2	0h:9m:36s (0h:8m:31s left)
+ 294 GTR+F+I+G4   956382.610  119.735     ND1_codon1+AATS_codon3	0h:9m:37s (0h:8m:28s left)
+ 295 GTR+F+I+G4   956423.452  7.244       ND1_codon1+AATS_codon2	0h:9m:37s (0h:8m:24s left)
+ 296 GTR+F+I+G4   956506.093  6.166       ND1_codon1+ND1_codon3	0h:9m:37s (0h:8m:21s left)
+ 297 GTR+F+I+G4   956673.308  4.886       ND1_codon2+ND1_codon3	0h:9m:37s (0h:8m:17s left)
+ 298 GTR+F+I+G4   956237.151  1.580       ND1_codon1+ND1_codon2	0h:9m:37s (0h:8m:13s left)
+ 299 GTR+F+I+G4   956338.187  5.648       ND1_codon2+AATS_codon2	0h:9m:37s (0h:8m:10s left)
+ 300 GTR+F+I+G4   956512.610  43.661      ND1_codon2+AATS_codon3	0h:9m:37s (0h:8m:7s left)
+7 compatible better partition pairs found
+Merging AATS_codon1+AATS_codon3 with BIC score: 956153.598 (LnL: -471662.909  df: 1325)
+Merging CAD1_codon1+CAD1_codon3 with BIC score: 956068.417 (LnL: -471673.566  df: 1314)
+Merging ND1_codon1+ND1_codon2 with BIC score: 956025.259 (LnL: -471705.234  df: 1303)
+Merging AATS_codon2+EF1a_codon1 with BIC score: 955986.534 (LnL: -471739.119  df: 1292)
+Merging ND1_codon3+cytb_codon3 with BIC score: 955963.039 (LnL: -471780.619  df: 1281)
+Merging CAD1_codon2+CAD2_codon1 with BIC score: 955945.332 (LnL: -471825.013  df: 1270)
+Merging cytb_codon2+EF1a_codon3 with BIC score: 955940.464 (LnL: -471875.826  df: 1259)
+ 301 GTR+F+I+G4   956584.739  47.288      AATS_codon1+AATS_codon2+AATS_codon3+EF1a_codon1	0h:9m:40s (0h:8m:6s left)
+ 302 GTR+F+I+G4   956369.176  26.687      AATS_codon2+EF1a_codon1+EF1a_codon2	0h:9m:40s (0h:8m:2s left)
+ 303 GTR+F+I+G4   956136.513  32.506      AATS_codon2+EF1a_codon1+CAD1_codon1+CAD1_codon3	0h:9m:45s (0h:8m:2s left)
+ 304 GTR+F+I+G4   956793.820  64.584      AATS_codon2+EF1a_codon1+CAD1_codon2+CAD2_codon1	0h:9m:45s (0h:7m:59s left)
+ 305 GTR+F+I+G4   955946.803  15.934      AATS_codon2+EF1a_codon1+CAD2_codon2	0h:9m:48s (0h:7m:58s left)
+ 306 GTR+F+I+G4   957578.300  27.925      mito_noncoding+AATS_codon2+EF1a_codon1	0h:9m:48s (0h:7m:54s left)
+ 307 GTR+F+I+G4   956646.466  48.659      AATS_codon2+EF1a_codon1+CAD2_codon3	0h:9m:48s (0h:7m:51s left)
+ 308 GTR+F+I+G4   956329.247  18.218      cytb_codon1+AATS_codon2+EF1a_codon1	0h:9m:50s (0h:7m:49s left)
+ 309 GTR+F+I+G4   956180.411  18.144      18S+AATS_codon2+EF1a_codon1	0h:9m:53s (0h:7m:48s left)
+ 310 GTR+F+I+G4   956770.079  34.541      AATS_codon2+COI_codon1+EF1a_codon1	0h:10m:1s (0h:7m:51s left)
+ 311 GTR+F+I+G4   956576.634  32.930      28S+AATS_codon2+EF1a_codon1	0h:10m:1s (0h:7m:48s left)
+ 312 GTR+F+I+G4   956055.670  18.965      cytb_codon2+AATS_codon2+EF1a_codon1+EF1a_codon3	0h:10m:6s (0h:7m:48s left)
+ 313 GTR+F+I+G4   956041.947  18.416      AATS_codon2+COI_codon2+EF1a_codon1	0h:10m:6s (0h:7m:45s left)
+ 314 GTR+F+I+G4   956240.187  11.972      ND1_codon1+ND1_codon2+AATS_codon2+EF1a_codon1	0h:10m:7s (0h:7m:42s left)
+ 315 GTR+F+I+G4   964170.862  160.504     AATS_codon2+COI_codon3+EF1a_codon1	0h:10m:12s (0h:7m:42s left)
+ 316 GTR+F+I+G4   956078.533  96.925      AATS_codon1+AATS_codon3+CAD1_codon2+CAD2_codon1	0h:10m:12s (0h:7m:39s left)
+ 317 GTR+F+I+G4   959563.264  48.234      ND1_codon3+cytb_codon3+AATS_codon2+EF1a_codon1	0h:10m:12s (0h:7m:36s left)
+ 318 GTR+F+I+G4   956335.631  68.676      AATS_codon1+AATS_codon3+EF1a_codon2	0h:10m:15s (0h:7m:34s left)
+ 319 GTR+F+I+G4   956389.821  86.666      EF1a_codon2+CAD1_codon2+CAD2_codon1	0h:10m:17s (0h:7m:32s left)
+ 320 GTR+F+I+G4   956161.000  47.173      CAD1_codon1+CAD1_codon2+CAD1_codon3+CAD2_codon1	0h:10m:17s (0h:7m:29s left)
+ 321 GTR+F+I+G4   956269.421  45.629      AATS_codon1+AATS_codon3+CAD1_codon1+CAD1_codon3	0h:10m:19s (0h:7m:27s left)
+ 322 GTR+F+I+G4   956214.019  42.432      EF1a_codon2+CAD1_codon1+CAD1_codon3	0h:10m:22s (0h:7m:26s left)
+ 323 GTR+F+I+G4   958829.866  51.944      mito_noncoding+AATS_codon1+AATS_codon3	0h:10m:23s (0h:7m:24s left)
+ 324 GTR+F+I+G4   959653.116  65.751      mito_noncoding+CAD1_codon2+CAD2_codon1	0h:10m:27s (0h:7m:23s left)
+ 325 GTR+F+I+G4   959140.980  36.082      mito_noncoding+CAD1_codon1+CAD1_codon3	0h:10m:27s (0h:7m:20s left)
+ 326 GTR+F+I+G4   955978.815  75.996      CAD1_codon2+CAD2_codon1+CAD2_codon3	0h:10m:27s (0h:7m:17s left)
+ 327 GTR+F+I+G4   956420.464  38.739      AATS_codon1+AATS_codon3+CAD2_codon2	0h:10m:30s (0h:7m:15s left)
+ 328 GTR+F+I+G4   956094.982  71.682      AATS_codon1+AATS_codon3+CAD2_codon3	0h:10m:30s (0h:7m:12s left)
+ 329 GTR+F+I+G4   956384.173  56.025      CAD1_codon2+CAD2_codon1+CAD2_codon2	0h:10m:31s (0h:7m:9s left)
+ 330 GTR+F+I+G4   956316.856  77.598      cytb_codon1+CAD1_codon2+CAD2_codon1	0h:10m:33s (0h:7m:7s left)
+ 331 GTR+F+I+G4   957524.991  44.942      18S+CAD1_codon2+CAD2_codon1	0h:10m:41s (0h:7m:10s left)
+ 332 GTR+F+I+G4   958122.293  52.430      28S+CAD1_codon2+CAD2_codon1	0h:10m:50s (0h:7m:12s left)
+ 333 GTR+F+I+G4   956382.315  58.172      cytb_codon1+AATS_codon1+AATS_codon3	0h:10m:51s (0h:7m:10s left)
+ 334 GTR+F+I+G4   957039.552  133.500     COI_codon1+CAD1_codon2+CAD2_codon1	0h:10m:52s (0h:7m:8s left)
+ 335 GTR+F+I+G4   957701.746  127.613     COI_codon2+CAD1_codon2+CAD2_codon1	0h:11m:6s (0h:7m:13s left)
+ 336 GTR+F+I+G4   957841.457  43.909      28S+AATS_codon1+AATS_codon3	0h:11m:9s (0h:7m:12s left)
+ 337 GTR+F+I+G4   957502.912  33.363      18S+AATS_codon1+AATS_codon3	0h:11m:11s (0h:7m:10s left)
+ 338 GTR+F+I+G4   956482.205  120.621     AATS_codon1+AATS_codon3+COI_codon1	0h:11m:18s (0h:7m:11s left)
+ 339 GTR+F+I+G4   965464.778  246.228     COI_codon3+CAD1_codon2+CAD2_codon1	0h:11m:19s (0h:7m:9s left)
+ 340 GTR+F+I+G4   956467.037  62.830      cytb_codon2+EF1a_codon3+CAD1_codon2+CAD2_codon1	0h:11m:27s (0h:7m:10s left)
+ 341 GTR+F+I+G4   957306.103  85.178      AATS_codon1+AATS_codon3+COI_codon2	0h:11m:27s (0h:7m:7s left)
+ 342 GTR+F+I+G4   956536.759  63.101      ND1_codon1+ND1_codon2+CAD1_codon2+CAD2_codon1	0h:11m:30s (0h:7m:6s left)
+ 343 GTR+F+I+G4   959982.974  83.501      ND1_codon3+cytb_codon3+CAD1_codon2+CAD2_codon1	0h:11m:33s (0h:7m:4s left)
+ 344 GTR+F+I+G4   956415.261  53.715      cytb_codon2+AATS_codon1+AATS_codon3+EF1a_codon3	0h:11m:34s (0h:7m:1s left)
+ 345 GTR+F+I+G4   956457.348  38.065      ND1_codon1+ND1_codon2+AATS_codon1+AATS_codon3	0h:11m:34s (0h:6m:58s left)
+ 346 GTR+F+I+G4   959460.771  78.316      ND1_codon3+cytb_codon3+AATS_codon1+AATS_codon3	0h:11m:37s (0h:6m:57s left)
+ 347 GTR+F+I+G4   956183.045  43.177      CAD1_codon1+CAD1_codon3+CAD2_codon3	0h:11m:37s (0h:6m:54s left)
+ 348 GTR+F+I+G4   955987.633  28.263      CAD1_codon1+CAD1_codon3+CAD2_codon2	0h:11m:39s (0h:6m:52s left)
+ 349 GTR+F+I+G4   956234.991  27.410      cytb_codon2+EF1a_codon2+EF1a_codon3	0h:11m:40s (0h:6m:49s left)
+ 350 GTR+F+I+G4   956460.990  24.490      ND1_codon1+ND1_codon2+EF1a_codon2	0h:11m:41s (0h:6m:46s left)
+ 351 GTR+F+I+G4   960158.754  53.267      ND1_codon3+cytb_codon3+EF1a_codon2	0h:11m:42s (0h:6m:44s left)
+ 352 GTR+F+I+G4   956279.454  34.128      cytb_codon1+CAD1_codon1+CAD1_codon3	0h:11m:43s (0h:6m:41s left)
+ 353 GTR+F+I+G4   956801.468  28.584      18S+CAD1_codon1+CAD1_codon3	0h:11m:50s (0h:6m:42s left)
+ 354 GTR+F+I+G4   960705.478  470.363     AATS_codon1+AATS_codon3+COI_codon3	0h:11m:57s (0h:6m:43s left)
+ 355 GTR+F+I+G4   957331.801  37.194      28S+CAD1_codon1+CAD1_codon3	0h:11m:58s (0h:6m:40s left)
+ 356 GTR+F+I+G4   957168.237  91.140      COI_codon1+CAD1_codon1+CAD1_codon3	0h:12m:4s (0h:6m:40s left)
+ 357 GTR+F+I+G4   956827.990  44.964      COI_codon2+CAD1_codon1+CAD1_codon3	0h:12m:5s (0h:6m:38s left)
+ 358 GTR+F+I+G4   956273.801  25.989      ND1_codon1+ND1_codon2+CAD1_codon1+CAD1_codon3	0h:12m:7s (0h:6m:36s left)
+ 359 GTR+F+I+G4   956072.688  33.372      cytb_codon2+EF1a_codon3+CAD1_codon1+CAD1_codon3	0h:12m:7s (0h:6m:33s left)
+ 360 GTR+F+I+G4   960229.733  47.263      ND1_codon3+cytb_codon3+CAD1_codon1+CAD1_codon3	0h:12m:10s (0h:6m:31s left)
+ 361 GTR+F+I+G4   956130.100  22.167      mito_noncoding+ND1_codon1+ND1_codon2	0h:12m:15s (0h:6m:30s left)
+ 362 GTR+F+I+G4   957674.429  28.187      mito_noncoding+cytb_codon2+EF1a_codon3	0h:12m:16s (0h:6m:28s left)
+ 363 GTR+F+I+G4   966431.065  153.022     COI_codon3+CAD1_codon1+CAD1_codon3	0h:12m:16s (0h:6m:25s left)
+ 364 GTR+F+I+G4   956375.528  23.329      ND1_codon1+ND1_codon2+CAD2_codon3	0h:12m:17s (0h:6m:22s left)
+ 365 GTR+F+I+G4   956382.129  44.116      cytb_codon2+EF1a_codon3+CAD2_codon3	0h:12m:19s (0h:6m:20s left)
+ 366 GTR+F+I+G4   956072.585  20.536      cytb_codon2+EF1a_codon3+CAD2_codon2	0h:12m:21s (0h:6m:18s left)
+ 367 GTR+F+I+G4   956108.942  6.606       ND1_codon1+ND1_codon2+CAD2_codon2	0h:12m:21s (0h:6m:15s left)
+ 368 GTR+F+I+G4   958603.263  76.074      ND1_codon3+cytb_codon3+CAD2_codon3	0h:12m:21s (0h:6m:12s left)
+ 369 GTR+F+I+G4   956085.974  19.064      cytb_codon2+cytb_codon1+EF1a_codon3	0h:12m:22s (0h:6m:10s left)
+ 370 GTR+F+I+G4   958305.597  57.016      mito_noncoding+ND1_codon3+cytb_codon3	0h:12m:23s (0h:6m:7s left)
+ 371 GTR+F+I+G4   956114.779  12.089      ND1_codon1+ND1_codon2+cytb_codon1	0h:12m:23s (0h:6m:4s left)
+ 372 GTR+F+I+G4   958955.443  44.696      ND1_codon3+cytb_codon3+CAD2_codon2	0h:12m:24s (0h:6m:2s left)
+ 373 GTR+F+I+G4   957253.238  93.166      ND1_codon3+cytb_codon3+cytb_codon1	0h:12m:26s (0h:6m:0s left)
+ 374 GTR+F+I+G4   956039.317  27.788      ND1_codon1+ND1_codon2+28S	0h:12m:32s (0h:6m:0s left)
+ 375 GTR+F+I+G4   956481.644  31.927      cytb_codon2+28S+EF1a_codon3	0h:12m:34s (0h:5m:58s left)
+ 376 GTR+F+I+G4   956148.746  19.269      cytb_codon2+18S+EF1a_codon3	0h:12m:39s (0h:5m:57s left)
+ 377 GTR+F+I+G4   959510.555  40.154      ND1_codon3+cytb_codon3+28S	0h:12m:45s (0h:5m:57s left)
+ 378 GTR+F+I+G4   956484.326  38.742      cytb_codon2+COI_codon1+EF1a_codon3	0h:12m:46s (0h:5m:54s left)
+ 379 GTR+F+I+G4   956025.141  12.579      ND1_codon1+ND1_codon2+18S	0h:12m:48s (0h:5m:52s left)
+ 380 GTR+F+I+G4   956406.747  40.959      ND1_codon1+ND1_codon2+COI_codon1	0h:12m:53s (0h:5m:51s left)
+ 381 GTR+F+I+G4   960248.134  29.698      ND1_codon3+cytb_codon3+18S	0h:13m:1s (0h:5m:52s left)
+ 382 GTR+F+I+G4   963768.575  171.612     cytb_codon2+COI_codon3+EF1a_codon3	0h:13m:4s (0h:5m:51s left)
+ 383 GTR+F+I+G4   961393.868  122.847     ND1_codon3+cytb_codon3+COI_codon1	0h:13m:8s (0h:5m:49s left)
+ 384 GTR+F+I+G4   956360.498  27.659      cytb_codon2+COI_codon2+EF1a_codon3	0h:13m:12s (0h:5m:48s left)
+ 385 GTR+F+I+G4   956202.541  17.462      ND1_codon1+ND1_codon2+COI_codon2	0h:13m:16s (0h:5m:47s left)
+ 386 GTR+F+I+G4   958706.559  651.739     ND1_codon1+ND1_codon2+COI_codon3	0h:13m:19s (0h:5m:45s left)
+ 387 GTR+F+I+G4   956255.619  17.537      ND1_codon1+ND1_codon2+cytb_codon2+EF1a_codon3	0h:13m:22s (0h:5m:44s left)
+ 388 GTR+F+I+G4   960512.524  65.589      ND1_codon3+cytb_codon3+COI_codon2	0h:13m:24s (0h:5m:42s left)
+ 389 GTR+F+I+G4   959401.703  39.122      ND1_codon3+cytb_codon3+cytb_codon2+EF1a_codon3	0h:13m:25s (0h:5m:39s left)
+ 390 GTR+F+I+G4   957514.956  142.459     ND1_codon1+ND1_codon2+ND1_codon3+cytb_codon3	0h:13m:28s (0h:5m:38s left)
+ 391 GTR+F+I+G4   958889.409  935.984     ND1_codon3+cytb_codon3+COI_codon3	0h:13m:46s (0h:5m:42s left)
+Agglomerative model selection: (mito_noncoding,(ND1_codon1,ND1_codon2)3:956025,(ND1_codon3,cytb_codon3)5:955963,(cytb_codon2,EF1a_codon3)7:955940,cytb_codon1,18S,28S,(AATS_codon1,AATS_codon3)1:956154,(AATS_codon2,EF1a_codon1)4:955987,COI_codon1,COI_codon2,COI_codon3,EF1a_codon2,(CAD1_codon1,CAD1_codon3)2:956068,(CAD1_codon2,CAD2_codon1)6:955945,CAD2_codon2,CAD2_codon3)
+Merging into 17 partitions...
+ 392 GTR+F+I+G4   81283.566   18S	0h:16m:58s (0h:6m:58s left)
+WARNING: Log-likelihood -102576 of GTR+F+R9 worse than GTR+F+R8 -102553
+ 393 GTR+F+I+G4   198349.269  COI_codon3	0h:22m:37s (0h:9m:12s left)
+ 394 GTR+F+I+G4   61742.901   COI_codon1	0h:23m:6s (0h:9m:19s left)
+ 395 GTR+F+I+G4   18259.391   COI_codon2	0h:25m:34s (0h:10m:13s left)
+ 396 GTR+F+R7     83806.662   CAD1_codon2+CAD2_codon1	0h:27m:59s (0h:11m:5s left)
+ 397 GTR+F+R5     55458.014   mito_noncoding	0h:29m:13s (0h:11m:29s left)
+ 398 SYM+R4       15514.469   AATS_codon2+EF1a_codon1	0h:30m:17s (0h:11m:47s left)
+ 399 GTR+F+R7     68268.519   CAD1_codon1+CAD1_codon3	0h:30m:33s (0h:11m:47s left)
+ 400 TIM+F+R5     24746.979   cytb_codon2+EF1a_codon3	0h:31m:4s (0h:11m:53s left)
+ 401 GTR+F+I+G4   41063.483   EF1a_codon2	0h:31m:31s (0h:11m:56s left)
+ 402 GTR+F+I+G4   33940.933   CAD2_codon3	0h:31m:38s (0h:11m:53s left)
+ 403 GTR+F+I+G4   36007.409   AATS_codon1+AATS_codon3	0h:31m:58s (0h:11m:54s left)
+ 404 GTR+F+I+G4   12927.065   CAD2_codon2	0h:32m:3s (0h:11m:49s left)
+ 405 GTR+F+I+G4   13358.914   cytb_codon1	0h:32m:7s (0h:11m:44s left)
+ 406 K3Pu+F+G4    5257.422    ND1_codon1+ND1_codon2	0h:32m:9s (0h:11m:38s left)
+ 407 GTR+F+I+G4   162581.242  28S	0h:32m:20s (0h:11m:36s left)
+ 408 TN+F+G4      31880.792   ND1_codon3+cytb_codon3	0h:32m:38s (0h:11m:35s left)
+Best partition model BIC score: 955454.363 (LnL: -471521.440  df:1282)
+Partition information was printed to Diptera_ML.best_scheme.nex
+Partition information in Raxml format was printed to Diptera_ML.best_scheme
+
+All model information printed to Diptera_ML.model.gz
+CPU time for ModelFinder: 8205.111 seconds (2h:16m:45s)
+Wall-clock time for ModelFinder: 2308.357 seconds (0h:38m:28s)
+Generating 1000 samples for ultrafast bootstrap (seed: 174623)...
+
+NOTE: 399 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -486028.158
+Current log-likelihood at step 1: -475572.419
+Current log-likelihood at step 2: -473978.172
+Current log-likelihood at step 3: -473560.077
+Current log-likelihood at step 4: -473495.852
+Current log-likelihood at step 5: -473479.507
+Current log-likelihood at step 6: -473464.259
+Current log-likelihood at step 7: -473457.857
+Current log-likelihood at step 8: -473454.930
+Current log-likelihood at step 9: -473453.231
+Current log-likelihood at step 10: -473452.114
+Current log-likelihood at step 11: -473451.368
+Current log-likelihood at step 12: -473450.866
+Current log-likelihood at step 13: -473450.513
+Current log-likelihood at step 14: -473450.252
+Current log-likelihood at step 15: -473450.057
+Current log-likelihood at step 16: -473449.917
+Current log-likelihood at step 17: -473449.796
+Current log-likelihood at step 18: -473449.708
+Partition-specific rates:  0.356 0.161 8.774 0.224 0.502 0.222 0.368 1.726 0.113 0.570 0.095 7.175 0.767 0.514 1.300 0.286 1.280
+Parameters optimization took 17 rounds (52.135 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 42.966 second
+Computing log-likelihood of 99 initial trees ... 97.988 seconds
+Current best score: -473449.708
+
+Do NNI search on 20 best initial trees
+lambda = 0.000
+NEGATIVE BRANCH len = -0.142
+ rate = 1.300
+ERROR: phylosupertreeplen.cpp:383: virtual void PhyloSuperTreePlen::computeFuncDerv(double, double&, double&): Assertion `0' failed.
+ERROR: STACK TRACE FOR DEBUGGING:
+ERROR: 1   funcAbort()
+ERROR: 2   ()
+ERROR: 3   gsignal()
+ERROR: 4   abort()
+ERROR: 5   ()
+ERROR: 6   ()
+ERROR: 7   GOMP_parallel()
+ERROR: 8   PhyloSuperTreePlen::computeFuncDerv(double, double&, double&)
+ERROR: 9   Optimization::minimizeNewton(double, double, double, double, double&, int)
+ERROR: 10   PhyloTree::optimizeOneBranch(PhyloNode*, PhyloNode*, bool, int)
+ERROR: 11   PhyloSuperTreePlen::optimizeOneBranch(PhyloNode*, PhyloNode*, bool, int)
+ERROR: 12   PhyloSuperTreePlen::swapNNIBranch(double, PhyloNode*, PhyloNode*, SwapNNIParam*, NNIMove*)
+ERROR: 13   PhyloSuperTreePlen::getBestNNIForBran(PhyloNode*, PhyloNode*, NNIMove*)
+ERROR: 14   IQTree::evaluateNNIs(std::map<int, std::pair<Node*, Node*>, std::less<int>, std::allocator<std::pair<int const, std::pair<Node*, Node*> > > >&, std::vector<NNIMove, std::allocator<NNIMove> >&)
+ERROR: 15   IQTree::optimizeNNI(bool)
+ERROR: 16   IQTree::doNNISearch(bool)
+ERROR: 17   IQTree::initCandidateTreeSet(int, int)
+ERROR: 18   IQTree::doTreeSearch()
+ERROR: 19   runTreeReconstruction(Params&, IQTree*&)
+ERROR: 20   runPhyloAnalysis(Params&, Checkpoint*)
+ERROR: 21   main()
+ERROR: 22   __libc_start_main()
+ERROR: 23   ()
+ERROR: 
+ERROR: *** IQ-TREE CRASHES WITH SIGNAL ABORTED
+ERROR: *** For bug report please send to developers:
+ERROR: ***    Log file: Diptera_ML.log
+ERROR: ***    Alignment files (if possible)
+
+******************************************************
+CHECKPOINT: Resuming analysis from Diptera_ML.ckp.gz
+
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    chandler.fm.pri (AVX512, FMA3, 251 GB RAM)
+Command: iqtree -s concatenated_alignment.nex -m MFP+MERGE -B 1000 -p partitions.nex -T AUTO --prefix Diptera_ML
+Seed:    382648 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct  6 14:31:13 2023
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+WARNING: Command-line argument `concatenated_alignment.nex` differs from checkpoint `concatenated_alignment.nexus`
+WARNING: Command-line argument `-T` differs from checkpoint `-g`
+WARNING: Command-line argument `AUTO` differs from checkpoint `partial_iqtree.tre`
+WARNING: Command-line argument `--prefix` differs from checkpoint `-T`
+WARNING: Command-line argument `Diptera_ML` differs from checkpoint `AUTO`
+WARNING: Command-line differs from checkpoint!
+Reading partition model file partitions.nex ...
+Reading alignment file concatenated_alignment.nex ... ERROR: File not found concatenated_alignment.nex
