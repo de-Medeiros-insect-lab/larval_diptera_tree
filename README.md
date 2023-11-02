@@ -74,8 +74,23 @@ The ML alignment and analysis done with this dataset is in analyses/preliminary_
 ## Step 8.3 
 Manually noted additional samples that seemed misplaced based on family clusters. From these, excluded samples that (1) had sequence information from only 1 or 2 genes AND (2) for whom monophyly is unclear in the literature. All Oestridae and Psychodidae were retained. Olbiogaster_560768 was removed. 
 
-# Step 11 - Reassemble dataset
-After cleaning out the dataset, we started from the alignment step again, this time adding sequences for Miltogramma (manually downloaded). 
+# Step 9 - Reassemble and align dataset
+After making a list of rogue taxa, we decided to restart the whole alingment process without those sequences. all of the preliminary analyses have been kep under `alignments/preliminary_alignments/` and `analyses/preliminary_analyses/`. The list of genera removed for the final dataset can be found at `alignments/to_align_without_rogues/sequencesremoved.txt`. 
 
-Alignments are in folder alignment_filtered
+Notes: 
+
+1 - due to a mistake, Nothomicrodon_185774 and Pseudacteon_378799 had not been removed from the COI fasta sequences initially, and we manually removed them from the final alignments in `alignments/aligned_trimmed_cleaned/`
+
+2 - Miltogramma was manually downloaded and added to the dataset, since it was not in the original search list for phylotaR.
+
+3 - Whenever we had full-sequences for Aedes, Drosophila and Lucilia as references for alingments (18S, 28S, 12S_16S), we kept those and removed the sequences initially found by phylotaR. It seems phylotaR does not search the genome dataset, and had only fragmentary sequences for these taxa even though longer sequences were available.
+
+The final pipeline to obtain alignments consists of:
+
+1 - use `alignments/to_align_without_rogues/remove_seqs.sh` to remove rogue sequences
+2 - use `alignments/run_mafft.sh`, `alignments/run_macse_NPC.sh` and `alignments/run_macse_COI.sh` to respectively align ribosomal sequences, nuclear protein-coding genes and COI. In the case of ribosomal sequences (which also include a large mitogenome alignment including proteinds and ribosomal sequences), the script adds refences for Aedes, Drosophila and Lucilia to guide the alignment of fragmentary sequences with mafft. In the case of protein-coding genes, we use a translation-guided alignment with macse.
+3 - use `move_and_trim.sh` to move alignments obtained to the folder `aligned`, and them trim their ends and move the result to `aligned_trimmed`
+4 - manually copy fasta files from `aligned_trimmed`, replace Aedes, Drosophila and Lucilia with the full sequence when available, and manually remove Nothomicrodon_185774 and Pseudacteon_378799. Results are saved in `aligned_trimmed_cleaned`.
+5 - use phyutility to concatenate fasta sequences to `aligned_trimmed_cleaned/concatenated_alignment.nex`
+6 - manually create an iqtree-style partition file based on phyutility result. for protein-coding genes, partition by codon position. for "12S_16S", use Geneious annotation feature to find boundaries of mitochondrial genes and create codon-based partitions for protein coding parts and a separate partition for non-protein-coding parts.
 
