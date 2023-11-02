@@ -1,5 +1,5 @@
 Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
-1	:	1696354740.478	   204.345	0	0	0	0	macse -prog alignSequences -seq ../to_align_without_rogues/AATS.fasta >> ./NPC_macse.out 2>&1
-3	:	1696354740.489	   566.615	0	0	0	0	macse -prog alignSequences -seq ../to_align_without_rogues/CAD2.fasta >> ./NPC_macse.out 2>&1
-4	:	1696354740.495	  1306.720	0	0	0	0	macse -prog alignSequences -seq ../to_align_without_rogues/EF1a.fasta >> ./NPC_macse.out 2>&1
-2	:	1696354740.483	  2355.070	0	0	0	0	macse -prog alignSequences -seq ../to_align_without_rogues/CAD1.fasta >> ./NPC_macse.out 2>&1
+1	:	1698870760.454	   194.097	0	0	0	0	macse -prog alignSequences -seq ../to_align_without_rogues/AATS.fasta >> ../macse_NPC.out 2>&1
+3	:	1698870760.462	   550.049	0	0	0	0	macse -prog alignSequences -seq ../to_align_without_rogues/CAD2.fasta >> ../macse_NPC.out 2>&1
+4	:	1698870760.466	  1254.063	0	0	0	0	macse -prog alignSequences -seq ../to_align_without_rogues/EF1a.fasta >> ../macse_NPC.out 2>&1
+2	:	1698870760.458	  2182.434	0	0	0	0	macse -prog alignSequences -seq ../to_align_without_rogues/CAD1.fasta >> ../macse_NPC.out 2>&1
