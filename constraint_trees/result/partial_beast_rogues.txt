@@ -5,7 +5,6 @@
         <taxon idref="Basilia_170889"/>
         <taxon idref="Chelifera_369889"/>
         <taxon idref="Pholeomyia_1720804"/>
-        <taxon idref="Notiphila_1118049"/>
         <taxon idref="Neopachygaster_1692469"/>
         <taxon idref="Delia_30063"/>
         <taxon idref="Scaeva_219538"/>
@@ -23,7 +22,6 @@
         <taxon idref="Nemoraea_170911"/>
         <taxon idref="Cecidomyia_1543682"/>
         <taxon idref="Trichomyia_560271"/>
-        <taxon idref="Therobia_1918313"/>
         <taxon idref="Neoplasta_192640"/>
         <taxon idref="Fannia_95468"/>
         <taxon idref="Clinocera_192484"/>
@@ -50,7 +48,6 @@
         <taxon idref="Astomella_210239"/>
         <taxon idref="Mydas_186100"/>
         <taxon idref="Rhagio_124327"/>
-        <taxon idref="Cladochaeta_2035586"/>
         <taxon idref="Dioctria_468720"/>
         <taxon idref="Sarconesia_670650"/>
         <taxon idref="Piceacecis_2597495"/>
@@ -72,10 +69,8 @@
         <taxon idref="Sobarocephala_574054"/>
         <taxon idref="Xylophagus_219493"/>
         <taxon idref="Glaurocara_2027854"/>
-        <taxon idref="Brachydeutera_1990785"/>
         <taxon idref="Rhinoestrus_204922"/>
         <taxon idref="Fucellia_205683"/>
-        <taxon idref="Onesiomima_2173510"/>
         <taxon idref="Epicypta_397117"/>
         <taxon idref="Drino_179459"/>
         <taxon idref="Oplodontha_446504"/>
@@ -99,12 +94,10 @@
         <taxon idref="Oestrus_123736"/>
         <taxon idref="Rhamphomyia_192612"/>
         <taxon idref="Huascaromusca_1609532"/>
-        <taxon idref="Pseudacteon_378799"/>
         <taxon idref="Paregle_559693"/>
         <taxon idref="Chloromyia_343649"/>
         <taxon idref="Pipunculus_240898"/>
         <taxon idref="Pegomya_559697"/>
-        <taxon idref="Chonocephalus_92528"/>
         <taxon idref="Eumerus_224220"/>
         <taxon idref="Ptiolina_124325"/>
         <taxon idref="Machimus_247604"/>
@@ -115,11 +108,9 @@
         <taxon idref="Bolbodimyia_1547386"/>
         <taxon idref="Thecophora_305546"/>
         <taxon idref="Lonchoptera_92595"/>
-        <taxon idref="Chrysopilus_124301"/>
         <taxon idref="Stevenia_670627"/>
         <taxon idref="Dryomyza_169444"/>
         <taxon idref="Dermatobia_115426"/>
-        <taxon idref="Hemerodromia_626769"/>
         <taxon idref="Cordylobia_226131"/>
         <taxon idref="Asphondylia_153012"/>
         <taxon idref="Ocnaea_210271"/>
@@ -127,13 +118,9 @@
         <taxon idref="Xanthogramma_414873"/>
         <taxon idref="Culex_7174"/>
         <taxon idref="Philonicus_247567"/>
-        <taxon idref="Sylvicola_52753"/>
-        <taxon idref="Paracoenia_1690382"/>
         <taxon idref="Neoempheria_608686"/>
         <taxon idref="Lasiopogon_219536"/>
         <taxon idref="Idiella_1902146"/>
-        <taxon idref="Spania_1559498"/>
-        <taxon idref="Olbiogaster_560768"/>
         <taxon idref="Fidena_1334907"/>
         <taxon idref="Bolitophila_52718"/>
         <taxon idref="Temnostoma_226164"/>
@@ -145,7 +132,6 @@
         <taxon idref="Pamponerus_1717601"/>
         <taxon idref="Melinda_170907"/>
         <taxon idref="Syrphus_224255"/>
-        <taxon idref="Bathypogon_1718388"/>
         <taxon idref="Catachlorops_1547373"/>
         <taxon idref="Hirmoneura_388531"/>
         <taxon idref="Przhevalskiana_123746"/>
@@ -153,12 +139,10 @@
         <taxon idref="Cyrtophleba_991141"/>
         <taxon idref="Bombylius_219362"/>
         <taxon idref="Penicillidia_81721"/>
-        <taxon idref="Nothomicrodon_1857748"/>
         <taxon idref="Chiastocheta_129251"/>
         <taxon idref="Lucilia_7374"/>
         <taxon idref="Eumesembrinella_672472"/>
         <taxon idref="Clusia_574057"/>
-        <taxon idref="Gyrostigma_2555504"/>
         <taxon idref="Stratiomys_219520"/>
         <taxon idref="Dinera_569035"/>
         <taxon idref="Phlebotomus_13203"/>
@@ -176,12 +160,10 @@
         <taxon idref="Hypoderma_7388"/>
         <taxon idref="Ditomyia_1520322"/>
         <taxon idref="Acletoxenus_462271"/>
-        <taxon idref="Allotrichoma_1492368"/>
         <taxon idref="Neossos_2268121"/>
         <taxon idref="Epistrophe_414810"/>
         <taxon idref="Zygothrica_504731"/>
         <taxon idref="Stegana_188292"/>
-        <taxon idref="Mallota_535942"/>
         <taxon idref="Simulium_7191"/>
         <taxon idref="Lamprolonchaea_907706"/>
         <taxon idref="Paragus_115308"/>
@@ -190,7 +172,6 @@
         <taxon idref="Chalarus_115250"/>
         <taxon idref="Scenopinus_247599"/>
         <taxon idref="Hemilucilia_416848"/>
-        <taxon idref="Discocerina_745181"/>
         <taxon idref="Diplonevra_92534"/>
         <taxon idref="Chaoborus_41812"/>
         <taxon idref="Cryptochetum_1262333"/>
@@ -202,7 +183,6 @@
         <taxon idref="Heterocheila_169481"/>
         <taxon idref="Toxomerus_115327"/>
         <taxon idref="Oestromyia_170913"/>
-        <taxon idref="Nephrotoma_46210"/>
         <taxon idref="Clausicella_1718822"/>
         <taxon idref="Archytas_198637"/>
         <taxon idref="Cacoxenus_462273"/>
@@ -253,7 +233,6 @@
         <taxon idref="Acrocera_210245"/>
         <taxon idref="Atylotus_1310336"/>
         <taxon idref="Chrysops_27458"/>
-        <taxon idref="Gasterophilus_84524"/>
         <taxon idref="Tipula_41043"/>
         <taxon idref="Silba_198646"/>
         <taxon idref="Promachus_247552"/>
@@ -274,7 +253,6 @@
         <taxon idref="Dasineura_240745"/>
         <taxon idref="Stenotabanus_1547430"/>
         <taxon idref="Silvius_415257"/>
-        <taxon idref="Braula_305561"/>
         <taxon idref="Eristalis_198633"/>
         <taxon idref="Mycetophila_397146"/>
         <taxon idref="Leucotabanus_1969939"/>
@@ -286,7 +264,6 @@
         <taxon idref="Ogcodes_188257"/>
         <taxon idref="Penthetria_560770"/>
         <taxon idref="Zaira_179789"/>
-        <taxon idref="Leptopsilopa_1887046"/>
         <taxon idref="Paralucilia_1042205"/>
         <taxon idref="Leptometopa_1720790"/>
         <taxon idref="Ligyra_117088"/>
@@ -306,17 +283,14 @@
         <taxon idref="Odontomyia_343652"/>
         <taxon idref="Dolichopus_192427"/>
         <taxon idref="Nemotelus_343582"/>
-        <taxon idref="Discomyza_1720780"/>
         <taxon idref="Contarinia_153220"/>
         <taxon idref="Atherix_124299"/>
         <taxon idref="Cuterebra_170896"/>
         <taxon idref="Rhyncomya_670621"/>
         <taxon idref="Sycorax_114592"/>
         <taxon idref="Hybomitra_124690"/>
-        <taxon idref="Cobboldia_2583773"/>
         <taxon idref="Hesperinus_1086788"/>
         <taxon idref="Apocephalus_117252"/>
         <taxon idref="Egle_411076"/>
         <taxon idref="Anthomyia_259845"/>
-        <taxon idref="Ochthera_1744809"/>
 </rogues>
