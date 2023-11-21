@@ -60,7 +60,7 @@ Trimming aligned/CAD2_aligned.fasta
 Coverage ranges kept: [(39, 998), (1025, 1820)]
 Coverage ranges dropped: [(0, 998), (1025, 1859)]
 Trimming aligned/COI_aligned.fasta
-Coverage ranges kept: [(169, 1669)]
+Coverage ranges kept: [(168, 1669)]
 Coverage ranges dropped: [(0, 2390)]
 Trimming aligned/EF1a_aligned.fasta
 Coverage ranges kept: [(388, 1136), (1139, 1250), (1253, 1301), (1303, 1523), (1525, 1733), (1735, 1751), (1754, 1820), (1823, 1903)]
