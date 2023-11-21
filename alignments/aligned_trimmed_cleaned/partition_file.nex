@@ -1,0 +1,21 @@
+#nexus
+begin sets;
+    charset 12S_16S = 1-2966;
+    charset 18S = 2967-5260;
+    charset 28S = 5261-8673;
+    charset AATS_1 = 8674-9382\3;
+    charset AATS_2 = 8675-9382\3;
+    charset AATS_3 = 8676-9382\3;
+    charset EF1a_1 = 9383-10887\3;
+    charset EF1a_2 = 9384-10887\3;
+    charset EF1a_3 = 9385-10887\3;
+    charset CAD1_1 = 10888-12758\3;
+    charset CAD1_2 = 10889-12758\3;
+    charset CAD1_3 = 10890-12758\3;
+    charset CAD2_1 = 12759-14514\3;
+    charset CAD2_2 = 12760-14514\3;
+    charset CAD2_3 = 12761-14514\3;
+    charset COI_1 = 14515-16016\3;
+    charset COI_2 = 14516-16016\3;
+    charset COI_3 = 14517-16016\3;
+end;
