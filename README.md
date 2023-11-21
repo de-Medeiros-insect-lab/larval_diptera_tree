@@ -88,9 +88,10 @@ Notes:
 The final pipeline to obtain alignments consists of:
 
 1 - use `alignments/to_align_without_rogues/remove_seqs.sh` to remove rogue sequences
-2 - use `alignments/run_mafft.sh`, `alignments/run_macse_NPC.sh` and `alignments/run_macse_COI.sh` to respectively align ribosomal sequences, nuclear protein-coding genes and COI. In the case of ribosomal sequences (which also include a large mitogenome alignment including proteinds and ribosomal sequences), the script adds refences for Aedes, Drosophila and Lucilia to guide the alignment of fragmentary sequences with mafft. In the case of protein-coding genes, we use a translation-guided alignment with macse.
-3 - use `move_and_trim.sh` to move alignments obtained to the folder `aligned`, and them trim their ends and move the result to `aligned_trimmed`
+2 - use `alignments/01_join_sequences.sh` to join sequence files for separate species, if needed.
+3 - use `alignments/02_run_mafft.sh`, `alignments/02_run_macse_NPC.sh` and `alignments/02_run_macse_COI.sh` to respectively align ribosomal sequences, nuclear protein-coding genes and COI. In the case of ribosomal sequences (which also include a large mitogenome alignment including proteinds and ribosomal sequences), the script adds refences for Aedes, Drosophila and Lucilia to guide the alignment of fragmentary sequences with mafft. In the case of protein-coding genes, we use a translation-guided alignment with macse.
+3 - use `alignments/03_move_and_trim.sh` to move alignments obtained to the folder `aligned`, and them trim their ends and move the result to `aligned_trimmed`
 4 - manually copy fasta files from `aligned_trimmed`, replace Aedes, Drosophila and Lucilia with the full sequence when available, and manually remove Nothomicrodon_185774 and Pseudacteon_378799. Results are saved in `aligned_trimmed_cleaned`.
-5 - use phyutility to concatenate fasta sequences to `aligned_trimmed_cleaned/concatenated_alignment.nex`
-6 - manually create an iqtree-style partition file based on phyutility result. for protein-coding genes, partition by codon position. for "12S_16S", use Geneious annotation feature to find boundaries of mitochondrial genes and create codon-based partitions for protein coding parts and a separate partition for non-protein-coding parts.
+6 - use `alignments/04_concatenate_alignments.sh` to concatenate fasta sequences to `aligned_trimmed_cleaned/concatenated_alignment.nex`. It also creates a partition files `partitions.nexus`
+6 - manually update partition file. For "12S_16S", use Geneious annotation feature to find boundaries of mitochondrial genes and create codon-based partitions for protein coding parts and a separate partition for non-protein-coding parts.
 
