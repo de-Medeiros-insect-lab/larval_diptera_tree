@@ -77,21 +77,17 @@ Manually noted additional samples that seemed misplaced based on family clusters
 # Step 9 - Reassemble and align dataset
 After making a list of rogue taxa, we decided to restart the whole alingment process without those sequences. all of the preliminary analyses have been kep under `alignments/preliminary_alignments/` and `analyses/preliminary_analyses/`. The list of genera removed for the final dataset can be found at `alignments/to_align_without_rogues/sequencesremoved.txt`. 
 
-Notes: 
+## Step 9.1 - ML tree
+IQTREE kept throwing errors when we did a partial constraint, so we only ran an unconstrained ML tree
 
-1 - due to a mistake, Nothomicrodon_185774 and Pseudacteon_378799 had not been removed from the COI fasta sequences initially, and we manually removed them from the final alignments in `alignments/aligned_trimmed_cleaned/`
+## Step 9.2 - Bayesian tree
+To build the input nexus file for BEAUTI, we manually join the following:
+1 - concatenated NEXUS file from folder `analyses/iqtree`
+2 - best partitioning scheme found by iqtree in `analyses/iqtree/Diptera_ML.best_scheme.nex`
+3 - monophyly constraints and calibration produced by the jupyter notebook at `constraint_trees/result/partial_beast_monophyletic.nex`
 
-2 - Miltogramma was manually downloaded and added to the dataset, since it was not in the original search list for phylotaR.
+After generating yhe xml file with beauti, we need to additionally modify partial constraints following [beast instructions](https://www.beast2.org/2021/04/12/constraining-trees.html).
+The rogues list was saved by the jupyter notebook at `constraint_trees/result/partial_beast_rogues.txt` to make this task easier.
 
-3 - Whenever we had full-sequences for Aedes, Drosophila and Lucilia as references for alingments (18S, 28S, 12S_16S), we kept those and removed the sequences initially found by phylotaR. It seems phylotaR does not search the genome dataset, and had only fragmentary sequences for these taxa even though longer sequences were available.
-
-The final pipeline to obtain alignments consists of:
-
-1 - use `alignments/to_align_without_rogues/remove_seqs.sh` to remove rogue sequences
-2 - use `alignments/01_join_sequences.sh` to join sequence files for separate species, if needed.
-3 - use `alignments/02_run_mafft.sh`, `alignments/02_run_macse_NPC.sh` and `alignments/02_run_macse_COI.sh` to respectively align ribosomal sequences, nuclear protein-coding genes and COI. In the case of ribosomal sequences (which also include a large mitogenome alignment including proteinds and ribosomal sequences), the script adds refences for Aedes, Drosophila and Lucilia to guide the alignment of fragmentary sequences with mafft. In the case of protein-coding genes, we use a translation-guided alignment with macse.
-3 - use `alignments/03_move_and_trim.sh` to move alignments obtained to the folder `aligned`, and them trim their ends and move the result to `aligned_trimmed`
-4 - manually copy fasta files from `aligned_trimmed`, replace Aedes, Drosophila and Lucilia with the full sequence when available, and manually remove Nothomicrodon_185774 and Pseudacteon_378799. Results are saved in `aligned_trimmed_cleaned`.
-6 - use `alignments/04_concatenate_alignments.sh` to concatenate fasta sequences to `aligned_trimmed_cleaned/concatenated_alignment.nex`. It also creates a partition files `partitions.nexus`
-6 - manually update partition file. For "12S_16S", use Geneious annotation feature to find boundaries of mitochondrial genes and create codon-based partitions for protein coding parts and a separate partition for non-protein-coding parts.
+We also additionally found a few errors: `Nothomicrodon_185774` was still in the alignment and `Pnyxia_1781626` was still in the constraints, so we removed them manually.
 
