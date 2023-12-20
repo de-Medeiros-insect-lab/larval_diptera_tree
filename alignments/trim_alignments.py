@@ -138,7 +138,7 @@ if __name__ == "__main__":
             taxon.label = taxon.label.split(' ')[0]
 
         
-    outpath = f'./{dirname(args.alignment)}/{basename(args.alignment).split(".")[0:-1]}_trimmed.fasta'
+    outpath = f'./{dirname(args.alignment)}/{'.'.join(basename(args.alignment).split(".")[0:-1])}_trimmed.fasta'
     with open(outpath, 'w') as outfile:
         new_alignment.write(file = outfile, schema = 'fasta')
 
