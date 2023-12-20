@@ -24,6 +24,24 @@ import dendropy
 from collections import Counter
 from os.path import basename, dirname
 
+def detect_and_load_alignment(filepath, schema='fasta'):
+    # Function to detect whether the input sequences are DNA or amino acids
+    # and load them using the appropriate DendroPy class.
+    with open(filepath, 'r') as file:
+        for line in file:
+            if line.startswith('>'):
+                continue  # Skip header lines
+            line = line.strip()
+            if not line:
+                continue  # Skip empty lines
+            # Check if the line contains only DNA characters
+            if all(char in 'ATCGNatcgn-' for char in line):
+                return dendropy.DnaCharacterMatrix.get(path=filepath, schema=schema)
+            else:
+                return dendropy.ProteinCharacterMatrix.get(path=filepath, schema=schema)
+    raise ValueError("Input file does not contain valid sequences.")
+
+
 def get_ranges(indices):
     """Takes a sorted list of indices and returns a list of tuples,
     each representing a continuous range of indices."""
@@ -95,8 +113,8 @@ if __name__ == "__main__":
         all_outgroups = {x['higher_taxon']:str(x['ncbi_id']) for i,x in as_table.iterrows()}
     
     outgroup_labels = [x for i,x in all_outgroups.items() if i not in args.alignment]
-    
-    alignment = dendropy.DnaCharacterMatrix.get(path = args.alignment, schema = 'fasta')
+
+    alignment = detect_and_load_alignment(args.alignment, schema='fasta')
     
     idx = find_region_of_ingroup_high_coverage(alignment, 
                                                outgroup_labels,
