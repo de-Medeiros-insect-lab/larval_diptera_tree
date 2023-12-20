@@ -25,21 +25,11 @@ from collections import Counter
 from os.path import basename, dirname
 
 def detect_and_load_alignment(filepath, schema='fasta'):
-    # Function to detect whether the input sequences are DNA or amino acids
-    # and load them using the appropriate DendroPy class.
-    with open(filepath, 'r') as file:
-        for line in file:
-            if line.startswith('>'):
-                continue  # Skip header lines
-            line = line.strip()
-            if not line:
-                continue  # Skip empty lines
-            # Check if the line contains only DNA characters
-            if all(char in 'ATCGNatcgn-' for char in line):
-                return dendropy.DnaCharacterMatrix.get(path=filepath, schema=schema)
-            else:
-                return dendropy.ProteinCharacterMatrix.get(path=filepath, schema=schema)
-    raise ValueError("Input file does not contain valid sequences.")
+    # Function to try reading the file as DNA first, then as protein if it fails.
+    try:
+        return dendropy.DnaCharacterMatrix.get(path=filepath, schema=schema)
+    except Exception:
+        return dendropy.ProteinCharacterMatrix.get(path=filepath, schema=schema)
 
 
 def get_ranges(indices):
