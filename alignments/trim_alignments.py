@@ -101,7 +101,7 @@ if __name__ == "__main__":
     parser.add_argument('-c','--coverage', help = 'minimum coverage on the edge of alignments', default = 0.2)
     parser.add_argument('-m','--min-data', help = 'minimum number of non-missing nucleotides to keep a sample', default = 100)
     parser.add_argument('-s','--min-seqs', help  = 'minimum number of non-gap sequences to keep a position in the middle of the alignment', default = 10)
-    parser.add_argument('-k','--keep-names', help = 'keep names as is. otherwise, we will remove _R_ added by mafft.', action = 'store_true')
+    parser.add_argument('-k','--keep-names', help = 'keep names as is. otherwise, we will remove _R_ added by mafft and any characters after the first space.', action = 'store_true')
 
     args = parser.parse_args()
 
@@ -135,9 +135,10 @@ if __name__ == "__main__":
         for taxon in new_alignment.taxon_namespace:
             if taxon.label.startswith('_R_'):
                 taxon.label = taxon.label[3:]
+            taxon.label = taxon.label.split(' ')[0]
 
         
-    outpath = f'./{dirname(args.alignment)}/{basename(args.alignment).split(".")[0]}_trimmed.fasta'
+    outpath = f'./{dirname(args.alignment)}/{basename(args.alignment).split(".")[0:-1]}_trimmed.fasta'
     with open(outpath, 'w') as outfile:
         new_alignment.write(file = outfile, schema = 'fasta')
 
