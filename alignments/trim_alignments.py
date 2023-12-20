@@ -47,7 +47,7 @@ def find_region_of_ingroup_high_coverage(alignment, outgroup_labels, minimum_cov
     alignment = alignment.clone(2)
     out_taxa = [taxon for taxon in alignment.taxon_namespace if any([outgroup in taxon.label for outgroup in outgroup_labels])]
     alignment.remove_sequences(out_taxa)
-    gapamb = ['-','N']
+    gapamb = ['-','N','X']
 
     idx_above_mincov = []
     idx_above_min_data = []
@@ -74,15 +74,18 @@ def find_region_of_ingroup_high_coverage(alignment, outgroup_labels, minimum_cov
 
     return idx
 
-
-def number_not_missing(seq):
+def number_not_missing(seq, seq_type):
     counts = Counter(seq)
-    not_missing = sum(counts[nuc] for nuc in ['A','C','T','G','R','Y','M','S','W','K'])
+    valid_chars = set('ACGTURYKMSWBDHV') if seq_type == 'dna' else set('ACDEFGHIKLMNPQRSTVWY')
+    not_missing = sum(counts[char] for char in valid_chars)
     return not_missing
 
-def find_taxa_with_little_data(alignment, min_data = 100):
-    taxa_to_drop = [taxon for taxon in alignment.taxon_namespace if number_not_missing(alignment[taxon].symbols_as_string()) < min_data]
+def find_taxa_with_little_data(alignment, min_data=100):
+    # Determine sequence type based on alignment type
+    seq_type = 'dna' if isinstance(alignment, dendropy.DnaCharacterMatrix) else 'protein'
+    taxa_to_drop = [taxon for taxon in alignment.taxon_namespace if number_not_missing(alignment[taxon].symbols_as_string(), seq_type) < min_data]
     return taxa_to_drop
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
