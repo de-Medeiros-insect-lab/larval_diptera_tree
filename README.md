@@ -91,3 +91,15 @@ The rogues list was saved by the jupyter notebook at `constraint_trees/result/pa
 
 We also additionally found a few errors: `Nothomicrodon_185774` was still in the alignment and `Pnyxia_1781626` was still in the constraints, so we removed them manually.
 
+## Step 10 - remake constraints and Bayesian tree
+Our analyses showed a few taxa were still rogues so we decided to incorporate more prior phylogenetic knowledge in the form of monophyly constraints. M. Turcatel carefully reviewed all the literature and made notes on taxa that should be considered as hard monophyletic constraints (cosntraint_trees/final_constraints_info/monophyletic_higher_taxa.xlsx)
+
+Based on that Excel file, we wrote constraint_trees/final_constraints_info/hard_constraints.txt, which include statements about which manual constraints we will add. 
+
+Based on this, we wrote a new jupyter script that reconciles our tree-based constraints with those in this file (create_manual_and_tree_constraints.ipynb)
+
+
+
+
+
+
