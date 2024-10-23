@@ -84,19 +84,12 @@ IQTREE kept throwing errors when we did a partial constraint, so we only ran an 
 To build the input nexus file for BEAUTI, we manually join the following:
 1 - concatenated NEXUS file from folder `analyses/iqtree`
 2 - best partitioning scheme found by iqtree in `analyses/iqtree/Diptera_ML.best_scheme.nex`
-3 - monophyly constraints and calibration produced by the jupyter notebook at `constraint_trees/result/partial_beast_monophyletic.nex`
+3 - calibration for Diptera (see details on `create_constraint.ipynb`)
 
-After generating yhe xml file with beauti, we need to additionally modify partial constraints following [beast instructions](https://www.beast2.org/2021/04/12/constraining-trees.html).
-The rogues list was saved by the jupyter notebook at `constraint_trees/result/partial_beast_rogues.txt` to make this task easier.
+We also additionally found a few errors: `Nothomicrodon_185774` was still in the alignment and `Pnyxia_1781626` was still in the constraints, so we removed them manually from the nexus file and constraint tree, respectivelly.
 
-We also additionally found a few errors: `Nothomicrodon_185774` was still in the alignment and `Pnyxia_1781626` was still in the constraints, so we removed them manually.
+See `create_constraint.ipynb` for details on how hard and soft constraints from the literature have been reconciled to create xml constraint statements that were manually added to the BEAST xml file created from the nexus file.
 
-## Step 10 - remake constraints and Bayesian tree
-Our analyses showed a few taxa were still rogues so we decided to incorporate more prior phylogenetic knowledge in the form of monophyly constraints. M. Turcatel carefully reviewed all the literature and made notes on taxa that should be considered as hard monophyletic constraints (cosntraint_trees/final_constraints_info/monophyletic_higher_taxa.xlsx)
-
-Based on that Excel file, we wrote constraint_trees/final_constraints_info/hard_constraints.txt, which include statements about which manual constraints we will add. 
-
-Based on this, we wrote a new jupyter script that reconciles our tree-based constraints with those in this file (create_manual_and_tree_constraints.ipynb)
 
 
 
